@@ -1,0 +1,20 @@
+.timesliderContainer {
+    width:100%;
+}
+.timeslider {
+    width:70%;
+}
+.timesliderControls{
+    display:inline-block;
+    
+}
+.timeslider, .timesliderButtonPrev, .timesliderButtonNext {
+    display:inline-block;
+}
+
+#webmapjswrapper {
+margin:auto !important;
+display:block;
+}
+
+

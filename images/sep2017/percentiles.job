@@ -1,0 +1,24 @@
+#!/bin/bash
+
+cd /nobackup/users/schrier/analysis/SotC/scratch
+
+rm *.nc
+
+ele=tx
+
+version=v16.0
+
+ln -fs /nobackup_1/users/schrier/data/EOBS/EOBS${version}/tx_0.25deg_reg_${version}.nc tx_reg.nc
+ln -fs /nobackup_1/users/schrier/data/EOBS/EOBS${version}/tx_0.25deg_regular.nc tx_2017.nc
+
+#   select temperatures for 1961-1990, calculate 5-day running mean and calculate 90th percentile
+cdo runmean,5 -seldate,19601230,19910102 tx_reg.nc tx_rm.nc
+   
+cdo ydaymin tx_rm.nc tx_ydaymin.nc
+cdo ydaymax tx_rm.nc tx_ydaymax.nc
+
+cdo ydaypctl,90 tx_rm.nc tx_ydaymin.nc tx_ydaymax.nc tx90npctl.nc
+
+
+exit
+
