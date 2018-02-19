@@ -57,15 +57,15 @@ session_start();
 
 		<!-- Main part -->
 		<div id="block-system-main" class="block block-system col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
-		  Below we give the gridded data files for 2017 which
-		  are released on a monthly basis. These files will be
-		  replaced with every monthly update and removed after
-		  the next full update of the E-OBS dataset. Small
-		  changes might occur between these releases, after
-		  new data and/or stations are added. The files are
-		  only available on 0.25 degree resolution. The
-		  ensemble median and ensemble spread are created from
-		  a 100 ensemble dataset.<br><br>
+		  Below we give the gridded data files for 2017 and
+		  2018 which are released on a monthly basis. These
+		  files will be replaced with every monthly update and
+		  removed after the next full update of the E-OBS
+		  dataset. Small changes might occur between these
+		  releases, after new data and/or stations are
+		  added. The files are only available on 0.25 degree
+		  resolution. The ensemble median and ensemble spread
+		  are created from a 100 ensemble dataset.<br><br>
 
 		<table  border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
 		  <tbody>
@@ -73,6 +73,11 @@ session_start();
 		      <td width="25%" style="color:#FFFFFF;"><b>Year</b></td>
 		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
 		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
+		    </tr>
+		    <tr>
+		      <td><b>2018</b></td>
+		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2018_grid_ensmean.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2018_grid_ensmean.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2018_grid_ensmean.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2018_grid_ensmean.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2018_grid_ensmean.nc.gz">PP</a></td>
+		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2018_grid_se.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2018_grid_se.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2018_grid_se.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2018_grid_se.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2018_grid_se.nc.gz">PP</a></td>
 		    </tr>
 		    <tr>
 		      <td><b>2017</b></td>
@@ -88,6 +93,11 @@ session_start();
 		      <td width="25%" style="color:#FFFFFF;"><b>Month</b></td>
 		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
 		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
+		    </tr>
+		    <tr>
+		      <td><b>January 2018</b></td>
+		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2018_01_grid_ensmean.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2018_01_grid_ensmean.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2018_01_grid_ensmean.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2018_01_grid_ensmean.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2018_01_grid_ensmean.nc.gz">PP</a></td>
+		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2018_01_grid_se.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2018_01_grid_se.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2018_01_grid_se.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2018_01_grid_se.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2018_01_grid_se.nc.gz">PP</a></td>
 		    </tr>
 		    <tr>
 		      <td><b>December 2017</b></td>

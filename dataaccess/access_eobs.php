@@ -132,9 +132,9 @@ session_start();
 		  <tbody>
 		</table>
 
-		<h3>Datafiles for 2017</h3>
+		<h3>Datafiles for 2017 and 2018</h3>
 		
-		Follow this <a href="access_eobs_months.php">link</a> if you want to download gridded datafiles for 2017. They are released on a monthly basis. These files will be replaced with every monthly update and removed after the next full update of the E-OBS dataset.
+		Follow this <a href="access_eobs_months.php">link</a> if you want to download gridded datafiles for 2017 and 2018. They are released on a monthly basis. These files will be replaced with every monthly update and removed after the next full update of the E-OBS dataset.
 		
 
 
