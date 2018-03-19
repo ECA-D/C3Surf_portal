@@ -115,6 +115,8 @@
                      <ul>
                       <li><a href="<?php echo $thispage;?>"><span>Monthly reports</span></a>
                        <ul>
+                        <li><a href="<?php echo $webhost;?>/stateoftheclimate/january2018.php"><span>January 2018</span></a>
+                        </li>
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/december2017.php"><span>December 2017</span></a>
                         </li>
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/november2017.php"><span>November 2017</span></a>

@@ -37,6 +37,23 @@ session_start();
 
 		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
 		      <div class="views-field views-field-field-date">
+			<div class="field-content"><span content="2018-02-26T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">26 February 2018</span>
+			</div>
+		      </div>  
+		      <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/stateoftheclimate/january2018.php">State-of-the-climate for January 2018</a> released</span>
+		      </div>
+		    </div>
+
+		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
+		      <div class="views-field views-field-field-date">
+			<div class="field-content"><span content="2018-02-19T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">19 February 2018</span>
+			</div>
+		      </div>  
+		      <div class="views-field views-field-title"><span class="field-content">Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> and <a href="http://www.ecad.eu/">ECA&amp;D</a> updates released</span>
+		      </div>
+		    </div>
+		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
+		      <div class="views-field views-field-field-date">
 			<div class="field-content"><span content="2018-01-23T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">23 January 2018</span>
 			</div>
 		      </div>  
@@ -111,6 +128,7 @@ session_start();
 		      <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/stateoftheclimate/september2017.php">State-of-the-climate for September 2017</a> released</span>
 		      </div>
 		    </div>
+
 		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
 		      <div class="views-field views-field-field-date">
 			<div class="field-content"><span content="2017-10-13T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">13 October 2017</span>
@@ -119,38 +137,8 @@ session_start();
 		      <div class="views-field views-field-title"><span class="field-content"><a href="http://www.ecad.eu/">Monthly ECA&amp;D update released</a></span>
 		      </div>
 		    </div>
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2017-09-13T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">13 September 2017</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content"><a href="http://www.ecad.eu/">Monthly ECA&amp;D update released</a></span>
-		      </div>
-		    </div>
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2017-09-04T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">4-8 September 2017</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/documents/EMS2017poster_CopernicusLayOut.pdf" target="blank_">Poster presented at EMS in Dublin</a></span>
-		      </div>
-		    </div>
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2017-07-15T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">16 August 2017</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content"><a href="http://www.ecad.eu/">Monthly ECA&amp;D update released</a></span>
-		      </div>
-		    </div>
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2017-07-15T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">15 July 2017</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content"><a href="http://www.ecad.eu/">Monthly ECA&amp;D update released</a></span>
-		      </div>
-		    </div>
+
+
 		  </div>
 		  <div class="view-footer">
 		    <p><a href="<?php echo $webhost;?>/include/allnews.php" class="btn btn-info">More news</a></p>

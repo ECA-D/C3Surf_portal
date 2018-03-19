@@ -65,6 +65,14 @@ session_start();
 		      <td width="60%" style="color:#FFFFFF;"><b>Item</b></td>
 		    </tr>
 		    <tr>
+		      <td>26 February 2018</td>
+	              <td><a href="../stateoftheclimate/january2018.php">State-of-the-climate for January 2018</a> released</td>
+		    </tr>		  
+		    <tr>
+		      <td>19 February 2018</td>
+	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> and <a href="http://www.ecad.eu/">ECA&amp;D</a> updates released	</td>
+		    </tr>    
+		    <tr>
 		      <td>23 January 2018</td>
 	              <td><a href="../stateoftheclimate/december2017.php">State-of-the-climate for December 2017</a> released</td>
 		    </tr>		  

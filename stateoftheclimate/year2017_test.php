@@ -62,51 +62,60 @@ Click on the figures for larger ones.
 
 <h3>Annual temperature</h3>
 <br><br>
-<a href="../images/2017/EuropeanAverage_annual_2017_wrt81-10_until1231.png"><img alt="" src="../images/2017/EuropeanAverage_annual_2017_wrt81-10_until1231.png" width="250px"></a>
-<a href="../images/2017/Dailyanomalies_20170101-20171231.png"><img alt="" src="../images/2017/Dailyanomalies_20170101-20171231.png" width="250px"></a>
+<a href="../images/2017/EuropeanAverage_annual_2017_wrt81-10_until1231_v16.0.png"><img alt="" src="../images/2017/EuropeanAverage_annual_2017_wrt81-10_until1231_v16.0.png" width="250px"></a>
+<a href="../images/2017/dailyanomalies_2017_v16.0.png"><img alt="" src="../images/2017/dailyanomalies_2017_v16.0.png" width="250px"></a>
 <br><br>
-<em>Figure 1: European land surface temperature: annual anomalies with the current year in green. The grey bands show the uncertainty in the averaged temperature (left). Daily anomalies with respect to the seasonal cycle until the end of December 2017 (right).</em>
+<em>Figure 1: European land surface temperature: annual anomalies. The grey bands show the uncertainty in the averaged temperature (left). Daily anomalies with respect to the seasonal cycle for 2017 (right). E-OBS v16.0</em>
 <br><br>
-Surface air temperatures are measured at an extensive network of stations in Europe. These data are collected and aggregated into a European temperature. The annual mean values in this <a href="http://knmi-c3srf-l01p.knmi.ssc-campus.nl/dataaccess/access_eobs.php" target="_blank">E-OBS</a> dataset are presented in Figure 1 for the land area between between 35&#176;-75&#176;N and 25&#176;W-45&#176;E.
-The green bar represents data for the year 2017.
+Surface air temperatures are measured at an extensive network of stations in Europe. These data are collected and aggregated into a European temperature. The annual mean values in this <a href="http://www.ecad.eu/eobs" target="_blank">E-OBS</a> dataset are presented in Figure 1 for the land area between between 34&#176;-71&#176;N and 25&#176;W-40&#176;E.
 <br><br>
-The grey bars in the panel indicate the estimated uncertainties which take into account the errors introduced by spatial interpolation over areas without observation stations, inhomogeneities in the temperature data that result from station relocations / changes in measurement instruments etc., and biases due to urbanisation, as documented in <a href="http://cib.knmi.nl/mediawiki/index.php/Van_der_Schrier_et_al.,_2013" target="_blank">Van der Schrier et al. (2013)</a> and <a href="http://cib.knmi.nl/mediawiki/index.php/Chrysanthou_et_al.,_2014" target="_blank">Chrysanthou et al. (2014)</a>. The uncertainties tell us that although we are not 100% certain about the ranking of individual years, the overall positive trend since the 1980s is very pronounced.
+The grey bars in the panel indicate the estimated uncertainties which take into account the errors introduced by spatial interpolation over areas without observation stations, inhomogeneities in the temperature data that result from station relocations / changes in measurement instruments etc., and biases due to urbanisation, as documented in Van der Schrier et al. (2013) and Chrysanthou et al. (2014). The uncertainties tell us that although we are not 100% certain about the ranking of individual years, the overall positive trend since the 1980s is very pronounced.
 <br><br>
-<a href="../images/2017/Stateofclimate_2017_tn_0_25deg_anom_yearmeans_1981-2010_v16_0e_nc_baselayers_world_polygons_tn_baselayers_overlay_2017-12-31T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tn_0_25deg_anom_yearmeans_1981-2010_v16_0e_nc_baselayers_world_polygons_tn_baselayers_overlay_2017-12-31T00-00-00Z.png" ></a>
-<a href="../images/2017/Stateofclimate_2017_tg_0_25deg_anom_yearmeans_1981-2010_v16_0e_nc_baselayers_world_polygons_tg_baselayers_overlay_2017-12-31T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tg_0_25deg_anom_yearmeans_1981-2010_v16_0e_nc_baselayers_world_polygons_tg_baselayers_overlay_2017-12-31T00-00-00Z.png" ></a>
-<a href="../images/2017/Stateofclimate_2017_tx_0_25deg_anom_yearmeans_1981-2010_v16_0e_nc_baselayers_world_polygons_tx_baselayers_overlay_2017-12-31T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tx_0_25deg_anom_yearmeans_1981-2010_v16_0e_nc_baselayers_world_polygons_tx_baselayers_overlay_2017-12-31T00-00-00Z.png" ></a>
-<a href="../images/2017/Stateofclimate_2017_tg_0_25deg_anom_yearmeans_1981-2010_v16_0e_nc__2017-12-31T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tg_0_25deg_anom_yearmeans_1981-2010_v16_0e_nc__2017-12-31T00-00-00Z.png" ></a>
+<a href="../images/2017/Stateofclimate_2017_tn_0_25deg_anom_yearmeans_2017_1981-2010_v16_0_nc_baselayers_world_polygons_tn_baselayers_overlay_2017-07-15T12-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tn_0_25deg_anom_yearmeans_2017_1981-2010_v16_0_nc_baselayers_world_polygons_tn_baselayers_overlay_2017-07-15T12-00-00Z.png" ></a>
+<a href="../images/2017/Stateofclimate_2017_tn_0_25deg_anom_yearmeans_2017_1981-2010_v16_0_nc__2017-07-15T12-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tn_0_25deg_anom_yearmeans_2017_1981-2010_v16_0_nc__2017-07-15T12-00-00Z.png" ></a>
 <br><br>
-<em>Figure 2: Map of anomalous annual minimum, mean and maximum temperature for 2017, with respect to the 1981-2010 climatology.</em>
+<a href="../images/2017/Stateofclimate_2017_tg_0_25deg_anom_yearmeans_2017_1981-2010_v16_0_nc_baselayers_world_polygons_tg_baselayers_overlay_2017-07-15T12-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tg_0_25deg_anom_yearmeans_2017_1981-2010_v16_0_nc_baselayers_world_polygons_tg_baselayers_overlay_2017-07-15T12-00-00Z.png" ></a>
+<a href="../images/2017/Stateofclimate_2017_12month_anomaly_2t_201701_201712_nc_baselayers_world_polygons_t2m_baselayers_overlay_2017-01-01T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_12month_anomaly_2t_201701_201712_nc_baselayers_world_polygons_t2m_baselayers_overlay_2017-01-01T00-00-00Z.png" ></a>
+<a href="../images/2017/Stateofclimate_2017_tg_0_25deg_anom_yearmeans_2017_1981-2010_v16_0_nc__2017-07-15T12-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tg_0_25deg_anom_yearmeans_2017_1981-2010_v16_0_nc__2017-07-15T12-00-00Z.png" ></a>
+<br><br>
+<a href="../images/2017/Stateofclimate_2017_tx_0_25deg_anom_yearmeans_2017_1981-2010_v16_0_nc_baselayers_world_polygons_tx_baselayers_overlay_2017-07-15T12-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tx_0_25deg_anom_yearmeans_2017_1981-2010_v16_0_nc_baselayers_world_polygons_tx_baselayers_overlay_2017-07-15T12-00-00Z.png" ></a>
+<a href="../images/2017/Stateofclimate_2017_tx_0_25deg_anom_yearmeans_2017_1981-2010_v16_0_nc__2017-07-15T12-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tx_0_25deg_anom_yearmeans_2017_1981-2010_v16_0_nc__2017-07-15T12-00-00Z.png" ></a>
+<br><br>
+<em>Figure 2: Map of anomalous annual minimum, mean and maximum temperature for 2017, with respect to the 1981-2010 climatology. Left: E-OBS v16.0. Right: ERA-Interim (only TG)</em>
 <br><br>
 <h3>Seasonal temperature anomalies</h3>
 <br><br>
-<a href="../images/2017/Stateofclimate_2017_tn_0_25deg_anom_seasonalmeans_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_tn_baselayers_overlay_2017-02-28T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tn_0_25deg_anom_seasonalmeans_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_tn_baselayers_overlay_2017-02-28T00-00-00Z.png" ></a>
-<a href="../images/2017/Stateofclimate_2017_tn_0_25deg_anom_seasonalmeans_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_tn_baselayers_overlay_2017-05-31T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tn_0_25deg_anom_seasonalmeans_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_tn_baselayers_overlay_2017-05-31T00-00-00Z.png" ></a>
+<a href="../images/2017/Stateofclimate_2017_tn_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc_baselayers_world_polygons_tn_baselayers_overlay_2017-02-28T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tn_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc_baselayers_world_polygons_tn_baselayers_overlay_2017-02-28T00-00-00Z.png" ></a>
+<a href="../images/2017/Stateofclimate_2017_tn_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc_baselayers_world_polygons_tn_baselayers_overlay_2017-05-31T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tn_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc_baselayers_world_polygons_tn_baselayers_overlay_2017-05-31T00-00-00Z.png" ></a>
 <br><br>
-<a href="../images/2017/Stateofclimate_2017_tn_0_25deg_anom_seasonalmeans_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_tn_baselayers_overlay_2017-08-31T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tn_0_25deg_anom_seasonalmeans_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_tn_baselayers_overlay_2017-08-31T00-00-00Z.png" ></a>
-<a href="../images/2017/Stateofclimate_2017_tn_0_25deg_anom_seasonalmeans_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_tn_baselayers_overlay_2017-11-30T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tn_0_25deg_anom_seasonalmeans_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_tn_baselayers_overlay_2017-11-30T00-00-00Z.png" ></a>
-<a href="../images/2017/Stateofclimate_2017_tn_0_25deg_anom_seasonalmeans_dec2016-nov2017_1981-2010_v16_0e_nc__2017-02-28T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tn_0_25deg_anom_seasonalmeans_dec2016-nov2017_1981-2010_v16_0e_nc__2017-02-28T00-00-00Z.png" ></a>
-<br><br>
-<br><br>
-<br><br>
-<a href="../images/2017/Stateofclimate_2017_tg_0_25deg_anom_seasonalmeans_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_tg_baselayers_overlay_2017-02-28T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tg_0_25deg_anom_seasonalmeans_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_tg_baselayers_overlay_2017-02-28T00-00-00Z.png" ></a>
-<a href="../images/2017/Stateofclimate_2017_tg_0_25deg_anom_seasonalmeans_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_tg_baselayers_overlay_2017-05-31T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tg_0_25deg_anom_seasonalmeans_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_tg_baselayers_overlay_2017-05-31T00-00-00Z.png" ></a>
-<br><br>
-<a href="../images/2017/Stateofclimate_2017_tg_0_25deg_anom_seasonalmeans_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_tg_baselayers_overlay_2017-08-31T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tg_0_25deg_anom_seasonalmeans_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_tg_baselayers_overlay_2017-08-31T00-00-00Z.png" ></a>
-<a href="../images/2017/Stateofclimate_2017_tg_0_25deg_anom_seasonalmeans_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_tg_baselayers_overlay_2017-11-30T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tg_0_25deg_anom_seasonalmeans_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_tg_baselayers_overlay_2017-11-30T00-00-00Z.png" ></a>
-<a href="../images/2017/Stateofclimate_2017_tg_0_25deg_anom_seasonalmeans_dec2016-nov2017_1981-2010_v16_0e_nc__2017-02-28T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tg_0_25deg_anom_seasonalmeans_dec2016-nov2017_1981-2010_v16_0e_nc__2017-02-28T00-00-00Z.png" ></a>
+<a href="../images/2017/Stateofclimate_2017_tn_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc_baselayers_world_polygons_tn_baselayers_overlay_2017-08-31T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tn_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc_baselayers_world_polygons_tn_baselayers_overlay_2017-08-31T00-00-00Z.png" ></a>
+<a href="../images/2017/Stateofclimate_2017_tn_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc_baselayers_world_polygons_tn_baselayers_overlay_2017-11-30T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tn_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc_baselayers_world_polygons_tn_baselayers_overlay_2017-11-30T00-00-00Z.png" ></a>
+<a href="../images/2017/Stateofclimate_2017_tn_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc__2017-02-28T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tn_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc__2017-02-28T00-00-00Z.png" ></a>
 <br><br>
 <br><br>
+<table><tr>
+<td><a href="../images/2017/Stateofclimate_2017_tg_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc_baselayers_world_polygons_tg_baselayers_overlay_2017-02-28T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tg_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc_baselayers_world_polygons_tg_baselayers_overlay_2017-02-28T00-00-00Z.png" ></a></td>
+<td colspan="2">
+<a href="../images/2017/Stateofclimate_2017_tg_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc_baselayers_world_polygons_tg_baselayers_overlay_2017-05-31T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tg_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc_baselayers_world_polygons_tg_baselayers_overlay_2017-05-31T00-00-00Z.png" ></a></td>
+<td><a href="../images/2017/Stateofclimate_2017_season_anomaly_2t_201612_201702_nc_baselayers_world_polygons_t2m_baselayers_overlay_2016-12-01T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_season_anomaly_2t_201612_201702_nc_baselayers_world_polygons_t2m_baselayers_overlay_2016-12-01T00-00-00Z.png" ></a></td>
+<td><a href="../images/2017/Stateofclimate_2017_season_anomaly_2t_201703_201705_nc_baselayers_world_polygons_t2m_baselayers_overlay_2017-03-01T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_season_anomaly_2t_201703_201705_nc_baselayers_world_polygons_t2m_baselayers_overlay_2017-03-01T00-00-00Z.png" ></a></td>
+</tr><tr>
+<td><a href="../images/2017/Stateofclimate_2017_tg_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc_baselayers_world_polygons_tg_baselayers_overlay_2017-08-31T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tg_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc_baselayers_world_polygons_tg_baselayers_overlay_2017-08-31T00-00-00Z.png" ></a></td>
+<td><a href="../images/2017/Stateofclimate_2017_tg_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc_baselayers_world_polygons_tg_baselayers_overlay_2017-11-30T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tg_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc_baselayers_world_polygons_tg_baselayers_overlay_2017-11-30T00-00-00Z.png" ></a></td>
+<td><a href="../images/2017/Stateofclimate_2017_tg_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc__2017-02-28T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tg_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc__2017-02-28T00-00-00Z.png" ></a></td>
+<td><a href="../images/2017/Stateofclimate_2017_season_anomaly_2t_201706_201708_nc_baselayers_world_polygons_t2m_baselayers_overlay_2017-06-01T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_season_anomaly_2t_201706_201708_nc_baselayers_world_polygons_t2m_baselayers_overlay_2017-06-01T00-00-00Z.png" ></a></td>
+<td><a href="../images/2017/Stateofclimate_2017_season_anomaly_2t_201709_201711_nc_baselayers_world_polygons_t2m_baselayers_overlay_2017-09-01T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_season_anomaly_2t_201709_201711_nc_baselayers_world_polygons_t2m_baselayers_overlay_2017-09-01T00-00-00Z.png" ></a></td>
+<td><a href="../images/2017/Stateofclimate_2017_tg_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc__2017-02-28T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tg_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc__2017-02-28T00-00-00Z.png" ></a></td>
+</tr></table>
 <br><br>
-<a href="../images/2017/Stateofclimate_2017_tx_0_25deg_anom_seasonalmeans_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_tx_baselayers_overlay_2017-02-28T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tx_0_25deg_anom_seasonalmeans_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_tx_baselayers_overlay_2017-02-28T00-00-00Z.png" ></a>
-<a href="../images/2017/Stateofclimate_2017_tx_0_25deg_anom_seasonalmeans_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_tx_baselayers_overlay_2017-05-31T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tx_0_25deg_anom_seasonalmeans_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_tx_baselayers_overlay_2017-05-31T00-00-00Z.png" ></a>
+<a href="../images/2017/Stateofclimate_2017_tx_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc_baselayers_world_polygons_tx_baselayers_overlay_2017-02-28T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tx_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc_baselayers_world_polygons_tx_baselayers_overlay_2017-02-28T00-00-00Z.png" ></a>
+<a href="../images/2017/Stateofclimate_2017_tx_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc_baselayers_world_polygons_tx_baselayers_overlay_2017-05-31T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tx_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc_baselayers_world_polygons_tx_baselayers_overlay_2017-05-31T00-00-00Z.png" ></a>
 <br><br>
-<a href="../images/2017/Stateofclimate_2017_tx_0_25deg_anom_seasonalmeans_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_tx_baselayers_overlay_2017-08-31T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tx_0_25deg_anom_seasonalmeans_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_tx_baselayers_overlay_2017-08-31T00-00-00Z.png" ></a>
-<a href="../images/2017/Stateofclimate_2017_tx_0_25deg_anom_seasonalmeans_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_tx_baselayers_overlay_2017-11-30T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tx_0_25deg_anom_seasonalmeans_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_tx_baselayers_overlay_2017-11-30T00-00-00Z.png" ></a>
-<a href="../images/2017/Stateofclimate_2017_tx_0_25deg_anom_seasonalmeans_dec2016-nov2017_1981-2010_v16_0e_nc__2017-02-28T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tx_0_25deg_anom_seasonalmeans_dec2016-nov2017_1981-2010_v16_0e_nc__2017-02-28T00-00-00Z.png" ></a>
+<a href="../images/2017/Stateofclimate_2017_tx_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc_baselayers_world_polygons_tx_baselayers_overlay_2017-08-31T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tx_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc_baselayers_world_polygons_tx_baselayers_overlay_2017-08-31T00-00-00Z.png" ></a>
+<a href="../images/2017/Stateofclimate_2017_tx_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc_baselayers_world_polygons_tx_baselayers_overlay_2017-11-30T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tx_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc_baselayers_world_polygons_tx_baselayers_overlay_2017-11-30T00-00-00Z.png" ></a>
+<a href="../images/2017/Stateofclimate_2017_tx_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc__2017-02-28T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_tx_seasonalmeans_anom_dec2016-nov2017_1981-2010_v16_0_nc__2017-02-28T00-00-00Z.png" ></a>
 <br><br>
-<em>Figure 3: Map of anomalous seasonal temperatures with respect to the 1981-2010 climatology. Winter values relate to Dec 2016 - Feb 2017.</em>
+<em>Figure 3: Map of anomalous seasonal temperatures with respect to the 1981-2010 climatology. Winter values relate to Dec 2016 - Feb 2017. Left: E-OBS v16.0. Right: ERA-Interim (only TG)</em>
 <br><br>
 <!--==Summer days and frost days==
 <br><br>
@@ -127,55 +136,59 @@ INSERT MAP
 <br><br>
 <a href="../images/2017/Stateofclimate_2017_rr_0_25deg_anom_yearsums_1981-2010_v16_0e_nc_baselayers_world_polygons_rr_baselayers_overlay_2017-12-31T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_rr_0_25deg_anom_yearsums_1981-2010_v16_0e_nc_baselayers_world_polygons_rr_baselayers_overlay_2017-12-31T00-00-00Z.png" ></a>
 <a href="../images/2017/Stateofclimate_2017_rr_0_25deg_anom_yearsums_1981-2010_v16_0e_nc___large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_rr_0_25deg_anom_yearsums_1981-2010_v16_0e_nc__.png" ></a>
+<a href="../images/2017/Stateofclimate_2017_12month_anomaly_tp_201701_201712_0_25g_sum_nc_baselayers_world_polygons_tp_baselayers_overlay_2017-01-01T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_12month_anomaly_tp_201701_201712_0_25g_sum_nc_baselayers_world_polygons_tp_baselayers_overlay_2017-01-01T00-00-00Z.png" ></a>
+<a href="../images/2017/Stateofclimate_2017_12month_anomaly_tp_201701_201712_0_25g_sum_nc__2017-01-01T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_12month_anomaly_tp_201701_201712_0_25g_sum_nc__2017-01-01T00-00-00Z.png" ></a>
 <br><br>
-<em>Figure 4: Annual precipitation over 2017 (mm), as deviations from the long-term mean of 1981-2010.</em>
-<br><br>
-<!--INSERT MAP
-<br><br>
-<em>Figure 7: Annual number of rainy days, as deviations from the long-term mean of 1981-2010.</em>
--->
+<em>Figure 4: Annual precipitation over 2017 (mm), as deviations from the long-term mean of 1981-2010. Left: E-OBS v16.0e, Right: ERA-Interim</em>
 <br><br>
 <h3>Seasonal precipitation anomalies</h3>
 <br><br>
-<a href="../images/2017/Stateofclimate_2017_rr_0_25deg_anom_seasonalsums_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_rr_baselayers_overlay_2017-02-28T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_rr_0_25deg_anom_seasonalsums_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_rr_baselayers_overlay_2017-02-28T00-00-00Z.png" ></a>
-<a href="../images/2017/Stateofclimate_2017_rr_0_25deg_anom_seasonalsums_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_rr_baselayers_overlay_2017-05-31T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_rr_0_25deg_anom_seasonalsums_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_rr_baselayers_overlay_2017-05-31T00-00-00Z.png" ></a>
+<table><tr>
+<td><a href="../images/2017/Stateofclimate_2017_rr_0_25deg_anom_seasonalsums_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_rr_baselayers_overlay_2017-02-28T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_rr_0_25deg_anom_seasonalsums_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_rr_baselayers_overlay_2017-02-28T00-00-00Z.png" ></a></td>
+<td colspan="2">
+<a href="../images/2017/Stateofclimate_2017_rr_0_25deg_anom_seasonalsums_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_rr_baselayers_overlay_2017-05-31T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_rr_0_25deg_anom_seasonalsums_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_rr_baselayers_overlay_2017-05-31T00-00-00Z.png" ></a></td>
+<td><a href="../images/2017/Stateofclimate_2017_season_anomaly_tp_201612_201702_0_25g_sum_nc_baselayers_world_polygons_tp_baselayers_overlay_2016-12-01T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_season_anomaly_tp_201612_201702_0_25g_sum_nc_baselayers_world_polygons_tp_baselayers_overlay_2016-12-01T00-00-00Z.png" ></a></td>
+<td><a href="../images/2017/Stateofclimate_2017_season_anomaly_tp_201703_201705_0_25g_sum_nc_baselayers_world_polygons_tp_baselayers_overlay_2017-03-01T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_season_anomaly_tp_201703_201705_0_25g_sum_nc_baselayers_world_polygons_tp_baselayers_overlay_2017-03-01T00-00-00Z.png" ></a></td>
+</tr><tr>
+<td><a href="../images/2017/Stateofclimate_2017_rr_0_25deg_anom_seasonalsums_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_rr_baselayers_overlay_2017-08-31T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_rr_0_25deg_anom_seasonalsums_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_rr_baselayers_overlay_2017-08-31T00-00-00Z.png" ></a></td>
+<td><a href="../images/2017/Stateofclimate_2017_rr_0_25deg_anom_seasonalsums_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_rr_baselayers_overlay_2017-11-30T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_rr_0_25deg_anom_seasonalsums_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_rr_baselayers_overlay_2017-11-30T00-00-00Z.png" ></a></td>
+<td><a href="../images/2017/Stateofclimate_2017_rr_0_25deg_anom_seasonalsums_dec2016-nov2017_1981-2010_v16_0e_nc__2017-11-30T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_rr_0_25deg_anom_seasonalsums_dec2016-nov2017_1981-2010_v16_0e_nc__2017-11-30T00-00-00Z.png" ></a></td>
+<td><a href="../images/2017/Stateofclimate_2017_season_anomaly_tp_201706_201708_0_25g_sum_nc_baselayers_world_polygons_tp_baselayers_overlay_2017-06-01T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_season_anomaly_tp_201706_201708_0_25g_sum_nc_baselayers_world_polygons_tp_baselayers_overlay_2017-06-01T00-00-00Z.png" ></a></td>
+<td><a href="../images/2017/Stateofclimate_2017_season_anomaly_tp_201709_201711_0_25g_sum_nc_baselayers_world_polygons_tp_baselayers_overlay_2017-09-01T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_season_anomaly_tp_201709_201711_0_25g_sum_nc_baselayers_world_polygons_tp_baselayers_overlay_2017-09-01T00-00-00Z.png" ></a></td>
+<td><a href="../images/2017/Stateofclimate_2017_season_anomaly_tp_201709_201711_0_25g_sum_nc__2017-09-01T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_season_anomaly_tp_201709_201711_0_25g_sum_nc__2017-09-01T00-00-00Z.png" ></a></td>
+</tr></table>
 <br><br>
-<a href="../images/2017/Stateofclimate_2017_rr_0_25deg_anom_seasonalsums_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_rr_baselayers_overlay_2017-08-31T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_rr_0_25deg_anom_seasonalsums_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_rr_baselayers_overlay_2017-08-31T00-00-00Z.png" ></a>
-<a href="../images/2017/Stateofclimate_2017_rr_0_25deg_anom_seasonalsums_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_rr_baselayers_overlay_2017-11-30T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_rr_0_25deg_anom_seasonalsums_dec2016-nov2017_1981-2010_v16_0e_nc_baselayers_world_polygons_rr_baselayers_overlay_2017-11-30T00-00-00Z.png" ></a>
-<a href="../images/2017/Stateofclimate_2017_rr_0_25deg_anom_seasonalsums_dec2016-nov2017_1981-2010_v16_0e_nc__2017-11-30T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_2017_rr_0_25deg_anom_seasonalsums_dec2016-nov2017_1981-2010_v16_0e_nc__2017-11-30T00-00-00Z.png" ></a>
-<br><br>
-<em>Figure 5: Maps of anomalous seasonal precipitation with respect to the 1981-2010 climatology. Winter values relate to Dec 2016 - Feb 2017.</em>
+<em>Figure 5: Maps of anomalous seasonal precipitation with respect to the 1981-2010 climatology. Winter values relate to Dec 2016 - Feb 2017. Left: E-OBS v16.0e. Right: ERA-Interim</em>
 <br><br>
 <h2>Climate Indices</h2>
 <br><br>
 <a href="../images/2017/Stateofclimate_Indices_txx_2017_year_nc_baselayers_world_polygons_TXx_baselayers_overlay_2017-07-01T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_Indices_txx_2017_year_nc_baselayers_world_polygons_TXx_baselayers_overlay_2017-07-01T00-00-00Z.png" ></a>
 <br><br>
-<em>Figure 6: TXx: Maximum of daily maximum temperature in 2017</em>
+<em>Figure 6: TXx: Maximum of daily maximum temperature in 2017. E-OBS v16.0e</em>
 <br><br>
 <br><br>
 <a href="../images/2017/Stateofclimate_Indices_su_anom_2017_1981-2010_year_nc_baselayers_world_polygons_SU_baselayers_overlay_2017-07-01T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_Indices_su_anom_2017_1981-2010_year_nc_baselayers_world_polygons_SU_baselayers_overlay_2017-07-01T00-00-00Z.png" ></a>
 <br><br>
-<em>Figure 7: SU: Summer days in 2017, anomaly w.r.t. 1981-2010</em>
+<em>Figure 7: SU: Summer days in 2017, anomaly w.r.t. 1981-2010. E-OBS v16.0e</em>
 <br><br>
 <br><br>
 <a href="../images/2017/Stateofclimate_Indices_id_anom_2017_1981-2010_year_nc_baselayers_world_polygons_ID_baselayers_overlay_2017-07-01T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_Indices_id_anom_2017_1981-2010_year_nc_baselayers_world_polygons_ID_baselayers_overlay_2017-07-01T00-00-00Z.png" ></a>
 <br><br>
-<em>Figure 8: ID: Ice days in 2017, anomaly w.r.t. 1981-2010</em>
+<em>Figure 8: ID: Ice days in 2017, anomaly w.r.t. 1981-2010. E-OBS v16.0e</em>
 <br><br>
 <br><br>
 <a href="../images/2017/Stateofclimate_Indices_rr1_2017_year_nc_baselayers_world_polygons_RR1_baselayers_overlay_2017-07-01T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_Indices_rr1_2017_year_nc_baselayers_world_polygons_RR1_baselayers_overlay_2017-07-01T00-00-00Z.png" ></a>
 <br><br>
-<em>Figure 9: RR1: Number of wet days in 2017</em>
+<em>Figure 9: RR1: Number of wet days in 2017. E-OBS v16.0e</em>
 <br><br>
 <br><br>
 <a href="../images/2017/Stateofclimate_Indices_cdd_2017_year_nc_baselayers_world_polygons_CDD_baselayers_overlay_2017-07-01T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/2017/Stateofclimate_Indices_cdd_2017_year_nc_baselayers_world_polygons_CDD_baselayers_overlay_2017-07-01T00-00-00Z.png" ></a>
 <br><br>
-<em>Figure 10: CDD: Consecutive dry days in 2017</em>
+<em>Figure 10: CDD: Consecutive dry days in 2017. E-OBS v16.0e</em>
 <br><br>
 <h2><em>About the Copernicus State of the European Climate</em></h2>
 <br><br>
 <em>Monthly and yearly </em>State of the European Climate<em> bulletins are prepared for audience of mainly non-meteorologists/climatologists interested in impact of weather and climate. In these bulletins, the main features of the most recent calendar month is shown, with a focus on extremes and significant deviations from climatology. The information is provided within their historical context, and includes references to addional information. The bulletin is based on Copernicus products, but also contains information from other sources as appropriate.</em>
-<br><br>
 
 		</div>	  
 	      </div>
