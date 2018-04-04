@@ -26,7 +26,7 @@ session_start();
   <!-- Specific for this page -->
   <script type="text/javascript" src="../include/adaguc/eobsmaps.js"></script>
   <?php
-   $EOBSversion="16.0";
+   $EOBSversion="17.0";
   ?>
 
   <?php include('../include/styles.php'); ?>

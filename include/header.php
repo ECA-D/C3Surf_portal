@@ -66,24 +66,28 @@
 		    </li>
 		    <li class="menu-2184 menuparent  menu-path-node-698  odd "><a href="<?php echo $thispage;?>"><span><strong>Data</strong></span></a>
                      <ul>
-		      <li><a href="<?php echo $thispage;?>"><span>E-OBS (Daily, to be updated)</span></a>
-                       <ul>
-                      	 <li><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php"><span>Data access</span></a>
-                      	 </li>
-                      	 <li><a href="<?php echo $webhost;?>/maps/eobsdailymaps.php"><span>Daily maps</span></a>
-                      	 </li>
-                      	</ul>
+		       <li><a href="<?php echo $thispage;?>"><span>E-OBS (Daily)</span></a>
+			 <ul>
+                      	   <li><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php"><span>Data access</span></a>
+                      	   </li>
+                      	   <li><a href="<?php echo $webhost;?>/maps/eobsdailymaps.php"><span>Daily maps</span></a>
+                      	   </li>
+                      	 </ul>
                        </li>
-                      <li><a href="<?php echo $thispage;?>"><span>NGCD (Daily, to be updated)</span></a>
-                      </li>
-                      <li><a href="<?php echo $thispage;?>"><span>NGCD_Rec (Monthly, to be produced)</span></a>
-                      </li>
-                      <li><a href="<?php echo $thispage;?>"><span>HISTALP_Rec (Monthly, to be updated)</span></a>
-                      </li>
-                      <li><a href="<?php echo $thispage;?>"><span>APGD (Daily, external)</span></a>
-                      </li>
-                      <li><a href="<?php echo $thispage;?>"><span>CarpatClim (Daily, external)</span></a>
-                      </li>
+                       <li><a href="<?php echo $thispage;?>"><span>NGCD (Daily)</span></a>
+			 <ul>
+                      	   <li><a href="<?php echo $webhost;?>/dataaccess/access_ngcd.php"><span>Data access</span></a>
+                      	   </li>
+                      	 </ul>
+                       </li>
+                       <li><a href="<?php echo $thispage;?>"><span>NGCD_Rec (Monthly, to be produced)</span></a>
+                       </li>
+                       <li><a href="<?php echo $thispage;?>"><span>HISTALP_Rec (Monthly, to be updated)</span></a>
+                       </li>
+                       <li><a href="<?php echo $thispage;?>"><span>APGD (Daily, external)</span></a>
+                       </li>
+                       <li><a href="<?php echo $thispage;?>"><span>CarpatClim (Daily, external)</span></a>
+                       </li>
   
                      </ul>
                     </li>
@@ -115,6 +119,8 @@
                      <ul>
                       <li><a href="<?php echo $thispage;?>"><span>Monthly reports</span></a>
                        <ul>
+                        <li><a href="<?php echo $webhost;?>/stateoftheclimate/february2018.php"><span>February 2018</span></a>
+                        </li>
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/january2018.php"><span>January 2018</span></a>
                         </li>
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/december2017.php"><span>December 2017</span></a>

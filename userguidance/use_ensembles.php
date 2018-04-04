@@ -186,9 +186,8 @@ session_start();
 		    members could be fed into the hydrological
 		    model. In this way the uncertainty in the rainfall
 		    interpolation would propagate through to the
-		    hydrological model output.  <a target="fig1"><img alt=""
-		    src="../images/ens_members_2013.png" style="width:
-		    100%;" /></a>
+		      hydrological model output.<br>
+		      <a target="fig1"><img alt="" src="../images/ens_members_2013.png" style="width:50%;" /></a><br>
 		  <small>Figure 1: The first four ensemble members
 		  from the E-OBS ensemble precipitation dataset
 		  showing the heavy rainfall event on 1st June

@@ -17,9 +17,9 @@ session_start();
       </li>
       <li class="mmenu-mm-list-mlid-2151 mmenu-mm-list-path-node-571"><a href="<?php echo $webhost;?>/surfobs.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Home</span></a>
       </li>
-      <li class="mmenu-mm-list-mlid-2184 mmenu-mm-list-path-node-698"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Datasets</span></a>
+      <li class="mmenu-mm-list-mlid-2184 mmenu-mm-list-path-node-698"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Data</span></a>
        <ul class="mmenu-mm-list-level-2">
-         <li class="mmenu-mm-list-mlid-2068 mmenu-mm-list-path-news"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">E-OBS (Daily, to be updated)</span></a>
+         <li class="mmenu-mm-list-mlid-2068 mmenu-mm-list-path-news"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">E-OBS (Daily)</span></a>
 	  <ul class="mmenu-mm-list-level-3">
            <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-702"><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Data access</span></a>
            </li>
@@ -27,7 +27,11 @@ session_start();
            </li>
           </ul>
          </li>
-         <li class="mmenu-mm-list-mlid-2187 mmenu-mm-list-path-node-702"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">NGCD (Daily, to be updated)</span></a>
+         <li class="mmenu-mm-list-mlid-2187 mmenu-mm-list-path-node-702"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">NGCD (Daily)</span></a>
+	  <ul class="mmenu-mm-list-level-3">
+           <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-702"><a href="<?php echo $webhost;?>/dataaccess/access_ngcd.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Data access</span></a>
+           </li>
+           </ul>
          </li>
          <li class="mmenu-mm-list-mlid-2218 mmenu-mm-list-path-node-701"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">NGCD_Rec (Monthly, to be produced)</span></a>
          </li>
@@ -39,7 +43,7 @@ session_start();
          </li>
         </ul>
        </li>
-       <li class="mmenu-mm-list-mlid-2069 mmenu-mm-list-path-events"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Indices</span></a>
+       <li class="mmenu-mm-list-mlid-2069 mmenu-mm-list-path-events"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Indicators</span></a>
        <ul class="mmenu-mm-list-level-2">
          <li class="mmenu-mm-list-mlid-2068 mmenu-mm-list-path-news"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">E-OBS</span></a>
 	  <ul class="mmenu-mm-list-level-3">
@@ -65,7 +69,9 @@ session_start();
       <ul class="mmenu-mm-list-level-2">
          <li class="mmenu-mm-list-mlid-2068 mmenu-mm-list-path-news"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Monthly reports</span></a>
 	  <ul class="mmenu-mm-list-level-3">
-           <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/january2018.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">January 2018</span></a>
+            <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/february2018.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">February 2018</span></a>
+            </li>
+            <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/january2018.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">January 2018</span></a>
            </li>
            <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/december2017.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">December 2017</span></a>
            </li>

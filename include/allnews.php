@@ -65,6 +65,22 @@ session_start();
 		      <td width="60%" style="color:#FFFFFF;"><b>Item</b></td>
 		    </tr>
 		    <tr>
+		      <td>3 April 2018</td>
+	              <td><a href="../stateoftheclimate/year2017.php">Annual State-of-the-climate for 2017</a> released</td>
+		    </tr>		  
+		    <tr>
+		      <td>26 March 2018</td>
+	              <td>First release of <a href="../dataaccess/access_ngcd.php">NGCD 18.03</a></td>
+		    </tr>		  
+		    <tr>
+		      <td>26 March 2018</td>
+	              <td><a href="../stateoftheclimate/february2018.php">State-of-the-climate for February 2018</a> released</td>
+		    </tr>		  
+		    <tr>
+		      <td>19 March 2018</td>
+	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> and <a href="http://www.ecad.eu/">ECA&amp;D</a> updates released	</td>
+		    </tr>    
+		    <tr>
 		      <td>26 February 2018</td>
 	              <td><a href="../stateoftheclimate/january2018.php">State-of-the-climate for January 2018</a> released</td>
 		    </tr>		  

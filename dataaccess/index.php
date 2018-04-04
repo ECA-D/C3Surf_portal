@@ -70,6 +70,10 @@ session_start();
 		      </td>
 		    </tr>		  
 		    <tr>
+		      <td><a href="access_ngcd.php">NGCD</a>
+		      </td>
+		    </tr>		  
+		    <tr>
 		      <td><a href="access_eobs_indices.php">E-OBS Indices</a>
 		      </td>
 		    </tr>		  
