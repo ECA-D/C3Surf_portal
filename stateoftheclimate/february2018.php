@@ -104,7 +104,7 @@ A third index describing the cold days is the number of days below the 10th perc
 <h2>The weather in February 2018</h2>
 <h3>Temperature deviations and extremes</h3>
 <br><br>
-Due to the cold spell mentioned above, daily minimum and mean temperatures across southern and central Europe were significantly cool relative to 1981-2010 normals. Maximum daily temperatures were, however, warmer than averaged across Macedonia and Greece around 1&#176;C. The cooler than normal temperatures across the Alps favoured the accumulation of snow.
+Due to the cold spell mentioned above, daily minimum and mean temperatures across southern and central Europe were significantly cool relative to 1981-2010 normals. Maximum daily temperatures were, however, warmer than averaged across the former Yugoslav Republic of Macedonia and Greece around 1&#176;C. The cooler than normal temperatures across the Alps favoured the accumulation of snow.
 <br><br>
 <a href="../images/feb2018/Stateofclimate_Feb2018_tn_0_25deg_anom_monthlymeans_2018_1981-2010_v16_0e_nc_baselayers_world_polygons_tn_baselayers_overlay_2018-02-28T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/feb2018/Stateofclimate_Feb2018_tn_0_25deg_anom_monthlymeans_2018_1981-2010_v16_0e_nc_baselayers_world_polygons_tn_baselayers_overlay_2018-02-28T00-00-00Z.png" ></a>
 <a href="../images/feb2018/Stateofclimate_Feb2018_tg_0_25deg_anom_monthlymeans_2018_1981-2010_v16_0e_nc_baselayers_world_polygons_tg_baselayers_overlay_2018-02-28T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/feb2018/Stateofclimate_Feb2018_tg_0_25deg_anom_monthlymeans_2018_1981-2010_v16_0e_nc_baselayers_world_polygons_tg_baselayers_overlay_2018-02-28T00-00-00Z.png" ></a>
