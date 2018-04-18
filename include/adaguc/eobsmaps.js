@@ -1,5 +1,5 @@
 var mainWebmapJS ;
-setBaseURL("../../adagucviewer/webmapjs");
+setBaseURL("../adaguc-viewer/webmapjs");
 var defaultProjection = {srs:'EPSG:32661',bbox:'809272.180452, -5510472.180452, 7029272.180452, 1309527.819548 '};
 
 var scaleBarURL       = "http://www.ecad.eu/utils/adagucviewer/webmapjs/php/makeScaleBar.php?";
