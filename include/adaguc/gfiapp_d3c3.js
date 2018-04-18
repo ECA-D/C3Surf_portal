@@ -12,8 +12,11 @@ var plotData = function(datatoplot,elementid,units){
         x : {
           type : 'timeseries',
           tick : {
+//	      rotate : 40,
             //format : "%e %b %Y @ %H:%M:%S" // https://github.com/mbostock/d3/wiki/Time-Formatting#wiki-format
-              format : "%Y" 
+//              format : "%Y%m%d" ,
+              format : "%Y" ,
+//	      count: 100
           }
         },
          

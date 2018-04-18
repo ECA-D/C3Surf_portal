@@ -108,13 +108,14 @@ Shown are the daily maps for E-OBS v<?php echo $EOBSversion?>.<br><br>
   </div>
   
   <br>
-          <hr>
+<!--          <hr>
           <p class="normaltext">Timeseries for a location (click on map &amp; scroll down)</p>
           <hr>
+-->
 <div id="webmapjswrapper" style="width:652px;">
           <div id="webmap1" style="width:652px;height:490px;"></div>
 </div>
-          <div id="graphmaker" class="chartstyle" ></div>
+<!--          <div id="graphmaker" class="chartstyle" ></div>-->
            </td>
         </tr>
  
