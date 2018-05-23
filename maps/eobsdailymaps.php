@@ -69,7 +69,7 @@ session_start();
 
 Shown are the daily maps for E-OBS v<?php echo $EOBSversion?>.<br><br>  
 
-  Select index
+  Select variable
    <div id="layerlist"></div>
   <br>
 
