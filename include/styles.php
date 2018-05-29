@@ -38,6 +38,16 @@ session_start();
  
 <link type="text/css" rel="stylesheet" href="<?php echo $webhost;?>/include/styles.css" media="all">
 <link type="text/css" rel="stylesheet" href="<?php echo $webhost;?>/include/jquery-ui.css" media="all">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'GA_TRACKING_ID');
+</script>
     
 <script src="<?php echo $webhost;?>/theme/gtm.js" async=""></script><script src="<?php echo $webhost;?>/theme/analytics.js" async=""></script><script src="<?php echo $webhost;?>/theme/js_0qlzNmRd5eIzax2ZtoBiFWuErHnH9F8BMadDVEP1yxs.js"></script>
 <script src="<?php echo $webhost;?>/theme/js_8SrYh_2jIJHSidj2DHc7hOjODohSyKwnkyiueFDwpCc.js"></script>
