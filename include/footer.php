@@ -13,10 +13,11 @@ session_start();
 	      
               <div class="row-fluid">
 		<div id="block-menu-menu-menu-footer" class="block block-menu col-xs-12 col-sm-12 col-md-12 col-lg-12 menu-pull-right menu-float-right hidden-xs hidden-sm clearfix">
-		  <ul class="menu nav"><li class="first leaf"><a href="http://climate.copernicus.eu/cookies">Cookies</a></li>
-		    <li class="leaf"><a href="http://climate.copernicus.eu/disclaimer-privacy">Disclaimer / Privacy</a></li>
-		    <li class="leaf"><a href="http://climate.copernicus.eu/contact">Contact us</a></li>
-		    <li class="last leaf active-trail active"><a class="active-trail active" href="http://climate.copernicus.eu/about-c3s">About C3S</a></li>
+		  <ul class="menu nav">
+		  <li class="first leaf"><a href="http://climate.copernicus.eu/cookies" target="_blank">Cookies</a></li>
+		    <li class="leaf"><a href="http://climate.copernicus.eu/disclaimer-privacy" target="_blank">Disclaimer / Privacy</a></li> 		    
+		    <li class="leaf"><a href="mailto:&#101;&#099;&#097;&#064;&#107;&#110;&#109;&#105;&#046;&#110;&#108;?subject=Questions SurfObs">Contact us</a></li>
+		    <li class="last leaf active-trail active"><a class="active-trail active" href="http://climate.copernicus.eu/about-c3s" target="_blank">About C3S</a></li>
 		  </ul>
 		</div> <!-- /.block -->
 	      </div>
