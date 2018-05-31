@@ -55,125 +55,103 @@ session_start();
 		<!-- Breadcrum -->
 		<h2 class="element-invisible">You are here</h2><div class="breadcrumb"><span class="inline odd first"><a href="../surfobs.php">Home</a></span><span class="delimiter">&raquo;</span> <span class="inline even last"><a href="access_eobs.php">E-OBS data</a></span>&raquo;</span> <span class="inline even last"><a href="access_eobs_months.php">E-OBS data access months</a></span></div>
 
-		<!-- Main part -->
-		<div id="block-system-main" class="block block-system col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
-		  Below we give the gridded data files for 2017 and
-		  2018 which are released on a monthly basis. These
-		  files will be replaced with every monthly update and
-		  removed after the next full update of the E-OBS
-		  dataset. Small changes might occur between these
-		  releases, after new data and/or stations are
-		  added. The files are only available on 0.25 degree
-		  resolution. The ensemble median and ensemble spread
-		  are created from a 100 ensemble dataset.<br><br>
+		<!-- Main part --> <div id="block-system-main"
+		class="block block-system col-xs-12 col-sm-12
+		col-md-12 col-lg-12 clearfix"> Below we give the
+		gridded data files for 2018 which are released on a
+		monthly basis. These files will be replaced with every
+		monthly update and removed after the next full update
+		of the E-OBS dataset. Small changes might occur
+		between these releases, after new data and/or stations
+		are added. The files are available on 0.1 and 0.25 degree
+		resolutions. The ensemble median and ensemble spread
+		are created from a 100 ensemble dataset.<br><br>
 
 		<table  border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
 		  <tbody>
 		    <tr bgcolor="#941333" height="40px">
-		      <td width="25%" style="color:#FFFFFF;"><b>Year</b></td>
+		      <td width="25%" style="color:#FFFFFF;"><b>2018</b></td>
 		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
 		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
 		    </tr>
 		    <tr>
-		      <td><b>2018</b></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2018_grid_ensmean.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2018_grid_ensmean.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2018_grid_ensmean.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2018_grid_ensmean.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2018_grid_ensmean.nc.gz">PP</a></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2018_grid_se.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2018_grid_se.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2018_grid_se.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2018_grid_se.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2018_grid_se.nc.gz">PP</a></td>
+		      <td>0.1 deg. regular grid</td>
+		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_0.1deg_day_2018_grid_ensmean.nc">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_0.1deg_day_2018_grid_ensmean.nc">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_0.1deg_day_2018_grid_ensmean.nc">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_0.1deg_day_2018_grid_ensmean.nc">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_0.1deg_day_2018_grid_ensmean.nc">PP</a></td>
+		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_0.1deg_day_2018_grid_se.nc">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_0.1deg_day_2018_grid_se.nc">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_0.1deg_day_2018_grid_se.nc">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_0.1deg_day_2018_grid_se.nc">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_0.1deg_day_2018_grid_se.nc">PP</a></td>
 		    </tr>
 		    <tr>
-		      <td><b>2017</b></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2017_grid_ensmean.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2017_grid_ensmean.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2017_grid_ensmean.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2017_grid_ensmean.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2017_grid_ensmean.nc.gz">PP</a></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2017_grid_se.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2017_grid_se.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2017_grid_se.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2017_grid_se.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2017_grid_se.nc.gz">PP</a></td>
+		      <td>0.25 deg. regular grid</td>
+		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_0.25deg_day_2018_grid_ensmean.nc">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_0.25deg_day_2018_grid_ensmean.nc">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_0.25deg_day_2018_grid_ensmean.nc">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_0.25deg_day_2018_grid_ensmean.nc">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_0.25deg_day_2018_grid_ensmean.nc">PP</a></td>
+		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_0.25deg_day_2018_grid_se.nc">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_0.25deg_day_2018_grid_se.nc">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_0.25deg_day_2018_grid_se.nc">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_0.25deg_day_2018_grid_se.nc">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_0.25deg_day_2018_grid_se.nc">PP</a></td>
 		    </tr>
 		  </tbody>
 		</table>
 
+<br><br>
   		    <table  border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
 		  <tbody>
 		    <tr bgcolor="#941333" height="40px">
-		      <td width="25%" style="color:#FFFFFF;"><b>Month</b></td>
+		      <td width="25%" style="color:#FFFFFF;"><b>April 2018</b></td>
 		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
 		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
 		    </tr>
 		    <tr>
-		      <td><b>April 2018</b></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2018_04_grid_ensmean.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2018_04_grid_ensmean.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2018_04_grid_ensmean.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2018_04_grid_ensmean.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2018_04_grid_ensmean.nc.gz">PP</a></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2018_04_grid_se.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2018_04_grid_se.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2018_04_grid_se.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2018_04_grid_se.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2018_04_grid_se.nc.gz">PP</a></td>
+		      <td>0.1 degree regular grid</td>
+		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_0.1deg_day_2018_04_grid_ensmean.nc">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_0.1deg_day_2018_04_grid_ensmean.nc">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_0.1deg_day_2018_04_grid_ensmean.nc">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_0.1deg_day_2018_04_grid_ensmean.nc">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_0.1deg_day_2018_04_grid_ensmean.nc">PP</a></td>
+		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_0.1deg_day_2018_04_grid_se.nc">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_0.1deg_day_2018_04_grid_se.nc">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_0.1deg_day_2018_04_grid_se.nc">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_0.1deg_day_2018_04_grid_se.nc">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_0.1deg_day_2018_04_grid_se.nc">PP</a></td>
 		    </tr>
 		    <tr>
-		      <td><b>March 2018</b></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2018_03_grid_ensmean.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2018_03_grid_ensmean.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2018_03_grid_ensmean.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2018_03_grid_ensmean.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2018_03_grid_ensmean.nc.gz">PP</a></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2018_03_grid_se.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2018_03_grid_se.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2018_03_grid_se.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2018_03_grid_se.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2018_03_grid_se.nc.gz">PP</a></td>
-		    </tr>
-		    <tr>
-		      <td><b>February 2018</b></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2018_02_grid_ensmean.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2018_02_grid_ensmean.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2018_02_grid_ensmean.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2018_02_grid_ensmean.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2018_02_grid_ensmean.nc.gz">PP</a></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2018_02_grid_se.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2018_02_grid_se.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2018_02_grid_se.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2018_02_grid_se.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2018_02_grid_se.nc.gz">PP</a></td>
-		    </tr>
-		    <tr>
-		      <td><b>January 2018</b></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2018_01_grid_ensmean.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2018_01_grid_ensmean.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2018_01_grid_ensmean.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2018_01_grid_ensmean.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2018_01_grid_ensmean.nc.gz">PP</a></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2018_01_grid_se.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2018_01_grid_se.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2018_01_grid_se.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2018_01_grid_se.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2018_01_grid_se.nc.gz">PP</a></td>
-		    </tr>
-		    <tr>
-		      <td><b>December 2017</b></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2017_12_grid_ensmean.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2017_12_grid_ensmean.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2017_12_grid_ensmean.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2017_12_grid_ensmean.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2017_12_grid_ensmean.nc.gz">PP</a></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2017_12_grid_se.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2017_12_grid_se.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2017_12_grid_se.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2017_12_grid_se.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2017_12_grid_se.nc.gz">PP</a></td>
-		    </tr>
-		    <tr>
-		      <td><b>November 2017</b></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2017_11_grid_ensmean.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2017_11_grid_ensmean.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2017_11_grid_ensmean.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2017_11_grid_ensmean.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2017_11_grid_ensmean.nc.gz">PP</a></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2017_11_grid_se.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2017_11_grid_se.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2017_11_grid_se.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2017_11_grid_se.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2017_11_grid_se.nc.gz">PP</a></td>
-		    </tr>
-		    <tr>
-		      <td><b>October 2017</b></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2017_10_grid_ensmean.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2017_10_grid_ensmean.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2017_10_grid_ensmean.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2017_10_grid_ensmean.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2017_10_grid_ensmean.nc.gz">PP</a></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2017_10_grid_se.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2017_10_grid_se.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2017_10_grid_se.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2017_10_grid_se.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2017_10_grid_se.nc.gz">PP</a></td>
-		    </tr>
-		    <tr>
-		      <td><b>September 2017</b></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2017_09_grid_ensmean.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2017_09_grid_ensmean.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2017_09_grid_ensmean.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2017_09_grid_ensmean.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2017_09_grid_ensmean.nc.gz">PP</a></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2017_09_grid_se.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2017_09_grid_se.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2017_09_grid_se.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2017_09_grid_se.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2017_09_grid_se.nc.gz">PP</a></td>
-		    </tr>
-		    <tr>
-		      <td><b>August 2017</b></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2017_08_grid_ensmean.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2017_08_grid_ensmean.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2017_08_grid_ensmean.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2017_08_grid_ensmean.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2017_08_grid_ensmean.nc.gz">PP</a></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2017_08_grid_se.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2017_08_grid_se.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2017_08_grid_se.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2017_08_grid_se.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2017_08_grid_se.nc.gz">PP</a></td>
-		    </tr>
-		    <tr>
-		      <td><b>July 2017</b></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2017_07_grid_ensmean.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2017_07_grid_ensmean.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2017_07_grid_ensmean.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2017_07_grid_ensmean.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2017_07_grid_ensmean.nc.gz">PP</a></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2017_07_grid_se.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2017_07_grid_se.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2017_07_grid_se.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2017_07_grid_se.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2017_07_grid_se.nc.gz">PP</a></td>
-		    </tr>
-		    <tr>
-		      <td><b>June 2017</b></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2017_06_grid_ensmean.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2017_06_grid_ensmean.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2017_06_grid_ensmean.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2017_06_grid_ensmean.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2017_06_grid_ensmean.nc.gz">PP</a></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2017_06_grid_se.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2017_06_grid_se.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2017_06_grid_se.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2017_06_grid_se.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2017_06_grid_se.nc.gz">PP</a></td>
-		    </tr>
-		    <tr>
-		      <td><b>May 2017</b></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2017_05_grid_ensmean.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2017_05_grid_ensmean.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2017_05_grid_ensmean.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2017_05_grid_ensmean.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2017_05_grid_ensmean.nc.gz">PP</a></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2017_05_grid_se.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2017_05_grid_se.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2017_05_grid_se.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2017_05_grid_se.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2017_05_grid_se.nc.gz">PP</a></td>
-		    </tr>
-		    <tr>
-		      <td><b>April 2017</b></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2017_04_grid_ensmean.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2017_04_grid_ensmean.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2017_04_grid_ensmean.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2017_04_grid_ensmean.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2017_04_grid_ensmean.nc.gz">PP</a></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2017_04_grid_se.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2017_04_grid_se.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2017_04_grid_se.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2017_04_grid_se.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2017_04_grid_se.nc.gz">PP</a></td>
-		    </tr>
-		    <tr>
-		      <td><b>March 2017</b></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2017_03_grid_ensmean.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2017_03_grid_ensmean.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2017_03_grid_ensmean.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2017_03_grid_ensmean.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2017_03_grid_ensmean.nc.gz">PP</a></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2017_03_grid_se.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2017_03_grid_se.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2017_03_grid_se.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2017_03_grid_se.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2017_03_grid_se.nc.gz">PP</a></td>
-		    </tr>
-		    <tr>
-		      <td><b>February 2017</b></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2017_02_grid_ensmean.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2017_02_grid_ensmean.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2017_02_grid_ensmean.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2017_02_grid_ensmean.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2017_02_grid_ensmean.nc.gz">PP</a></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2017_02_grid_se.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2017_02_grid_se.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2017_02_grid_se.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2017_02_grid_se.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2017_02_grid_se.nc.gz">PP</a></td>
+		      <td>0.25 degree regular grid</td>
+		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_0.25deg_day_2018_04_grid_ensmean.nc">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_0.25deg_day_2018_04_grid_ensmean.nc">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_0.25deg_day_2018_04_grid_ensmean.nc">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_0.25deg_day_2018_04_grid_ensmean.nc">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_0.25deg_day_2018_04_grid_ensmean.nc">PP</a></td>
+		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_0.25deg_day_2018_04_grid_se.nc">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_0.25deg_day_2018_04_grid_se.nc">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_0.25deg_day_2018_04_grid_se.nc">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_0.25deg_day_2018_04_grid_se.nc">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_0.25deg_day_2018_04_grid_se.nc">PP</a></td>
 		    </tr>
 
+		    <tr bgcolor="#941333" height="40px">
+		      <td width="25%" style="color:#FFFFFF;"><b>March 2018</b></td>
+		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
+		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
+		    </tr>
 		    <tr>
-		      <td><b>January 2017</b></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2017_01_grid_ensmean.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2017_01_grid_ensmean.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2017_01_grid_ensmean.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2017_01_grid_ensmean.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2017_01_grid_ensmean.nc.gz">PP</a></td>
-		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_day_2017_01_grid_se.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_day_2017_01_grid_se.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_day_2017_01_grid_se.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_day_2017_01_grid_se.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_day_2017_01_grid_se.nc.gz">PP</a></td>
+		      <td>0.1 degree regular grid</td>
+		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_0.1deg_day_2018_03_grid_ensmean.nc">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_0.1deg_day_2018_03_grid_ensmean.nc">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_0.1deg_day_2018_03_grid_ensmean.nc">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_0.1deg_day_2018_03_grid_ensmean.nc">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_0.1deg_day_2018_03_grid_ensmean.nc">PP</a></td>
+		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_0.1deg_day_2018_03_grid_se.nc">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_0.1deg_day_2018_03_grid_se.nc">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_0.1deg_day_2018_03_grid_se.nc">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_0.1deg_day_2018_03_grid_se.nc">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_0.1deg_day_2018_03_grid_se.nc">PP</a></td>
+		    </tr>
+		    <tr>
+		      <td>0.25 degree regular grid</td>
+		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_0.25deg_day_2018_03_grid_ensmean.nc">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_0.25deg_day_2018_03_grid_ensmean.nc">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_0.25deg_day_2018_03_grid_ensmean.nc">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_0.25deg_day_2018_03_grid_ensmean.nc">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_0.25deg_day_2018_03_grid_ensmean.nc">PP</a></td>
+		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_0.25deg_day_2018_03_grid_se.nc">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_0.25deg_day_2018_03_grid_se.nc">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_0.25deg_day_2018_03_grid_se.nc">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_0.25deg_day_2018_03_grid_se.nc">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_0.25deg_day_2018_03_grid_se.nc">PP</a></td>
+		    </tr>
+
+		    <tr bgcolor="#941333" height="40px">
+		      <td width="25%" style="color:#FFFFFF;"><b>February 2018</b></td>
+		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
+		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
+		    </tr>
+		    <tr>
+		      <td>0.1 degree regular grid</td>
+		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_0.1deg_day_2018_02_grid_ensmean.nc">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_0.1deg_day_2018_02_grid_ensmean.nc">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_0.1deg_day_2018_02_grid_ensmean.nc">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_0.1deg_day_2018_02_grid_ensmean.nc">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_0.1deg_day_2018_02_grid_ensmean.nc">PP</a></td>
+		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_0.1deg_day_2018_02_grid_se.nc">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_0.1deg_day_2018_02_grid_se.nc">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_0.1deg_day_2018_02_grid_se.nc">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_0.1deg_day_2018_02_grid_se.nc">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_0.1deg_day_2018_02_grid_se.nc">PP</a></td>
+		    </tr>
+		    <tr>
+		      <td>0.25 degree regular grid</td>
+		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_0.25deg_day_2018_02_grid_ensmean.nc">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn__0.25degday_2018_02_grid_ensmean.nc">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_0.25deg_day_2018_02_grid_ensmean.nc">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_0.25deg_day_2018_02_grid_ensmean.nc">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_0.25deg_day_2018_02_grid_ensmean.nc">PP</a></td>
+		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_0.25deg_day_2018_02_grid_se.nc">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_0.25deg_day_2018_02_grid_se.nc">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_0.25deg_day_2018_02_grid_se.nc">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_0.25deg_day_2018_02_grid_se.nc">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_0.25deg_day_2018_02_grid_se.nc">PP</a></td>
+		    </tr>
+
+		    <tr bgcolor="#941333" height="40px">
+		      <td width="25%" style="color:#FFFFFF;"><b>January 2018</b></td>
+		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
+		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
+		    </tr>
+		    <tr>
+		      <td>0.1 degree regular grid</td>
+		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_0.1deg_day_2018_01_grid_ensmean.nc">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_0.1deg_day_2018_01_grid_ensmean.nc">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_0.1deg_day_2018_01_grid_ensmean.nc">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_0.1deg_day_2018_01_grid_ensmean.nc">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_0.1deg_day_2018_01_grid_ensmean.nc">PP</a></td>
+		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_0.1deg_day_2018_01_grid_se.nc">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_0.1deg_day_2018_01_grid_se.nc">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_0.1deg_day_2018_01_grid_se.nc">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_0.1deg_day_2018_01_grid_se.nc">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_0.1deg_day_2018_01_grid_se.nc">PP</a></td>
+		    </tr>
+		    <tr>
+		      <td>0.25 degree regular grid</td>
+		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_0.25deg_day_2018_01_grid_ensmean.nc">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_0.25deg_day_2018_01_grid_ensmean.nc">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_0.25deg_day_2018_01_grid_ensmean.nc">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_0.25deg_day_2018_01_grid_ensmean.nc">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_0.25deg_day_2018_01_grid_ensmean.nc">PP</a></td>
+		      <td><a href="http://www.ecad.eu/download/ensembles/data/months/ens/tg_0.25deg_day_2018_01_grid_se.nc">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tn_0.25deg_day_2018_01_grid_se.nc">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/tx_0.25deg_day_2018_01_grid_se.nc">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/rr_0.25deg_day_2018_01_grid_se.nc">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/months/ens/pp_0.25deg_day_2018_01_grid_se.nc">PP</a></td>
 		    </tr>
 		  <tbody>
 		</table>

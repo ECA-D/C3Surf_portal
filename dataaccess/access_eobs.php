@@ -87,6 +87,7 @@ session_start();
 			<td>April 2018</td>
 			<td>1950-01-01 - 2017-12-31</td>
 			<td>Series for Estonia have been updated. Monthly, half-yearly and yearly updates are continued for Germany, Czech Republic, Bosnia and Herzegovina, Norway, Slovenia, Finland, Ireland, Sweden, Luxembourg, Netherlands, Portugal, Spain, Switzerland, France, Denmark, UK and the regional meteorological service of Catalonia (Spain). More detailed information can be found on the <a href="http://cib.knmi.nl/mediawiki/index.php/Compare_E-OBS_v17.0_and_v16.0" target="_blank">page comparing versions 17.0 and 16.0</a>. 
+		  Together with the 'standard' E-OBS files, an ensemble of possible E-OBS fields are created. The ensemble mean and ensemble spread are available (v17.0e). The full ensemble can be made available on request.
 			</td>   
 		      </tr>
 		    </tbody>
@@ -95,7 +96,31 @@ session_start();
  		  
 		<h3> E-OBS datafiles 1950-01-01 - 2017-12-31</h3>
 
-		The datafiles contain gridded data for 5 elements (daily mean temperature <b>TG</b>, daily minimum temperature <b>TN</b>, daily maximum temperature <b>TX</b>, daily precipitation sum <b>RR</b> and daily averaged sea level pressure <b>PP</b>). They cover the area: 25N-75N x 40W-75E. The data files are in compressed NetCDF format. There are 4 different versions: 2 grid resolutions x 2 grid flavours. Data is made available on a 0.25 and 0.5 degree regular lat-lon grid, as well as on a 0.22 and 0.44 degree rotated pole grid, with the north pole at 39.25N, 162W. The regular grid is the same as the monthly CRU data grids available from the <a href="http://www.cru.uea.ac.uk" target="_blank">Climatic Research Unit</a>. The rotated grid is the same as used in many <a href="http://ensemblesrt3.dmi.dk/" target="_blank">ENSEMBLES Regional Climate Models</a>. Besides 'best estimate' values, separate files are provided containing daily standard errors and elevation. See <a href="Haylock_et_al_2008.pdf" target="_blank">Haylock et al. (2008)</a>, <a href="http://www.agu.org/pubs/crossref/2011/2010JD015468.shtml" target="_blank">van den Besselaar et al. (2011)</a> and Cornes et al. (2017) for further details. The Global 30 Arc-Second Elevation Data Set (<a href="http://eros.usgs.gov/#/Find_Data/Products_and_Data_Available/GTOPO30" target="_blank">GTOPO30</a>), a global raster Digital Elevation Model (DEM) with a horizontal grid spacing of 30 arc seconds (approximately 1 kilometer) developed by USGS is used for the elevation file.<br><br>
+		The datafiles for the standard version contain gridded data for 5 elements (daily mean temperature <b>TG</b>, daily minimum temperature <b>TN</b>, daily maximum temperature <b>TX</b>, daily precipitation sum <b>RR</b> and daily averaged sea level pressure <b>PP</b>). They cover the area: 25N-75N x 40W-75E. The data files are in compressed NetCDF format. There are 4 different versions: 2 grid resolutions x 2 grid flavours. Data is made available on a 0.25 and 0.5 degree regular lat-lon grid, as well as on a 0.22 and 0.44 degree rotated pole grid, with the north pole at 39.25N, 162W. The regular grid is the same as the monthly CRU data grids available from the <a href="http://www.cru.uea.ac.uk" target="_blank">Climatic Research Unit</a>. The rotated grid is the same as used in many <a href="http://ensemblesrt3.dmi.dk/" target="_blank">ENSEMBLES Regional Climate Models</a>. Besides 'best estimate' values, separate files are provided containing daily standard errors and elevation. See <a href="Haylock_et_al_2008.pdf" target="_blank">Haylock et al. (2008)</a> and <a href="http://www.agu.org/pubs/crossref/2011/2010JD015468.shtml" target="_blank">van den Besselaar et al. (2011)</a> for further details. The Global 30 Arc-Second Elevation Data Set (<a href="http://eros.usgs.gov/#/Find_Data/Products_and_Data_Available/GTOPO30" target="_blank">GTOPO30</a>), a global raster Digital Elevation Model (DEM) with a horizontal grid spacing of 30 arc seconds (approximately 1 kilometer) developed by USGS is used for the elevation file.<br><br>
+
+The ensemble version (indicated with a 'e' after the version number)
+is available on a 0.1 and 0.25 degree regular grid for the elements
+(daily mean temperature <b>TG</b>, daily minimum temperature
+<b>TN</b>, daily maximum temperature <b>TX</b>, daily precipitation
+sum <b>RR</b> and daily averaged sea level pressure <b>PP</b>). They
+cover the area: 25N-71.5N x 25W-45E. The data files are in NetCDF-4
+format. The Global 30 Arc-Second Elevation Data Set (<a
+href="http://eros.usgs.gov/#/Find_Data/Products_and_Data_Available/GTOPO30"
+target="_blank">GTOPO30</a>), a global raster Digital Elevation Model
+(DEM) with a horizontal grid spacing of 30 arc seconds (approximately
+1 kilometer) developed by USGS is used for the elevation file as
+well. <br><br>
+
+The ensemble dataset is constructed through a conditional simulation
+procedure. For each of the 100 members of the ensemble a spatially
+correlated random field is produced using a pre-calculated spatial
+correlation function. The mean across the 100 members is calculated
+and is provided as the "best-guess" fields. The spread is calculated
+as the difference between the 5th and 95th percentiles over the
+ensemble to provide a measure indicate of the 90% uncertainty
+range. For more details see Cornes et al. (2018) and <a href="<?php echo $webhost;?>/userguidance/use_ensembles.php">the guidance on how to use ensemble datasets</a>. 
+<br><br>
+
 
 		<table  border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
 		  <tbody>
@@ -129,12 +154,30 @@ session_start();
 		      <td><a href="http://www.ecad.eu/download/ensembles/data/Grid_0.44deg_rot/tg_stderr_0.44deg_rot_v17.0.nc.gz">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/Grid_0.44deg_rot/tn_stderr_0.44deg_rot_v17.0.nc.gz">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/Grid_0.44deg_rot/tx_stderr_0.44deg_rot_v17.0.nc.gz">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/Grid_0.44deg_rot/rr_stderr_0.44deg_rot_v17.0.nc.gz">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/Grid_0.44deg_rot/pp_stderr_0.44deg_rot_v17.0.nc.gz">PP</a></td>
 		      <td><a href="http://www.ecad.eu/download/ensembles/data/Grid_0.44deg_rot/elev_0.44deg_rot_v17.0.nc.gz">all elements</a></td> 
 		    </tr>
+		    <tr bgcolor="#941333" height="40px">
+		      <td style="color:#FFFFFF;"><b>Version 17.0e</b></td>
+		      <td style="color:#FFFFFF;"><b>Ensemble mean</b></td>
+		      <td style="color:#FFFFFF;"><b>Ensemble spread</b></td>
+		      <td style="color:#FFFFFF;"><b>Elevation</b></td>      
+		    </tr>
+		    <tr>
+		      <td>0.1 deg. regular grid</td>
+		      <td><a href="http://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ens_mean_0.1deg_reg_v17.0e.nc">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ens_mean_0.1deg_reg_v17.0e.nc">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ens_mean_0.1deg_reg_v17.0e.nc">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ens_mean_0.1deg_reg_v17.0e.nc">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ens_mean_0.1deg_reg_v17.0e.nc">PP</a></td>
+		      <td><a href="http://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ens_spread_0.1deg_reg_v17.0e.nc">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ens_spread_0.1deg_reg_v17.0e.nc">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ens_spread_0.1deg_reg_v17.0e.nc">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ens_spread_0.1deg_reg_v17.0e.nc">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ens_spread_0.1deg_reg_v17.0e.nc">PP</a></td>
+		      <td><a href="http://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/elev_ens_0.1deg_reg_v17.0e.nc">all elements</a></td>      
+		    </tr>
+		    <tr>
+		      <td>0.25 deg. regular grid</td>
+		      <td><a href="http://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/tg_ens_mean_0.25deg_reg_v17.0e.nc">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/tn_ens_mean_0.25deg_reg_v17.0e.nc">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/tx_ens_mean_0.25deg_reg_v17.0e.nc">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/rr_ens_mean_0.25deg_reg_v17.0e.nc">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/pp_ens_mean_0.25deg_reg_v17.0e.nc">PP</a></td>
+		      <td><a href="http://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/tg_ens_spread_0.25deg_reg_v17.0e.nc">TG</a> <a href="http://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/tn_ens_spread_0.25deg_reg_v17.0e.nc">TN</a> <a href="http://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/tx_ens_spread_0.25deg_reg_v17.0e.nc">TX</a> <a href="http://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/rr_ens_spread_0.25deg_reg_v17.0e.nc">RR</a> <a href="http://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/pp_ens_spread_0.25deg_reg_v17.0e.nc">PP</a></td>
+		      <td><a href="http://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/elev_ens_0.25deg_reg_v17.0e.nc">all elements</a></td>      
+		    </tr>
 		  <tbody>
 		</table>
 
-		<h3>Datafiles for 2017 and 2018</h3>
+		<h3>Datafiles for 2018</h3>
 		
-		Follow this <a href="access_eobs_months.php">link</a> if you want to download gridded datafiles for 2017 and 2018. They are released on a monthly basis. These files will be replaced with every monthly update and removed after the next full update of the E-OBS dataset.
+		Follow this <a href="access_eobs_months.php">link</a> if you want to download gridded datafiles for 2018. They are released on a monthly basis. These files will be replaced with every monthly update and removed after the next full update of the E-OBS dataset.
 		
 
 
@@ -149,7 +192,11 @@ session_start();
 		      E-OBS sea level pressure:<br>
 		      "We acknowledge the E-OBS dataset from the EU-FP6 project ENSEMBLES (http://ensembles-eu.metoffice.com) and the data providers in the ECA&D project (http://www.ecad.eu)"<br>
 		      "van den Besselaar, E.J.M., M.R. Haylock, G. van der Schrier and A.M.G. Klein Tank. 2011: A European Daily High-resolution Observational Gridded Data set of Sea Level Pressure. J. Geophys. Res., <b>116</b>, D11110, doi:10.1029/2010JD015468" <img src="../images/html.gif" width="15" height="15" alt="" border="0"><a href="http://www.agu.org/pubs/crossref/2011/2010JD015468.shtml" target="_blank">Website</a>
-
+ 		      <br><br>
+                        
+		      Ensemble version:<br>
+		      "We acknowledge the E-OBS dataset from the EU-FP6 project UERRA (http://www.uerra.eu) and the Copernicus Climate Change Service, and the data providers in the ECA&D project (http://www.ecad.eu)"<br>
+		      "Cornes, R.C., G. van der Schrier, E.J.M. van den Besselaar and P.D. Jones. 2018: An Ensemble Version of the E-OBS Temperature and Precipitation Datasets. Under review by J. Geophys. Res."
 		<h3>Terms of use</h3>
  
  The <a href="http://www.ecad.eu/documents/ECAD_datapolicy.pdf">ECA&amp;D/E-OBS data policy</a> applies. These observational data are strictly for use in non-commercial research and non-commercial education projects only. Scientific results based on these data must be submitted for publication in the open literature without any delay linked to commercial objectives. If you are unsure about the terms "commercial", "research", and "education", please contact the ECA&amp;D staff at <a href="mailto:&#101;&#099;&#097;&#064;&#107;&#110;&#109;&#105;&#046;&#110;&#108;">&#101;&#099;&#097;&#064;&#107;&#110;&#109;&#105;&#046;&#110;&#108;</a> for clarification. 
