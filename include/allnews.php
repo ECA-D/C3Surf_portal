@@ -65,12 +65,16 @@ session_start();
 		      <td width="60%" style="color:#FFFFFF;"><b>Item</b></td>
 		    </tr>
 		    <tr>
-		      <td>31 May 2018</td>
-	              <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBS v17.0e</a> and <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">monthly E-OBS files</a> have been released on 0.1 and 0.25 degree resolutions for the ensemble mean and ensemble spread</td>
-		    </tr>		  
+		      <td>26 June 2018</td>
+	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</td>
+		    </tr>    
 		    <tr>
 		      <td>25 June 2018</td>
 	              <td><a href="../stateoftheclimate/may2018.php">State-of-the-climate for May 2018</a> released</td>
+		    </tr>		  
+		    <tr>
+		      <td>31 May 2018</td>
+	              <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBS v17.0e</a> and <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">monthly E-OBS files</a> have been released on 0.1 and 0.25 degree resolutions for the ensemble mean and ensemble spread</td>
 		    </tr>		  
 		    <tr>
 		      <td>23 May 2018</td>

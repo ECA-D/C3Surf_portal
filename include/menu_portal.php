@@ -37,6 +37,15 @@ session_start();
 
 		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
 		      <div class="views-field views-field-field-date">
+			<div class="field-content"><span content="2018-04-23T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">26 June 2018</span>
+			</div>
+		      </div>  
+		      <div class="views-field views-field-title"><span class="field-content">Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</span>
+		      </div>
+		    </div>
+
+		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
+		      <div class="views-field views-field-field-date">
 			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">25 June 2018</span>
 			</div>
 		      </div>  
@@ -117,40 +126,6 @@ session_start();
 		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
 		      <div class="views-field views-field-field-date">
 			<div class="field-content"><span content="2018-02-19T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">19 March 2018</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content">Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> and <a href="http://www.ecad.eu/">ECA&amp;D</a> updates released</span>
-		      </div>
-		    </div>
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-02-26T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">26 February 2018</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/stateoftheclimate/january2018.php">State-of-the-climate for January 2018</a> released</span>
-		      </div>
-		    </div>
-
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-02-19T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">19 February 2018</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content">Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> and <a href="http://www.ecad.eu/">ECA&amp;D</a> updates released</span>
-		      </div>
-		    </div>
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-01-23T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">23 January 2018</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/stateoftheclimate/december2017.php">State-of-the-climate for December 2017</a> released</span>
-		      </div>
-		    </div>
-
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-01-17T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">17 January 2018</span>
 			</div>
 		      </div>  
 		      <div class="views-field views-field-title"><span class="field-content">Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> and <a href="http://www.ecad.eu/">ECA&amp;D</a> updates released</span>

@@ -62,7 +62,6 @@ session_start();
 		  
 		  
 		  <h3>Actual version and update policy</h3>
-		  <br>
 		  
 		  Met Norway will maintain and update the NGCD gridded dataset. 
 		  <br>
@@ -77,7 +76,7 @@ session_start();
 			<td width="35%"><span style="color:#FFFFFF;"><strong>Modification</strong></span></td>    
 		      </tr>
 		      <tr>
-			<td>18.03</td>
+			<td><a href="access_ngcd.php#datafiles">18.03</a></td>
 			<td>March 2018</td>
 			<td>0.1.0-beta</td>
 			<td>1971-01-01 - 2017-12-31</td>
@@ -85,13 +84,14 @@ session_start();
 		      </tr>
 		    </tbody>
 		  </table>
- 		  
-		<h3>NGCD datafiles 1971-01-01 - 2017-12-31</h3>
 
+			<h3><a id="datafiles" style="color: #000000">NGCD datafiles 1971-01-01 - 2017-12-31</a></h3>
 		The datafiles contain gridded data for 2 types of dataset, 4 elements each: air temperature (daily minimum, maximum and average); daily total precipitation. They cover Norway, Finland and Sweden. The data files are in compressed NetCDF format.
 		<br><br>
 
 		The dataset is available through the <a href="http://thredds.met.no/thredds/catalog/ngcd/release_18.03/catalog.html" target="_blank">MET Norway Thredds Service</a>.
+
+<br><br>
 
 		<h3>Citation and acknowledgement</h3>
 		
