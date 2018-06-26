@@ -77,7 +77,7 @@ session_start();
 			<td width="35%"><span style="color:#FFFFFF;"><strong>Modification</strong></span></td>    
 		      </tr>
 		      <tr>
-			<td><a href="access_ngcd.php#datafiles">18.03</a></td>
+			<td>18.03</td>
 			<td>March 2018</td>
 			<td>0.1.0-beta</td>
 			<td>1971-01-01 - 2017-12-31</td>
