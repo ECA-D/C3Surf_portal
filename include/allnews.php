@@ -65,6 +65,10 @@ session_start();
 		      <td width="60%" style="color:#FFFFFF;"><b>Item</b></td>
 		    </tr>
 		    <tr>
+		      <td>26 July 2018</td>
+	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</td>
+		    </tr>    
+		    <tr>
 		      <td>26 June 2018</td>
 	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</td>
 		    </tr>    
