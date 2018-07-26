@@ -66,6 +66,10 @@ session_start();
 		    </tr>
 		    <tr>
 		      <td>26 July 2018</td>
+	              <td><a href="../stateoftheclimate/june2018.php">State-of-the-climate for June 2018</a> released</td>
+		    </tr>		  
+		    <tr>
+		      <td>25 July 2018</td>
 	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</td>
 		    </tr>    
 		    <tr>
