@@ -68,8 +68,8 @@ Since the Sudden Stratospheric warming in February, we have seen a continuation 
 <br><br>
 <em>Figure 1: June 2018 pressure anomalies (source: RCC-CM)</em>
 <br><br>
-Due to the strong subsidence this has lead to strong warming in de mid-levels as well as the lowest levels of the atmosphere with record breaking temperatures in places (see temperature section).
-Over the extreme north of Europe and European Russia we see a negative anomaly which resulted in much lower temperatures.
+Due to the strong subsidence this has lead to strong warming in the mid-levels as well as the lowest levels of the atmosphere with record breaking temperatures in places (see temperature section).
+Over the extreme North of Europe and European Russia we see a negative anomaly which resulted in much lower temperatures.
 <br><br>
 The mentioned subsidence hinders the creation of clouds and rain. Therefore the precipitation deficit affects the growing of the plants. Since this drought occurred more or less throughout the growing season it will reduces the harvesting. The low water levels in the rivers and reservoirs induces a reduction in the shipping traffic along the rivers. The fish population in the rivers are also affected by higher water temperature, the reduced fresh water and oxygen content. The local thunderstorms with heavy rain, hail, floods and damages could not substantially reduce the drought.
 <br><br>
@@ -92,7 +92,7 @@ In most parts of Europe the number of cold days was lower than in the reference 
 <em>Figure 3: Number of days with temperature below the 10th percentile for TN (cold nights, left), TG (cold days, middle), and TX (cold day-times, right) in June 2018 (Based on E-OBS).</em>
 <br><br>
 <br><br>
-In central and eastern Europe the number of warm nights was large (Figure 4, left panel). In south Scandinavia and southeast Europe the number of warm day-times was large as well, leading to a large number of warm days in these regions. In eastern Europe an unsual high number of warm nights occurred.
+In central and eastern Europe the number of warm nights was large (Figure 4, left panel). In South Scandinavia and Southeast Europe the number of warm day-times was large as well, leading to a large number of warm days in these regions. In eastern Europe an unsual high number of warm nights occurred.
 <br><br>
 <a href="../images/jun2018/Stateofclimate_Indices_tn90p_2018_month_nc_baselayers_world_polygons_TN90p_baselayers_overlay_2018-06-16T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/jun2018/Stateofclimate_Indices_tn90p_2018_month_nc_baselayers_world_polygons_TN90p_baselayers_overlay_2018-06-16T00-00-00Z.png" ></a>
 <a href="../images/jun2018/Stateofclimate_Indices_tg90p_2018_month_nc_baselayers_world_polygons_TG90p_baselayers_overlay_2018-06-16T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/jun2018/Stateofclimate_Indices_tg90p_2018_month_nc_baselayers_world_polygons_TG90p_baselayers_overlay_2018-06-16T00-00-00Z.png" ></a>
@@ -146,7 +146,7 @@ The right panel of Figure 9 shows the daily temperature, averaged over Europe, f
 <br><br>
 <h3>Precipitation</h3>
 <br><br>
-Many European countries were drier than normal in June 2018, but occasionally thunderstorms brought some locally heavy rain. Western France, north-western Iberia, south-eastern Europe, an area from Romania to northern Russia and northern Scandinavia received above normal precipitation. Thunderstorms occurred in many parts of Europe and were often accompanied by heavy hail and heavy rain (see Figure 10: RX1day and RX5day). High values in the five day totals are a hint of flooding for example in the capitol of France, Paris, and other places in France as well as on the Balkans or Romania and Bulgaria.
+Many European countries were drier than normal in June 2018, but occasionally thunderstorms brought some locally heavy rain. Western France, north-western Iberia, south-eastern Europe, an area from Romania to northern Russia and northern Scandinavia received above normal precipitation. Thunderstorms occurred in many parts of Europe and were often accompanied by heavy hail and heavy rain (see Figure 10: RX1day and RX5day). High values in the five day totals are a hint of flooding for example in the capital of France, Paris, and other places in France as well as on the Balkans or Romania and Bulgaria.
 <br><br>
 As indicated in Figure 11, the north-western part of Europe, from Ireland to the Baltic States and from Switzerland to southern Scandinavia suffered from a drought. The precipitation deficit last since some months and occurred more or less throughout the growing season and leads to a reduced harvesting (especially in those areas with "Much below" or "Exceptionally below" precipitation). This drought also enhances the risk of wild fires.
 <br><br>
