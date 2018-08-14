@@ -34,8 +34,18 @@ session_start();
 		    <h2 class="line-bottom-left text-uppercase h3 w300">News<span class="line-bottom-center"></span></h2>
 		  </div>
 	  	  <div class="view-content">
+		  <!-- Start news items -->
 
 		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
+		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
+		      <div class="views-field views-field-field-date">
+			<div class="field-content"><span content="2018-04-23T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">14 August 2018</span>
+			</div>
+		      </div>  
+		      <div class="views-field views-field-title"><span class="field-content">Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</span>
+		      </div>
+		    </div>
+
 		      <div class="views-field views-field-field-date">
 			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">26 July 2018</span>
 			</div>
@@ -97,60 +107,6 @@ session_start();
 		      <div class="views-field views-field-title"><span class="field-content">Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</span>
 		      </div>
 		    </div>
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">24 April 2018</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/stateoftheclimate/march2018.php">State-of-the-climate for March 2018</a> released</span>
-		      </div>
-		    </div>
-
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-04-23T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">23 April 2018</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content">Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> and <a href="http://www.ecad.eu/">ECA&amp;D</a> updates released</span>
-		      </div>
-		    </div>
-
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-02-26T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">3 April 2018</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/stateoftheclimate/year2017.php">Annual State-of-the-climate for 2017</a> released</span>
-		      </div>
-		    </div>
-
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-02-26T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">26 March 2018</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content">First release of <a href="<?php echo $webhost;?>/dataaccess/access_ngcd.php">NGCD 18.03</a></span>
-		      </div>
-		    </div>
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-02-26T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">26 March 2018</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/stateoftheclimate/february2018.php">State-of-the-climate for February 2018</a> released</span>
-		      </div>
-		    </div>
-
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-02-19T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">19 March 2018</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content">Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> and <a href="http://www.ecad.eu/">ECA&amp;D</a> updates released</span>
-		      </div>
-		    </div>
-
-
 
 		  </div>
 		  <div class="view-footer">
