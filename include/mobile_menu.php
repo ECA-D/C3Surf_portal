@@ -69,7 +69,9 @@ session_start();
       <ul class="mmenu-mm-list-level-2">
          <li class="mmenu-mm-list-mlid-2068 mmenu-mm-list-path-news"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Monthly reports</span></a>
 	  <ul class="mmenu-mm-list-level-3">
-            <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/june2018.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">June 2018</span></a>
+            <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/july2018.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">July 2018</span></a>
+            </li>
+             <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/june2018.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">June 2018</span></a>
             </li>
             <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/may2018.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">May 2018</span></a>
             </li>
@@ -80,14 +82,6 @@ session_start();
             <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/february2018.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">February 2018</span></a>
             </li>
             <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/january2018.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">January 2018</span></a>
-           </li>
-           <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/december2017.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">December 2017</span></a>
-           </li>
-           <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/november2017.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">November 2017</span></a>
-           </li>
-           <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/october2017.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">October 2017</span></a>
-           </li>
-           <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-714"><a href="<?php echo $webhost;?>/stateoftheclimate/september2017.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">September 2017</span></a>
            </li>
            <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-715"><a href="<?php echo $webhost;?>/stateoftheclimate/all_monthly_reports.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">All reports</span></a>
            </li>

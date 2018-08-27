@@ -60,7 +60,7 @@ session_start();
 		  
 		  <h3> Terms of use</h3>
 		      
-		      The <a href="http://www.ecad.eu/documents/ECAD_datapolicy.pdf">ECA&#38;D data policy</a> applies. These observational data are strictly for use in non-commercial research and non-commercial education projects only. Scientific results based on these data must be submitted for publication in the open literature without any delay linked to commercial objectives. If you are unsure about the terms "commercial", "research", and "education", please contact the ECA&amp;D staff at <a href="mailto:&#101;&#099;&#097;&#064;&#107;&#110;&#109;&#105;&#046;&#110;&#108;">&#101;&#099;&#097;&#064;&#107;&#110;&#109;&#105;&#046;&#110;&#108;</a> for clarification.
+		      The <a href="https://www.ecad.eu/documents/ECAD_datapolicy.pdf">ECA&#38;D data policy</a> applies. These observational data are strictly for use in non-commercial research and non-commercial education projects only. Scientific results based on these data must be submitted for publication in the open literature without any delay linked to commercial objectives. If you are unsure about the terms "commercial", "research", and "education", please contact the ECA&amp;D staff at <a href="mailto:&#101;&#099;&#097;&#064;&#107;&#110;&#109;&#105;&#046;&#110;&#108;">&#101;&#099;&#097;&#064;&#107;&#110;&#109;&#105;&#046;&#110;&#108;</a> for clarification.
 		      
 		      <br><br>
 
@@ -68,24 +68,24 @@ session_start();
 		      
 		      henever you publish research or applications based on these gridded data products, you should include the following acknowledgement and citations.<br><br>
 		      E-OBS temperature and precipitation:<br>
-		      "We acknowledge the E-OBS dataset from the EU-FP6 project ENSEMBLES (http://ensembles-eu.metoffice.com) and the data providers in the ECA&amp;D project (http://www.ecad.eu)"<br>
+		      "We acknowledge the E-OBS dataset from the EU-FP6 project ENSEMBLES (http://ensembles-eu.metoffice.com) and the data providers in the ECA&amp;D project (https://www.ecad.eu)"<br>
 		      "Haylock, M.R., N. Hofstra, A.M.G. Klein Tank, E.J. Klok, P.D. Jones, M. New. 2008: A European daily high-resolution gridded dataset of surface temperature and precipitation. J. Geophys. Res (Atmospheres), <b>113</b>, D20119, doi:10.1029/2008JD10201" <img src="../images/pdf.gif" width="15" height="15" alt="" border="0"> <a href="Haylock_et_al_2008.pdf" target="_blank">Download as PDF</a>
 		      <br><br>
 		      
 		      E-OBS sea level pressure:<br>
-		      "We acknowledge the E-OBS dataset from the EU-FP6 project ENSEMBLES (http://ensembles-eu.metoffice.com) and the data providers in the ECA&D project (http://www.ecad.eu)"<br>
+		      "We acknowledge the E-OBS dataset from the EU-FP6 project ENSEMBLES (http://ensembles-eu.metoffice.com) and the data providers in the ECA&amp;D project (https://www.ecad.eu)"<br>
 		      "van den Besselaar, E.J.M., M.R. Haylock, G. van der Schrier and A.M.G. Klein Tank. 2011: A European Daily High-resolution Observational Gridded Data set of Sea Level Pressure. J. Geophys. Res., <b>116</b>, D11110, doi:10.1029/2010JD015468" <img src="../images/html.gif" width="15" height="15" alt="" border="0"><a href="http://www.agu.org/pubs/crossref/2011/2010JD015468.shtml" target="_blank">Website</a>
 		      <br><br>
 		      
 		      Ensemble version:<br>
-		      "We acknowledge the E-OBS dataset from the EU-FP6 project UERRA (http://www.uerra.eu) and the data providers in the ECA&D project (http://www.ecad.eu)"<br>
-		      "Cornes, R.C., G. van der Schrier, E.J.M. van den Besselaar and P.D. Jones. 2017: An Ensemble Version of the E-OBS Temperature and Precipitation Datasets.To be submitted"
+		      "We acknowledge the E-OBS dataset from the EU-FP6 project UERRA (http://www.uerra.eu) and the data providers in the ECA&amp;D project (https://www.ecad.eu)"<br>
+		      "Cornes, R., G. van der Schrier, E.J.M. van den Besselaar, and P.D. Jones. 2018: An Ensemble Version of the E-OBS Temperature and Precipitation Datasets, J. Geophys. Res. Atmos., <b>123</b>. doi:10.1029/2017JD028200"<img src="../images/html.gif" width="15" height="15" alt="" border="0"><a href="https://doi.org/10.1029/2017JD028200" target="_blank">Website</a>"
 		      
 		      <h3>Register as a user</h3>
                       
 		      In the next page, we will ask you to register yourself as a user of the E-OBS dataset. This will also add your email to a mailing list that will only be used to keep users updated of new versions in the future. You can remove yourself from this list at any time. After you have confirmed your registration, you will be send the link where you can find the dataset.<br><br>
 		      
- 	              <form method="post" action="http://www.ecad.eu/lists/?p=subscribe&id=1" name="subscribeform">
+ 	              <form method="post" action="https://www.ecad.eu/lists/?p=subscribe&id=1" name="subscribeform">
 			<?php 
 			  echo '<input type="submit" name="register" id="register" value="I accept and will register" >';
 			  ?>

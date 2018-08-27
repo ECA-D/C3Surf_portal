@@ -37,6 +37,14 @@ session_start();
 		  <!-- Start news items -->
 
 		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
+		      <div class="views-field views-field-field-date">
+			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">27 August 2018</span>
+			</div>
+		      </div>  
+		      <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/stateoftheclimate/july2018.php">State-of-the-climate for July 2018</a> released</span>
+		      </div>
+		    </div>
+
 		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
 		      <div class="views-field views-field-field-date">
 			<div class="field-content"><span content="2018-04-23T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">14 August 2018</span>
@@ -46,6 +54,7 @@ session_start();
 		      </div>
 		    </div>
 
+		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
 		      <div class="views-field views-field-field-date">
 			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">26 July 2018</span>
 			</div>
