@@ -79,7 +79,12 @@ session_start();
 		  
 		  <h3>Terms of use</h3>
 
-		  <b><font color="green">ADD DATA POLICY DETAILS</font></b>
+		  <b><font color="green">ADD DATA POLICY
+		  DETAILS</font></b>The data is freely available for
+		  download. Scientific results based on these data
+		  must be submitted for publication in the open
+		  literature without any delay linked to commercial
+		  objectives.
 		  <br><br>
 		  
 		  <h3>Temperature indices</h3>
@@ -100,8 +105,8 @@ session_start();
 		      <td width="33%"><a href="../data/indices/carpatclim/tx10pETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/tn10pETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/tx10pETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/tn10pETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/tx10pETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%"><a href="../data/indices/carpatclim/tn10pETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
@@ -129,8 +134,8 @@ session_start();
 		      <td width="33%"><a href="../data/indices/carpatclim/tx90pETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/tn90pETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/tx90pETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/tn90pETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/tx90pETCCDI_mon_0.1deg_regular_196101-2010121.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%"><a href="../data/indices/carpatclim/tn90pETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
@@ -186,8 +191,8 @@ session_start();
 		      <td width="33%"><a href="../data/indices/carpatclim/txnETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/txxETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/txnETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/txxETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/txnETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%"><a href="../data/indices/carpatclim/txxETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
@@ -214,8 +219,8 @@ session_start();
 		      <td width="33%"><a href="../data/indices/carpatclim/tnnETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/tnxETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/tnnETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/tnxETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/tnnETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%"><a href="../data/indices/carpatclim/tnxETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
@@ -242,8 +247,8 @@ session_start();
 		      <td width="33%"><a href="../data/indices/carpatclim/idETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/fdETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/idETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/fdETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/idETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%"><a href="../data/indices/carpatclim/fdETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
@@ -270,8 +275,8 @@ session_start();
 		      <td width="33%"><a href="../data/indices/carpatclim/trETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/suETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/trETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/suETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/trETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%"><a href="../data/indices/carpatclim/suETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
@@ -298,8 +303,8 @@ session_start();
 		      <td width="33%"><a href="../data/indices/carpatclim/csuETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/cfdETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/csuETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/cfdETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/csuETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%"><a href="../data/indices/carpatclim/cfdETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
@@ -325,8 +330,8 @@ session_start();
 		      <td width="33%"><a href="../data/indices/carpatclim/hd17ETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/dtrETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/hd17ETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/dtrETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/hd17ETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%"><a href="../data/indices/carpatclim/dtrETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
@@ -369,8 +374,8 @@ session_start();
 		      <td width="33%"><a href="../data/indices/carpatclim/rx5dayETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/rx1dayETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/rx5dayETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/rx1dayETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/rx5dayETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%"><a href="../data/indices/carpatclim/rx1dayETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>   
@@ -397,8 +402,8 @@ session_start();
 		      <td width="33%"><a href="../data/indices/carpatclim/r1mmETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/sdiiETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/r1mmETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/sdiiETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/r1mmETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%"><a href="../data/indices/carpatclim/sdiiETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
@@ -425,8 +430,8 @@ session_start();
 		      <td width="33%"><a href="../data/indices/carpatclim/r20mmETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/r10mmETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/r20mmETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/r10mmETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/r20mmETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%"><a href="../data/indices/carpatclim/r10mmETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
@@ -481,8 +486,8 @@ session_start();
 		      <td width="33%"><a href="../data/indices/carpatclim/r75pfracETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/r75ptotETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/r75pfracETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/r75ptotETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/r75pfracETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%"><a href="../data/indices/carpatclim/r75ptotETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
@@ -509,8 +514,8 @@ session_start();
 		      <td width="33%"><a href="../data/indices/carpatclim/r95pfracETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/r95ptotETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/r95pfracETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/r95ptotETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/r95pfracETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%"><a href="../data/indices/carpatclim/r95ptotETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
@@ -537,8 +542,8 @@ session_start();
 		      <td width="33%"><a href="../data/indices/carpatclim/r99pfracETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/r99ptotETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/r99pfracETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/r99ptotETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/r99pfracETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%"><a href="../data/indices/carpatclim/r99ptotETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
@@ -562,7 +567,7 @@ session_start();
 		      <td width="33%"><a href="../data/indices/carpatclim/prcptotETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/prcptotETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/prcptotETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%"><a href="../data/indices/carpatclim/prcptotETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
@@ -579,8 +584,8 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>6-month Standardized Precipitation Index (SPI6)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/spi3ETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/spi6ETCCDI_mon_0.1deg_regular_1961-2010.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/spi3ETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/spi6ETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
 		    </tr>
 		    </tbody>
 		  </table>
