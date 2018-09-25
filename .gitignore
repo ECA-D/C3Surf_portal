@@ -1,3 +1,4 @@
 *~
 ./include/settings.php
 *.nc
+*.nc.gz
