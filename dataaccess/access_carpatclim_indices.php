@@ -60,27 +60,27 @@ session_start();
 
 
 		  <span style="color:#FF0000;"></span><br> This is the
-		  download page for the indices derived from the
-		  CarpatClim dataset.  The datafiles below provide
-		  several climate indices (ETCCDI indices marked with
-		  *) derived using daily minimum temperature (TN),
-		  daily maximum temperature (TX) and daily
-		  precipitation sum (RR). They cover the Carpathian
-		  region with 0.1 deg regular grid and the period
-		  1961-2010. The data files are in NetCDF format,
-		  separated in four sets per index: annual,
+		  download page for the indices derived from the <a
+		  href="access_carpatclim.php">CarpatClim dataset</a>.
+		  The datafiles below provide several climate indices
+		  (ETCCDI indices marked with *) derived using daily
+		  minimum temperature (TN), daily maximum temperature
+		  (TX) and daily precipitation sum (RR). They cover
+		  the Carpathian region with 0.1 deg regular grid and
+		  the period 1961-2010. The data files are in NetCDF
+		  format, separated in four sets per index: annual,
 		  half-yearly, monthly and seasonal. Seasonal indices
 		  are calculated from the monthly indices, where for
 		  December-January-February (DJF) the December of the
 		  previous year is used:
-		  Dec(1961)-Jan(1962)-Feb(1962).
-		  <br><br> More details on the calculation of the
-		  indices can be found <a href="../userguidance/indicesdictionary.php">here</a>.
+		  Dec(1961)-Jan(1962)-Feb(1962).  <br><br> More
+		  details on the calculation of the indices can be
+		  found <a
+		  href="../userguidance/indicesdictionary.php">here</a>.
 		  
 		  <h3>Terms of use</h3>
 
-		  <b><font color="green">ADD DATA POLICY
-		  DETAILS</font></b>The data is freely available for
+		  The data is freely available for
 		  download. Scientific results based on these data
 		  must be submitted for publication in the open
 		  literature without any delay linked to commercial
@@ -590,11 +590,6 @@ session_start();
 		    </tbody>
 		  </table>
       
-        
-		  <h3>Citation and acknowledgement</h3>
-
-		  <b><font color="green">WHAT SHOULD WE PUT HERE?</font></b>
-		  <br><br>
 		  
 		</div>	  
 	      </div>

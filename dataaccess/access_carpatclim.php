@@ -68,8 +68,8 @@ session_start();
 		  href="http://www.carpatclim-eu.org"
 		  target="_blank">webpage of the CarpatClim
 		  project</a>.
-<!--For questions regarding CarpatClim, please contact us at 
-<a href="mailto:&#101;&#099;&#097;&#064;&#107;&#110;&#109;&#105;&#046;&#110;&#108;?subject=Questions E-OBS">&#101;&#099;&#097;&#064;&#107;&#110;&#109;&#105;&#046;&#110;&#108;</a>-->
+For questions regarding CarpatClim, please contact us at 
+<a href="mailto:&#99;&#97;&#114;&#112;&#97;&#116;&#99&#108;&#105;&#109;&#64;&#109;&#101;&#116;&#46;&#104;&#117;?subject=Questions CarpatClim">&#99;&#97;&#114;&#112;&#97;&#116;&#99&#108;&#105;&#109;&#64;&#109;&#101;&#116;&#46;&#104;&#117;</a>
 		  		  
 		  <h3>Actual version and update policy</h3> 
 		  CarpatClim is an existing and static dataset, developed outside
