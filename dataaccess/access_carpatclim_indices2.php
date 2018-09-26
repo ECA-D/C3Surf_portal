@@ -19,7 +19,7 @@ session_start();
     
     <script src="https://www.w3schools.com/lib/w3.js"></script>
  
-<?php include('../include/collapsible.php'); ?>
+
   <?php include('../include/styles.php'); ?>
   
   </head>
@@ -87,81 +87,7 @@ session_start();
 		  objectives.
 		  <br><br>
 		  
-		  <h3>Indices files</h3>
-		  Click on an item to view the download links for those indices.
-		  <br><br>
-		  
-		  <button class="accordion">Cold indices</button>
-		  <div class="panel">
-		  <!--FD & ID-->
-		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
-		    <tbody>
-		    <tr bgcolor="#941333" height="40px">
-		      <td><span style="color:#FFFFFF;"><strong>No. of frost days (FD)*</strong></span></td>  
-		      <td><span style="color:#FFFFFF;"><strong>Maximum no of consecutive frost days (CFD)</strong></span></td>
-		    </tr>
-		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/fdETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/cfdETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
-		    </tr>
-		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/fdETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/cfdETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
-		    </tr>
-		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/fdETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/cfdETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
-		    </tr>
-		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/fdETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
-		      </td>
-		      <td width="33%"><a href="../data/indices/carpatclim/cfdETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
-		      </td>
-		    </tr>
-		    </tbody>
-		  </table>
-
-		  <!--DTR & HD17-->
-		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
-		    <tbody>
-		    <tr bgcolor="#941333" height="40px">
-		      <td><span style="color:#FFFFFF;"><strong>Ice Days (ID)*</strong></span></td>
-		      <td><span style="color:#FFFFFF;"><strong>Heating degree days (HD17*)</strong></span></td>
-		    </tr>
-		    <tr>       
-		      <td width="33%"><a href="../data/indices/carpatclim/idETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/hd17ETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
-		    </tr>
-		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/idETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/hd17ETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
-		    </tr>
-		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/idETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/hd17ETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
-		    </tr>
-		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/idETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
-		      <td width="33%"><a href="../data/indices/carpatclim/hd17ETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
-		      </td>
-		    </tr>
-		    </tbody>
-		  </table>
-
-		  <!--CSDI  & altCSDI-->
-		  <table  border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
-		    <tbody>
-		    <tr bgcolor="#941333" height="40px">
-		      <td><span style="color:#FFFFFF;"><strong>Cold Spell Duration Index (WSDI)*</strong></span></td> 
-		      <td><span style="color:#FFFFFF;"><strong>Alternative Cold Spell Duration Index (altCSDI)</strong></span></td>
-		    </tr>
-		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/csdiETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/altcsdiETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
-		    </tr>
-		    </tbody>
-		  </table>
-
+		  <h3>Temperature indices</h3>
 
 		  <!--TN10p & TX10p-->
 		  <table  border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
@@ -190,108 +116,8 @@ session_start();
 		    </tr>
 		    </tbody>
 		  </table>
+	
 
-		  <!--TNn & TXn -->
-		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
-		    <tbody>
-		    <tr bgcolor="#941333" height="40px">
-		      <td><span style="color:#FFFFFF;"><strong>Minimum of daily minimum temperature (TNn)*</strong></span></td>    
-		      <td><span style="color:#FFFFFF;"><strong>Minimum of daily maximum temperature (TXn)*</strong></span></td>
-		    </tr>
-		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/tnnETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/txnETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
-		    </tr>
-		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/tnnETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/txnETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
-		    </tr>
-		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/tnnETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/txnETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
-		    </tr>
-		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/tnnETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
-		      </td>
-		      <td width="33%"><a href="../data/indices/carpatclim/txnETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
-		      </td>
-		    </tr>
-		    </tbody>
-		  </table>
-		  
-  		  <!--GSL & HI-->
-		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
-		    <tbody>
-		    <tr bgcolor="#941333" height="40px">
-		      <td><span style="color:#FFFFFF;"><strong>Growing season length (GSL)*</strong></span></td>
-		    </tr>
-		    <tr>       
-		      <td width="33%"><a href="../data/indices/carpatclim/gslETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
-		    </tr>
-		    </tbody>
-		  </table>
-    
-		  </div>
-
-		  
-		  <button class="accordion">Heat indices</button>
-		  <div class="panel">
-		  <!--SU & TR -->
-		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
-		    <tbody>
-		    <tr bgcolor="#941333" height="40px">
-		      <td><span style="color:#FFFFFF;"><strong>No. of summer days (SU)*</strong></span></td>  
-		      <td><span style="color:#FFFFFF;"><strong>No. of tropical nights (TR)*</strong></span></td>
-		    </tr>
-		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/suETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/trETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
-		    </tr>
-		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/suETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/trETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
-		    </tr>
-		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/suETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/trETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
-		    </tr>
-		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/suETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
-		      </td>
-		      <td width="33%"><a href="../data/indices/carpatclim/trETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
-		      </td>
-		    </tr>
-		    </tbody>
-		  </table>
-
-		  <!--TXx & TNx -->
-		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
-		    <tbody>
-		    <tr bgcolor="#941333" height="40px">
-		      <td><span style="color:#FFFFFF;"><strong>Maximum of daily maximum temperature (TXx)*</strong></span></td>    
-		      <td><span style="color:#FFFFFF;"><strong>Maximum of daily minimum temperature (TNx)*</strong></span></td>
-		    </tr>
-		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/txxETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/tnxETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
-		    </tr>
-		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/txxETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/tnxETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
-		    </tr>
-		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/txxETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/tnxETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
-		    </tr>
-		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/txxETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
-		      </td>
-		      <td width="33%"><a href="../data/indices/carpatclim/tnxETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
-		      </td>
-		    </tr>
-		    </tbody>
-		  </table>
-  
 		  <!--TN90p & TX90p-->
 		  <table  border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
 		    <tbody>
@@ -320,6 +146,7 @@ session_start();
 		    </tbody>
 		  </table>
 		  
+
 		  <!--WSDI  & altWSDI-->
 		  <table  border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
 		    <tbody>
@@ -334,96 +161,204 @@ session_start();
 		    </tbody>
 		  </table>
 		  
-		  <!-- CSU -->
+		  <!--CSDI  & altCSDI-->
+		  <table  border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
+		    <tbody>
+		    <tr bgcolor="#941333" height="40px">
+		      <td><span style="color:#FFFFFF;"><strong>Cold Spell Duration Index (WSDI)*</strong></span></td> 
+		      <td><span style="color:#FFFFFF;"><strong>Alternative Cold Spell Duration Index (altCSDI)</strong></span></td>
+		    </tr>
+		    <tr>
+		      <td width="33%"><a href="../data/indices/carpatclim/csdiETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/altcsdiETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
+		    </tr>
+		    </tbody>
+		  </table>
+
+		  <!--TXx & TXn -->
 		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
 		    <tbody>
 		    <tr bgcolor="#941333" height="40px">
+		      <td><span style="color:#FFFFFF;"><strong>Maximum of daily maximum temperature (TXx)*</strong></span></td>    
+		      <td><span style="color:#FFFFFF;"><strong>Minimum of daily maximum temperature (TXn)*</strong></span></td>
+		    </tr>
+		    <tr>
+		      <td width="33%"><a href="../data/indices/carpatclim/txxETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/txnETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
+		    </tr>
+		    <tr>
+		      <td width="33%"><a href="../data/indices/carpatclim/txxETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/txnETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
+		    </tr>
+		    <tr>
+		      <td width="33%"><a href="../data/indices/carpatclim/txxETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/txnETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
+		    </tr>
+		    <tr>
+		      <td width="33%"><a href="../data/indices/carpatclim/txxETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
+		      </td>
+		      <td width="33%"><a href="../data/indices/carpatclim/txnETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
+		      </td>
+		    </tr>
+		    </tbody>
+		  </table>
+      
+		  <!--TNx & TNn-->
+		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
+		    <tbody>
+		    <tr bgcolor="#941333" height="40px">
+		      <td><span style="color:#FFFFFF;"><strong>Maximum of daily minimum temperature (TNx)*</strong></span></td> 
+		      <td><span style="color:#FFFFFF;"><strong>Minimum of daily minimum temperature (TNn)*</strong></span></td>
+		    </tr>
+		    <tr>
+		      <td width="33%"><a href="../data/indices/carpatclim/tnxETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/tnnETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
+		    </tr>
+		    <tr>
+		      <td width="33%"><a href="../data/indices/carpatclim/tnxETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/tnnETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
+		    </tr>
+		    <tr>
+		      <td width="33%"><a href="../data/indices/carpatclim/tnxETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/tnnETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
+		    </tr>
+		    <tr>
+		      <td width="33%"><a href="../data/indices/carpatclim/tnxETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
+		      </td>
+		      <td width="33%"><a href="../data/indices/carpatclim/tnnETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
+		      </td>
+		    </tr>
+		    </tbody>
+		  </table>
+		  
+		  <!--FD & ID-->
+		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
+		    <tbody>
+		    <tr bgcolor="#941333" height="40px">
+		      <td><span style="color:#FFFFFF;"><strong>No. of frost days (FD)*</strong></span></td>  
+		      <td><span style="color:#FFFFFF;"><strong>No. of ice days (ID)*</strong></span></td>
+		    </tr>
+		    <tr>
+		      <td width="33%"><a href="../data/indices/carpatclim/fdETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/idETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
+		    </tr>
+		    <tr>
+		      <td width="33%"><a href="../data/indices/carpatclim/fdETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/idETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
+		    </tr>
+		    <tr>
+		      <td width="33%"><a href="../data/indices/carpatclim/fdETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/idETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
+		    </tr>
+		    <tr>
+		      <td width="33%"><a href="../data/indices/carpatclim/fdETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
+		      </td>
+		      <td width="33%"><a href="../data/indices/carpatclim/idETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
+		      </td>
+		    </tr>
+		    </tbody>
+		  </table>
+      
+		  <!--SU & TR -->
+		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
+		    <tbody>
+		    <tr bgcolor="#941333" height="40px">
+		      <td><span style="color:#FFFFFF;"><strong>No. of summer days (SU)*</strong></span></td>  
+		      <td><span style="color:#FFFFFF;"><strong>No. of tropical nights (TR)*</strong></span></td>
+		    </tr>
+		    <tr>
+		      <td width="33%"><a href="../data/indices/carpatclim/suETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/trETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
+		    </tr>
+		    <tr>
+		      <td width="33%"><a href="../data/indices/carpatclim/suETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/trETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
+		    </tr>
+		    <tr>
+		      <td width="33%"><a href="../data/indices/carpatclim/suETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/trETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
+		    </tr>
+		    <tr>
+		      <td width="33%"><a href="../data/indices/carpatclim/suETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
+		      </td>
+		      <td width="33%"><a href="../data/indices/carpatclim/trETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
+		      </td>
+		    </tr>
+		    </tbody>
+		  </table>
+		  
+		  <!--CFD & CSU -->
+		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
+		    <tbody>
+		    <tr bgcolor="#941333" height="40px">
+		      <td><span style="color:#FFFFFF;"><strong>Consecutive frost days (CFD)</strong></span></td>  
 		      <td><span style="color:#FFFFFF;"><strong>Consecutive summer days (CSU)</strong></span></td>
 		    </tr>
 		    <tr>
+		      <td width="33%"><a href="../data/indices/carpatclim/cfdETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
 		      <td width="33%"><a href="../data/indices/carpatclim/csuETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
 		    </tr>
 		    <tr>
+		      <td width="33%"><a href="../data/indices/carpatclim/cfdETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
 		      <td width="33%"><a href="../data/indices/carpatclim/csuETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
+		      <td width="33%"><a href="../data/indices/carpatclim/cfdETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
 		      <td width="33%"><a href="../data/indices/carpatclim/csuETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
+		      <td width="33%"><a href="../data/indices/carpatclim/cfdETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
+		      </td>
 		      <td width="33%"><a href="../data/indices/carpatclim/csuETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		  </table>
-		  </div>
-
-
-		  <button class="accordion">Multi-element indices</button>
-		  <div class="panel">
-		    <!--DTR & HI-->
+		  
+		  <!--DTR & HD17-->
 		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
 		    <tbody>
 		    <tr bgcolor="#941333" height="40px">
 		      <td><span style="color:#FFFFFF;"><strong>Mean of diurnal temperature range (DTR)*</strong></span></td>
-		      <td><span style="color:#FFFFFF;"><strong>Huglin Index (HI)</strong></span></td>
+		      <td><span style="color:#FFFFFF;"><strong>Heating degree days (HD17)</strong></span></td>
 		    </tr>
 		    <tr>       
 		      <td width="33%"><a href="../data/indices/carpatclim/dtrETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/hi17ETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/hd17ETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%"><a href="../data/indices/carpatclim/dtrETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
-		      <td width="33%"></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/hd17ETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%"><a href="../data/indices/carpatclim/dtrETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
-		      <td width="33%"></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/hd17ETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%"><a href="../data/indices/carpatclim/dtrETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
-		      <td width="33%">  
+		      <td width="33%"><a href="../data/indices/carpatclim/hd17ETCCDI_seas_0.1deg_regular_1961-2010.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		    </tbody>
 		  </table>
-		  </div>
 
-
-		  <button class="accordion">Drought indices</button>
-		  <div class="panel">
-		  <!--CDD  & altCDD-->
+		  <!--GSL & HI-->
 		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
 		    <tbody>
 		    <tr bgcolor="#941333" height="40px">
-		      <td><span style="color:#FFFFFF;"><strong>Maximum no. of consecutive dry days (CDD)*</strong></span></td>
-		      <td><span style="color:#FFFFFF;"><strong>Alternative Maximum no. of consecutive dry days (altCDD)</strong></span></td>
+		      <td><span style="color:#FFFFFF;"><strong>Growing season length (GSL)*</strong></span></td>
+		      <td><span style="color:#FFFFFF;"><strong>Huglin Index (HI)</strong></span></td>
 		    </tr>
-		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/cddETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/altcddETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
+		    <tr>       
+		      <td width="33%"><a href="../data/indices/carpatclim/gslETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/hiETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
 		    </tr>
 		    </tbody>
 		  </table>
 
-		  <!--SPI3 & SPI6  -->
-		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
-		    <tbody>
-		    <tr bgcolor="#941333" height="40px">
-		      <td><span style="color:#FFFFFF;"><strong>3-month Standardized Precipitation Index (SPI3)</strong></span></td>
-		      <td><span style="color:#FFFFFF;"><strong>6-month Standardized Precipitation Index (SPI6)</strong></span></td>
-		    </tr>
-		    <tr>
-		      <td width="33%"><a href="../data/indices/carpatclim/spi3ETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/spi6ETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
-		    </tr>
-		    </tbody>
-		  </table>
-		  </div>
 
+		  <h3>Precipitation indices</h3>
 
-		  <button class="accordion">Rain indices</button>
-		  <div class="panel">
-		    
-		    <!--rx1day & rx5day -->
+		  <!--rx1day & rx5day -->
 		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
 		    <tbody>
 		    <tr bgcolor="#941333" height="40px">
@@ -521,6 +456,19 @@ session_start();
 		    </tbody>
 		  </table>
 		  
+		  <!--CDD  & altCDD-->
+		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
+		    <tbody>
+		    <tr bgcolor="#941333" height="40px">
+		      <td><span style="color:#FFFFFF;"><strong>Maximum no. of consecutive dry days (CDD)*</strong></span></td>
+		      <td><span style="color:#FFFFFF;"><strong>Alternative Maximum no. of consecutive dry days (altCDD)</strong></span></td>
+		    </tr>
+		    <tr>
+		      <td width="33%"><a href="../data/indices/carpatclim/cddETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/altcddETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
+		    </tr>
+		    </tbody>
+		  </table>
 
 		  <!--R75pTOT & R75pFRAC  -->
 		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
@@ -627,7 +575,20 @@ session_start();
 		    </tr>
 		    </tbody>
 		  </table>
-		  </div>
+
+		  <!--SPI3 & SPI6  -->
+		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
+		    <tbody>
+		    <tr bgcolor="#941333" height="40px">
+		      <td><span style="color:#FFFFFF;"><strong>3-month Standardized Precipitation Index (SPI3)</strong></span></td>
+		      <td><span style="color:#FFFFFF;"><strong>6-month Standardized Precipitation Index (SPI6)</strong></span></td>
+		    </tr>
+		    <tr>
+		      <td width="33%"><a href="../data/indices/carpatclim/spi3ETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/spi6ETCCDI_mon_0.1deg_regular_196101-201012.nc">Monthly</a></td>
+		    </tr>
+		    </tbody>
+		  </table>
       
 		  
 		</div>	  
@@ -642,7 +603,6 @@ session_start();
     </div>
     <?php include('../include/footer.php'); ?>
     <?php include('../include/mobile_menu.php'); ?>
-      <script src="../include/collapsible_bottompage.js"></script>
-  
+    
   </body>
 </html>

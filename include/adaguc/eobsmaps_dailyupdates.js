@@ -6,8 +6,8 @@ var defaultProjection = {srs:'EPSG:40000',bbox:'-1650000,-7000000,3500000,-17000
 var scaleBarURL       = "http://www.ecad.eu/utils/adagucviewer/webmapjs/php/makeScaleBar.php?";
 
 var c3surfWMS = {
-//    service:"http://www.ecad.eu/download/ensembles/cgi-bin/ecad-ensembles-grid.cgi?",
-    service:'http://www.ecad.eu/download/ensembles/cgi-bin/dailyeobs.cgi?',
+    service:"http://www.ecad.eu/download/ensembles/cgi-bin/ecad-ensembles-grid.cgi?",
+//    service:'http://birdexp08.knmi.nl:8080//adaguc-services//adagucserver?dataset=eobs-daily&&service=WMS&request=GetCapabilities',
     name:"tg",
 };
 
