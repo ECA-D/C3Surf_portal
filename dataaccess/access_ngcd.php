@@ -87,7 +87,15 @@ session_start();
 			<td>September 2018</td>
 			<td>0.1.0-beta</td>
 			<td>1971-01-01 - 2018-06-30</td>
-			<td>Additional time period</td>
+			<td>Small differences in the temperature
+			input. Large increase in number of
+			precipitation series within the NGCD domain
+			throughout the period. The main
+			reason for the increase is the addition of a
+			large number of stations in northern Germany
+			that falls within the analysis window, but has
+			a minor effect of the gridded fields over
+			Fennoscandia.</td>
 		      </tr>
 		    </tbody>
 		  </table>
