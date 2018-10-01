@@ -58,34 +58,26 @@ session_start();
 		<!-- Main part -->
 		<div id="block-system-main" class="block block-system col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
 
-
-		  <span style="color:#FF0000;"></span><br> This is the
-		  download page for the indices derived from the <a
-		  href="access_carpatclim.php">CarpatClim dataset</a>.
-		  The datafiles below provide several climate indices
-		  (ETCCDI indices marked with *) derived using daily
-		  minimum temperature (TN), daily maximum temperature
-		  (TX) and daily precipitation sum (RR). They cover
-		  the Carpathian region with 0.1 deg regular grid and
-		  the period 1961-2010. The data files are in NetCDF
-		  format, separated in four sets per index: annual,
-		  half-yearly, monthly and seasonal. Seasonal indices
-		  are calculated from the monthly indices, where for
-		  December-January-February (DJF) the December of the
-		  previous year is used:
-		  Dec(1961)-Jan(1962)-Feb(1962).  <br><br> More
-		  details on the calculation of the indices can be
-		  found <a
-		  href="../userguidance/indicesdictionary.php">here</a>.
-		  
-		  <h3>Terms of use</h3>
-
-		  The data is freely available for
-		  download. Scientific results based on these data
-		  must be submitted for publication in the open
-		  literature without any delay linked to commercial
-		  objectives.
-		  <br><br>
+		  <span style="color:#FF0000;"></span>This is the
+		  download page for the indices derived from the
+		  gridded daily minimum and maximum temperature and
+		  daily precipitation sum from
+		  the <a href="access_carpatclim.php">CarpatClim
+		  dataset</a>. The datafiles below provide several
+		  climate indices (ETCCDI indices marked with *)
+		  derived using daily minimum temperature (TN), daily
+		  maximum temperature (TX) and daily precipitation sum
+		  (RR). They cover the Carpathian region with 0.1 deg
+		  regular grid and the period 1961-2010. The data
+		  files are in NetCDF format, separated in four sets
+		  per index: annual, half-yearly, monthly and
+		  seasonal. Seasonal indices are calculated from the
+		  monthly indices, where for December-January-February
+		  (DJF) the December of the previous year is used:
+		  Dec(1961)-Jan(1962)-Feb(1962).  <br><br> Guidance
+		  and more details on the calculation of the indices
+		  can be
+		  found <a href="../userguidance/indicesdictionary.php">here</a>.
 		  
 		  <h3>Indices files</h3>
 		  Click on an item to view the download links for those indices.
@@ -368,7 +360,7 @@ session_start();
 		    </tr>
 		    <tr>       
 		      <td width="33%"><a href="../data/indices/carpatclim/dtrETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="../data/indices/carpatclim/hi17ETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="../data/indices/carpatclim/hiETCCDI_yr_0.1deg_regular_1961-2010.nc">Annual</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%"><a href="../data/indices/carpatclim/dtrETCCDI_hf_0.1deg_regular_1961-2010.nc">Half-yearly</a></td>
@@ -420,7 +412,7 @@ session_start();
 		  </div>
 
 
-		  <button class="accordion">Rain indices</button>
+		  <button class="accordion">Precipitation indices</button>
 		  <div class="panel">
 		    
 		    <!--rx1day & rx5day -->
@@ -628,8 +620,43 @@ session_start();
 		    </tbody>
 		  </table>
 		  </div>
-      
+
+		  <h3>Citation</h3>
+
+		  The CarpatClim consortium (led by the Hungarian
+		  Meteorological Service (OMSZ)) consists of 9
+		  participant countries in the Larger Carpathian
+		  Region, financed by the Joint Research Centre (JRC).
+		  <br><br>
 		  
+Reports, articles, papers, scientific and non-scientific works of any
+form, including tables, maps, or any other kind of output, inprinted
+or electronic form, based in whole or in part on the data supplied,
+must contain an acknowledgement of the form:
+		  <br><br>
+
+CARPATCLIM Database  &#169; European Commission - JRC, 2013
+		  <br><br>
+
+as well as a reference to:
+		  <br><br>
+
+Szalai, S., Auer, I., Hiebl, J., Milkovich, J., Radim, T. Stepanek, P., Zahradnicek, P., Bihari, Z., Lakatos, M., Szentimrey, T., Limanowka, D., Kilar, P., Cheval, S., Deak, Gy., Mihic, D., Antolovic, I., Mihajlovic, V., Nejedlik, P., Stastny, P., Mikulova, K., Nabyvanets, I., Skyryk, O., Krakovskaya, S.,Vogt, J., Antofie, T., Spinoni, J.: Climate of the Greater Carpathian Region. Final Technical Report.www.carpatclim-eu.org.
+		  <br><br>
+
+The CARPATCLIM data were created as part of JRC's contract "Climate of the Carpathian Region". Although every care has been taken in preparing and testing thedata, neither the JRC nor the CARPATCLIM Consortium can guarantee that the data are correct in all circumstances. Neither the JRC nor the CARPATCLIM Consortium accept any liability whatsoever for any error, missing data or omission in the data, or for any loss or damage arising from their use.
+		  <br><br>
+
+Neither the JRC nor the CARPATCLIM Consortium will be responsible for any direct or indirect use which might be made of the data. They do not provide any assistance or support in using the data.
+
+		  <h3>Terms of use</h3>
+
+		  The data is freely available for
+		  download. Scientific results based on these data
+		  must be submitted for publication in the open
+		  literature without any delay linked to commercial
+		  objectives.
+
 		</div>	  
 	      </div>
 	      

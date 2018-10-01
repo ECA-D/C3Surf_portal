@@ -15,7 +15,7 @@ session_start();
     <meta name="generator" content="Drupal 7 (http://drupal.org)">
     <link rel="canonical" href="http://climate.copernicus.eu/events">
     <link rel="shortlink" href="http://climate.copernicus.eu/events">
-    <title>Data</title>
+    <title>Indices dictionary</title>
     
     <script src="https://www.w3schools.com/lib/w3.js"></script>
   <script type="text/javascript" async
@@ -40,7 +40,7 @@ session_start();
             <div class="region region-static-page-title col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
               <div class="row-fluid">
                 <div id="block-delta-blocks-page-title" class="block block-delta-blocks col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
-                  <h1 id="page-title" class="title">Data</h1>
+                  <h1 id="page-title" class="title">Indices dictionary</h1>
                 </div> <!-- /.block -->
               </div>
             </div>
@@ -56,14 +56,14 @@ session_start();
               <div class="row-fluid">
                 
                 <!-- Breadcrum -->
-                <h2 class="element-invisible">You are here</h2><div class="breadcrumb"><span class="inline odd first"><a href="../surfobs.php">Home</a></span><span class="delimiter">&raquo;</span> <span class="inline even last"><a href="index.php">Data</a></span></div>
+                <h2 class="element-invisible">You are here</h2><div class="breadcrumb"><span class="inline odd first"><a href="../surfobs.php">Home</a></span><span class="delimiter">&raquo;</span> <span class="inline even last"><a href="indicesdictionary.php">Indices dictionary</a></span></div>
 
                 <!-- Main part -->
                 <div id="block-system-main" class="block block-system col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
 
-                 Definitions and mathematical formulas of the indices used are provided below. A core set of 28 indices follows the definitions recommended by the CCl/CLIVAR/JCOMM Expert Team on Climate Change Detection and Indices (<a href="http://www.clivar.org/organization/etccdi/etccdi.php" target="_blank">ETCCDI</a>). A few indices are available as well. Note that new research may lead to additional indices or changes in the indices definitions in the future.<br><br>
+                 Definitions and mathematical formulas of the indices used are provided below. A core set of 27 indices follows the definitions recommended by the CCl/CLIVAR/JCOMM Expert Team on Climate Change Detection and Indices (<a href="http://www.clivar.org/organization/etccdi/etccdi.php" target="_blank">ETCCDI</a>). A few indices are available as well. Note that new research may lead to additional indices or changes in the indices definitions in the future.<br><br>
 
-                   The indices have been grouped in different categories corresponding with different aspects of climate change. 
+                   The indices have been grouped in different categories corresponding with different aspects of climate change. More information on the use of indices can be found in <a href="../documents/C3S_D311a_Lot4.3.1.2_201809_user_guidance_indices_v1.pdf">this deliverable</a>.
                   <br><br>
 
 		  Click on a category to see the definitions of the indices in that section.<br><br>
@@ -89,7 +89,7 @@ session_start();
 		<?php include('drought_indices.php');?>
 		</div>
 
-		<button class="accordion">Rain indices</button>
+		<button class="accordion">Precipitation indices</button>
 		<div class="panel">
 		<?php include('rain_indices.php');?>
 		</div                

@@ -35,7 +35,7 @@ period \(j\). Then counted is the no of days where:
 
 <br><br>
 
-<h3>HD17*</h3>
+<h3>HD17</h3>
 &#9679; <i>Heating degree days (sum of \(17&#176;C - TG)\) (\(&#176;C\))</i> 
 <br><br> 
 

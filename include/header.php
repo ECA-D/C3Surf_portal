@@ -87,7 +87,11 @@
                        <li><a href="<?php echo $thispage;?>"><span>APGD (Daily, external)</span></a>
                        </li>
                        <li><a href="<?php echo $thispage;?>"><span>CarpatClim (Daily, external)</span></a>
-                       </li>
+			 <ul>
+                      	   <li><a href="<?php echo $webhost;?>/dataaccess/access_carpatclim.php"><span>Data access</span></a>
+                      	   </li>
+                      	 </ul>
+                        </li>
   
                      </ul>
                     </li>
@@ -112,7 +116,11 @@
                       <li><a href="<?php echo $thispage;?>"><span>APGD</span></a>
                       </li>
                       <li><a href="<?php echo $thispage;?>"><span>CarpatClim</span></a>
-                      </li>
+			 <ul>
+                      	   <li><a href="<?php echo $webhost;?>/dataaccess/access_carpatclim_indices.php"><span>Indices access</span></a>
+                      	   </li>
+                      	 </ul>
+                       </li>
                      </ul>
                     </li>
 

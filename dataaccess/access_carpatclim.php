@@ -113,7 +113,7 @@ For questions regarding CarpatClim, please contact us at
 
 
 		      
-  	<h3>Terms of use</h3>
+  	<h3>Citation</h3>
  
  The CarpatClim consortium (led by the Hungarian Meteorological
  Service (OMSZ)) consists of 9 participant countries in the Larger
@@ -155,7 +155,9 @@ Neither the JRC nor the CARPATCLIM Consortium will be responsible for
 any direct or indirect use which might be made of the data. They do not
 provide any assistance or support in using the data.
 
- 
+<h3>Terms of use</h3>
+
+ The data is freely available for download. Scientific results based on these data must be submitted for publication in the open literature without any delay linked to commercial objectives.
 		</div>	  
 	      </div>
 	      

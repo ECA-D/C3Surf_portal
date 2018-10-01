@@ -65,6 +65,14 @@ session_start();
 		      <td width="60%" style="color:#FFFFFF;"><b>Item</b></td>
 		    </tr>
 		    <tr>
+		      <td>1 October 2018</td>
+	              <td><a href="../dataaccess/access_ngcd.php">NGCD version 18.09</a> released</td>
+		    </tr>		  
+		    <tr>
+		      <td>1 October 2018</td>
+	              <td><a href="../dataaccess/access_carpatclim_indices.php">Indices based on CarpatClim</a> released</td>
+		    </tr>		  
+		    <tr>
 		      <td>25 September 2018</td>
 	              <td><a href="../stateoftheclimate/august2018.php">State-of-the-climate for August 2018</a> released</td>
 		    </tr>		  
