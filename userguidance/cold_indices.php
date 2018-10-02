@@ -107,7 +107,7 @@ period \(j\) and let \(TX_{in}10\) be the calendar day 10th percentile calculate
 
 <br><br>
 
-<h3>CSDI*</h3>
+<h3>CSDI* and altCSDI</h3>
 &#9679; <i>Cold-spell duration index (days)</i> 
 <br><br> 
 
@@ -115,5 +115,7 @@ Let \(TN_{ij}\) be the daily minimum temperature at day \(i\) of
 period \(j\) and let \(TN_{in}10\) be the calendar day 10th percentile calculated for a 5 day window centred on each calendar day in the 1961-1990 period. Then counted is the no of days where, in intervals of at least 6 consecutive days:
 <br><br>
 \(TN_{ij} < TN_{in}10\)
+	    <br><br>
+	    For CSDI, the spells cannot span years, while for altCSDI the spells can span years.
 
-
+<br><br>

@@ -70,7 +70,7 @@ period \(j\). Then counted is the no of days where:
 
 <br><br>
 
-<h3>CWD*</h3>
+<h3>CWD* and altCWD</h3>
 &#9679; <i>Maximum no of consecutive wet days (\(RR \ge 1\) mm) (days)</i> 
 <br><br> 
 
@@ -80,6 +80,8 @@ period \(j\). Then counted is the largest no of consecutive days where:
 
 \(RR_{ij} \ge 1\ mm\)
 
+	    <br><br>
+	    For CWD, the spells can span years, while for altCWD the spells cannot span years.
 <br><br>
 
 <h3>R75pFRAC</h3>

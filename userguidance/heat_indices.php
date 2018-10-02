@@ -77,7 +77,7 @@ period \(j\) and let \(TX_{in}10\) be the calendar day 10th percentile calculate
 
 <br><br>
 
-<h3>WSDI*</h3>
+<h3>WSDI* and altWSDI</h3>
 &#9679; <i>Warm-spell duration index (days)</i> 
 <br><br> 
 
@@ -86,4 +86,6 @@ period \(j\) and let \(TX_{in}10\) be the calendar day 90th percentile calculate
 <br><br>
 \(TX_{ij} > TX_{in}90\)
 
-
+	    <br><br>
+	    For WSDI, the spells cannot span years, while for altWSDI the spells can span years.
+<br><br>

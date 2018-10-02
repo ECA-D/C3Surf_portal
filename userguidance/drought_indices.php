@@ -1,4 +1,4 @@
-<h3>CDD*</h3>
+<h3>CDD* and altCDD</h3>
 &#9679; <i>Maximum no of consecutive dry days \((RR < 1 mm)\) (Days)</i> 
 <br><br> 
 
@@ -7,6 +7,8 @@ period \(j\). Then counted is the largest no of consecutive days where:
 <br><br>
 
 \(RR_{ij} < 1 mm\)
+	    <br><br>
+	    For CDD, the spells can span years, while for altCDD the spells cannot span years.
 
 <br><br>
 
