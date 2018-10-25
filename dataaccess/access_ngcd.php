@@ -76,7 +76,7 @@ session_start();
 			<td width="35%"><span style="color:#FFFFFF;"><strong>Modification</strong></span></td>    
 		      </tr>
 		      <tr>
-			<td>18.03</td>
+			<td><a href="access_ngcd.php#datafiles">18.03</a></td>
 			<td>March 2018</td>
 			<td>0.1.0-beta</td>
 			<td>1971-01-01 - 2017-12-31</td>
@@ -104,7 +104,7 @@ session_start();
 		The datafiles contain gridded data for 2 types of dataset, 4 elements each: air temperature (daily minimum, maximum and average); daily total precipitation. They cover Norway, Finland and Sweden. The data files are in compressed NetCDF format.
 		<br><br>
 
-		The dataset is available through the <a href="http://thredds.met.no/thredds/catalog/ngcd/version_18.09/catalog.html" target="_blank">MET Norway Thredds Service</a>.
+		The dataset is available through the <a href="http://thredds.met.no/thredds/catalog/ngcd/catalog.html" target="_blank">MET Norway Thredds Service</a>.
 
 <br><br>
 
@@ -114,7 +114,7 @@ session_start();
 
 Type 1 datasets:<br><br>
 
-    "Tveito, O.E., I. Bj&#248;rdal, A.O. Skjelv&#229;g, B. Aune (2005) A GIS-based agro-ecoglogical decision system based on gridded climatology, Meteorol. Appl., 12, 57-68, doi:10.1017/S1350482705001490"
+    "Tveito, O.E., I. Bj&#248;rdal, A.O. Skjelv&#229;g, B. Aune (2005) A GIS-based agro-ecological decision system based on gridded climatology, Meteorol. Appl., 12, 57-68, doi:10.1017/S1350482705001490"
 		<br><br>
 		
     "Tveito, O.E., E.J. F&#248;rland, R. Heino, I. Hanssen-Bauer, H. Alexandersson, B. Dahlstr&#246;m, A. Drebs, C. Kern-Hansen, T. J&#243;nsson, E. Vaarby-Laursen and Y. Westman (2000) Nordic Temperature Maps, DNMI Klima 9/00 KLIMA, Norwegian Meteorological Institute" <img src="../images/html.gif" width="15" height="15" alt="" border="0"><a href="https://www.met.no/publikasjoner/met-report/met-report-2000/_/attachment/download/fd5c813f-c990-4701-b32d-1cd5739366b4:3c546bbb335949d58fdeb1e043bb335a9ee3a6fa/MET-report-09-2000.pdf" target="_blank">Website</a>
