@@ -83,7 +83,15 @@ session_start();
 			<td width="50%"><span style="color:#FFFFFF;"><strong>Modification</strong></span></td>    
 		      </tr>
 		      <tr>
-			<td><a href="access_eobs.php#datafiles">17.0</a></td>
+			<td><a href="access_eobs.php#datafiles">18.0e</a></td>
+			<td>November 2018</td>
+			<td>1950-01-01 - 2018-06-30</td>
+			<td>E-OBS v18.0e (note the additional 'e') is only available for the ensembe mean and ensemble spread. The 'standard' version is no longer available. The full ensemble can be made available on request.<br>
+New temperature series have been included for Lombardia (Italy) and updates have been included for Estonia. Monthly and half-yearly updates are continued for Germany, Czech Republic, Bosnia and Herzegovina, Norway, Slovenia, Finland, Ireland, Sweden, Luxembourg, Netherlands, Portugal, Spain, Switzerland and the regional meteorological service of Catalonia (Spain).
+			</td>   
+		      </tr>
+		      <tr bgcolor="#ffffff">
+			<td>17.0</td>
 			<td>April 2018</td>
 			<td>1950-01-01 - 2017-12-31</td>
 			<td>Series for Estonia have been updated. Monthly, half-yearly and yearly updates are continued for Germany, Czech Republic, Bosnia and Herzegovina, Norway, Slovenia, Finland, Ireland, Sweden, Luxembourg, Netherlands, Portugal, Spain, Switzerland, France, Denmark, UK and the regional meteorological service of Catalonia (Spain). More detailed information can be found on the <a href="http://cib.knmi.nl/mediawiki/index.php/Compare_E-OBS_v17.0_and_v16.0" target="_blank">page comparing versions 17.0 and 16.0</a>. 
@@ -94,9 +102,7 @@ session_start();
 		  </table>
  Information on older versions of E-OBS can be found <a href="https://www.ecad.eu/download/ensembles/oldversions.php">here</a>. 
  		  
-		<h3><a id="datafiles" style="color: #000000">E-OBS datafiles 1950-01-01 - 2017-12-31</a></h3>
-
-		The datafiles for the standard version contain gridded data for 5 elements (daily mean temperature <b>TG</b>, daily minimum temperature <b>TN</b>, daily maximum temperature <b>TX</b>, daily precipitation sum <b>RR</b> and daily averaged sea level pressure <b>PP</b>). They cover the area: 25N-75N x 40W-75E. The data files are in compressed NetCDF format. There are 4 different versions: 2 grid resolutions x 2 grid flavours. Data is made available on a 0.25 and 0.5 degree regular lat-lon grid, as well as on a 0.22 and 0.44 degree rotated pole grid, with the north pole at 39.25N, 162W. The regular grid is the same as the monthly CRU data grids available from the <a href="http://www.cru.uea.ac.uk" target="_blank">Climatic Research Unit</a>. The rotated grid is the same as used in many <a href="http://ensemblesrt3.dmi.dk/" target="_blank">ENSEMBLES Regional Climate Models</a>. Besides 'best estimate' values, separate files are provided containing daily standard errors and elevation. See <a href="Haylock_et_al_2008.pdf" target="_blank">Haylock et al. (2008)</a> and <a href="http://www.agu.org/pubs/crossref/2011/2010JD015468.shtml" target="_blank">van den Besselaar et al. (2011)</a> for further details. The Global 30 Arc-Second Elevation Data Set (<a href="http://eros.usgs.gov/#/Find_Data/Products_and_Data_Available/GTOPO30" target="_blank">GTOPO30</a>), a global raster Digital Elevation Model (DEM) with a horizontal grid spacing of 30 arc seconds (approximately 1 kilometer) developed by USGS is used for the elevation file.<br><br>
+		<h3><a id="datafiles" style="color: #000000">E-OBS datafiles 1950-01-01 - 2018-06-30</a></h3>
 
 The ensemble version (indicated with a 'e' after the version number)
 is available on a 0.1 and 0.25 degree regular grid for the elements
@@ -125,52 +131,22 @@ range. For more details see Cornes et al. (2018) and <a href="<?php echo $webhos
 		<table  border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
 		  <tbody>
 		    <tr bgcolor="#941333" height="40px">
-		      <td width="25%" style="color:#FFFFFF;"><b>Version 17.0</b></td>
-		      <td width="25%" style="color:#FFFFFF;"><b>Best estimate</b></td>
-		      <td width="25%" style="color:#FFFFFF;"><b>Daily standard error</b></td>
-		      <td width="25%" style="color:#FFFFFF;"><b>Elevation</b></td>      
-		    </tr>
-		    <tr>
-		      <td>0.25 deg. regular grid</td>
-		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg/tg_0.25deg_reg_v17.0.nc.gz">TG</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg/tn_0.25deg_reg_v17.0.nc.gz">TN</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg/tx_0.25deg_reg_v17.0.nc.gz">TX</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg/rr_0.25deg_reg_v17.0.nc.gz">RR</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg/pp_0.25deg_reg_v17.0.nc.gz">PP</a></td>
-		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg/tg_stderr_0.25deg_reg_v17.0.nc.gz">TG</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg/tn_stderr_0.25deg_reg_v17.0.nc.gz">TN</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg/tx_stderr_0.25deg_reg_v17.0.nc.gz">TX</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg/rr_stderr_0.25deg_reg_v17.0.nc.gz">RR</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg/pp_stderr_0.25deg_reg_v17.0.nc.gz">PP</a></td>
-		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg/elev_0.25deg_reg_v17.0.nc.gz">all elements</a></td> 
-		    </tr>
-		    <tr>
-		      <td>0.50 deg. regular grid</td>
-		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.50deg_reg/tg_0.50deg_reg_v17.0.nc.gz">TG</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.50deg_reg/tn_0.50deg_reg_v17.0.nc.gz">TN</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.50deg_reg/tx_0.50deg_reg_v17.0.nc.gz">TX</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.50deg_reg/rr_0.50deg_reg_v17.0.nc.gz">RR</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.50deg_reg/pp_0.50deg_reg_v17.0.nc.gz">PP</a></td>
-		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.50deg_reg/tg_stderr_0.50deg_reg_v17.0.nc.gz">TG</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.50deg_reg/tn_stderr_0.50deg_reg_v17.0.nc.gz">TN</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.50deg_reg/tx_stderr_0.50deg_reg_v17.0.nc.gz">TX</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.50deg_reg/rr_stderr_0.50deg_reg_v17.0.nc.gz">RR</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.50deg_reg/pp_stderr_0.50deg_reg_v17.0.nc.gz">PP</a></td>
-		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.50deg_reg/elev_0.50deg_reg_v17.0.nc.gz">all elements</a></td> 
-		    </tr>
-		    <tr>
-		      <td>0.22 deg. rotated grid</td>
-		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.22deg_rot/tg_0.22deg_rot_v17.0.nc.gz">TG</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.22deg_rot/tn_0.22deg_rot_v17.0.nc.gz">TN</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.22deg_rot/tx_0.22deg_rot_v17.0.nc.gz">TX</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.22deg_rot/rr_0.22deg_rot_v17.0.nc.gz">RR</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.22deg_rot/pp_0.22deg_rot_v17.0.nc.gz">PP</a></td>
-		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.22deg_rot/tg_stderr_0.22deg_rot_v17.0.nc.gz">TG</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.22deg_rot/tn_stderr_0.22deg_rot_v17.0.nc.gz">TN</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.22deg_rot/tx_stderr_0.22deg_rot_v17.0.nc.gz">TX</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.22deg_rot/rr_stderr_0.22deg_rot_v17.0.nc.gz">RR</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.22deg_rot/pp_stderr_0.22deg_rot_v17.0.nc.gz">PP</a></td>
-		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.22deg_rot/elev_0.22deg_rot_v17.0.nc.gz">all elements</a></td> 
-		    </tr>
-		    <tr>
-		      <td>0.44 deg. rotated grid</td>
-		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.44deg_rot/tg_0.44deg_rot_v17.0.nc.gz">TG</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.44deg_rot/tn_0.44deg_rot_v17.0.nc.gz">TN</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.44deg_rot/tx_0.44deg_rot_v17.0.nc.gz">TX</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.44deg_rot/rr_0.44deg_rot_v17.0.nc.gz">RR</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.44deg_rot/pp_0.44deg_rot_v17.0.nc.gz">PP</a></td>
-		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.44deg_rot/tg_stderr_0.44deg_rot_v17.0.nc.gz">TG</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.44deg_rot/tn_stderr_0.44deg_rot_v17.0.nc.gz">TN</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.44deg_rot/tx_stderr_0.44deg_rot_v17.0.nc.gz">TX</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.44deg_rot/rr_stderr_0.44deg_rot_v17.0.nc.gz">RR</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.44deg_rot/pp_stderr_0.44deg_rot_v17.0.nc.gz">PP</a></td>
-		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.44deg_rot/elev_0.44deg_rot_v17.0.nc.gz">all elements</a></td> 
-		    </tr>
-		    <tr bgcolor="#941333" height="40px">
-		      <td style="color:#FFFFFF;"><b>Version 17.0e</b></td>
+		      <td style="color:#FFFFFF;"><b>Version 18.0e</b></td>
 		      <td style="color:#FFFFFF;"><b>Ensemble mean</b></td>
 		      <td style="color:#FFFFFF;"><b>Ensemble spread</b></td>
 		      <td style="color:#FFFFFF;"><b>Elevation</b></td>      
 		    </tr>
 		    <tr>
 		      <td>0.1 deg. regular grid</td>
-		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ens_mean_0.1deg_reg_v17.0e.nc">TG</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ens_mean_0.1deg_reg_v17.0e.nc">TN</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ens_mean_0.1deg_reg_v17.0e.nc">TX</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ens_mean_0.1deg_reg_v17.0e.nc">RR</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ens_mean_0.1deg_reg_v17.0e.nc">PP</a></td>
-		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ens_spread_0.1deg_reg_v17.0e.nc">TG</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ens_spread_0.1deg_reg_v17.0e.nc">TN</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ens_spread_0.1deg_reg_v17.0e.nc">TX</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ens_spread_0.1deg_reg_v17.0e.nc">RR</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ens_spread_0.1deg_reg_v17.0e.nc">PP</a></td>
-		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/elev_ens_0.1deg_reg_v17.0e.nc">all elements</a></td>      
+		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ens_mean_0.1deg_reg_v18.0e.nc">TG</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ens_mean_0.1deg_reg_v18.0e.nc">TN</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ens_mean_0.1deg_reg_v18.0e.nc">TX</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ens_mean_0.1deg_reg_v18.0e.nc">RR</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ens_mean_0.1deg_reg_v18.0e.nc">PP</a></td>
+		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ens_spread_0.1deg_reg_v18.0e.nc">TG</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ens_spread_0.1deg_reg_v18.0e.nc">TN</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ens_spread_0.1deg_reg_v18.0e.nc">TX</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ens_spread_0.1deg_reg_v18.0e.nc">RR</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ens_spread_0.1deg_reg_v18.0e.nc">PP</a></td>
+		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/elev_ens_0.1deg_reg_v18.0e.nc">all elements</a></td>      
 		    </tr>
 		    <tr>
 		      <td>0.25 deg. regular grid</td>
-		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/tg_ens_mean_0.25deg_reg_v17.0e.nc">TG</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/tn_ens_mean_0.25deg_reg_v17.0e.nc">TN</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/tx_ens_mean_0.25deg_reg_v17.0e.nc">TX</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/rr_ens_mean_0.25deg_reg_v17.0e.nc">RR</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/pp_ens_mean_0.25deg_reg_v17.0e.nc">PP</a></td>
-		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/tg_ens_spread_0.25deg_reg_v17.0e.nc">TG</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/tn_ens_spread_0.25deg_reg_v17.0e.nc">TN</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/tx_ens_spread_0.25deg_reg_v17.0e.nc">TX</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/rr_ens_spread_0.25deg_reg_v17.0e.nc">RR</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/pp_ens_spread_0.25deg_reg_v17.0e.nc">PP</a></td>
-		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/elev_ens_0.25deg_reg_v17.0e.nc">all elements</a></td>      
+		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/tg_ens_mean_0.25deg_reg_v18.0e.nc">TG</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/tn_ens_mean_0.25deg_reg_v18.0e.nc">TN</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/tx_ens_mean_0.25deg_reg_v18.0e.nc">TX</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/rr_ens_mean_0.25deg_reg_v18.0e.nc">RR</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/pp_ens_mean_0.25deg_reg_v18.0e.nc">PP</a></td>
+		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/tg_ens_spread_0.25deg_reg_v18.0e.nc">TG</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/tn_ens_spread_0.25deg_reg_v18.0e.nc">TN</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/tx_ens_spread_0.25deg_reg_v18.0e.nc">TX</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/rr_ens_spread_0.25deg_reg_v18.0e.nc">RR</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/pp_ens_spread_0.25deg_reg_v18.0e.nc">PP</a></td>
+		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/elev_ens_0.25deg_reg_v18.0e.nc">all elements</a></td>      
 		    </tr>
 		  <tbody>
 		</table>
