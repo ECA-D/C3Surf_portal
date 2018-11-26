@@ -65,6 +65,10 @@ session_start();
 		      <td width="60%" style="color:#FFFFFF;"><b>Item</b></td>
 		    </tr>
 		    <tr>
+		      <td>26 November 2018</td>
+	              <td><a href="../stateoftheclimate/october2018.php">State-of-the-climate for October 2018</a> released</td>
+		    </tr>		  
+		    <tr>
 		      <td>13 November 2018</td>
 	              <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBS v18.0e</a> and <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">monthly E-OBS files</a> have been released on 0.1 and 0.25 degree resolutions for the ensemble mean and ensemble spread</td>
 		    </tr>		  

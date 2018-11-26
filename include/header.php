@@ -128,6 +128,8 @@
                      <ul>
                       <li><a href="<?php echo $thispage;?>"><span>Monthly reports</span></a>
                        <ul>
+                        <li><a href="<?php echo $webhost;?>/stateoftheclimate/october2018.php"><span>October 2018</span></a>
+                        </li>
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/september2018.php"><span>September 2018</span></a>
                         </li>
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/august2018.php"><span>August 2018</span></a>
@@ -137,8 +139,6 @@
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/june2018.php"><span>June 2018</span></a>
                         </li>
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/may2018.php"><span>May 2018</span></a>
-                        </li>
-                        <li><a href="<?php echo $webhost;?>/stateoftheclimate/april2018.php"><span>April 2018</span></a>
                         </li>
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/all_monthly_reports.php"><span>All reports</span></a>
                        </ul>

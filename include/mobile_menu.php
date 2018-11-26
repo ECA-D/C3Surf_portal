@@ -78,6 +78,8 @@ session_start();
       <ul class="mmenu-mm-list-level-2">
          <li class="mmenu-mm-list-mlid-2068 mmenu-mm-list-path-news"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Monthly reports</span></a>
 	  <ul class="mmenu-mm-list-level-3">
+            <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/october2018.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">October 2018</span></a>
+            </li>
             <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/september2018.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">September 2018</span></a>
             </li>
             <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/august2018.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">August 2018</span></a>
