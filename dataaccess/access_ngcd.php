@@ -53,7 +53,7 @@ session_start();
 	      <div class="row-fluid">
 		
 		<!-- Breadcrum -->
-		<h2 class="element-invisible">You are here</h2><div class="breadcrumb"><span class="inline odd first"><a href="../surfobs.php">Home</a></span><span class="delimiter">&raquo;</span> <span class="inline even last"><a href="access_eobs.php">NGCD data access</a></span></div>
+		<h2 class="element-invisible">You are here</h2><div class="breadcrumb"><span class="inline odd first"><a href="../surfobs.php">Home</a></span><span class="delimiter">&raquo;</span> <span class="inline even last"><a href="access_ngcd.php">NGCD data access</a></span></div>
 
 		<!-- Main part -->
 		<div id="block-system-main" class="block block-system col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
@@ -82,7 +82,7 @@ session_start();
 			<td>1971-01-01 - 2017-12-31</td>
 			<td>First release</td>
 		      </tr>
-		      <tr>
+		      <tr bgcolor="#ffffff">
 			<td><a href="access_ngcd.php#datafiles">18.09</a></td>
 			<td>September 2018</td>
 			<td>0.1.0-beta</td>
