@@ -123,11 +123,11 @@ datasets, please <a href="https://www.meteoswiss.admin.ch/home/form/customer-ser
 		      </tr>
 		      <tr>
 			<td>APGD</td>
-			<td><a href="../images/mean_annual_precip_APGD.jpg">Mean annual precipitation [mm/year]</a><br><a href="../images/Frequency_wet_days_APGD.jpg">Frequency of wet days (&geq;1 mm) [fraction]</a><br><a href="mean_annual_maximum_1-day_precipication_APGD.jpg">Mean of annual maximum daily precipitation [mm/d]</a></td>
+			<td><a href="../images/mean_annual_precip_APGD.jpg">Mean annual precipitation [mm/year]</a><br><a href="../images/Frequency_wet_days_APGD.jpg">Frequency of wet days (&geq;1 mm) [fraction]</a><br><a href="mean_annual_maximum_1-day_precipitation_APGD.jpg">Mean of annual maximum daily precipitation [mm/d]</a></td>
 		      </tr>
 		      <tr bgcolor="#ffffff">
 			<td>APGDEns</td>
-			<td><a href="../images/Wet_day_intensity_median_APGDEns.jpg">Wet day (&geq;1 mm) intensity (median [mm]</a> | <a href="../images/Wet_day_intensity_spread_APGDEns.jpg">relative ensemble spread [-]</a><br><a href="Q95_median_APGDEns.jpg">95% quantile of daily precipitation (median) [mm]</a> | <a href="../images/Q95_spread_APGDEns.jpg">relative ensemble spread [-]</a></td>
+			<td><a href="../images/Wet_day_intensity_median_APGDEns.jpg">Wet day (&geq;1 mm) intensity (median [mm]</a> | <a href="../images/Wet_day_intensity_spread_APGDEns.jpg">relative ensemble spread [-]</a><br><a href="../images/Q95_median_APGDEns.jpg">95% quantile of daily precipitation (median) [mm]</a> | <a href="../images/Q95_spread_APGDEns.jpg">relative ensemble spread [-]</a></td>
 		      </tr>
 		    </tbody>
 		  </table>
