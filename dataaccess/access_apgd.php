@@ -123,7 +123,7 @@ datasets, please <a href="https://www.meteoswiss.admin.ch/home/form/customer-ser
 		      </tr>
 		      <tr>
 			<td>APGD</td>
-			<td><a href="../images/mean_annual_precip_APGD.jpg">Mean annual precipitation [mm/year]</a><br><a href="../images/Frequency_wet_days_APGD.jpg">Frequency of wet days (&geq;1 mm) [fraction]</a><br><a href="mean_annual_maximum_1-day_prefipication_APGD.jpg">Mean of annual maximum daily precipitation [mm/d]</a></td>
+			<td><a href="../images/mean_annual_precip_APGD.jpg">Mean annual precipitation [mm/year]</a><br><a href="../images/Frequency_wet_days_APGD.jpg">Frequency of wet days (&geq;1 mm) [fraction]</a><br><a href="mean_annual_maximum_1-day_precipication_APGD.jpg">Mean of annual maximum daily precipitation [mm/d]</a></td>
 		      </tr>
 		      <tr bgcolor="#ffffff">
 			<td>APGDEns</td>
