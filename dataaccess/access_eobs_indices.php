@@ -110,7 +110,7 @@ session_start();
 		    <tr>
 		      <td width="33%">Annual: <a href="../data/indices/eobs/fd_yr_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/fd_yr_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a>
 		      </td>
-		      <td width="33%">Annual: <a href="../data/indices/eobs/cfd_yr_0.1deg_regular_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/cfd_yr_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
+		      <td width="33%">Annual: <a href="../data/indices/eobs/cfd_yr_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/cfd_yr_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%">Half-yearly: <a href="../data/indices/eobs/fd_hf_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/fd_hf_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
