@@ -146,7 +146,7 @@ session_start();
 		    </tr>
 		    <tr>
 		      <td width="33%">Monthly: <a href="../data/indices/eobs/id_mon_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/id_mon_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/hd17_mon_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/hd17_mon_0.1deg_reg_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a> </td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/hd17_mon_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/hd17_mon_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a> </td>
 		    </tr>
 		    <tr>
 		      <td width="33%">Seasonal: <a href="../data/indices/eobs/id_seas_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/id_seas_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td> 
@@ -186,8 +186,8 @@ session_start();
 		      <td width="33%">Half-yearly: <a href="../data/indices/eobs/tx10p_hf_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/tx10p_hf_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/tn10p_mon_0.1deg_reg_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/tn10p_mon_0.1deg_reg_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/tx10p_mon_0.1deg_reg_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/tx10p_mon_0.1deg_reg_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/tn10p_mon_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/tn10p_mon_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/tx10p_mon_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/tx10p_mon_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%">Seasonal: <a href="../data/indices/eobs/tn10p_seas_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/tn10p_seas_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a>  </td>
@@ -212,8 +212,8 @@ session_start();
 		      <td width="33%">Half-yearly<a href="../data/indices/eobs/txn_hf_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/txn_hf_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/tnn_mon_0.1deg_reg_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/tnn_mon_0.1deg_reg_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/txn_mon_0.1deg_reg_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/txn_mon_0.1deg_reg_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/tnn_mon_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/tnn_mon_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/txn_mon_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/txn_mon_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%">Seasonal: <a href="../data/indices/eobs/tnn_seas_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/tnn_seas_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
@@ -280,8 +280,8 @@ session_start();
 		      <td width="33%">Half-yearly: <a href="../data/indices/eobs/tnx_hf_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/tnx_hf_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/txx_mon_0.1deg_reg_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/txx_mon_0.1deg_reg_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/tnx_mon_0.1deg_reg_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/tnx_mon_0.1deg_reg_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/txx_mon_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/txx_mon_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/tnx_mon_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/tnx_mon_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%">Seasonal: <a href="../data/indices/eobs/txx_seas_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/txx_seas_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
@@ -306,8 +306,8 @@ session_start();
 		      <td width="33%">Half-yearly: <a href="../data/indices/eobs/tx90p_hf_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/tx90p_hf_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/tn90p_mon_0.1deg_reg_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/tn90p_mon_0.1deg_reg_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/tx90p_mon_0.1deg_reg_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/tx90p_mon_0.1deg_reg_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/tn90p_mon_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/tn90p_mon_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/tx90p_mon_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/tx90p_mon_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%">Seasonal: <a href="../data/indices/eobs/tn90p_seas_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/tn90p_seas_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
@@ -406,8 +406,8 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>6-month Standardized Precipitation Index (SPI6)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/spi3_mon_0.1deg_reg_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/spi3_mon_0.1deg_reg_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/spi6_mon_0.1deg_reg_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/spi6_mon_0.1deg_reg_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/spi3_mon_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/spi3_mon_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/spi6_mon_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/spi6_mon_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
 		    </tr>
 		    </tbody>
 		  </table>
@@ -433,8 +433,8 @@ session_start();
 		      <td width="33%">Half-yearly: <a href="../data/indices/eobs/rx5day_hf_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/rx5day_hf_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/rx1day_mon_0.1deg_reg_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/rx1day_mon_0.1deg_reg_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/rx5day_mon_0.1deg_reg_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/rx5day_mon_0.1deg_reg_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/rx1day_mon_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/rx1day_mon_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/rx5day_mon_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/rx5day_mon_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%">Seasonal: <a href="../data/indices/eobs/rx1day_seas_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/rx1day_seas_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
@@ -459,8 +459,8 @@ session_start();
 		      <td width="33%">Half-yearly: <a href="../data/indices/eobs/r1mm_hf_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/r1mm_hf_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/sdii_mon_0.1deg_reg_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/sdii_mon_0.1deg_reg_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/r1mm_mon_0.1deg_reg_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/r1mm_mon_0.1deg_reg_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/sdii_mon_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/sdii_mon_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/r1mm_mon_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/r1mm_mon_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%">Seasonal: <a href="../data/indices/eobs/sdii_seas_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/sdii_seas_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
@@ -486,8 +486,8 @@ session_start();
 		      <td width="33%">Half-yearly: <a href="../data/indices/eobs/r20mm_hf_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/r20mm_hf_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/r10mm_mon_0.1deg_reg_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/r10mm_mon_0.1deg_reg_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/r20mm_mon_0.1deg_reg_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/r20mm_mon_0.1deg_reg_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/r10mm_mon_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/r10mm_mon_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/r20mm_mon_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/r20mm_mon_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%">Seasonal: <a href="../data/indices/eobs/r10mm_seas_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/r10mm_seas_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
@@ -528,8 +528,8 @@ session_start();
 		      <td width="33%">Half-yearly: <a href="../data/indices/eobs/r75pfrac_hf_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/r75pfrac_hf_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/r75ptot_mon_0.1deg_reg_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/r75ptot_mon_0.1deg_reg_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/r75pfrac_mon_0.1deg_reg_median_E-OBSv18.0e.nc">median</a>| <a href="../data/indices/eobs/r75pfrac_mon_0.1deg_reg_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/r75ptot_mon_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/r75ptot_mon_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/r75pfrac_mon_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a>| <a href="../data/indices/eobs/r75pfrac_mon_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%">Seasonal: <a href="../data/indices/eobs/r75ptot_seas_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/r75ptot_seas_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
@@ -554,8 +554,8 @@ session_start();
 		      <td width="33%">Half-yearly: <a href="../data/indices/eobs/r95pfrac_hf_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/r95pfrac_hf_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/r95ptot_mon_0.1deg_reg_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/r95ptot_mon_0.1deg_reg_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/r95pfrac_mon_0.1deg_reg_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/r95pfrac_mon_0.1deg_reg_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/r95ptot_mon_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/r95ptot_mon_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/r95pfrac_mon_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/r95pfrac_mon_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%">Seasonal: <a href="../data/indices/eobs/r95ptot_seas_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/r95ptot_seas_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
@@ -581,8 +581,8 @@ session_start();
 		      <td width="33%">Half-yearly: <a href="../data/indices/eobs/r99pfrac_hf_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/r99pfrac_hf_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/r99ptot_mon_0.1deg_reg_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/r99ptot_mon_0.1deg_reg_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/r99pfrac_mon_0.1deg_reg_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/r99pfrac_mon_0.1deg_reg_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/r99ptot_mon_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/r99ptot_mon_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/r99pfrac_mon_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/r99pfrac_mon_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%">Seasonal: <a href="../data/indices/eobs/r99ptot_seas_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/r99ptot_seas_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
@@ -605,7 +605,7 @@ session_start();
 		      <td width="33%">Half-yearly: <a href="../data/indices/eobs/prcptot_hf_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/prcptot_hf_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/prcptot_mon_0.1deg_reg_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/prcptot_mon_0.1deg_reg_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/prcptot_mon_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/prcptot_mon_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%">Seasonal: <a href="../data/indices/eobs/prcptot_seas_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/prcptot_seas_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
