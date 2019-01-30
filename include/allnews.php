@@ -65,6 +65,14 @@ session_start();
 		      <td width="60%" style="color:#FFFFFF;"><b>Item</b></td>
 		    </tr>
 		    <tr>
+		      <td>30 January 2019</td>
+	              <td><a href="../dataaccess/access_eobs_indices.php">Indices based on E-OBSv18.0e</a> released</td>
+		    </tr>		  
+		    <tr>
+		      <td>30 January 2019</td>
+	              <td><a href="../dataaccess/access_ngcd_indices.php">Indices based on NGCD v18.03</a> released</td>
+		    </tr>		  
+		    <tr>
 		      <td>23 January 2019</td>
 	              <td><a href="../stateoftheclimate/december2018.php">State-of-the-climate for December 2018</a> released</td>
 		    </tr>		  

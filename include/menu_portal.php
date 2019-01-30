@@ -38,6 +38,24 @@ session_start();
 
 		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
 		      <div class="views-field views-field-field-date">
+			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">30 January 2019</span>
+			</div>
+		      </div>  
+		      <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices.php">Indices based on E-OBSv18.0e</a> released</span>
+		      </div>
+		    </div>
+
+		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
+		      <div class="views-field views-field-field-date">
+			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">30 January 2019</span>
+			</div>
+		      </div>  
+		      <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/dataaccess/access_ngcd_indices.php">Indices based on NGCD v18.03</a> released</span>
+		      </div>
+		    </div>
+
+		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
+		      <div class="views-field views-field-field-date">
 			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">23 January 2019</span>
 			</div>
 		      </div>  
@@ -139,87 +157,6 @@ session_start();
 		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
 		      <div class="views-field views-field-field-date">
 			<div class="field-content"><span content="2018-04-23T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">11 September 2018</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content">Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</span>
-		      </div>
-		    </div>
-
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">27 August 2018</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/stateoftheclimate/july2018.php">State-of-the-climate for July 2018</a> released</span>
-		      </div>
-		    </div>
-
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-04-23T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">14 August 2018</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content">Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</span>
-		      </div>
-		    </div>
-
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">26 July 2018</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/stateoftheclimate/june2018.php">State-of-the-climate for June 2018</a> released</span>
-		      </div>
-		    </div>
-
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-04-23T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">25 July 2018</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content">Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</span>
-		      </div>
-		    </div>
-
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-04-23T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">26 June 2018</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content">Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</span>
-		      </div>
-		    </div>
-
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">25 June 2018</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/stateoftheclimate/may2018.php">State-of-the-climate for May 2018</a> released</span>
-		      </div>
-		    </div>
-
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">31 May 2018</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBS v17.0e</a> and <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">monthly E-OBS files</a> have been released on 0.1 and 0.25 degree resolutions for the ensemble mean and ensemble spread</span>
-		      </div>
-		    </div>
-
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">23 May 2018</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/stateoftheclimate/april2018.php">State-of-the-climate for April 2018</a> released</span>
-		      </div>
-		    </div>
-
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-04-23T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">23 May 2018</span>
 			</div>
 		      </div>  
 		      <div class="views-field views-field-title"><span class="field-content">Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</span>

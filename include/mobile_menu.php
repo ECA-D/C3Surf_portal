@@ -50,15 +50,20 @@ session_start();
        <li class="mmenu-mm-list-mlid-2069 mmenu-mm-list-path-events"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Indicators</span></a>
        <ul class="mmenu-mm-list-level-2">
          <li class="mmenu-mm-list-mlid-2068 mmenu-mm-list-path-news"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">E-OBS</span></a>
-<!--	  <ul class="mmenu-mm-list-level-3">
+	  <ul class="mmenu-mm-list-level-3">
            <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-706"><a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Indices access</span></a>
            </li>
+<!--
            <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-707"><a href="<?php echo $webhost;?>/maps/dailyindicesmaps.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Indices maps</span></a>
            </li>
-          </ul>
 -->
+          </ul>
          </li>
          <li class="mmenu-mm-list-mlid-2187 mmenu-mm-list-path-node-708"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">NGCD</span></a>
+	  <ul class="mmenu-mm-list-level-3">
+           <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-706"><a href="<?php echo $webhost;?>/dataaccess/access_ngcd_indices.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Indices access</span></a>
+           </li>
+	  </ul>
          </li>
          <li class="mmenu-mm-list-mlid-2218 mmenu-mm-list-path-node-709"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">NGCD_Rec</span></a>
          </li>

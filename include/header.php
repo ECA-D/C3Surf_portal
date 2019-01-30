@@ -98,16 +98,19 @@
 
 		    <li class="menu-2069 menu-path-events active-trail  even "><a href="<?php echo $thispage;?>" class="active"><span><strong>Indicators</strong></span></a>
                      <ul>
-  		      <li><a href="<?php echo $thispage;?>"><span>E-OBS</span></a>
-<!--                       <ul>
+  		      <li><a href="<?php echo $thispage;?>"><span>E-OBS</span></a>                       <ul>
                       	<li><a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices.php"><span>Indices access</span></a>
                       	</li>
-                      	<li><a href="<?php echo $webhost;?>/maps/eobsindicesmaps.php"><span>Indices maps</span></a>
+			<!--                      	<li><a href="<?php echo $webhost;?>/maps/eobsindicesmaps.php"><span>Indices maps</span></a>
                       	</li>
-                       </ul>
 -->
+                       </ul>
                       </li>
                       <li><a href="<?php echo $thispage;?>"><span>NGCD</span></a>
+			<ul>
+                      	  <li><a href="<?php echo $webhost;?>/dataaccess/access_ngcd_indices.php"><span>Indices access</span></a>
+                      	  </li>
+			</ul>
                       </li>
                       <li><a href="<?php echo $thispage;?>"><span>NGCD_Rec</span></a>
                       </li>
