@@ -363,7 +363,7 @@ session_start();
 		    </tr>
 		    <tr>       
 		      <td width="33%">Annual: <a href="../data/indices/eobs/dtr_yr_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/dtr_yr_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
-		      <td width="33%">Annual: <a href="../data/indices/eobs/hi17_yr_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/hi17_yr_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
+		      <td width="33%">Annual: <a href="../data/indices/eobs/hi_yr_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/hi_yr_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%">Half-yearly: <a href="../data/indices/eobs/dtr_hf_0.1deg_reg_ens_median_E-OBSv18.0e.nc">median</a> | <a href="../data/indices/eobs/dtr_hf_0.1deg_reg_ens_2p5_97p5_E-OBSv18.0e.nc">uncertainty</a></td>

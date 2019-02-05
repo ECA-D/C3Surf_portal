@@ -385,7 +385,7 @@ session_start();
 		    </tr>
 		    <tr>       
 		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/dtrETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/hi17ETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/hiETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/dtrETCCDI_hf_NGCD_LAEA1_1971-2010.nc">Half-yearly</a></td>
@@ -924,7 +924,7 @@ session_start();
 		    </tr>
 		    <tr>       
 		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/dtrETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/hi17ETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/hiETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/dtrETCCDI_hf_NGCD_LAEA2_1971-2010.nc">Half-yearly</a></td>
