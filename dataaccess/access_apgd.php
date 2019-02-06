@@ -81,7 +81,7 @@ the <a href="https://www.meteoswiss.admin.ch/home/search.subpage.html/en/data/pr
 target="_blank">APGD webpage</a>. For questions regarding the
 datasets, please <a href="https://www.meteoswiss.admin.ch/home/form/customer-service.html" target="_blank">contact MeteoSwiss</a>.
 
-		  <h3>Actual version and update policy</h3>
+		  <h3>Actual version, user guide and update policy</h3>
 		  
 		  APGD and APGDEns are static datasets (not updated).
 		  <br>
@@ -90,18 +90,21 @@ datasets, please <a href="https://www.meteoswiss.admin.ch/home/form/customer-ser
 		    <tbody>
 		      <tr bgcolor="#941333" height="40px">
 			<td width="25%"><span style="color:#FFFFFF;"><strong>Dataset</strong></span></td>
-			<td width="25%"><span style="color:#FFFFFF;"><strong>Release date</strong></span></td>
-			<td width="50%"><span style="color:#FFFFFF;"><strong>Period covered</strong></span></td>
+			<td width="20%"><span style="color:#FFFFFF;"><strong>Release date</strong></span></td>
+			<td width="30%"><span style="color:#FFFFFF;"><strong>Period covered</strong></span></td>
+			<td width="25%"><span style="color:#FFFFFF;"><strong>User guide</strong></span></td>
 		      </tr>
 		      <tr>
 			<td>APGD</td>
 			<td>2013</td>
 			<td>1971-01-01 - 2008-12-31</td>
+			<td><a href="../documents/ProdDoc_APGD.pdf">Product documentation</a></td>
 		      </tr>
 		      <tr bgcolor="#ffffff">
 			<td>APGDEns</td>
 			<td>2019</td>
 			<td>1971-01-01 - 2008-12-31</td>
+			<td><a href="../documents/ProdDoc_APGDEns.pdf">Product documentation</a></td>
 		      </tr>
 		    </tbody>
 		  </table>

@@ -38,6 +38,10 @@ session_start();
          <li class="mmenu-mm-list-mlid-2215 mmenu-mm-list-path-node-703"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">HISTALP_Rec (Monthly, to be updated)</span></a>
          </li>
          <li class="mmenu-mm-list-mlid-2215 mmenu-mm-list-path-node-704"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">APGD (Daily, external)</span></a>
+	  <ul class="mmenu-mm-list-level-3">
+           <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-702"><a href="<?php echo $webhost;?>/dataaccess/access_apgd.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Data access</span></a>
+           </li>
+           </ul>
          </li>
          <li class="mmenu-mm-list-mlid-2215 mmenu-mm-list-path-node-705"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">CarpatClim (Daily, external)</span></a>
 	  <ul class="mmenu-mm-list-level-3">

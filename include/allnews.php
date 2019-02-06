@@ -65,6 +65,10 @@ session_start();
 		      <td width="60%" style="color:#FFFFFF;"><b>Item</b></td>
 		    </tr>
 		    <tr>
+		      <td>6 Februay 2019</td>
+		      <td>Access page for the <a href="<?php echo $webhost;?>/dataaccess/access_apgd.php">Alpine precipitation grid dataset (APGD)</a> has been created</td>
+		    </tr>
+		    <tr>
 		      <td>30 January 2019</td>
 	              <td><a href="../dataaccess/access_eobs_indices.php">Indices based on E-OBSv18.0e</a> released</td>
 		    </tr>		  

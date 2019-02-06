@@ -85,6 +85,10 @@
                        <li><a href="<?php echo $thispage;?>"><span>HISTALP_Rec (Monthly, to be updated)</span></a>
                        </li>
                        <li><a href="<?php echo $thispage;?>"><span>APGD (Daily, external)</span></a>
+			 <ul>
+                      	   <li><a href="<?php echo $webhost;?>/dataaccess/access_apgd.php"><span>Data access</span></a>
+                      	   </li>
+                      	 </ul>
                        </li>
                        <li><a href="<?php echo $thispage;?>"><span>CarpatClim (Daily, external)</span></a>
 			 <ul>
