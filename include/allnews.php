@@ -65,6 +65,14 @@ session_start();
 		      <td width="60%" style="color:#FFFFFF;"><b>Item</b></td>
 		    </tr>
 		    <tr>
+		      <td>25 February 2019</td>
+	              <td><a href="../stateoftheclimate/january2019.php">State-of-the-climate for January 2019</a> released</td>
+		    </tr>		  
+		    <tr>
+		      <td>25 February 2019</td>
+	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</td>
+		    </tr>    
+		    <tr>
 		      <td>6 Februay 2019</td>
 		      <td>Access page for the <a href="<?php echo $webhost;?>/dataaccess/access_apgd.php">Alpine precipitation grid dataset (APGD)</a> has been created</td>
 		    </tr>
