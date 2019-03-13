@@ -36,6 +36,25 @@ session_start();
 	  	  <div class="view-content">
 		  <!-- Start news items -->
 
+
+		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
+		      <div class="views-field views-field-field-date">
+			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">13 March 2019</span>
+			</div>
+		      </div>  
+		      <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBS v19.0e</a> has been released on 0.1 and 0.25 degree resolutions for the ensemble mean and ensemble spread</span>
+		      </div>
+		    </div>
+
+		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
+		      <div class="views-field views-field-field-date">
+			<div class="field-content"><span content="2018-04-23T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">13 March 2019</span>
+			</div>
+		      </div>  
+		      <div class="views-field views-field-title"><span class="field-content">Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</span>
+		      </div>
+		    </div>
+
 		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
 		      <div class="views-field views-field-field-date">
 			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">25 February 2019</span>

@@ -82,8 +82,16 @@ session_start();
 			<td width="22.5%"><span style="color:#FFFFFF;"><strong>Period covered</strong></span></td>
 			<td width="50%"><span style="color:#FFFFFF;"><strong>Modification</strong></span></td>    
 		      </tr>
+		      <tr bgcolor="#ffffff">
+			<td><a href="access_eobs.php#datafiles">19.0e</a></td>
+			<td>March 2019</td>
+			<td>1950-01-01 - 2018-12-31</td>
+			<td>E-OBS v19.0e (note the additional 'e') is only available for the ensembe mean and ensemble spread. The 'standard' version is no longer available. The full ensemble can be made available on request.<br>
+New precipitation series have been included for Sardinia (Italy). Monthly, half-yearly and yearly updates are continued for Germany, Czech Republic, Bosnia and Herzegovina, Norway, Slovenia, Finland, Ireland, Sweden, Luxembourg, Netherlands, Portugal, Spain, Switzerland, France, Denmark, UK and the regional meteorological service of Catalonia (Spain). More detailed information can be found on the <a href="http://cib.knmi.nl/mediawiki/index.php/Compare_E-OBS_v19.0e_and_v18.0e" target="_blank">page comparing versions 19.0e and 18.0e</a>.
+			</td>   
+		      </tr>
 		      <tr>
-			<td><a href="access_eobs.php#datafiles">18.0e</a></td>
+			<td>18.0e</td>
 			<td>November 2018</td>
 			<td>1950-01-01 - 2018-06-30</td>
 			<td>E-OBS v18.0e (note the additional 'e') is only available for the ensembe mean and ensemble spread. The 'standard' version is no longer available. The full ensemble can be made available on request.<br>
@@ -100,9 +108,8 @@ New temperature series have been included for Lombardia (Italy) and updates have
 		      </tr>
 		    </tbody>
 		  </table>
- Information on older versions of E-OBS can be found <a href="https://www.ecad.eu/download/ensembles/oldversions.php">here</a>. 
  		  
-		<h3><a id="datafiles" style="color: #000000">E-OBS datafiles 1950-01-01 - 2018-06-30</a></h3>
+		<h3><a id="datafiles" style="color: #000000">E-OBS datafiles 1950-01-01 - 2018-12-31</a></h3>
 
 The ensemble version (indicated with a 'e' after the version number)
 is available on a 0.1 and 0.25 degree regular grid for the elements
@@ -131,45 +138,47 @@ range. For more details see Cornes et al. (2018) and <a href="<?php echo $webhos
 		<table  border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
 		  <tbody>
 		    <tr bgcolor="#941333" height="40px">
-		      <td style="color:#FFFFFF;"><b>Version 18.0e</b></td>
+		      <td style="color:#FFFFFF;"><b>Version 19.0e</b></td>
 		      <td style="color:#FFFFFF;"><b>Ensemble mean</b></td>
 		      <td style="color:#FFFFFF;"><b>Ensemble spread</b></td>
 		      <td style="color:#FFFFFF;"><b>Elevation</b></td>      
 		    </tr>
 		    <tr>
 		      <td>0.1 deg. regular grid</td>
-		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ens_mean_0.1deg_reg_v18.0e.nc">TG</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ens_mean_0.1deg_reg_v18.0e.nc">TN</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ens_mean_0.1deg_reg_v18.0e.nc">TX</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ens_mean_0.1deg_reg_v18.0e.nc">RR</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ens_mean_0.1deg_reg_v18.0e.nc">PP</a></td>
-		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ens_spread_0.1deg_reg_v18.0e.nc">TG</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ens_spread_0.1deg_reg_v18.0e.nc">TN</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ens_spread_0.1deg_reg_v18.0e.nc">TX</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ens_spread_0.1deg_reg_v18.0e.nc">RR</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ens_spread_0.1deg_reg_v18.0e.nc">PP</a></td>
-		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/elev_ens_0.1deg_reg_v18.0e.nc">all elements</a></td>      
+		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ens_mean_0.1deg_reg_v19.0e.nc">TG</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ens_mean_0.1deg_reg_v19.0e.nc">TN</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ens_mean_0.1deg_reg_v19.0e.nc">TX</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ens_mean_0.1deg_reg_v19.0e.nc">RR</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ens_mean_0.1deg_reg_v19.0e.nc">PP</a></td>
+		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ens_spread_0.1deg_reg_v19.0e.nc">TG</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ens_spread_0.1deg_reg_v19.0e.nc">TN</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ens_spread_0.1deg_reg_v19.0e.nc">TX</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ens_spread_0.1deg_reg_v19.0e.nc">RR</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ens_spread_0.1deg_reg_v19.0e.nc">PP</a></td>
+		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.1deg_reg_ensemble/elev_ens_0.1deg_reg_v19.0e.nc">all elements</a></td>      
 		    </tr>
 		    <tr>
 		      <td>0.25 deg. regular grid</td>
-		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/tg_ens_mean_0.25deg_reg_v18.0e.nc">TG</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/tn_ens_mean_0.25deg_reg_v18.0e.nc">TN</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/tx_ens_mean_0.25deg_reg_v18.0e.nc">TX</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/rr_ens_mean_0.25deg_reg_v18.0e.nc">RR</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/pp_ens_mean_0.25deg_reg_v18.0e.nc">PP</a></td>
-		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/tg_ens_spread_0.25deg_reg_v18.0e.nc">TG</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/tn_ens_spread_0.25deg_reg_v18.0e.nc">TN</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/tx_ens_spread_0.25deg_reg_v18.0e.nc">TX</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/rr_ens_spread_0.25deg_reg_v18.0e.nc">RR</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/pp_ens_spread_0.25deg_reg_v18.0e.nc">PP</a></td>
-		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/elev_ens_0.25deg_reg_v18.0e.nc">all elements</a></td>      
+		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/tg_ens_mean_0.25deg_reg_v19.0e.nc">TG</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/tn_ens_mean_0.25deg_reg_v19.0e.nc">TN</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/tx_ens_mean_0.25deg_reg_v19.0e.nc">TX</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/rr_ens_mean_0.25deg_reg_v19.0e.nc">RR</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/pp_ens_mean_0.25deg_reg_v19.0e.nc">PP</a></td>
+		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/tg_ens_spread_0.25deg_reg_v19.0e.nc">TG</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/tn_ens_spread_0.25deg_reg_v19.0e.nc">TN</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/tx_ens_spread_0.25deg_reg_v19.0e.nc">TX</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/rr_ens_spread_0.25deg_reg_v19.0e.nc">RR</a> <a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/pp_ens_spread_0.25deg_reg_v19.0e.nc">PP</a></td>
+		      <td><a href="https://www.ecad.eu/download/ensembles/data/Grid_0.25deg_reg_ensemble/elev_ens_0.25deg_reg_v19.0e.nc">all elements</a></td>      
 		    </tr>
 		  <tbody>
 		</table>
 
-		<h3>Datafiles for 2018 and 2019</h3>
+		<h3>Access to smaller chunks</h3>
 		
-		Follow this <a href="access_eobs_months.php">link</a> if you want to download gridded datafiles for 2018 and 2019. They are released on a monthly basis. These files will be replaced with every monthly update and removed after the next full update of the E-OBS dataset.
-		
+		Follow this <a href="access_eobs_chunks.php">link</a>
+		if you want to download E-OBS in about 15 year chunks.
 
 
-		      <h3>Citation and acknowledgement</h3>
+		<h3>Datafiles for 2019</h3>
+		
+		Follow this <a href="access_eobs_months.php">link</a> if you want to download gridded datafiles for 2019. They are released on a monthly basis. These files will be replaced with every monthly update and removed after the next full update of the E-OBS dataset.
+	
+		<h3>Visualize daily maps</h3>
+		
+		Follow
+		this <a href="../maps/eobsdailymaps.php">link</a> if
+		you want to visualize the daily gridded E-OBS fields.
+
+
+		<h3>Citation and acknowledgement</h3>
 		      
 		      Whenever you publish research or applications based on these gridded data products, you should include the following acknowledgement and citations.<br><br>
-		      E-OBS temperature and precipitation:<br>
-		      "We acknowledge the E-OBS dataset from the EU-FP6 project ENSEMBLES (http://ensembles-eu.metoffice.com) and the data providers in the ECA&amp;D project (https://www.ecad.eu)"<br>
-		      "Haylock, M.R., N. Hofstra, A.M.G. Klein Tank, E.J. Klok, P.D. Jones, M. New. 2008: A European daily high-resolution gridded dataset of surface temperature and precipitation. J. Geophys. Res (Atmospheres), <b>113</b>, D20119, doi:10.1029/2008JD10201" <img src="../images/pdf.gif" width="15" height="15" alt="" border="0"> <a href="Haylock_et_al_2008.pdf" target="_blank">Download as PDF</a>
-		      <br><br>
-		      
-		      E-OBS sea level pressure:<br>
-		      "We acknowledge the E-OBS dataset from the EU-FP6 project ENSEMBLES (http://ensembles-eu.metoffice.com) and the data providers in the ECA&D project (https://www.ecad.eu)"<br>
-		      "van den Besselaar, E.J.M., M.R. Haylock, G. van der Schrier and A.M.G. Klein Tank. 2011: A European Daily High-resolution Observational Gridded Data set of Sea Level Pressure. J. Geophys. Res., <b>116</b>, D11110, doi:10.1029/2010JD015468" <img src="../images/html.gif" width="15" height="15" alt="" border="0"><a href="http://www.agu.org/pubs/crossref/2011/2010JD015468.shtml" target="_blank">Website</a>
- 		      <br><br>
-                        
+                     
 		      Ensemble version:<br>
 		      "We acknowledge the E-OBS dataset from the EU-FP6 project UERRA (http://www.uerra.eu) and the Copernicus Climate Change Service, and the data providers in the ECA&D project (https://www.ecad.eu)"<br>
 		      "Cornes, R., G. van der Schrier, E.J.M. van den Besselaar, and P.D. Jones. 2018: An Ensemble Version of the E-OBS Temperature and Precipitation Datasets, J. Geophys. Res. Atmos., <b>123</b>. doi:10.1029/2017JD028200"<img src="../images/html.gif" width="15" height="15" alt="" border="0"><a href="https://doi.org/10.1029/2017JD028200" target="_blank">Website</a>
