@@ -26,7 +26,7 @@ period \(j\), where \(k\) is defined by the last day. Then the maximum 5-day val
 &#9679; <i>Simple daily intensity index (mm/wet day)</i> 
 <br><br> 
 
-Let \(RR_{wj}\) be the daily precipitation amount for wet day \(w\) (RR < 1.0 mm) of
+Let \(RR_{wj}\) be the daily precipitation amount for wet day \(w\) (\(RR \ge 1\) mm) of
 period \(j\). Then the mean precipitation amount at wet days is given by:
 <br><br>
 

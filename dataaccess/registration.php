@@ -66,16 +66,7 @@ session_start();
 
 		      <h3>Citation and acknowledgement</h3>
 		      
-		      henever you publish research or applications based on these gridded data products, you should include the following acknowledgement and citations.<br><br>
-		      E-OBS temperature and precipitation:<br>
-		      "We acknowledge the E-OBS dataset from the EU-FP6 project ENSEMBLES (http://ensembles-eu.metoffice.com) and the data providers in the ECA&amp;D project (https://www.ecad.eu)"<br>
-		      "Haylock, M.R., N. Hofstra, A.M.G. Klein Tank, E.J. Klok, P.D. Jones, M. New. 2008: A European daily high-resolution gridded dataset of surface temperature and precipitation. J. Geophys. Res (Atmospheres), <b>113</b>, D20119, doi:10.1029/2008JD10201" <img src="../images/pdf.gif" width="15" height="15" alt="" border="0"> <a href="Haylock_et_al_2008.pdf" target="_blank">Download as PDF</a>
-		      <br><br>
-		      
-		      E-OBS sea level pressure:<br>
-		      "We acknowledge the E-OBS dataset from the EU-FP6 project ENSEMBLES (http://ensembles-eu.metoffice.com) and the data providers in the ECA&amp;D project (https://www.ecad.eu)"<br>
-		      "van den Besselaar, E.J.M., M.R. Haylock, G. van der Schrier and A.M.G. Klein Tank. 2011: A European Daily High-resolution Observational Gridded Data set of Sea Level Pressure. J. Geophys. Res., <b>116</b>, D11110, doi:10.1029/2010JD015468" <img src="../images/html.gif" width="15" height="15" alt="" border="0"><a href="http://www.agu.org/pubs/crossref/2011/2010JD015468.shtml" target="_blank">Website</a>
-		      <br><br>
+		      Whenever you publish research or applications based on these gridded data products, you should include the following acknowledgement and citations.<br><br>
 		      
 		      Ensemble version:<br>
 		      "We acknowledge the E-OBS dataset from the EU-FP6 project UERRA (http://www.uerra.eu) and the data providers in the ECA&amp;D project (https://www.ecad.eu)"<br>

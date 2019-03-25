@@ -65,6 +65,10 @@ session_start();
 		      <td width="60%" style="color:#FFFFFF;"><b>Item</b></td>
 		    </tr>
 		    <tr>
+		      <td>25 March 2019</td>
+	              <td><a href="../stateoftheclimate/february2019.php">State-of-the-climate for February 2019</a> released</td>
+		    </tr>		  
+		    <tr>
 		      <td>13 March 2019</td>
 	              <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBS v19.0e</a> has been released on 0.1 and 0.25 degree resolutions for the ensemble mean and ensemble spread</td>
 		    </tr>		  
