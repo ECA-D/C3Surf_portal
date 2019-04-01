@@ -76,11 +76,15 @@ session_start();
 			<td width="35%"><span style="color:#FFFFFF;"><strong>Modification</strong></span></td>    
 		      </tr>
 		      <tr>
-			<td><a href="access_ngcd.php#datafiles">18.03</a></td>
-			<td>March 2018</td>
+			<td><a href="access_ngcd.php#datafiles">19.03</a></td>
+			<td>March 2019</td>
 			<td>0.1.0-beta</td>
-			<td>1971-01-01 - 2017-12-31</td>
-			<td>First release</td>
+			<td>1971-01-01 - 2018-12-31</td>
+			<td>Minor differences in number of
+			precipitation series. Some differences in the
+			temperature input. This is mostly caused by a
+			removal of observation series shorter than two
+			years.</td>
 		      </tr>
 		      <tr bgcolor="#ffffff">
 			<td><a href="access_ngcd.php#datafiles">18.09</a></td>
@@ -97,10 +101,17 @@ session_start();
 			a minor effect of the gridded fields over
 			Fennoscandia.</td>
 		      </tr>
+		      <tr>
+			<td><a href="access_ngcd.php#datafiles">18.03</a></td>
+			<td>March 2018</td>
+			<td>0.1.0-beta</td>
+			<td>1971-01-01 - 2017-12-31</td>
+			<td>First release</td>
+		      </tr>
 		    </tbody>
 		  </table>
 
-			<h3><a id="datafiles" style="color: #000000">NGCD datafiles 1971-01-01 - 2018-06-30</a></h3>
+			<h3><a id="datafiles" style="color: #000000">NGCD datafiles 1971-01-01 - 2018-12-31</a></h3>
 		The datafiles contain gridded data for 2 types of dataset, 4 elements each: air temperature (daily minimum, maximum and average); daily total precipitation. They cover Norway, Finland and Sweden. The data files are in compressed NetCDF format.
 		<br><br>
 

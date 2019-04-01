@@ -65,6 +65,10 @@ session_start();
 		      <td width="60%" style="color:#FFFFFF;"><b>Item</b></td>
 		    </tr>
 		    <tr>
+		      <td>1 April 2019</td>
+	              <td><a href="../dataaccess/access_ngcd.php">NGCD version 19.03</a> released</td>
+		    </tr>		  
+		    <tr>
 		      <td>25 March 2019</td>
 	              <td><a href="../stateoftheclimate/february2019.php">State-of-the-climate for February 2019</a> released</td>
 		    </tr>		  
