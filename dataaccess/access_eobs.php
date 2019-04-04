@@ -163,6 +163,17 @@ range. For more details see Cornes et al. (2018) and <a href="<?php echo $webhos
 		Follow this <a href="access_eobs_chunks.php">link</a>
 		if you want to download E-OBS in about 15 year chunks.
 
+		<h3>Meta data input stations</h3>
+
+		Files with meta data about the input stations are available:
+		<table>
+		  <tbody>
+		    <tr> 
+		      <td><a href="https://www.ecad.eu/download/ensembles/data/stations_info_tg_v19.0e.txt">TG</a> <a href="https://www.ecad.eu/download/ensembles/data/stations_info_tn_v19.0e.txt">TN</a> <a href="https://www.ecad.eu/download/ensembles/data/stations_info_tx_v19.0e.txt">TX</a> <a href="https://www.ecad.eu/download/ensembles/data/stations_info_rr_v19.0e.txt">RR</a> <a href="https://www.ecad.eu/download/ensembles/data/stations_info_pp_v19.0e.txt">PP</a> 
+		      </td>
+		    </tr>
+		  </tbody>
+		</table>
 
 		<h3>Datafiles for 2019</h3>
 		
