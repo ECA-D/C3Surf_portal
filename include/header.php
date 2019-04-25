@@ -135,6 +135,8 @@
                      <ul>
                       <li><a href="<?php echo $thispage;?>"><span>Monthly reports</span></a>
                        <ul>
+                        <li><a href="<?php echo $webhost;?>/stateoftheclimate/march2019.php"><span>March 2019</span></a>
+			</li>
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/february2019.php"><span>February 2019</span></a>
                         </li>
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/january2019.php"><span>January 2019</span></a>
@@ -156,8 +158,8 @@
                         <!-- </li> -->
                         <!-- <li><a href="<?php echo $webhost;?>/stateoftheclimate/year2019.php"><span>2019</span></a> -->
                         <!-- </li> -->
-                        <!-- <li><a href="<?php echo $webhost;?>/stateoftheclimate/year2018.php"><span>2018</span></a> -->
-                        <!-- </li> -->
+                        <li><a href="https://climate.copernicus.eu/ESOTC"><span>2018</span></a>
+                        </li>
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/year2017.php"><span>2017</span></a>
                         </li>
                        </ul>
