@@ -82,7 +82,11 @@
                        </li>
                        <li><a href="<?php echo $thispage;?>"><span>NGCD_Rec (Monthly, to be produced)</span></a>
                        </li>
-                       <li><a href="<?php echo $thispage;?>"><span>HISTALP_Rec (Monthly, to be updated)</span></a>
+                       <li><a href="<?php echo $thispage;?>"><span>LAPrec (Monthly)</span></a>
+			 <ul>
+                      	   <li><a href="<?php echo $webhost;?>/dataaccess/access_laprec.php"><span>Data access</span></a>
+                      	   </li>
+                      	 </ul>
                        </li>
                        <li><a href="<?php echo $thispage;?>"><span>APGD (Daily, external)</span></a>
 			 <ul>
@@ -118,7 +122,7 @@
                       </li>
                       <li><a href="<?php echo $thispage;?>"><span>NGCD_Rec</span></a>
                       </li>
-                      <li><a href="<?php echo $thispage;?>"><span>HISTALP_Rec</span></a>
+                      <li><a href="<?php echo $thispage;?>"><span>LAPrec</span></a>
                       </li>
                       <li><a href="<?php echo $thispage;?>"><span>APGD</span></a>
                       </li>
@@ -135,6 +139,8 @@
                      <ul>
                       <li><a href="<?php echo $thispage;?>"><span>Monthly reports</span></a>
                        <ul>
+                        <li><a href="<?php echo $webhost;?>/stateoftheclimate/april2019.php"><span>April 2019</span></a>
+			</li>
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/march2019.php"><span>March 2019</span></a>
 			</li>
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/february2019.php"><span>February 2019</span></a>
@@ -144,10 +150,6 @@
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/december2018.php"><span>December 2018</span></a>
                         </li>
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/november2018.php"><span>November 2018</span></a>
-                        </li>
-                        <li><a href="<?php echo $webhost;?>/stateoftheclimate/october2018.php"><span>October 2018</span></a>
-                        </li>
-                        <li><a href="<?php echo $webhost;?>/stateoftheclimate/september2018.php"><span>September 2018</span></a>
                         </li>
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/all_monthly_reports.php"><span>All reports</span></a>
                        </ul>
