@@ -70,7 +70,7 @@ MeteoSwiss (Federal Office of Meteorology and Climatology,
 Switzerland).  LAPrec builds on a statistical reconstruction that
 integrates information from two data sources:
 <ul>
-<li>a set of high-quality station series, taken from the HISTALP station data archive (e.g.Auer et al. 2007, see citation section). HISTALP is an initiative of Alpine weather services, led by ZAMG, to assemble and analyze high-quality climate series in the European Alps and extends over the full period of interest, continuously without gaps. It informs about the temporal variation over the long term. 
+<li>a set of high-quality station series, taken from the HISTALP station data archive (e.g.Auer et al. 2007, see citation section). HISTALP is an initiative of the national weather services in the Alpine region, led by ZAMG, to assemble and analyze high-quality climate series in the European Alps and extends over the full period of interest, continuously without gaps. It informs about the temporal variation over the long term. 
 </li>
 <li>
 a high-resolution spatial analysis, the <a href="access_apgd.php">Alpine Precipitation Grid Dataset APGD</a> (Isotta et al. 2014, see citation section) developed at MeteoSwiss. APGD covers a few recent decades only but builds on data from thousands of rain-gauges. This component enriches the final result with spatial detail that is not resolved by the long-term stations alone. 
@@ -86,7 +86,7 @@ More information can be found in the user guide (see below).
 		  <h3>Actual version, user guide and update policy</h3> 
 		
 		  LAPrec is updated at least on a two-yearly basis.
-Notice that the last 5 years of the dataset are provisional: Some
+Notice that the last six years of the dataset are provisional: Some
 stations may not be available in this period and the gaps are
 therefore filled.<br><br>
  
@@ -103,18 +103,18 @@ therefore filled.<br><br>
 			<td><a href="../data/laprec/LAPrec1871.v1.0.nc">LAPrec1871.v1.0</a></td>
 			<td>29 May 2019</td>
 			<td>1871-01-01 - 2017-12-31</td>
-			<td>First release. Provisional period: 2013-2017</td>
+			<td>First release. Provisional period: 2012-2017</td>
 		      </tr>
 		      <tr bgcolor="#ffffff">
 			<td><a href="../data/laprec/LAPrec1901.v1.0.nc">LAPrec1901.v1.0</a></td>
 			<td>29 May 2019</td>
 			<td>1901-01-01 - 2017-12-31</td>
-			<td>First release. Provisional period: 2013-2017</td>
+			<td>First release. Provisional period: 2012-2017</td>
 		      </tr>
 		    </tbody>
 		  </table>
 
-The user guide of LAPrec is here.
+The user guide of LAPrec is <a href="../documents/User_guide_LAPrec.pdf">here</a>.
 
 		      
   	<h3>Citation</h3>
@@ -143,7 +143,37 @@ Isotta, Francesco A.; Begert, Michael; Frei, Christoph, 2019: Long-term consiste
 
 <h3>Terms of use</h3>
 
-LAPrec if freely available for non-commercial use.
+LAPrec is freely available for non-commercial use.
+
+<h3>Data providers</h3>
+
+<a href="http://www.dwd.de" target="_blank">DWD</a><br>
+<a href="http://www.omsz.hu" target="_blank">OMSZ</a><br>
+<a href="http://www.shmu.sk" target="_blank">SHMU</a><br>
+<a href="http://www.isac.cnr.it" target="_blank">CNR-ISAC</a><br>
+<a href="http://www.unimi.it/" target="_blank">Universit&#224; degli Studi di Milano</a><br>
+<a href="https://meteo.arso.gov.si" target="_blank">ARSO</a><br>
+<a href="http://portal.chmi.cz/" target="_blank">CHMI</a><br>
+<a href="http://www.meteofrance.fr" target="_blank">M&#233;t&#233;o-France</a><br>
+<a href="https://meteo.hr/" target="_blank">DHZ</a><br>
+<a href="http://www.hidmet.gov.rs/" target="_blank">HIDMET</a><br>
+<a href="http://www.fhmzbih.gov.ba/latinica/index.php" target="_blank">FHMZ</a><br>
+<a href="https://www.arpae.it/" target="_blank">Arpae Emilia Romagna</a><br>
+<a href="http://www.provincia.bz.it" target="_blank">Hydrographisches Amt der S&#252;dtiroler Landesverwaltung
+<a href="http://www.sir.toscana.it" target="_blank">Settore Idrologico Regionale (S.I.R.) della regione Toscana </a><br>
+<a href="https://www.arpal.gov.it/" target="_blank">ARPAL-Cfmi</a><br>
+<a href="http://www.arpalombardia.it/meteo" target="_blank">ARPA Lombardia</a><br>
+<a href="http://www.regione.marche.it/" target="_blank">Regione Marche</a><br>
+<a href="http://www.osmer.fvg.it/home.php" target="_blank">ARPA FVG</a><br>
+<a href="http://www.nimbus.it" target="_blank">NIMBUS</a><br>
+<a href="http://www.unibo.it" target="_blank">Universit&#224; di Bologna, Dipartimento di Fisica e Astronomia, Archivio storico del Dipartimento di Astronomia, Serie Osservazioni meteorologiche</a><br>
+<a href="http://www.arpa.veneto.it" target="_blank">ARPAV</a><br>
+<a href="http://www.arpa.piemonte.it/" target="_blank">ARPA Piemonte</a><br>
+<a href="http://www.arpat.toscana.it/" target="_blank">ARPAT</a><br>
+ARPA Trentino <br>
+
+
+
 
 		</div>	  
 	      </div>
