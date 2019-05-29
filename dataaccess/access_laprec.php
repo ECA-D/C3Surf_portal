@@ -103,13 +103,13 @@ therefore filled.<br><br>
 			<td><a href="../data/laprec/LAPrec1871.v1.0.nc">LAPrec1871.v1.0</a></td>
 			<td>29 May 2019</td>
 			<td>1871-01-01 - 2017-12-31</td>
-			<td>First release. Provisional period: 2013-2017</a></td>
+			<td>First release. Provisional period: 2013-2017</td>
 		      </tr>
 		      <tr bgcolor="#ffffff">
 			<td><a href="../data/laprec/LAPrec1901.v1.0.nc">LAPrec1901.v1.0</a></td>
 			<td>29 May 2019</td>
 			<td>1901-01-01 - 2017-12-31</td>
-			<td></td>
+			<td>First release. Provisional period: 2013-2017</td>
 		      </tr>
 		    </tbody>
 		  </table>

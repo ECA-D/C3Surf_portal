@@ -66,6 +66,10 @@ session_start();
 		    </tr>
 		    <tr>
 		      <td>29 May 2019</td>
+	              <td><a href="../dataaccess/access_eobs_indices.php">Indices based on E-OBSv19.0e</a> released</td>
+		    </tr>		  
+		    <tr>
+		      <td>29 May 2019</td>
 	              <td><a href="../stateoftheclimate/april2019.php">State-of-the-climate for April 2019</a> released</td>
 		    </tr>		  
 		    <tr>
