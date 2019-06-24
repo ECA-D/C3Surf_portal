@@ -65,6 +65,10 @@ session_start();
 		      <td width="60%" style="color:#FFFFFF;"><b>Item</b></td>
 		    </tr>
 		    <tr>
+		      <td>24 June 2019</td>
+	              <td><a href="../dataaccess/access_ngcd_indices.php">Indices based on NGCD v19.03</a> released</td>
+		    </tr>		  
+		    <tr>
 		      <td>13 June 2019</td>
 	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</td>
 		    </tr> 
