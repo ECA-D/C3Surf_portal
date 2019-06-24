@@ -61,14 +61,14 @@ session_start();
 
 		  <span style="color:#FF0000;"></span><br> This is the
 		  download page for the indices derived from
-		  the <a href="access_ngcd.php">NGCD v18.03
+		  the <a href="access_ngcd.php">NGCD v19.03
 		  dataset</a>. The datafiles below provide several
 		  climate indices (ETCCDI indices marked with *)
 		  derived using daily minimum temperature (TN), daily
 		  maximum temperature (TX) and daily precipitation sum
 		  (RR). They cover Fennoscandia (Finland, Sweden and
 		  Norway) with a spatial resolution of 1 x 1 km over
-		  the period 1971-01-01 - 2010-12-31. The data files
+		  the period 1971-01-01 - 2018-12-31. The data files
 		  are in NetCDF-4 format, separated in four sets per
 		  index: annual, half-yearly, monthly and
 		  seasonal. Seasonal indices are calculated from the
@@ -109,7 +109,7 @@ session_start();
 		  <br><br>
 		  
 		  <!-- LAEA 1 GRID -->
-		  <button class="accordion">Cold indices (NGCD type 1)</button>
+		  <button class="accordion">Cold indices (type 1)</button>
 		  <div class="panel">
 		  <!--FD & ID-->
 		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
@@ -119,21 +119,21 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Maximum no of consecutive frost days (CFD)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/fdETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/cfdETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_fdETCCDI_yr_T_type1_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_cfdETCCDI_yr_T_type1_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/fdETCCDI_hf_NGCD_LAEA1_1971-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/cfdETCCDI_hf_NGCD_LAEA1_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_fdETCCDI_hf_T_type1_1971-2018.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_cfdETCCDI_hf_T_type1_1971-2018.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/fdETCCDI_mon_NGCD_LAEA1_197101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/cfdETCCDI_mon_NGCD_LAEA1_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_fdETCCDI_mon_T_type1_197101-201812.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_cfdETCCDI_mon_T_type1_197101-201812.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/fdETCCDI_seas_NGCD_LAEA1_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_fdETCCDI_seas_T_type1_1971-2018.nc">Seasonal</a>  
 		      </td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/cfdETCCDI_seas_NGCD_LAEA1_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_cfdETCCDI_seas_T_type1_1971-2018.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		    </tbody>
@@ -147,20 +147,20 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Heating degree days (HD17*)</strong></span></td>
 		    </tr>
 		    <tr>       
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/idETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/hd17ETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_idETCCDI_yr_T_type1_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_hd17ETCCDI_yr_T_type1_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/idETCCDI_hf_NGCD_LAEA1_1971-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/hd17ETCCDI_hf_NGCD_LAEA1_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_idETCCDI_hf_T_type1_1971-2018.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_hd17ETCCDI_hf_T_type1_1971-2018.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/idETCCDI_mon_NGCD_LAEA1_197101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/hd17ETCCDI_mon_NGCD_LAEA1_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_idETCCDI_mon_T_type1_197101-201812.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_hd17ETCCDI_mon_T_type1_197101-201812.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/idETCCDI_seas_NGCD_LAEA1_1971-2010.nc">Seasonal</a>  
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/hd17ETCCDI_seas_NGCD_LAEA1_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_idETCCDI_seas_T_type1_1971-2018.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_hd17ETCCDI_seas_T_type1_1971-2018.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		    </tbody>
@@ -174,8 +174,8 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Alternative Cold Spell Duration Index (altCSDI)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/csdiETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/altcsdiETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_csdiETCCDI_yr_T_type1_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_altcsdiETCCDI_yr_T_type1_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    </tbody>
 		  </table>
@@ -189,21 +189,21 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>No. of cold day-times (TX10p)*</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tn10pETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tx10pETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_tn10pETCCDI_yr_T_type1_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_tx10pETCCDI_yr_T_type1_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tn10pETCCDI_hf_NGCD_LAEA1_1971-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tx10pETCCDI_hf_NGCD_LAEA1_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_tn10pETCCDI_hf_T_type1_1971-2018.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_tx10pETCCDI_hf_T_type1_1971-2018.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tn10pETCCDI_mon_NGCD_LAEA1_197101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tx10pETCCDI_mon_NGCD_LAEA1_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_tn10pETCCDI_mon_T_type1_197101-201812.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_tx10pETCCDI_mon_T_type1_197101-201812.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tn10pETCCDI_seas_NGCD_LAEA1_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_tn10pETCCDI_seas_T_type1_1971-2018.nc">Seasonal</a>  
 		      </td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tx10pETCCDI_seas_NGCD_LAEA1_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_tx10pETCCDI_seas_T_type1_1971-2018.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		    </tbody>
@@ -217,21 +217,21 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Minimum of daily maximum temperature (TXn)*</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tnnETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/txnETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_tnnETCCDI_yr_T_type1_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_txnETCCDI_yr_T_type1_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tnnETCCDI_hf_NGCD_LAEA1_1971-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/txnETCCDI_hf_NGCD_LAEA1_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_tnnETCCDI_hf_T_type1_1971-2018.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_txnETCCDI_hf_T_type1_1971-2018.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tnnETCCDI_mon_NGCD_LAEA1_197101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/txnETCCDI_mon_NGCD_LAEA1_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_tnnETCCDI_mon_T_type1_197101-201812.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_txnETCCDI_mon_T_type1_197101-201812.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tnnETCCDI_seas_NGCD_LAEA1_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_tnnETCCDI_seas_T_type1_1971-2018.nc">Seasonal</a>  
 		      </td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/txnETCCDI_seas_NGCD_LAEA1_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_txnETCCDI_seas_T_type1_1971-2018.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		    </tbody>
@@ -244,14 +244,14 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Growing season length (GSL)*</strong></span></td>
 		    </tr>
 		    <tr>       
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/gslETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_gslETCCDI_yr_T_type1_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    </tbody>
 		  </table>
     
 		  </div>
 
-		  <button class="accordion">Heat indices (NGCD type 1)</button>
+		  <button class="accordion">Heat indices (type 1)</button>
 		  <div class="panel">
 		  <!--SU & TR -->
 		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
@@ -261,21 +261,21 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>No. of tropical nights (TR)*</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/suETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/trETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_suETCCDI_yr_T_type1_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_trETCCDI_yr_T_type1_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/suETCCDI_hf_NGCD_LAEA1_1971-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/trETCCDI_hf_NGCD_LAEA1_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_suETCCDI_hf_T_type1_1971-2018.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_trETCCDI_hf_T_type1_1971-2018.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/suETCCDI_mon_NGCD_LAEA1_197101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/trETCCDI_mon_NGCD_LAEA1_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_suETCCDI_mon_T_type1_197101-201812.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_trETCCDI_mon_T_type1_197101-201812.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/suETCCDI_seas_NGCD_LAEA1_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_suETCCDI_seas_T_type1_1971-2018.nc">Seasonal</a>  
 		      </td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/trETCCDI_seas_NGCD_LAEA1_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_trETCCDI_seas_T_type1_1971-2018.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		    </tbody>
@@ -289,21 +289,21 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Maximum of daily minimum temperature (TNx)*</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/txxETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tnxETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_txxETCCDI_yr_T_type1_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_tnxETCCDI_yr_T_type1_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/txxETCCDI_hf_NGCD_LAEA1_1971-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tnxETCCDI_hf_NGCD_LAEA1_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_txxETCCDI_hf_T_type1_1971-2018.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_tnxETCCDI_hf_T_type1_1971-2018.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/txxETCCDI_mon_NGCD_LAEA1_197101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tnxETCCDI_mon_NGCD_LAEA1_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_txxETCCDI_mon_T_type1_197101-201812.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_tnxETCCDI_mon_T_type1_197101-201812.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/txxETCCDI_seas_NGCD_LAEA1_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_txxETCCDI_seas_T_type1_1971-2018.nc">Seasonal</a>  
 		      </td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tnxETCCDI_seas_NGCD_LAEA1_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_tnxETCCDI_seas_T_type1_1971-2018.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		    </tbody>
@@ -317,21 +317,21 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>No. of warm day-times (TX90p)*</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tn90pETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tx90pETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_tn90pETCCDI_yr_T_type1_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_tx90pETCCDI_yr_T_type1_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tn90pETCCDI_hf_NGCD_LAEA1_1971-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tx90pETCCDI_hf_NGCD_LAEA1_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_tn90pETCCDI_hf_T_type1_1971-2018.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_tx90pETCCDI_hf_T_type1_1971-2018.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tn90pETCCDI_mon_NGCD_LAEA1_197101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tx90pETCCDI_mon_NGCD_LAEA1_197101-2010121.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_tn90pETCCDI_mon_T_type1_197101-201812.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_tx90pETCCDI_mon_T_type1_197101-2018121.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tn90pETCCDI_seas_NGCD_LAEA1_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_tn90pETCCDI_seas_T_type1_1971-2018.nc">Seasonal</a>  
 		      </td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tx90pETCCDI_seas_NGCD_LAEA1_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_tx90pETCCDI_seas_T_type1_1971-2018.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		    </tbody>
@@ -345,8 +345,8 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Alternative Warm Spell Duration Index (altWSDI)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/wsdiETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/altwsdiETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_wsdiETCCDI_yr_T_type1_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_altwsdiETCCDI_yr_T_type1_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    </tbody>
 		  </table>
@@ -358,23 +358,23 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Consecutive summer days (CSU)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/csuETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_csuETCCDI_yr_T_type1_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/csuETCCDI_hf_NGCD_LAEA1_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_csuETCCDI_hf_T_type1_1971-2018.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/csuETCCDI_mon_NGCD_LAEA1_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_csuETCCDI_mon_T_type1_197101-201812.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/csuETCCDI_seas_NGCD_LAEA1_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_csuETCCDI_seas_T_type1_1971-2018.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		  </table>
 		  </div>
 
 
-		  <button class="accordion">Multi-element indices (NGCD type 1)</button>
+		  <button class="accordion">Multi-element indices (type 1)</button>
 		  <div class="panel">
 		    <!--DTR & HI-->
 		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
@@ -384,19 +384,19 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Huglin Index (HI)</strong></span></td>
 		    </tr>
 		    <tr>       
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/dtrETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/hiETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_dtrETCCDI_yr_T_type1_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_hiETCCDI_yr_T_type1_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/dtrETCCDI_hf_NGCD_LAEA1_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_dtrETCCDI_hf_T_type1_1971-2018.nc">Half-yearly</a></td>
 		      <td width="33%"></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/dtrETCCDI_mon_NGCD_LAEA1_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_dtrETCCDI_mon_T_type1_197101-201812.nc">Monthly</a></td>
 		      <td width="33%"></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/dtrETCCDI_seas_NGCD_LAEA1_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type1/NGCD_dtrETCCDI_seas_T_type1_1971-2018.nc">Seasonal</a>  
 		      <td width="33%">  
 		      </td>
 		    </tr>
@@ -405,7 +405,7 @@ session_start();
 		  </div>
 
 
-		  <button class="accordion">Drought indices (NGCD type 1)</button>
+		  <button class="accordion">Drought indices (type 1)</button>
 		  <div class="panel">
 		  <!--CDD  & altCDD-->
 		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
@@ -415,8 +415,8 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Alternative Maximum no. of consecutive dry days (altCDD)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/cddETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/altcddETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_cddETCCDI_yr_RR_type1_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_altcddETCCDI_yr_RR_type1_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    </tbody>
 		  </table>
@@ -429,15 +429,15 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>6-month Standardized Precipitation Index (SPI6)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/spi3ETCCDI_mon_NGCD_LAEA1_197101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/spi6ETCCDI_mon_NGCD_LAEA1_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_spi3ETCCDI_mon_RR_type1_197101-201812.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_spi6ETCCDI_mon_RR_type1_197101-201812.nc">Monthly</a></td>
 		    </tr>
 		    </tbody>
 		  </table>
 		  </div>
 
 
-		  <button class="accordion">Rain indices (NGCD type 1)</button>
+		  <button class="accordion">Rain indices (type 1)</button>
 		  <div class="panel">
 		    
 		    <!--rx1day & rx5day -->
@@ -448,21 +448,21 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Highest 5-day precipitation amount (RX5day)*</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/rx1dayETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/rx5dayETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_rx1dayETCCDI_yr_RR_type1_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_rx5dayETCCDI_yr_RR_type1_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/rx1dayETCCDI_hf_NGCD_LAEA1_1971-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/rx5dayETCCDI_hf_NGCD_LAEA1_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_rx1dayETCCDI_hf_RR_type1_1971-2018.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_rx5dayETCCDI_hf_RR_type1_1971-2018.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/rx1dayETCCDI_mon_NGCD_LAEA1_197101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/rx5dayETCCDI_mon_NGCD_LAEA1_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_rx1dayETCCDI_mon_RR_type1_197101-201812.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_rx5dayETCCDI_mon_RR_type1_197101-201812.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/rx1dayETCCDI_seas_NGCD_LAEA1_1971-2010.nc">Seasonal</a>   
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_rx1dayETCCDI_seas_RR_type1_1971-2018.nc">Seasonal</a>   
 		      </td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/rx5dayETCCDI_seas_NGCD_LAEA1_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_rx5dayETCCDI_seas_RR_type1_1971-2018.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		    </tbody>
@@ -476,21 +476,21 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>No. of wet days (R1mm)*</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/sdiiETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r1mmETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_sdiiETCCDI_yr_RR_type1_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r1mmETCCDI_yr_RR_type1_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/sdiiETCCDI_hf_NGCD_LAEA1_1971-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r1mmETCCDI_hf_NGCD_LAEA1_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_sdiiETCCDI_hf_RR_type1_1971-2018.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r1mmETCCDI_hf_RR_type1_1971-2018.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/sdiiETCCDI_mon_NGCD_LAEA1_197101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r1mmETCCDI_mon_NGCD_LAEA1_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_sdiiETCCDI_mon_RR_type1_197101-201812.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r1mmETCCDI_mon_RR_type1_197101-201812.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/sdiiETCCDI_seas_NGCD_LAEA1_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_sdiiETCCDI_seas_RR_type1_1971-2018.nc">Seasonal</a>  
 		      </td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r1mmETCCDI_seas_NGCD_LAEA1_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r1mmETCCDI_seas_RR_type1_1971-2018.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		    </tbody>
@@ -504,21 +504,21 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Very heavy precipitation days (R20mm)*</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r10mmETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r20mmETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r10mmETCCDI_yr_RR_type1_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r20mmETCCDI_yr_RR_type1_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r10mmETCCDI_hf_NGCD_LAEA1_1971-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r20mmETCCDI_hf_NGCD_LAEA1_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r10mmETCCDI_hf_RR_type1_1971-2018.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r20mmETCCDI_hf_RR_type1_1971-2018.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r10mmETCCDI_mon_NGCD_LAEA1_197101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r20mmETCCDI_mon_NGCD_LAEA1_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r10mmETCCDI_mon_RR_type1_197101-201812.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r20mmETCCDI_mon_RR_type1_197101-201812.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r10mmETCCDI_seas_NGCD_LAEA1_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r10mmETCCDI_seas_RR_type1_1971-2018.nc">Seasonal</a>  
 		      </td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r20mmETCCDI_seas_NGCD_LAEA1_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r20mmETCCDI_seas_RR_type1_1971-2018.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		    </tbody>
@@ -532,8 +532,8 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Alternative Maximum no. of consecutive wet days (altCWD)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/cwdETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/altcwdETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_cwdETCCDI_yr_RR_type1_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_altcwdETCCDI_yr_RR_type1_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    </tbody>
 		  </table>
@@ -547,21 +547,21 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Fraction of precipitation due to moderate wet days (R75pFRAC)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r75ptotETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r75pfracETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r75ptotETCCDI_yr_RR_type1_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r75pfracETCCDI_yr_RR_type1_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r75ptotETCCDI_hf_NGCD_LAEA1_1971-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r75pfracETCCDI_hf_NGCD_LAEA1_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r75ptotETCCDI_hf_RR_type1_1971-2018.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r75pfracETCCDI_hf_RR_type1_1971-2018.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r75ptotETCCDI_mon_NGCD_LAEA1_197101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r75pfracETCCDI_mon_NGCD_LAEA1_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r75ptotETCCDI_mon_RR_type1_197101-201812.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r75pfracETCCDI_mon_RR_type1_197101-201812.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r75ptotETCCDI_seas_NGCD_LAEA1_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r75ptotETCCDI_seas_RR_type1_1971-2018.nc">Seasonal</a>  
 		      </td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r75pfracETCCDI_seas_NGCD_LAEA1_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r75pfracETCCDI_seas_RR_type1_1971-2018.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		    </tbody>
@@ -575,21 +575,21 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Fraction of precipitation due to very wet days (R95pFRAC)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r95ptotETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r95pfracETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r95ptotETCCDI_yr_RR_type1_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r95pfracETCCDI_yr_RR_type1_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r95ptotETCCDI_hf_NGCD_LAEA1_1971-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r95pfracETCCDI_hf_NGCD_LAEA1_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r95ptotETCCDI_hf_RR_type1_1971-2018.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r95pfracETCCDI_hf_RR_type1_1971-2018.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r95ptotETCCDI_mon_NGCD_LAEA1_197101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r95pfracETCCDI_mon_NGCD_LAEA1_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r95ptotETCCDI_mon_RR_type1_197101-201812.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r95pfracETCCDI_mon_RR_type1_197101-201812.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r95ptotETCCDI_seas_NGCD_LAEA1_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r95ptotETCCDI_seas_RR_type1_1971-2018.nc">Seasonal</a>  
 		      </td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r95pfracETCCDI_seas_NGCD_LAEA1_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r95pfracETCCDI_seas_RR_type1_1971-2018.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		    </tbody>
@@ -603,21 +603,21 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Fraction of precipitation due to extremely wet days (R99pFRAC)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r99ptotETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r99pfracETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r99ptotETCCDI_yr_RR_type1_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r99pfracETCCDI_yr_RR_type1_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r99ptotETCCDI_hf_NGCD_LAEA1_1971-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r99pfracETCCDI_hf_NGCD_LAEA1_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r99ptotETCCDI_hf_RR_type1_1971-2018.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r99pfracETCCDI_hf_RR_type1_1971-2018.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r99ptotETCCDI_mon_NGCD_LAEA1_197101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r99pfracETCCDI_mon_NGCD_LAEA1_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r99ptotETCCDI_mon_RR_type1_197101-201812.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r99pfracETCCDI_mon_RR_type1_197101-201812.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r99ptotETCCDI_seas_NGCD_LAEA1_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r99ptotETCCDI_seas_RR_type1_1971-2018.nc">Seasonal</a>  
 		      </td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r99pfracETCCDI_seas_NGCD_LAEA1_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_r99pfracETCCDI_seas_RR_type1_1971-2018.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		    </tbody>
@@ -630,16 +630,16 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Precipitation due to wet days (PRCPTOT)*</strong></span></td>    
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/prcptotETCCDI_yr_NGCD_LAEA1_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_prcptotETCCDI_yr_RR_type1_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/prcptotETCCDI_hf_NGCD_LAEA1_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_prcptotETCCDI_hf_RR_type1_1971-2018.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/prcptotETCCDI_mon_NGCD_LAEA1_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_prcptotETCCDI_mon_RR_type1_197101-201812.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/prcptotETCCDI_seas_NGCD_LAEA1_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type1/NGCD_prcptotETCCDI_seas_RR_type1_1971-2018.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		    </tbody>
@@ -648,7 +648,7 @@ session_start();
 <br><br>
 		  
 		  <!-- LAEA2 GRID -->
-		  <button class="accordion">Cold indices (NGCD type 2)</button>
+		  <button class="accordion">Cold indices (type 2)</button>
 		  <div class="panel">
 		  <!--FD & ID-->
 		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
@@ -658,21 +658,21 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Maximum no of consecutive frost days (CFD)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/fdETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/cfdETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_fdETCCDI_yr_T_type2_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_cfdETCCDI_yr_T_type2_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/fdETCCDI_hf_NGCD_LAEA2_1971-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/cfdETCCDI_hf_NGCD_LAEA2_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_fdETCCDI_hf_T_type2_1971-2018.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_cfdETCCDI_hf_T_type2_1971-2018.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/fdETCCDI_mon_NGCD_LAEA2_197101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/cfdETCCDI_mon_NGCD_LAEA2_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_fdETCCDI_mon_T_type2_197101-201812.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_cfdETCCDI_mon_T_type2_197101-201812.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/fdETCCDI_seas_NGCD_LAEA2_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_fdETCCDI_seas_T_type2_1971-2018.nc">Seasonal</a>  
 		      </td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/cfdETCCDI_seas_NGCD_LAEA2_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_cfdETCCDI_seas_T_type2_1971-2018.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		    </tbody>
@@ -686,20 +686,20 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Heating degree days (HD17*)</strong></span></td>
 		    </tr>
 		    <tr>       
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/idETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/hd17ETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_idETCCDI_yr_T_type2_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_hd17ETCCDI_yr_T_type2_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/idETCCDI_hf_NGCD_LAEA2_1971-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/hd17ETCCDI_hf_NGCD_LAEA2_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_idETCCDI_hf_T_type2_1971-2018.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_hd17ETCCDI_hf_T_type2_1971-2018.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/idETCCDI_mon_NGCD_LAEA2_197101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/hd17ETCCDI_mon_NGCD_LAEA2_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_idETCCDI_mon_T_type2_197101-201812.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_hd17ETCCDI_mon_T_type2_197101-201812.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/idETCCDI_seas_NGCD_LAEA2_1971-2010.nc">Seasonal</a>  
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/hd17ETCCDI_seas_NGCD_LAEA2_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_idETCCDI_seas_T_type2_1971-2018.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_hd17ETCCDI_seas_T_type2_1971-2018.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		    </tbody>
@@ -713,8 +713,8 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Alternative Cold Spell Duration Index (altCSDI)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/csdiETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/altcsdiETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_csdiETCCDI_yr_T_type2_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_altcsdiETCCDI_yr_T_type2_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    </tbody>
 		  </table>
@@ -728,21 +728,21 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>No. of cold day-times (TX10p)*</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tn10pETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tx10pETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_tn10pETCCDI_yr_T_type2_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_tx10pETCCDI_yr_T_type2_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tn10pETCCDI_hf_NGCD_LAEA2_1971-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tx10pETCCDI_hf_NGCD_LAEA2_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_tn10pETCCDI_hf_T_type2_1971-2018.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_tx10pETCCDI_hf_T_type2_1971-2018.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tn10pETCCDI_mon_NGCD_LAEA2_197101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tx10pETCCDI_mon_NGCD_LAEA2_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_tn10pETCCDI_mon_T_type2_197101-201812.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_tx10pETCCDI_mon_T_type2_197101-201812.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tn10pETCCDI_seas_NGCD_LAEA2_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_tn10pETCCDI_seas_T_type2_1971-2018.nc">Seasonal</a>  
 		      </td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tx10pETCCDI_seas_NGCD_LAEA2_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_tx10pETCCDI_seas_T_type2_1971-2018.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		    </tbody>
@@ -756,21 +756,21 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Minimum of daily maximum temperature (TXn)*</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tnnETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/txnETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_tnnETCCDI_yr_T_type2_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_txnETCCDI_yr_T_type2_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tnnETCCDI_hf_NGCD_LAEA2_1971-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/txnETCCDI_hf_NGCD_LAEA2_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_tnnETCCDI_hf_T_type2_1971-2018.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_txnETCCDI_hf_T_type2_1971-2018.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tnnETCCDI_mon_NGCD_LAEA2_197101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/txnETCCDI_mon_NGCD_LAEA2_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_tnnETCCDI_mon_T_type2_197101-201812.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_txnETCCDI_mon_T_type2_197101-201812.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tnnETCCDI_seas_NGCD_LAEA2_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_tnnETCCDI_seas_T_type2_1971-2018.nc">Seasonal</a>  
 		      </td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/txnETCCDI_seas_NGCD_LAEA2_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_txnETCCDI_seas_T_type2_1971-2018.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		    </tbody>
@@ -783,14 +783,14 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Growing season length (GSL)*</strong></span></td>
 		    </tr>
 		    <tr>       
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/gslETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_gslETCCDI_yr_T_type2_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    </tbody>
 		  </table>
     
 		  </div>
 
-		  <button class="accordion">Heat indices (NGCD type 2)</button>
+		  <button class="accordion">Heat indices (type 2)</button>
 		  <div class="panel">
 		  <!--SU & TR -->
 		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
@@ -800,21 +800,21 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>No. of tropical nights (TR)*</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/suETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/trETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_suETCCDI_yr_T_type2_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_trETCCDI_yr_T_type2_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/suETCCDI_hf_NGCD_LAEA2_1971-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/trETCCDI_hf_NGCD_LAEA2_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_suETCCDI_hf_T_type2_1971-2018.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_trETCCDI_hf_T_type2_1971-2018.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/suETCCDI_mon_NGCD_LAEA2_197101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/trETCCDI_mon_NGCD_LAEA2_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_suETCCDI_mon_T_type2_197101-201812.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_trETCCDI_mon_T_type2_197101-201812.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/suETCCDI_seas_NGCD_LAEA2_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_suETCCDI_seas_T_type2_1971-2018.nc">Seasonal</a>  
 		      </td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/trETCCDI_seas_NGCD_LAEA2_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_trETCCDI_seas_T_type2_1971-2018.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		    </tbody>
@@ -828,21 +828,21 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Maximum of daily minimum temperature (TNx)*</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/txxETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tnxETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_txxETCCDI_yr_T_type2_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_tnxETCCDI_yr_T_type2_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/txxETCCDI_hf_NGCD_LAEA2_1971-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tnxETCCDI_hf_NGCD_LAEA2_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_txxETCCDI_hf_T_type2_1971-2018.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_tnxETCCDI_hf_T_type2_1971-2018.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/txxETCCDI_mon_NGCD_LAEA2_197101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tnxETCCDI_mon_NGCD_LAEA2_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_txxETCCDI_mon_T_type2_197101-201812.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_tnxETCCDI_mon_T_type2_197101-201812.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/txxETCCDI_seas_NGCD_LAEA2_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_txxETCCDI_seas_T_type2_1971-2018.nc">Seasonal</a>  
 		      </td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tnxETCCDI_seas_NGCD_LAEA2_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_tnxETCCDI_seas_T_type2_1971-2018.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		    </tbody>
@@ -856,21 +856,21 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>No. of warm day-times (TX90p)*</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tn90pETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tx90pETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_tn90pETCCDI_yr_T_type2_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_tx90pETCCDI_yr_T_type2_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tn90pETCCDI_hf_NGCD_LAEA2_1971-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tx90pETCCDI_hf_NGCD_LAEA2_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_tn90pETCCDI_hf_T_type2_1971-2018.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_tx90pETCCDI_hf_T_type2_1971-2018.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tn90pETCCDI_mon_NGCD_LAEA2_197101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tx90pETCCDI_mon_NGCD_LAEA2_197101-2010121.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_tn90pETCCDI_mon_T_type2_197101-201812.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_tx90pETCCDI_mon_T_type2_197101-2018121.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tn90pETCCDI_seas_NGCD_LAEA2_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_tn90pETCCDI_seas_T_type2_1971-2018.nc">Seasonal</a>  
 		      </td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/tx90pETCCDI_seas_NGCD_LAEA2_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_tx90pETCCDI_seas_T_type2_1971-2018.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		    </tbody>
@@ -884,8 +884,8 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Alternative Warm Spell Duration Index (altWSDI)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/wsdiETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/altwsdiETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_wsdiETCCDI_yr_T_type2_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_altwsdiETCCDI_yr_T_type2_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    </tbody>
 		  </table>
@@ -897,23 +897,23 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Consecutive summer days (CSU)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/csuETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_csuETCCDI_yr_T_type2_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/csuETCCDI_hf_NGCD_LAEA2_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_csuETCCDI_hf_T_type2_1971-2018.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/csuETCCDI_mon_NGCD_LAEA2_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_csuETCCDI_mon_T_type2_197101-201812.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/csuETCCDI_seas_NGCD_LAEA2_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_csuETCCDI_seas_T_type2_1971-2018.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		  </table>
 		  </div>
 
 
-		  <button class="accordion">Multi-element indices (NGCD type 2)</button>
+		  <button class="accordion">Multi-element indices (type 2)</button>
 		  <div class="panel">
 		    <!--DTR & HI-->
 		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
@@ -923,19 +923,19 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Huglin Index (HI)</strong></span></td>
 		    </tr>
 		    <tr>       
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/dtrETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/hiETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_dtrETCCDI_yr_T_type2_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_hiETCCDI_yr_T_type2_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/dtrETCCDI_hf_NGCD_LAEA2_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_dtrETCCDI_hf_T_type2_1971-2018.nc">Half-yearly</a></td>
 		      <td width="33%"></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/dtrETCCDI_mon_NGCD_LAEA2_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_dtrETCCDI_mon_T_type2_197101-201812.nc">Monthly</a></td>
 		      <td width="33%"></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/dtrETCCDI_seas_NGCD_LAEA2_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/T_type2/NGCD_dtrETCCDI_seas_T_type2_1971-2018.nc">Seasonal</a>  
 		      <td width="33%">  
 		      </td>
 		    </tr>
@@ -944,7 +944,7 @@ session_start();
 		  </div>
 
 
-		  <button class="accordion">Drought indices (NGCD type 2)</button>
+		  <button class="accordion">Drought indices (type 2)</button>
 		  <div class="panel">
 		  <!--CDD  & altCDD-->
 		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
@@ -954,8 +954,8 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Alternative Maximum no. of consecutive dry days (altCDD)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/cddETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/altcddETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_cddETCCDI_yr_RR_type2_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_altcddETCCDI_yr_RR_type2_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    </tbody>
 		  </table>
@@ -968,15 +968,15 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>6-month Standardized Precipitation Index (SPI6)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/spi3ETCCDI_mon_NGCD_LAEA2_197101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/spi6ETCCDI_mon_NGCD_LAEA2_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_spi3ETCCDI_mon_RR_type2_197101-201812.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_spi6ETCCDI_mon_RR_type2_197101-201812.nc">Monthly</a></td>
 		    </tr>
 		    </tbody>
 		  </table>
 		  </div>
 
 
-		  <button class="accordion">Rain indices (NGCD type 2)</button>
+		  <button class="accordion">Rain indices (type 2)</button>
 		  <div class="panel">
 		    
 		    <!--rx1day & rx5day -->
@@ -987,21 +987,21 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Highest 5-day precipitation amount (RX5day)*</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/rx1dayETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/rx5dayETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_rx1dayETCCDI_yr_RR_type2_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_rx5dayETCCDI_yr_RR_type2_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/rx1dayETCCDI_hf_NGCD_LAEA2_1971-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/rx5dayETCCDI_hf_NGCD_LAEA2_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_rx1dayETCCDI_hf_RR_type2_1971-2018.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_rx5dayETCCDI_hf_RR_type2_1971-2018.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/rx1dayETCCDI_mon_NGCD_LAEA2_197101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/rx5dayETCCDI_mon_NGCD_LAEA2_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_rx1dayETCCDI_mon_RR_type2_197101-201812.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_rx5dayETCCDI_mon_RR_type2_197101-201812.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/rx1dayETCCDI_seas_NGCD_LAEA2_1971-2010.nc">Seasonal</a>   
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_rx1dayETCCDI_seas_RR_type2_1971-2018.nc">Seasonal</a>   
 		      </td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/rx5dayETCCDI_seas_NGCD_LAEA2_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_rx5dayETCCDI_seas_RR_type2_1971-2018.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		    </tbody>
@@ -1015,21 +1015,21 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>No. of wet days (R1mm)*</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/sdiiETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r1mmETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_sdiiETCCDI_yr_RR_type2_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r1mmETCCDI_yr_RR_type2_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/sdiiETCCDI_hf_NGCD_LAEA2_1971-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r1mmETCCDI_hf_NGCD_LAEA2_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_sdiiETCCDI_hf_RR_type2_1971-2018.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r1mmETCCDI_hf_RR_type2_1971-2018.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/sdiiETCCDI_mon_NGCD_LAEA2_197101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r1mmETCCDI_mon_NGCD_LAEA2_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_sdiiETCCDI_mon_RR_type2_197101-201812.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r1mmETCCDI_mon_RR_type2_197101-201812.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/sdiiETCCDI_seas_NGCD_LAEA2_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_sdiiETCCDI_seas_RR_type2_1971-2018.nc">Seasonal</a>  
 		      </td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r1mmETCCDI_seas_NGCD_LAEA2_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r1mmETCCDI_seas_RR_type2_1971-2018.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		    </tbody>
@@ -1043,21 +1043,21 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Very heavy precipitation days (R20mm)*</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r10mmETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r20mmETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r10mmETCCDI_yr_RR_type2_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r20mmETCCDI_yr_RR_type2_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r10mmETCCDI_hf_NGCD_LAEA2_1971-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r20mmETCCDI_hf_NGCD_LAEA2_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r10mmETCCDI_hf_RR_type2_1971-2018.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r20mmETCCDI_hf_RR_type2_1971-2018.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r10mmETCCDI_mon_NGCD_LAEA2_197101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r20mmETCCDI_mon_NGCD_LAEA2_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r10mmETCCDI_mon_RR_type2_197101-201812.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r20mmETCCDI_mon_RR_type2_197101-201812.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r10mmETCCDI_seas_NGCD_LAEA2_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r10mmETCCDI_seas_RR_type2_1971-2018.nc">Seasonal</a>  
 		      </td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r20mmETCCDI_seas_NGCD_LAEA2_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r20mmETCCDI_seas_RR_type2_1971-2018.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		    </tbody>
@@ -1071,8 +1071,8 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Alternative Maximum no. of consecutive wet days (altCWD)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/cwdETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/altcwdETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_cwdETCCDI_yr_RR_type2_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_altcwdETCCDI_yr_RR_type2_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    </tbody>
 		  </table>
@@ -1086,21 +1086,21 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Fraction of precipitation due to moderate wet days (R75pFRAC)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r75ptotETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r75pfracETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r75ptotETCCDI_yr_RR_type2_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r75pfracETCCDI_yr_RR_type2_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r75ptotETCCDI_hf_NGCD_LAEA2_1971-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r75pfracETCCDI_hf_NGCD_LAEA2_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r75ptotETCCDI_hf_RR_type2_1971-2018.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r75pfracETCCDI_hf_RR_type2_1971-2018.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r75ptotETCCDI_mon_NGCD_LAEA2_197101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r75pfracETCCDI_mon_NGCD_LAEA2_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r75ptotETCCDI_mon_RR_type2_197101-201812.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r75pfracETCCDI_mon_RR_type2_197101-201812.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r75ptotETCCDI_seas_NGCD_LAEA2_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r75ptotETCCDI_seas_RR_type2_1971-2018.nc">Seasonal</a>  
 		      </td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r75pfracETCCDI_seas_NGCD_LAEA2_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r75pfracETCCDI_seas_RR_type2_1971-2018.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		    </tbody>
@@ -1114,21 +1114,21 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Fraction of precipitation due to very wet days (R95pFRAC)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r95ptotETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r95pfracETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r95ptotETCCDI_yr_RR_type2_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r95pfracETCCDI_yr_RR_type2_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r95ptotETCCDI_hf_NGCD_LAEA2_1971-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r95pfracETCCDI_hf_NGCD_LAEA2_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r95ptotETCCDI_hf_RR_type2_1971-2018.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r95pfracETCCDI_hf_RR_type2_1971-2018.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r95ptotETCCDI_mon_NGCD_LAEA2_197101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r95pfracETCCDI_mon_NGCD_LAEA2_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r95ptotETCCDI_mon_RR_type2_197101-201812.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r95pfracETCCDI_mon_RR_type2_197101-201812.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r95ptotETCCDI_seas_NGCD_LAEA2_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r95ptotETCCDI_seas_RR_type2_1971-2018.nc">Seasonal</a>  
 		      </td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r95pfracETCCDI_seas_NGCD_LAEA2_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r95pfracETCCDI_seas_RR_type2_1971-2018.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		    </tbody>
@@ -1142,21 +1142,21 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Fraction of precipitation due to extremely wet days (R99pFRAC)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r99ptotETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r99pfracETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r99ptotETCCDI_yr_RR_type2_1971-2018.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r99pfracETCCDI_yr_RR_type2_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r99ptotETCCDI_hf_NGCD_LAEA2_1971-2010.nc">Half-yearly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r99pfracETCCDI_hf_NGCD_LAEA2_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r99ptotETCCDI_hf_RR_type2_1971-2018.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r99pfracETCCDI_hf_RR_type2_1971-2018.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r99ptotETCCDI_mon_NGCD_LAEA2_197101-201012.nc">Monthly</a></td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r99pfracETCCDI_mon_NGCD_LAEA2_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r99ptotETCCDI_mon_RR_type2_197101-201812.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r99pfracETCCDI_mon_RR_type2_197101-201812.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r99ptotETCCDI_seas_NGCD_LAEA2_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r99ptotETCCDI_seas_RR_type2_1971-2018.nc">Seasonal</a>  
 		      </td>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/r99pfracETCCDI_seas_NGCD_LAEA2_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_r99pfracETCCDI_seas_RR_type2_1971-2018.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		    </tbody>
@@ -1169,16 +1169,16 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Precipitation due to wet days (PRCPTOT)*</strong></span></td>    
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/prcptotETCCDI_yr_NGCD_LAEA2_1971-2010.nc">Annual</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_prcptotETCCDI_yr_RR_type2_1971-2018.nc">Annual</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/prcptotETCCDI_hf_NGCD_LAEA2_1971-2010.nc">Half-yearly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_prcptotETCCDI_hf_RR_type2_1971-2018.nc">Half-yearly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/prcptotETCCDI_mon_NGCD_LAEA2_197101-201012.nc">Monthly</a></td>
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_prcptotETCCDI_mon_RR_type2_197101-201812.nc">Monthly</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/version_18.03/indices/prcptotETCCDI_seas_NGCD_LAEA2_1971-2010.nc">Seasonal</a>  
+		      <td width="33%"><a href="http://thredds.met.no/thredds/fileServer/ngcd/latest/indices/RR_type2/NGCD_prcptotETCCDI_seas_RR_type2_1971-2018.nc">Seasonal</a>  
 		      </td>
 		    </tr>
 		    </tbody>
