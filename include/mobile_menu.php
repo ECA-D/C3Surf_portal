@@ -91,6 +91,8 @@ session_start();
       <ul class="mmenu-mm-list-level-2">
          <li class="mmenu-mm-list-mlid-2068 mmenu-mm-list-path-news"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Monthly reports</span></a>
 	  <ul class="mmenu-mm-list-level-3">
+            <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/may2019.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">May 2019</span></a>
+	    </li>
             <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/april2019.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">April 2019</span></a>
 	    </li>
             <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/march2019.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">March 2019</span></a>
@@ -100,8 +102,6 @@ session_start();
             <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/january2019.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">January 2019</span></a>
             </li>
             <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/december2018.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">December 2018</span></a>
-            </li>
-            <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/november2018.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">November 2018</span></a>
             </li>
            <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-715"><a href="<?php echo $webhost;?>/stateoftheclimate/all_monthly_reports.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">All reports</span></a>
            </li>
