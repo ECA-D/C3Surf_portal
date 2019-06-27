@@ -61,7 +61,7 @@ session_start();
                 <!-- Main part -->
                 <div id="block-system-main" class="block block-system col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
 
-                 Definitions and mathematical formulas of the indices used are provided below. A core set of 27 indices follows the definitions recommended by the CCl/CLIVAR/JCOMM Expert Team on Climate Change Detection and Indices (<a href="http://www.clivar.org/organization/etccdi/etccdi.php" target="_blank">ETCCDI</a>). A few indices are available as well. Note that new research may lead to additional indices or changes in the indices definitions in the future.<br><br>
+                 Definitions and mathematical formulas of the indices used are provided below. A core set of 27 indices follows the definitions recommended by the CCl/CLIVAR/JCOMM Expert Team on Climate Change Detection and Indices (<a href="http://www.clivar.org/organization/etccdi/etccdi.php" target="_blank">ETCCDI</a>). A few additional indices are available as well. Note that new research may lead to additional indices or changes in the indices definitions in the future.<br><br>
 
                    The indices have been grouped in different categories corresponding with different aspects of climate change. More information on the use of indices can be found in <a href="../documents/C3S_D311a_Lot4.3.1.2_201809_user_guidance_indices_v1.pdf">this deliverable</a>.
                   <br><br>
