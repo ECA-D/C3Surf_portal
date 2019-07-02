@@ -66,7 +66,7 @@ A katabatic wind is a drainage wind, a wind that carries high-density cold air f
 <br><br>
 <a href="../images/may2019/13may2019_croatia_gust.png"><img alt="" src="../images/may2019/13may2019_croatia_gust.png" width="250px"></a>
 <br><br>
-<em>Figure 1: WRF model 13 May 2019 00 UTC +2h forecast. WRF is nested in GFS and has a 0.025 deg horizontal grid. Data are from Croatia Meteo. Surface windgusts in [m/s] are shown. Note that WRF predicts the wind gusts reasonably well, but does not forecast the extreme values as observed in the open areas.</em>
+<em>Figure 1: WRF model 13 May 2019 00 UTC +2h forecast. WRF is nested in GFS and has a 0.025 deg horizontal grid. Data are from Meteo Adriatic. Surface windgusts in [m/s] are shown. Note that WRF predicts the wind gusts reasonably well, but does not forecast the extreme values as observed in the open areas.</em>
 <br><br>
 <h2>Specific climate indicators for May 2019</h2>
 <br><br>
@@ -81,7 +81,7 @@ Spring has emerged in May, and in most of middle and southern Europe there were 
 <br><br>
 <h2>The weather in May 2019</h2>
 <h3>Temperature deviations and extremes</h3>
-In May temperatures in Central Europe and parts of Southeast Europa were (exceptionally) much below average (figure 4). This was due both to a cold Northwesterly circulation and to below average solar radiation / above average cloudiness (figures 11 and 12). The Northwesterly circulation was driven by a high pressure area over Greenland and a low pressure area over the Atlantic ocean west of Ireland. In Southwest and in Northeast Europa the temperature was (exceptionally) much above average. For Southwest Europe this can be explained by the much above average solar radiation in this region. As in Northeast Europe the solar radiation was below average, the high temperatures in this region must be circulation-driven. The patterns for the coldest night and warmest day (figure 6) are similar to those of the mean temperatures (figure 4).
+In May temperatures in Central Europe and parts of Southeast Europe were (exceptionally) much below average (figure 4). This was due both to a cold Northwesterly circulation and to below average solar radiation / above average cloudiness (figures 11 and 12). The Northwesterly circulation was driven by a high pressure area over Greenland and a low pressure area over the Atlantic ocean west of Ireland. In Southwest and in Northeast Europe the temperature was (exceptionally) much above average. For Southwest Europe this can be explained by the much above average solar radiation in this region. As in Northeast Europe the solar radiation was below average, the high temperatures in this region must be circulation-driven. The patterns for the coldest night and warmest day (figure 6) are similar to those of the mean temperatures (figure 4).
 <br><br>
 <a href="../images/may2019/Stateofclimate_May2019_tn_0_25deg_anom_monthlymeans_2019_1981-2010_v19_0e_nc_baselayers_world_polygons_tn_baselayers_overlay_2019-05-31T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/may2019/Stateofclimate_May2019_tn_0_25deg_anom_monthlymeans_2019_1981-2010_v19_0e_nc_baselayers_world_polygons_tn_baselayers_overlay_2019-05-31T00-00-00Z.png" ></a>
 <a href="../images/may2019/Stateofclimate_May2019_tg_0_25deg_anom_monthlymeans_2019_1981-2010_v19_0e_nc_baselayers_world_polygons_tg_baselayers_overlay_2019-05-31T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/may2019/Stateofclimate_May2019_tg_0_25deg_anom_monthlymeans_2019_1981-2010_v19_0e_nc_baselayers_world_polygons_tg_baselayers_overlay_2019-05-31T00-00-00Z.png" ></a>
@@ -150,7 +150,7 @@ The precipitation in May was (exceptionally) much below average in Southwest Eur
 <em>Figure 10: Precipitation fraction in May with respect to 1981-2010 per year. Top row: Northwest Europe, Central Europe, Northeast Europe. Bottom row: Southwest Europe, Region definitions, Southeast Europe. (Based on E-OBS)</em>
 <br><br>
 <h3>Cloudiness and Radiation</h3>
-Cloudiness in May (figure 11) was below average in Southwest Europe and above average in northern and eastern Europa. The radiation anomaly pattern (figure 12) is, as expected in this time of the year, opposite to the cloudiness anomaly pattern.
+Cloudiness in May (figure 11) was below average in Southwest Europe and above average in northern and eastern Europe. The radiation anomaly pattern (figure 12) is, as expected in this time of the year, opposite to the cloudiness anomaly pattern.
 <br><br>
 <a href="../images/may2019/Stateofclimate_May2019_CFCmm201905_nc_baselayers_world_polygons_CFC_FC_F_baselayers_overlay_baselayers_dwdlogo_2019-05-01T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/may2019/Stateofclimate_May2019_CFCmm201905_nc_baselayers_world_polygons_CFC_FC_F_baselayers_overlay_baselayers_dwdlogo_2019-05-01T00-00-00Z.png" ></a>
 <a href="../images/may2019/Stateofclimate_May2019_CFCmm201905_nc__2019-05-01T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/may2019/Stateofclimate_May2019_CFCmm201905_nc__2019-05-01T00-00-00Z.png" ></a>
