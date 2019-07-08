@@ -119,14 +119,14 @@ The user guide of LAPrec is <a href="../documents/User_guide_LAPrec.pdf">here</a
 		      
   	<h3>Citation</h3>
  
-Whenever you publish research or applications based on these grid data products, you should include one or more of the following citations, depending on your focus:<br><br>
+Whenever you publish research or applications based on these grid data products, you should include the following citations:<br><br>
 
 <u>HISTALP station dataset</u><br><br>
 Reference:<br><br>
 Auer, Ingeborg; B&#246;hm, Reinhard; Jurkovic, Anita; Lipa, Wolfgang; Orlik, Alexander; Potzmann, Roland; ... Nieplova, Elena, 2007: HISTALP - historical instrumental climatological surface time series of the Greater Alpine Region. INTERNATIONAL JOURNAL OF CLIMATOLOGY, 27, 17-46, doi: 10.1002/joc.1377
 <br><br>
 
-<u>PGD grid dataset</u><br><br>
+<u>APGD grid dataset</u><br><br>
 Dataset DOI:<br><br>
 10.18751/Climate/Griddata/APGD/1.0
 <br><br>
@@ -150,14 +150,16 @@ LAPrec is freely available for non-commercial use.
 <a href="http://www.dwd.de" target="_blank">DWD</a><br>
 <a href="http://www.omsz.hu" target="_blank">OMSZ</a><br>
 <a href="http://www.shmu.sk" target="_blank">SHMU</a><br>
-<a href="http://www.isac.cnr.it" target="_blank">CNR-ISAC</a><br>
-<a href="http://www.unimi.it/" target="_blank">Universit&#224; degli Studi di Milano</a><br>
 <a href="https://meteo.arso.gov.si" target="_blank">ARSO</a><br>
 <a href="http://portal.chmi.cz/" target="_blank">CHMI</a><br>
 <a href="http://www.meteofrance.fr" target="_blank">M&#233;t&#233;o-France</a><br>
 <a href="https://meteo.hr/" target="_blank">DHZ</a><br>
 <a href="http://www.hidmet.gov.rs/" target="_blank">HIDMET</a><br>
 <a href="http://www.fhmzbih.gov.ba/latinica/index.php" target="_blank">FHMZ</a><br>
+<a href="http://www.zamg.ac.at" target="_blank">ZAMG</a><br>
+<a href="http://www.meteoswiss.admin.ch" target="_blank">MeteoSwiss</a></br>
+<a href="http://www.isac.cnr.it" target="_blank">CNR-ISAC</a><br>
+<a href="http://www.unimi.it/" target="_blank">Universit&#224; degli Studi di Milano</a><br>
 <a href="https://www.arpae.it/" target="_blank">Arpae Emilia Romagna</a><br>
 <a href="http://www.provincia.bz.it" target="_blank">Hydrographisches Amt der S&#252;dtiroler Landesverwaltung
 <a href="http://www.sir.toscana.it" target="_blank">Settore Idrologico Regionale (S.I.R.) della regione Toscana </a><br>
@@ -170,7 +172,7 @@ LAPrec is freely available for non-commercial use.
 <a href="http://www.arpa.veneto.it" target="_blank">ARPAV</a><br>
 <a href="http://www.arpa.piemonte.it/" target="_blank">ARPA Piemonte</a><br>
 <a href="http://www.arpat.toscana.it/" target="_blank">ARPAT</a><br>
-ARPA Trentino <br>
+<a href="https://www.meteotrentino.it/#!/home" target="_blank">ARPA Trentino</a><br>
 
 
 
