@@ -39,6 +39,15 @@ session_start();
 
 		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
 		      <div class="views-field views-field-field-date">
+			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">8 July 2019</span>
+			</div>
+		      </div>  
+		      <div class="views-field views-field-title"><span class="field-content">Figures for <a href="<?php echo $webhost;?>/dataaccess/access_apgd_indices.php">Indices based on APGD</a> have been added</span>
+		      </div>
+		    </div>
+
+		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
+		      <div class="views-field views-field-field-date">
 			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">25 June 2019</span>
 			</div>
 		      </div>  
@@ -61,6 +70,16 @@ session_start();
 			</div>
 		      </div>  
 		      <div class="views-field views-field-title"><span class="field-content">Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</span>
+		      </div>
+		    </div>
+
+
+		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
+		      <div class="views-field views-field-field-date">
+			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">29 May 2019</span>
+			</div>
+		      </div>  
+		      <div class="views-field views-field-title"><span class="field-content">Access page for the <a href="<?php echo $webhost;?>/dataaccess/access_laprec.php">long-term Alpine precipitation reconstruction (LAPrec)</a> has been created</span>
 		      </div>
 		    </div>
 

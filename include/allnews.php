@@ -65,6 +65,10 @@ session_start();
 		      <td width="60%" style="color:#FFFFFF;"><b>Item</b></td>
 		    </tr>
 		    <tr>
+		      <td>8 July 2019</td>
+	              <td>Figures for <a href="<?php echo $webhost;?>/dataaccess/access_apgd_indices.php">Indices based on APGD</a> have been added</td>
+		    </tr>		  
+		    <tr>
 		      <td>25 June 2019</td>
 	              <td><a href="../stateoftheclimate/may2019.php">State-of-the-climate for May 2019</a> released</td>
 		    </tr>		  
@@ -76,6 +80,10 @@ session_start();
 		      <td>13 June 2019</td>
 	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</td>
 		    </tr> 
+		    <tr>
+		      <td>29 May 2019</td>
+		      <td>Access page for the <a href="<?php echo $webhost;?>/dataaccess/access_laprec.php">long-term Alpine precipitation reconstruction (LAPrec)</a> has been created</td>
+		    <tr>
 		    <tr>
 		      <td>29 May 2019</td>
 	              <td><a href="../dataaccess/access_eobs_indices.php">Indices based on E-OBSv19.0e</a> released</td>
