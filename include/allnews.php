@@ -65,6 +65,10 @@ session_start();
 		      <td width="60%" style="color:#FFFFFF;"><b>Item</b></td>
 		    </tr>
 		    <tr>
+		      <td>15 July 2019</td>
+	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</td>
+		    </tr> 
+		    <tr>
 		      <td>8 July 2019</td>
 	              <td>Figures for <a href="<?php echo $webhost;?>/dataaccess/access_apgd_indices.php">Indices based on APGD</a> have been added</td>
 		    </tr>		  
