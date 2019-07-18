@@ -86,22 +86,22 @@ period \(j\). Then the minimum of daily minimum temperature is:
 <br><br>
 
 <h3>TN10p*</h3>
-&#9679; <i>Days with TN < 10th percentile of daily minimum temperature (cold nights) (days)</i> 
+&#9679; <i>Percentage of days with TN < 10th percentile of daily minimum temperature (cold nights) (%)</i> 
 <br><br> 
 
 Let \(TN_{ij}\) be the daily minimum temperature at day \(i\) of
-period \(j\) and let \(TN_{in}10\) be the calendar day 10th percentile calculated for a 5 day window centred on each calendar day in the 1961-1990 period. Then counted is the no of days where:
+period \(j\) and let \(TN_{in}10\) be the calendar day 10th percentile calculated for a 5 day window centred on each calendar day in the 1961-1990 period. Then counted is the percentage of days where:
 <br><br>
 \(TN_{ij} < TN_{in}10\)
 
 <br><br>
 
 <h3>TX10p*</h3>
-&#9679; <i>Days with TX < 10th percentile of daily maximum temperature (cold day-times) (days)</i> 
+&#9679; <i>Percentage of days with TX < 10th percentile of daily maximum temperature (cold day-times) (%)</i> 
 <br><br> 
 
 Let \(TX_{ij}\) be the daily maximum temperature at day \(i\) of
-period \(j\) and let \(TX_{in}10\) be the calendar day 10th percentile calculated for a 5 day window centred on each calendar day in the 1961-1990 period. Then counted is the no of days where:
+period \(j\) and let \(TX_{in}10\) be the calendar day 10th percentile calculated for a 5 day window centred on each calendar day in the 1961-1990 period. Then counted is percentage of days where:
 <br><br>
 \(TX_{ij} < TX_{in}10\)
 

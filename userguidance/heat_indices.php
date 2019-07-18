@@ -56,22 +56,22 @@ period \(j\). Then the maximum of daily minimum temperature is:
 
 
 <h3>TN90p*</h3>
-&#9679; <i>Days with TN > 90th percentile of daily minimum temperature (warm nights) (days)</i> 
+&#9679; <i>Percentage of days with TN > 90th percentile of daily minimum temperature (warm nights) (%)</i> 
 <br><br> 
 
 Let \(TN_{ij}\) be the daily minimum temperature at day \(i\) of
-period \(j\) and let \(TN_{in}90\) be the calendar day 90th percentile calculated for a 5 day window centred on each calendar day in the 1961-1990 period. Then counted is the no of days where:
+period \(j\) and let \(TN_{in}90\) be the calendar day 90th percentile calculated for a 5 day window centred on each calendar day in the 1961-1990 period. Then counted is the percentage of days where:
 <br><br>
 \(TN_{ij} > TN_{in}90\)
 
 <br><br>
 
 <h3>TX90p*</h3>
-&#9679; <i>Days with TX > 90th percentile of daily maximum temperature (warm day-times) (days)</i> 
+&#9679; <i>Percentage of days with TX > 90th percentile of daily maximum temperature (warm day-times) (%)</i> 
 <br><br> 
 
 Let \(TX_{ij}\) be the daily maximum temperature at day \(i\) of
-period \(j\) and let \(TX_{in}10\) be the calendar day 10th percentile calculated for a 5 day window centred on each calendar day in the 1961-1990 period. Then counted is the no of days where:
+period \(j\) and let \(TX_{in}10\) be the calendar day 10th percentile calculated for a 5 day window centred on each calendar day in the 1961-1990 period. Then counted is the percentage of days where:
 <br><br>
 \(TX_{ij} > TX_{in}90\)
 
