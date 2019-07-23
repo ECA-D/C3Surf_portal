@@ -81,15 +81,18 @@ LAPrec is a cross-product that brings together the merits of the two
 initiatives in terms of long-term extent / consistency (HISTALP) and
 spatial resolution (APGD).
 <br>
-More information can be found in the user guide (see below).
+More information can be found in the <a href="../documents/User_guide_LAPrec.pdf">user guide</a>.
 	  
 		  <h3>Actual version, user guide and update policy</h3> 
 		
 		  LAPrec is updated at least on a two-yearly basis.
 Notice that the last six years of the dataset are provisional: Some
 stations may not be available in this period and the gaps are
-therefore filled.<br><br>
- 
+therefore filled.<br><br>  LAPrec1871 and LAPrec 1901 differs from the
+starting date of the reconstruction (1871 and 1901). The shorter
+reconstruction is based on more station series and should be preferred
+unless the period before 1901 is needed.
+<br><br>
 
 		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
 		    <tbody>
