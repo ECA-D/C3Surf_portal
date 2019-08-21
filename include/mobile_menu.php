@@ -118,10 +118,12 @@ session_start();
            <!--    <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-718"><a href="<?php echo $webhost;?>/stateoftheclimate/year2019.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">2019</span></a> -->
               <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-719"><a href="https://climate.copernicus.eu/ESOTC" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">2018</span></a>
               <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-720"><a href="<?php echo $webhost;?>/stateoftheclimate/year2017.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">2017</span></a>
-           </li>
-         </ul>
-        </li>
-       </ul>
+             </li>
+          </ul>
+         </li>
+         <li class="mmenu-mm-list-mlid-2187 mmenu-mm-list-path-node-716"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title"><a href="<?php echo $webhost;?>/stateoftheclimate/observed_extremes.php">Observed temperature extremes</a></span></a>
+         </li>
+        </ul>
       </li>
       <li class="mmenu-mm-list-mlid-2180 mmenu-mm-list-path-node-643"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">User guidance</span></a>
        <ul class="mmenu-mm-list-level-2">

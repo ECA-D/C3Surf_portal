@@ -170,6 +170,7 @@
                         </li>
                        </ul>
                       </li>
+                      <li><a href="<?php echo $thispage;?>"><span><a href="<?php echo $webhost;?>/stateoftheclimate/observed_extremes.php">Observed temperature extremes</a></span></a>
 
                      </ul>
 		    </li>
