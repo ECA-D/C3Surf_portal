@@ -2,6 +2,49 @@
 <?php
 error_reporting(E_ALL  & ~E_NOTICE);
 session_start();
+
+$tmaxname = 'records_tmax.csv';
+
+// The nested array to hold all the arrays
+$tmax_array = []; 
+
+// Open the file for reading
+if (($htmax = fopen("{$tmaxname}", "r")) !== FALSE) 
+{
+  // Each line in the file is converted into an individual array that we call $data
+  // The items of the array are comma separated
+  while (($datatmax = fgetcsv($htmax, 1000, ",")) !== FALSE) 
+  {
+    // Each individual array is being pushed into the nested array
+    $tmax_array[] = $datatmax;		
+  }
+
+  // Close the file
+  fclose($htmax);
+}
+
+$tminname = 'records_tmin.csv';
+
+// The nested array to hold all the arrays
+$tmin_array = []; 
+
+// Open the file for reading
+if (($htmin = fopen("{$tminname}", "r")) !== FALSE) 
+{
+  // Each line in the file is converted into an individual array that we call $data
+  // The items of the array are comma separated
+  while (($datatmin = fgetcsv($htmin, 1000, ",")) !== FALSE) 
+  {
+    // Each individual array is being pushed into the nested array
+    $tmin_array[] = $datatmin;		
+  }
+
+  // Close the file
+  fclose($htmin);
+
+
+}
+
 ?>
 <!DOCTYPE html>
 <html style="" class="js js canvas no-touch rgba opacity cssanimations csstransforms csstransforms3d csstransitions svg inlinesvg WebfontLoader-processed bootstrap-anchors-processed wf-opensans-n4-active wf-opensans-n7-active wf-active" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#" lang="en">
@@ -60,6 +103,34 @@ session_start();
 		<div id="block-system-main" class="block block-system col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
 		  Observed temperature extremes will be inserted soon.<br><br>
 
+		  <?php
+		  $buildtmax = '<table  border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="50%"><tbody><tr bgcolor="#941333" height="40px"><td width="25%" style="color:#FFFFFF;"><b>Country</b></td><td width="25%" style="color:#FFFFFF;"><b>Place</b></td><td width="25%" style="color:#FFFFFF;"><b>Date</b></td><td width="25%" style="color:#FFFFFF;"><b>Tmax</b></td></tr>';
+                 foreach($tmax_array as $rowtmax)
+                 {
+	          $buildtmax .= '<tr>';
+	          foreach($rowtmax as $itemtmax)
+	            {
+	             $buildtmax .= "<td>{$itemtmax}</td>";
+	            }
+	          $buildtmax .= '</tr>';
+	         }
+	         $buildtmax .= '</tbody></table>';
+                 echo $buildtmax;
+
+		 $buildtmin = '<table  border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="50%"><tbody><tr bgcolor="#941333" height="40px"><td width="25%" style="color:#FFFFFF;"><b>Country</b></td><td width="25%" style="color:#FFFFFF;"><b>Place</b></td><td width="25%" style="color:#FFFFFF;"><b>Date</b></td><td width="25%" style="color:#FFFFFF;"><b>Tmin</b></td></tr>';
+                 foreach($tmin_array as $rowtmin)
+                 {
+	          $buildtmin .= '<tr>';
+	          foreach($rowtmin as $itemtmin)
+	            {
+	             $buildtmin .= "<td>{$itemtmin}</td>";
+	            }
+	          $buildtmin .= '</tr>';
+	         }
+	         $buildtmin .= '</tbody></table>';
+                 echo $buildtmin;
+
+                 ?>
   
 		</div>
 	    </div> <!-- /.block -->
