@@ -66,6 +66,10 @@ session_start();
 		    </tr>
 		    <tr>
 		      <td>21 August 2019</td>
+		      <td>Tables with <a href="<?php echo $webhost;?>/stateoftheclimate/observed_extremes.php">observed temperature extremes</a> have been added</td>
+		    </tr>
+		    <tr>
+		      <td>21 August 2019</td>
 	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</td>
 		    </tr> 
 		    <tr>

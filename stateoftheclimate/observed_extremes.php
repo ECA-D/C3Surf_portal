@@ -3,44 +3,56 @@
 error_reporting(E_ALL  & ~E_NOTICE);
 session_start();
 
-$tmaxname = 'records_tmax.csv';
+$maxtmaxname = "extremes/records_maxtmax.csv";
+$maxtminname = 'extremes/records_maxtmin.csv';
+$mintmaxname = 'extremes/records_mintmax.csv';
+$mintminname = 'extremes/records_mintmin.csv';
+
+$datemaxtmax = date ("d F Y", filemtime($maxtmaxname));
+$datemaxtmin = date ("d F Y", filemtime($maxtminname));
+$datemintmax = date ("d F Y", filemtime($mintmaxname));
+$datemintmin = date ("d F Y", filemtime($mintminname));
+
+$datearr = array($datemaxtmax, $datemaxtmin);
+
+
+$maxvalue = max(array_map('strtotime', $datearr));
+
 
 // The nested array to hold all the arrays
-$tmax_array = []; 
+$maxtmax_array = []; 
 
 // Open the file for reading
-if (($htmax = fopen("{$tmaxname}", "r")) !== FALSE) 
+if (($hmaxtmax = fopen("{$maxtmaxname}", "r")) !== FALSE) 
 {
   // Each line in the file is converted into an individual array that we call $data
   // The items of the array are comma separated
-  while (($datatmax = fgetcsv($htmax, 1000, ",")) !== FALSE) 
+  while (($datamaxtmax = fgetcsv($hmaxtmax, 1000, ",")) !== FALSE) 
   {
     // Each individual array is being pushed into the nested array
-    $tmax_array[] = $datatmax;		
+    $maxtmax_array[] = $datamaxtmax;		
   }
 
   // Close the file
-  fclose($htmax);
+  fclose($hmaxtmax);
 }
 
-$tminname = 'records_tmin.csv';
-
 // The nested array to hold all the arrays
-$tmin_array = []; 
+$maxtmin_array = []; 
 
 // Open the file for reading
-if (($htmin = fopen("{$tminname}", "r")) !== FALSE) 
+if (($hmaxtmin = fopen("{$maxtminname}", "r")) !== FALSE) 
 {
   // Each line in the file is converted into an individual array that we call $data
   // The items of the array are comma separated
-  while (($datatmin = fgetcsv($htmin, 1000, ",")) !== FALSE) 
+  while (($datamaxtmin = fgetcsv($hmaxtmin, 1000, ",")) !== FALSE) 
   {
     // Each individual array is being pushed into the nested array
-    $tmin_array[] = $datatmin;		
+    $maxtmin_array[] = $datamaxtmin;		
   }
 
   // Close the file
-  fclose($htmin);
+  fclose($hmaxtmin);
 
 
 }
@@ -101,31 +113,31 @@ if (($htmin = fopen("{$tminname}", "r")) !== FALSE)
 
 		<!-- Main part -->
 		<div id="block-system-main" class="block block-system col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
-		  Below are the tables with observed highest <font color="#0033cc">minimum</font> and <font color="#e60000">maximum</font> temperatures. <b>Bold</b> dates indices dates within the last 5 years.
+		  Below are the tables with observed highest <font color="#0033cc">minimum</font> and <font color="#e60000">maximum</font> temperatures. <b>Bold</b> dates indicate observations made within the most recent 5 years. Data in these tables are sourced from the National Meteorological and Hydrological Services through the <a href="http://www.rccra6.org/" target="_blank">WMO RA VI RCC Network</a>. The tables were updated on <?php echo date("d F Y", $maxvalue);?>.
 <br><br><br>
 
 		  <?php
-		 $buildtmax = '<table  border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%"><tbody><tr bgcolor="#e60000" height="40px"><td width="20%" style="color:#FFFFFF;"><b>Country</b></td><td width="15%" style="color:#FFFFFF;"><b>Highest maximum temperature (&#176;C)</b></td><td width="20%" style="color:#FFFFFF;"><b>Location</b></td><td width="25%" style="color:#FFFFFF;"><b>Date</b></td><td width="20%" style="color:#FFFFFF;"><b>Start of time series</b></td></tr>';
-                 foreach($tmax_array as $rowtmax)
+		 $buildmaxtmax = '<table  border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%"><tbody><tr bgcolor="#e60000" height="40px"><td width="20%" style="color:#FFFFFF;"><b>Country</b></td><td width="15%" style="color:#FFFFFF;"><b>Highest maximum temperature (&#176;C)</b></td><td width="20%" style="color:#FFFFFF;"><b>Location</b></td><td width="25%" style="color:#FFFFFF;"><b>Date</b></td><td width="20%" style="color:#FFFFFF;"><b>Start of time series</b></td></tr>';
+                 foreach($maxtmax_array as $rowmaxtmax)
                  {
-	          $buildtmax .= '<tr>';
-		  $buildtmax .= "<td>{$rowtmax[0]}</td>";
-		  $buildtmax .= "<td>{$rowtmax[1]}</td>";
-		  $buildtmax .= "<td>{$rowtmax[2]}</td>";
-		  $testdate = strtotime("$rowtmax[3]") ;
+	          $buildmaxtmax .= '<tr>';
+		  $buildmaxtmax .= "<td>{$rowmaxtmax[0]}</td>";
+		  $buildmaxtmax .= "<td>{$rowmaxtmax[1]}</td>";
+		  $buildmaxtmax .= "<td>{$rowmaxtmax[2]}</td>";
+		  $testdate = strtotime("$rowmaxtmax[3]") ;
                   $now = time();
 		  $datediff = round( ($now - $testdate) / (60*60*24*365));
 		  if($datediff <= 5) {
-		   $buildtmax .= "<td><b>{$rowtmax[3]}</b></td>";
+		   $buildmaxtmax .= "<td><b>{$rowmaxtmax[3]}</b></td>";
                   }
                   else {
-		   $buildtmax .= "<td>{$rowtmax[3]}</td>";
+		   $buildmaxtmax .= "<td>{$rowmaxtmax[3]}</td>";
                   }
-		  $buildtmax .= "<td>{$rowtmax[4]}</td>";
-	          $buildtmax .= '</tr>';
+		  $buildmaxtmax .= "<td>{$rowmaxtmax[4]}</td>";
+	          $buildmaxtmax .= '</tr>';
 	         }
-	         $buildtmax .= '</tbody></table>';
-                 echo $buildtmax;
+	         $buildmaxtmax .= '</tbody></table>';
+                 echo $buildmaxtmax;
 
                  ?>
  		 * - temperatures were rounded to the nearest degree
@@ -133,32 +145,32 @@ if (($htmin = fopen("{$tminname}", "r")) !== FALSE)
                  ** - data before 1942 are still on paper, and being digitized
 <br><br>
                  <?php
-		 $buildtmin = '<table  border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%"><tbody><tr bgcolor="#0033cc" height="40px"><td width="20%" style="color:#FFFFFF;"><b>Country</b></td><td width="15%" style="color:#FFFFFF;"><b>Highest minimum temperature (&#176;C)</b></td><td width="25%" style="color:#FFFFFF;"><b>Location</b></td><td width="20%" style="color:#FFFFFF;"><b>Date</b></td><td width="20%" style="color:#FFFFFF;"><b>Start of time series</b></td></tr>';
-                 foreach($tmin_array as $rowtmin)
+		 $buildmaxtmin = '<table  border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%"><tbody><tr bgcolor="#0033cc" height="40px"><td width="20%" style="color:#FFFFFF;"><b>Country</b></td><td width="15%" style="color:#FFFFFF;"><b>Highest minimum temperature (&#176;C)</b></td><td width="25%" style="color:#FFFFFF;"><b>Location</b></td><td width="20%" style="color:#FFFFFF;"><b>Date</b></td><td width="20%" style="color:#FFFFFF;"><b>Start of time series</b></td></tr>';
+                 foreach($maxtmin_array as $rowmaxtmin)
                  {
-	          $buildtmin .= '<tr>';
-	          $buildtmin .= '<tr>';
-		  $buildtmin .= "<td>{$rowtmin[0]}</td>";
-		  $buildtmin .= "<td>{$rowtmin[1]}</td>";
-		  $buildtmin .= "<td>{$rowtmin[2]}</td>";
-		  $testdate = strtotime("$rowtmin[3]") ;
+	          $buildmaxtmin .= '<tr>';
+	          $buildmaxtmin .= '<tr>';
+		  $buildmaxtmin .= "<td>{$rowmaxtmin[0]}</td>";
+		  $buildmaxtmin .= "<td>{$rowmaxtmin[1]}</td>";
+		  $buildmaxtmin .= "<td>{$rowmaxtmin[2]}</td>";
+		  $testdate = strtotime("$rowmaxtmin[3]") ;
                   $now = time();
 		  $datediff = round( ($now - $testdate) / (60*60*24*365));
 		  if($datediff <= 5) {
-		   $buildtmin .= "<td><b>{$rowtmin[3]}</b></td>";
+		   $buildmaxtmin .= "<td><b>{$rowmaxtmin[3]}</b></td>";
                   }
                   else {
-		   $buildtmin .= "<td>{$rowtmin[3]}</td>";
+		   $buildmaxtmin .= "<td>{$rowmaxtmin[3]}</td>";
                   }
-		  $buildtmin .= "<td>{$rowtmin[4]}</td>";
-	          $buildtmin .= '</tr>';
-	          $buildtmin .= '</tr>';
+		  $buildmaxtmin .= "<td>{$rowmaxtmin[4]}</td>";
+	          $buildmaxtmin .= '</tr>';
+	          $buildmaxtmin .= '</tr>';
 	         }
-	         $buildtmin .= '</tbody></table>';
-                 echo $buildtmin;
+	         $buildmaxtmin .= '</tbody></table>';
+                 echo $buildmaxtmin;
 
                  ?>
-		 * - no statistics for max Tmin available<br>
+		 * - no statistics for highest minimum temperature available<br>
 		 ** - not an official record; based on digitized data since 1961; subject to changes with ongoing digitization<br>
 *** - data before 1942 are still on paper, and being digitize<br>
 		</div>

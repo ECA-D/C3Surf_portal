@@ -36,6 +36,14 @@ session_start();
 	  	  <div class="view-content">
 		  <!-- Start news items -->
 
+		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
+		      <div class="views-field views-field-field-date">
+			<div class="field-content"><span content="2018-04-23T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">21 August 2019</span>
+			</div>
+		      </div>  
+		      <div class="views-field views-field-title"><span class="field-content">Tables with <a href="<?php echo $webhost;?>/stateoftheclimate/observed_extremes.php">observed temperature extremes</a> have been added</span>
+		      </div>
+		    </div>
 
 		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
 		      <div class="views-field views-field-field-date">
@@ -200,32 +208,6 @@ session_start();
 		      </div>
 		    </div>
 
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">25 February 2019</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/stateoftheclimate/january2019.php">State-of-the-climate for January 2019</a> released</span>
-		      </div>
-		    </div>
-
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-04-23T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">25 February 2019</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content">Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</span>
-		      </div>
-		    </div>
-
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">6 February 2019</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content">Access page for the <a href="<?php echo $webhost;?>/dataaccess/access_apgd.php">Alpine precipitation grid dataset (APGD)</a> has been created</span>
-		      </div>
-		    </div>
 
 
 
