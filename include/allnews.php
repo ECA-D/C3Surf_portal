@@ -65,6 +65,10 @@ session_start();
 		      <td width="60%" style="color:#FFFFFF;"><b>Item</b></td>
 		    </tr>
 		    <tr>
+		      <td>26 August 2019</td>
+	              <td><a href="../stateoftheclimate/july2019.php">State-of-the-climate for July 2019</a> released</td>
+		    </tr>		  
+		    <tr>
 		      <td>21 August 2019</td>
 		      <td>Tables with <a href="<?php echo $webhost;?>/stateoftheclimate/observed_extremes.php">observed temperature extremes</a> have been added</td>
 		    </tr>

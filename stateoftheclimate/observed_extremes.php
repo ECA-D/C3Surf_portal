@@ -113,7 +113,7 @@ if (($hmaxtmin = fopen("{$maxtminname}", "r")) !== FALSE)
 
 		<!-- Main part -->
 		<div id="block-system-main" class="block block-system col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
-		  Below are the tables with observed highest <font color="#0033cc">minimum</font> and <font color="#e60000">maximum</font> temperatures. <b>Bold</b> dates indicate observations made within the most recent 5 years. Data in these tables are sourced from the National Meteorological and Hydrological Services through the <a href="http://www.rccra6.org/" target="_blank">WMO RA VI RCC Network</a>. The tables were updated on <?php echo date("d F Y", $maxvalue);?>.
+		  Below are the tables with observed highest <font color="#0033cc">minimum</font> and <font color="#e60000">maximum</font> temperatures. <b>Bold</b> dates indicate observations made within the most recent 5 years. Data in these tables are sourced from the National Meteorological and Hydrological Services through the <a href="https://rcccm.dwd.de/DWD-RCCCM/EN/products/significant/significant_node.html" target="_blank">WMO RA VI RCC Network</a>. The tables were updated on <?php echo date("d F Y", $maxvalue);?>.
 <br><br><br>
 
 		  <?php
