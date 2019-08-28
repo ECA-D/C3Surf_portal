@@ -143,6 +143,8 @@ if (($hmaxtmin = fopen("{$maxtminname}", "r")) !== FALSE)
  		 * - temperatures were rounded to the nearest degree
 <br>
                  ** - data before 1942 are still on paper, and being digitized
+<br>         
+                 *** - beginning of observations at this station
 <br><br>
                  <?php
 		 $buildmaxtmin = '<table  border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%"><tbody><tr bgcolor="#0033cc" height="40px"><td width="20%" style="color:#FFFFFF;"><b>Country</b></td><td width="15%" style="color:#FFFFFF;"><b>Highest minimum temperature (&#176;C)</b></td><td width="25%" style="color:#FFFFFF;"><b>Location</b></td><td width="20%" style="color:#FFFFFF;"><b>Date</b></td><td width="20%" style="color:#FFFFFF;"><b>Start of time series</b></td></tr>';
