@@ -175,6 +175,7 @@ if (($hmaxtmin = fopen("{$maxtminname}", "r")) !== FALSE)
 		 * - no statistics for highest minimum temperature available<br>
 		 ** - not an official record; based on digitized data since 1961; subject to changes with ongoing digitization<br>
 *** - data before 1942 are still on paper, and being digitize<br>
+**** - beginning of observations at this station<br>
 		</div>
 	    </div> <!-- /.block -->
 	  </div>
