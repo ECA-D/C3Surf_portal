@@ -96,6 +96,8 @@ session_start();
       <ul class="mmenu-mm-list-level-2">
          <li class="mmenu-mm-list-mlid-2068 mmenu-mm-list-path-news"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Monthly reports</span></a>
 	  <ul class="mmenu-mm-list-level-3">
+            <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/august2019.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">August 2019</span></a>
+	    </li>
             <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/july2019.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">July 2019</span></a>
 	    </li>
             <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/june2019.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">June 2019</span></a>
@@ -106,10 +108,6 @@ session_start();
 	    </li>
             <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/march2019.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">March 2019</span></a>
 	    </li>
-            <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/february2019.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">February 2019</span></a>
-            </li>
-            <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/january2019.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">January 2019</span></a>
-            </li>
           </ul>
          </li>
          <li class="mmenu-mm-list-mlid-2187 mmenu-mm-list-path-node-716"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Annual reports</span></a>
