@@ -75,6 +75,13 @@ session_start();
 			<td width="25%"><span style="color:#FFFFFF;"><strong>Period covered</strong></span></td>
 			<td width="35%"><span style="color:#FFFFFF;"><strong>Modification</strong></span></td>    
 		      </tr>
+		      <tr bgcolor="#ffffff">
+			<td><a href="access_ngcd.php#datafiles">19.09</a></td>
+			<td>September 2019</td>
+			<td>0.1.0-beta</td>
+			<td>1971-01-01 - 2019-06-30</td>
+			<td></td>
+		      </tr>
 		      <tr>
 			<td><a href="access_ngcd.php#datafiles">19.03</a></td>
 			<td>March 2019</td>
@@ -111,11 +118,11 @@ session_start();
 		    </tbody>
 		  </table>
 
-			<h3><a id="datafiles" style="color: #000000">NGCD datafiles 1971-01-01 - 2018-12-31</a></h3>
+			<h3><a id="datafiles" style="color: #000000">NGCD datafiles 1971-01-01 - 2019-06-30</a></h3>
 		The datafiles contain gridded data for 2 types of dataset, 4 elements each: air temperature (daily minimum, maximum and average); daily total precipitation. They cover Norway, Finland and Sweden. The data files are in compressed NetCDF format.
 		<br><br>
 
-		The dataset is available through the <a href="http://thredds.met.no/thredds/catalog/ngcd/catalog.html" target="_blank">MET Norway Thredds Service</a>.
+		The dataset is available through the <a href="https://thredds.met.no/thredds/catalog/ngcd/catalog.html" target="_blank">MET Norway Thredds Service</a>.
 
 <br><br>
 

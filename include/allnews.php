@@ -65,6 +65,18 @@ session_start();
 		      <td width="60%" style="color:#FFFFFF;"><b>Item</b></td>
 		    </tr>
 		    <tr>
+		      <td>7 October 2019</td>
+	              <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBS v20.0e</a> has been extended with global radiation fields</td>
+		    </tr>		  
+		    <tr>
+		      <td>7 October 2019</td>
+	              <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBS v20.0e</a> released</td>
+		    </tr>		  
+		    <tr>
+		      <td>30 September 2019</td>
+	              <td><a href="../dataaccess/access_ngcd.php">NGCD v19.09</a> released</td>
+		    </tr>		  
+		    <tr>
 		      <td>23 September 2019</td>
 	              <td><a href="../stateoftheclimate/august2019.php">State-of-the-climate for August 2019</a> released</td>
 		    </tr>		  
