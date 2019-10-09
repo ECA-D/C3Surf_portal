@@ -87,7 +87,7 @@ session_start();
 			<td>October 2019</td>
 			<td>1950-01-01 - 2019-07-31</td>
 			<td>E-OBS v20.0e has been extended with global
-radiation fields (abbreviation QQ, starting 1981-01-01). The full
+radiation fields (abbreviation QQ, starting 1980-01-01). The full
 ensemble (100 members for temperature, precipitation and sea level
 pressure, and 10 members for radiation) can be made available on
 request.<br>  New series and updates have been included for Italy,
