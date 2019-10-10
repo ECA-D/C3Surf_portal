@@ -65,6 +65,10 @@ session_start();
 		      <td width="60%" style="color:#FFFFFF;"><b>Item</b></td>
 		    </tr>
 		    <tr>
+		      <td>10 October 2019</td>
+	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</td>
+		    </tr> 
+		    <tr>
 		      <td>7 October 2019</td>
 	              <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBS v20.0e</a> has been extended with global radiation fields</td>
 		    </tr>		  
