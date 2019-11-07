@@ -62,7 +62,7 @@ Click on the figures for larger ones.
 
 <h2>Cut off low bringing heavy precipitation over Eastern Spain</h2>
 <br><br>
-In the week of 9 September a cut off low pressure system was formed that brought heavy precipitation in south eastern Spain. Between 11 and 13 September more than 400 mm rain fell in parts of the Valentia region. The town of Ontinyent, 50 kilometer south-west of Valencia, recorded 296.4 millimeter of rain in 24 hours, which is the second highest daily rainfall on record. The precipitation led to local flooding and at least six deaths. The low pressure system originated from a cold through over Ireland on 9 September (figure 1a) that was cut off from the jet stream, which then moved southward as a cut off low (figures 1b-e). On 11-13 September the highly instable easterly flow from the warm Mediterranean brought heavy convective and orographic rainfall. The arrival of cold air originating from north of the jet stream caused what in Spain is called a gota fr&#237;a, literally a cold drop (figure 2a-e).
+In the week of 9 September a cut off low pressure system was formed that brought heavy precipitation in southeastern Spain. Between 11 and 13 September more than 400 mm rain fell in parts of the Valencia region. The town of Ontinyent, 50 kilometer southwest of Valencia, recorded 296.4 millimeter of rain in 24 hours, which is the second highest daily rainfall on record. The precipitation led to local flooding and at least six deaths. The low pressure system originated from a cold through over Ireland on 9 September (Figure 1a) that was cut off from the jet stream, which then moved southward as a cut off low (Figures 1b-e). On 11-13 September the highly instable easterly flow from the warm Mediterranean brought heavy convective and orographic rainfall. The arrival of cold air originating from north of the jet stream caused what in Spain is called a gota fr&#237;a, literally a cold drop (Figure 2a-e).
 <br><br>
 <a href="../images/sep2019/Fig_sep19_1a.png"><img alt="" src="../images/sep2019/Fig_sep19_1a.png" width="155px"></a>
 <a href="../images/sep2019/Fig_sep19_1b.png"><img alt="" src="../images/sep2019/Fig_sep19_1c.png" width="155px"></a>
@@ -91,7 +91,7 @@ The heavy precipitation over eastern Spain can also be seen in Figure 3 with the
 <br><br>
 <em>Figure 3: Heavy precipitation (>10 mm) days in September 2019 (left) and anomaly w.r.t. 1981-2010 (right)</em>
 <br><br>
-The minimum of daily minimum temperature was lower than the 1981-2010 average in large parts of the Benelux, Germany, France and eastern Europe (Figure 4). Also the number of cold nights (Figure 5) was much higher than normal in Germany and parts of Northern and Eastern Europe.
+The minimum of daily minimum temperature was lower than the 1981-2010 average in large parts of the Benelux, Germany, France and eastern Europe (Figure 4). Also the number of cold nights (Figure 5) was much higher than normal in Germany and parts of northern and eastern Europe.
 <br><br>
 <a href="../images/sep2019/Stateofclimate_IndicesTest_tnn_2019_month_nc_baselayers_world_polygons_tnnETCCDI_baselayers_overlay_2019-09-15T12-00-00Z_large.png" target="_blank"><img alt="" src="../images/sep2019/Stateofclimate_IndicesTest_tnn_2019_month_nc_baselayers_world_polygons_tnnETCCDI_baselayers_overlay_2019-09-15T12-00-00Z.png" ></a>
 <a href="../images/sep2019/Stateofclimate_IndicesTest_tnn_2019_month_nc__2019-09-15T12-00-00Z_large.png" target="_blank"><img alt="" src="../images/sep2019/Stateofclimate_IndicesTest_tnn_2019_month_nc__2019-09-15T12-00-00Z.png" ></a>
@@ -119,7 +119,7 @@ Eastern Europe did not only experience low minimum temperatures but also high ma
 <h2>The weather in September 2019</h2>
 <h3>Temperature deviations and extremes</h3>
 <br><br>
-Daily minimum temperatures were above the 1981-2010 average in Italy and in South East Europe (Figure 7). In North Africa the average temperature was lower than normal which might be explained by the torrential rain episode in the beginning of September.
+Daily minimum temperatures were above the 1981-2010 average in Italy and in southeast Europe (Figure 7). In North Africa the average temperature was lower than normal which might be explained by the torrential rain episode in the beginning of September.
 <br><br>
 <a href="../images/sep2019/Stateofclimate_Sep2019_tn_0_25deg_anom_monthlymeans_2019_1981-2010_v20_0e_nc_baselayers_world_polygons_tn_baselayers_overlay_2019-09-30T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/sep2019/Stateofclimate_Sep2019_tn_0_25deg_anom_monthlymeans_2019_1981-2010_v20_0e_nc_baselayers_world_polygons_tn_baselayers_overlay_2019-09-30T00-00-00Z.png" ></a>
 <a href="../images/sep2019/Stateofclimate_Sep2019_tg_0_25deg_anom_monthlymeans_2019_1981-2010_v20_0e_nc_baselayers_world_polygons_tg_baselayers_overlay_2019-09-30T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/sep2019/Stateofclimate_Sep2019_tg_0_25deg_anom_monthlymeans_2019_1981-2010_v20_0e_nc_baselayers_world_polygons_tg_baselayers_overlay_2019-09-30T00-00-00Z.png" ></a>
@@ -157,10 +157,10 @@ The right panel of Figure 11 shows the daily temperature, averaged over Europe, 
 <a href="../images/sep2019/EuropeanAverage_annual_wrt81-10_201909_v20.0e.png"><img alt="" src="../images/sep2019/EuropeanAverage_annual_wrt81-10_201909_v20.0e.png" width="250px"></a>
 <a href="../images/sep2019/dailyanomalies_0.25deg_201909_v20.0e.png"><img alt="" src="../images/sep2019/dailyanomalies_0.25deg_201909_v20.0e.png" width="250px"></a>
 <br><br>
-<em>Figure 11: European land surface temperature: annual anomalies with the current year in green. The grey bands show the uncertainty in the averaged temperature (left). Daily anomalies with respect to the seasonal cycle until the end of September 2019 (right). (Based on E-OBS)</em>
+<em>Figure 11: European land surface temperature (30W - 50E, 25N - 75N): annual anomalies with the current year in green. The grey bands show the uncertainty in the averaged temperature (left). Daily anomalies with respect to the seasonal cycle until the end of September 2019 (right). (Based on E-OBSv20.0e)</em>
 <br><br>
 <h3>Precipitation</h3>
-The heavy precipiation in the Valentia area is recognized in the E-OBS data (Figure 12) and it can be regarded as exceptional above the average (Figure 13). Note that also North Africa received rain amounts of 60 mm which is also rated as above the average. Central, North and Western Europe were also wetter than average. Romania and Bulgaria were dry and the rainfall was under the 30-years average.
+The heavy precipiation in the Valencia area is recognized in the E-OBS data (Figure 12) and it can be regarded as exceptional above the average (Figure 13). Note that also North Africa received rain amounts of 60 mm which is also rated as above the average. Central, north and west Europe were also wetter than average. Romania and Bulgaria were dry and the rainfall was under the 30-years average.
 <br><br>
 <a href="../images/sep2019/Stateofclimate_Sep2019_rr_0_25deg_2019_month_nc_baselayers_world_polygons_rr_baselayers_overlay_2019-09-30T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/sep2019/Stateofclimate_Sep2019_rr_0_25deg_2019_month_nc_baselayers_world_polygons_rr_baselayers_overlay_2019-09-30T00-00-00Z.png" ></a>
 <a href="../images/sep2019/Stateofclimate_Sep2019_rx1day_0_25deg_2019_month_nc_baselayers_world_polygons_RX1day_baselayers_overlay_2019-09-16T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/sep2019/Stateofclimate_Sep2019_rx1day_0_25deg_2019_month_nc_baselayers_world_polygons_RX1day_baselayers_overlay_2019-09-16T00-00-00Z.png" ></a>
@@ -188,7 +188,7 @@ The heavy precipiation in the Valentia area is recognized in the E-OBS data (Fig
 <br><br>
 <h3>Radiation and Cloudiness</h3>
 <br><br>
-The global radiation anomaly based on E-OBS (Figure 15) is under the average. The incoming surface radiation based on Seviri/Mviri data (Figure 16) reveals an anomaly which is under the average. The monthly cloud cover (Figure 17) is 40 percent in Southern Europe which is slightly under the average.
+The global radiation anomaly based on E-OBS (Figure 15) is under the average. The incoming surface radiation based on Seviri/Mviri data (Figure 16) reveals an anomaly which is under the average. The monthly cloud cover (Figure 17) is 40 percent in southern Europe which is slightly under the average.
 <br><br>
 <br><br>
 <a href="../images/sep2019/Stateofclimate_Sep2019_qq_0_25deg_monthlymeans_2019_nc_baselayers_world_polygons_qq_baselayers_overlay_2019-09-30T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/sep2019/Stateofclimate_Sep2019_qq_0_25deg_monthlymeans_2019_nc_baselayers_world_polygons_qq_baselayers_overlay_2019-09-30T00-00-00Z.png" ></a>
