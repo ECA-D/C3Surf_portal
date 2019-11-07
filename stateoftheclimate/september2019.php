@@ -215,7 +215,12 @@ The global radiation anomaly based on E-OBS (Figure 15) is under the average. Th
 <em>Figure 17: Monthly maps of cloud cover (left) and its absolute anomaly (right, with respect to 1982-2009) (AVHRR, source CM SAF)</em>
 <br><br>
 <h2><em>About the Copernicus State of the European Climate</em></h2>
-<em>Monthly and yearly </em>State of the European Climate<em> bulletins are prepared for audience of mainly non-meteorologists/climatologists interested in impact of weather and climate. In these bulletins, the main features of the most recent calendar month is shown, with a focus on extremes and significant deviations from climatology. The information is provided within their historical context, and includes references to addional information. The bulletin is based on Copernicus products, but also contains information from other sources as appropriate.</em>
+<em>Monthly and yearly </em>State of the European Climate<em> bulletins are prepared for audience of mainly non-meteorologists/climatologists interested in impact of weather and climate. In these bulletins, the main features of the most recent calendar month is shown, with a focus on extremes and significant deviations from climatology. The information is provided within their historical context, and includes references to addional information. The bulletin is based on Copernicus products, but also contains information from other sources as appropriate.
+<br><br>
+van der Schrier, G., van den Besselaar, E. J. M., Klein Tank, A. M. G., and Verver, G. ( 2013), Monitoring European average temperature based on the E-OBS gridded data set, J. Geophys. Res. Atmos., 118, 5120 5135, doi:10.1002/jgrd.50444. 
+<br><br>
+Chrysanthou, A., van der Schrier G., van den Besselaar E. J. M., G. Klein Tank, A. M., and Brandsma, T. ( 2014), The effects of urbanization on the rise of the European temperature since 1960, Geophys. Res. Lett., 41, 7716 7722, doi:10.1002/2014GL061154.
+</em>
 
 		</div>	  
 	      </div>
