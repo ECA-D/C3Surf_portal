@@ -143,6 +143,10 @@ session_start();
 		  <tbody>
 		</table>
 
+		<h3>Terms of use</h3>
+ 
+ The <a href="https://www.ecad.eu/documents/ECAD_datapolicy.pdf">ECA&amp;D/E-OBS data policy</a> applies. These observational data are strictly for use in non-commercial research and non-commercial education projects only. Scientific results based on these data must be submitted for publication in the open literature without any delay linked to commercial objectives. If you are unsure about the terms "commercial", "research", and "education", please contact the ECA&amp;D staff at <a href="mailto:&#101;&#099;&#097;&#064;&#107;&#110;&#109;&#105;&#046;&#110;&#108;">&#101;&#099;&#097;&#064;&#107;&#110;&#109;&#105;&#046;&#110;&#108;</a> for clarification. 
+
 		</div>	  
 	      </div>
 	      
