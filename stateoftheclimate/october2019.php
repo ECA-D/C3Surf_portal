@@ -63,13 +63,13 @@ Click on the figures for larger ones.
 <h2>Extreme precipitation in the south of France, northeast of Spain and north of Italy from 21-24 October</h2>
 <br><br>
 Between 21 and 24 October heavy rain and thunderstorms caused flooding and landslides in the south of France, the northeast of Spain and northern Italy (Figure 1). People had to be evacuated due to the floodings and rail and road traffic were severely disrupted. Three people died in France, two in Spain and two in Italy.
-The heavy precipitation was caused by a depression over the Mediterranean (Figure 2). The frontal system moved westward from Italy towards Spain between the 22nd and 24th of October. On the east side of the depression a south to southeasterly wind brought warm and humid air from the Mediterranean causing excessive rainfall and heavy thunderstorms along the coast.
+The heavy precipitation was caused by a depression over the Mediterranean (Figure 2). The frontal system moved westward from Italy towards Spain between the 22nd and 24th of October. On the east side of the depression a south to southeasterly wind brought warm and humid air from the Mediterranean Sea causing excessive rainfall and heavy thunderstorms along the coast.
 <br><br>
 In Italy, most precipitation fell on the 22nd. The province of Alessandria in Piedmont was among the worst hit areas. Piedmont Regional Agency for Environmental Protection (ARPA) reported that on 22 October as much as 253 mm of rain fell in 12 hours in Casaleggio Boiro.
 <br><br>
-In France most precipitation fell on the 22nd and 23rd of October. In a large region in the south of France 100-200 mm fell, but locally even more than 200 mm. Normally this is the amount of rainfall for three months. The highest rainfall amounts were reported in the Languedoc and le Roussillon, with in the village Puechabon 271.5 mm (Meteofrance).
+In France most precipitation fell on the 22nd and 23rd of October. In a large region in the south of France 100-200 mm fell, but locally even more than 200 mm. Normally this is the amount of rainfall for three months. The highest rainfall amounts were reported in the Languedoc and the Roussillon regions, with in the village Puechabon 271.5 mm (Meteo France).
 <br><br>
-The Spanish Meteorological Service of Catalunya (Meteocat) recorded at several locations in the northeast of Spain more than 200 mm in 24 hours on the 23rd of October, with in Prades, Baix Camp, 287.4 mm of rain.
+The Spanish Meteorological Service of Catalonia (Meteocat) recorded at several locations in the northeast of Spain more than 200 mm in 24 hours on the 23rd of October, with in Prades, Baix Camp, 287.4 mm of rain.
 <br><br>
 <a href="../images/oct2019/Stateofclimate_IndicesTest_rx1day_2019_month_nc_baselayers_world_polygons_rx1dayETCCDI_baselayers_overlay_2019-10-16T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/oct2019/Stateofclimate_IndicesTest_rx1day_2019_month_nc_baselayers_world_polygons_rx1dayETCCDI_baselayers_overlay_2019-10-16T00-00-00Z.png" ></a>
 <a href="../images/oct2019/Stateofclimate_IndicesTest_rx1day_2019_month_nc__2019-10-16T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/oct2019/Stateofclimate_IndicesTest_rx1day_2019_month_nc__2019-10-16T00-00-00Z.png" ></a>
@@ -108,7 +108,7 @@ In Figure 4 a large number of frost days is reported in northern Europe. A frost
 <h2>The weather in October 2019</h2>
 <h3>Temperature deviations and extremes</h3>
 <br><br>
-October was warmer than average in most of Europe. In eastern Europa temperatures, particularly maximum temperatures, were exceptionally above average. Only in Scandinavia and the British Isles temperatures were below average.
+October was warmer than average in most of Europe. In eastern Europe temperatures, particularly maximum temperatures, were exceptionally above average. Only in Scandinavia and the British Isles temperatures were below average.
 <br><br>
 <a href="../images/oct2019/Stateofclimate_Oct2019_tn_0_25deg_anom_monthlymeans_2019_1981-2010_v20_0e_nc_baselayers_world_polygons_tn_baselayers_overlay_2019-10-31T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/oct2019/Stateofclimate_Oct2019_tn_0_25deg_anom_monthlymeans_2019_1981-2010_v20_0e_nc_baselayers_world_polygons_tn_baselayers_overlay_2019-10-31T00-00-00Z.png" ></a>
 <a href="../images/oct2019/Stateofclimate_Oct2019_tg_0_25deg_anom_monthlymeans_2019_1981-2010_v20_0e_nc_baselayers_world_polygons_tg_baselayers_overlay_2019-10-31T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/oct2019/Stateofclimate_Oct2019_tg_0_25deg_anom_monthlymeans_2019_1981-2010_v20_0e_nc_baselayers_world_polygons_tg_baselayers_overlay_2019-10-31T00-00-00Z.png" ></a>
