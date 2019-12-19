@@ -144,6 +144,8 @@
                      <ul>
                       <li><a href="<?php echo $thispage;?>"><span>Monthly reports</span></a>
                        <ul>
+                        <li><a href="<?php echo $webhost;?>/stateoftheclimate/november2019.php"><span>November 2019</span></a>
+			</li>
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/october2019.php"><span>October 2019</span></a>
 			</li>
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/september2019.php"><span>September 2019</span></a>
