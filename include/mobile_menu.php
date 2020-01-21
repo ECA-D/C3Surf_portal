@@ -127,9 +127,11 @@ session_start();
       </li>
       <li class="mmenu-mm-list-mlid-2180 mmenu-mm-list-path-node-643"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">User guidance</span></a>
        <ul class="mmenu-mm-list-level-2">
+        <li class="mmenu-mm-list-mlid-2183 mmenu-mm-list-path-node-643"><a href="<?php echo $webhost;?>/userguidance/use_ensembles.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">How to use ensemble datasets</span></a>
+        </li>
         <li class="mmenu-mm-list-mlid-2183 mmenu-mm-list-path-node-643"><a href="<?php echo $webhost;?>/userguidance/indicesdictionary.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Indices dictionary</span></a>
         </li>
-        <li class="mmenu-mm-list-mlid-2183 mmenu-mm-list-path-node-643"><a href="<?php echo $webhost;?>/userguidance/use_ensembles.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">How to use ensemble datasets</span></a>
+        <li class="mmenu-mm-list-mlid-2183 mmenu-mm-list-path-node-643"><a href="<?php echo $webhost;?>/userguidance/uncertainty_indices.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Uncertainty on the indices</span></a>
         </li>
        </ul>
       </li>

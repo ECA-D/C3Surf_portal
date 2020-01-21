@@ -179,9 +179,11 @@
 		    </li>
                     <li class="odd"><a href="<?php echo $thispage;?>"><span><strong>User guidance</strong></span></a>
                      <ul>
+		      <li><a href="<?php echo $webhost;?>/userguidance/use_ensembles.php"><span>How to use ensemble datasets</span></a>
+		      </li>
                       <li><a href="<?php echo $webhost;?>/userguidance/indicesdictionary.php"><span>Indices dictionary</span></a>
                       </li>
-		      <li><a href="<?php echo $webhost;?>/userguidance/use_ensembles.php"><span>How to use ensemble datasets</span></a>
+		      <li><a href="<?php echo $webhost;?>/userguidance/uncertainty_indices.php"><span>Uncertainty on the indices</span></a>
 		      </li>
                      </ul>
                     </li>
