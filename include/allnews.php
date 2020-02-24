@@ -65,6 +65,14 @@ session_start();
 		      <td width="60%" style="color:#FFFFFF;"><b>Item</b></td>
 		    </tr>
 		    <tr>
+		      <td>24 February 2020</td>
+	              <td><a href="../stateoftheclimate/january2020.php">State-of-the-climate for January 2020</a> released</td>
+		    </tr>		  
+		    <tr>
+		      <td>24 February 2020</td>
+	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</td>
+		    </tr> 
+		    <tr>
 		      <td>23 January 2020</td>
 	              <td><a href="../stateoftheclimate/december2019.php">State-of-the-climate for December 2019</a> released</td>
 		    </tr>		  
