@@ -3,7 +3,7 @@ error_reporting(E_ALL  & ~E_NOTICE);
 session_start();
 ?>
 <!DOCTYPE html>
-<html style="" class="js js canvas no-touch rgba opacity cssanimations csstransforms csstransforms3d csstransitions svg inlinesvg WebfontLoader-processed bootstrap-anchors-processed wf-opensans-n4-active wf-opensans-n7-active wf-active" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#" lang="en">
+<html style="" class="js js canvas no-touch rgba opacity cssanimations csstransforms csstransforms3d csstransitions svg inlinesvg WebfontLoader-processed bootstrap-anchors-processed wf-opensans-n4-active wf-opensans-n7-active wf-active" dir="ltr" prefix="content: https://purl.org/rss/1.0/modules/content/ dc: https://purl.org/dc/terms/ foaf: https://xmlns.com/foaf/0.1/ og: https://ogp.me/ns# rdfs: https://www.w3.org/2000/01/rdf-schema# sioc: https://rdfs.org/sioc/ns# sioct: https://rdfs.org/sioc/types# skos: https://www.w3.org/2004/02/skos/core# xsd: https://www.w3.org/2001/XMLSchema#" lang="en">
 
   <head>
     <meta charset="utf-8">
@@ -11,10 +11,10 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="shortcut icon" href="../theme/favicon_0.png" type="image/png">
-    <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab">
-    <meta name="generator" content="Drupal 7 (http://drupal.org)">
-    <link rel="canonical" href="http://climate.copernicus.eu/events">
-    <link rel="shortlink" href="http://climate.copernicus.eu/events">
+    <link rel="profile" href="https://www.w3.org/1999/xhtml/vocab">
+    <meta name="generator" content="Drupal 7 (https://drupal.org)">
+    <link rel="canonical" href="https://climate.copernicus.eu/events">
+    <link rel="shortlink" href="https://climate.copernicus.eu/events">
     <title>March 2018</title>
     
     <script src="https://www.w3schools.com/lib/w3.js"></script>
@@ -142,7 +142,7 @@ The right panel of Figure 9 shows the daily temperature, averaged over Europe, f
 <em>Figure 9: European land surface temperature: annual anomalies with the current year in green. The grey bands show the uncertainty in the averaged temperature (left). Daily anomalies with respect to the seasonal cycle until the end of March 2018 (right). (Based on E-OBS)</em>
 <br><br>
 <h3>Precipitation</h3>
-In Southern and Eastern Europe precipitation was much above (75-90 percentile range) or exceptionally above (>90 percentile range) the 1981-2010 average. Also in the preceding [http://surfobs.climate.copernicus.eu/stateoftheclimate/february2018.php February] high precipitation values occurred in these regions, but March was even wetter than February. Precipitation was below average in large parts of Northern Europe. In Southwest Europe the precipitation in March 2018 was the one-but largest in March since 1950, only that in 2013 was larger (figure 12, bottom row, left).
+In Southern and Eastern Europe precipitation was much above (75-90 percentile range) or exceptionally above (>90 percentile range) the 1981-2010 average. Also in the preceding [https://surfobs.climate.copernicus.eu/stateoftheclimate/february2018.php February] high precipitation values occurred in these regions, but March was even wetter than February. Precipitation was below average in large parts of Northern Europe. In Southwest Europe the precipitation in March 2018 was the one-but largest in March since 1950, only that in 2013 was larger (figure 12, bottom row, left).
 <br><br>
 <a href="../images/mar2018/Stateofclimate_Mar2018_rr_2018_month_nc_baselayers_world_polygons_rr_baselayers_overlay_2018-03-31T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/mar2018/Stateofclimate_Mar2018_rr_2018_month_nc_baselayers_world_polygons_rr_baselayers_overlay_2018-03-31T00-00-00Z.png" ></a>
 <a href="../images/mar2018/Stateofclimate_Mar2018_rx1day_2018_month_nc_baselayers_world_polygons_RX1day_baselayers_overlay_2018-03-16T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/mar2018/Stateofclimate_Mar2018_rx1day_2018_month_nc_baselayers_world_polygons_RX1day_baselayers_overlay_2018-03-16T00-00-00Z.png" ></a>
@@ -177,7 +177,7 @@ In Southern and Eastern Europe precipitation was much above (75-90 percentile ra
 <br><br>
 <em>Figure 13: Monthly maps of cloud cover (left) and its absolute anomaly (right, with respect to 1982-2009) (AVHRR, source CM SAF)</em>
 <br><br>
-<!--[[File:Stateofclimate_Mar2018_SISmm201803_nc_baselayers_world_polygons_Data1_baselayers_overlay_baselayers_dwdlogo_2018-03-01T00-00-00Z.png|link=http://cib.knmi.nl/mediawiki/index.php/File:Stateofclimate_Mar2018_SISmm201803_nc_baselayers_world_polygons_Data1_baselayers_overlay_baselayers_dwdlogo_2018-03-01T00-00-00Z_large.png]]
+<!--[[File:Stateofclimate_Mar2018_SISmm201803_nc_baselayers_world_polygons_Data1_baselayers_overlay_baselayers_dwdlogo_2018-03-01T00-00-00Z.png|link=https://cib.knmi.nl/mediawiki/index.php/File:Stateofclimate_Mar2018_SISmm201803_nc_baselayers_world_polygons_Data1_baselayers_overlay_baselayers_dwdlogo_2018-03-01T00-00-00Z_large.png]]
 <a href="../images/mar2018/Stateofclimate_Mar2018_SISmm201803_nc__2018-03-01T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/mar2018/Stateofclimate_Mar2018_SISmm201803_nc__2018-03-01T00-00-00Z.png" ></a>
 <a href="../images/mar2018/Stateofclimate_Mar2018_SISmm201803_anoa_nc_baselayers_world_polygons_Data1_baselayers_overlay_baselayers_dwdlogo_2018-03-01T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/mar2018/Stateofclimate_Mar2018_SISmm201803_anoa_nc_baselayers_world_polygons_Data1_baselayers_overlay_baselayers_dwdlogo_2018-03-01T00-00-00Z.png" ></a>
 <a href="../images/mar2018/Stateofclimate_Mar2018_SISmm201803_anoa_nc__2018-03-01T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/mar2018/Stateofclimate_Mar2018_SISmm201803_anoa_nc__2018-03-01T00-00-00Z.png" ></a>

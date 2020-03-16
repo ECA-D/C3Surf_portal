@@ -21,7 +21,7 @@
 	    <div class="row-fluid">
 	      <div id="block-block-16" class="block block-block col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
 		<p class="text-left">
-		  <a href="http://www.copernicus.eu/"><img id="logo" alt="" src="<?php echo $webhost;?>/theme/copernicus-logo.png" ></a><a href="http://climate.copernicus.eu/"><img id="logo2" alt="" src="<?php echo $webhost;?>/theme/c3s-logo.png" ></a>
+		  <a href="https://www.copernicus.eu/"><img id="logo" alt="" src="<?php echo $webhost;?>/theme/copernicus-logo.png" ></a><a href="https://climate.copernicus.eu/"><img id="logo2" alt="" src="<?php echo $webhost;?>/theme/c3s-logo.png" ></a>
 		</p>
 		<!--div class="text-feedback">
 		    <strong class="beta__label">Beta</strong> <span>Your <a href="MailTo:feedback@copernicus-climate.eu?subject=Beta evaluation:">feedback</a> will help us to improve.</span>
@@ -34,11 +34,11 @@
 	    <div class="row-fluid">
 	      <div id="block-block-36" class="block block-block col-xs-12 col-sm-8 col-md-8 col-lg-8 hidden-xs hidden-sm clearfix">
 		<div class="text-right">
-		  <a href="https://twitter.com/CopernicusECMWF"><i class="fa fa-twitter-square fa-2x"></i></a> <a href="https://instagram.com/copernicusecmwf/"><i class="fa fa-instagram fa-2x"></i></a> <a href="http://www.slideshare.net/CopernicusECMWF"><i style="font-size: 1.8em" class="fa fa-slideshare"></i></a>
+		  <a href="https://twitter.com/CopernicusECMWF"><i class="fa fa-twitter-square fa-2x"></i></a> <a href="https://instagram.com/copernicusecmwf/"><i class="fa fa-instagram fa-2x"></i></a> <a href="https://www.slideshare.net/CopernicusECMWF"><i style="font-size: 1.8em" class="fa fa-slideshare"></i></a>
 		</div> 
 	      </div> --><!-- /.block -->
 	    <!--  <div id="block-menu-menu-top-menu" class="block block-menu col-xs-12 col-sm-4 col-md-4 col-lg-4 hidden-xs hidden-sm clearfix">
-		<ul class="nav navbar-nav n-size-sm pull-right"><li class="first last leaf"><a class="btn btn-info" href="http://climate.copernicus.eu/contact-us">Contact us</a></li>
+		<ul class="nav navbar-nav n-size-sm pull-right"><li class="first last leaf"><a class="btn btn-info" href="https://climate.copernicus.eu/contact-us">Contact us</a></li>
 		</ul>
 	      </div> --><!-- /.block -->
 <!--	    </div>

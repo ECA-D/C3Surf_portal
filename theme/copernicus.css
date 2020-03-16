@@ -1,6 +1,6 @@
 /*! copernicus v1.2.0 - Drupal 7 Premium Theme 
 * Themebiotic; This work is licensed under a Themeforest license agreements
-* Regular License & Extended License http://themeforest.net/licenses
+* Regular License & Extended License https://themeforest.net/licenses
 * Copyright (c) 2015
 * Modified Date 2015-03-26 */
 
@@ -2573,7 +2573,7 @@ you can use the generic selector below, but it's slower:
 .icon-users:before { content: "\e001"; }
 
 /* LINK HOVER EFFECTS ETC. */
-/** LINK EFFECTS  http://tympanus.net/codrops/2013/08/06/creative-link-effects/  */
+/** LINK EFFECTS  https://tympanus.net/codrops/2013/08/06/creative-link-effects/  */
 /* Effect 1: Brackets */
 .cl-effect-1 a::before, .cl-effect-1 a::after { display: inline-block; opacity: 0; -webkit-transition: -webkit-transform 0.3s, opacity 0.2s; -moz-transition: -moz-transform 0.3s, opacity 0.2s; transition: transform 0.3s, opacity 0.2s; }
 

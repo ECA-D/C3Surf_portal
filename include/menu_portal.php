@@ -12,15 +12,15 @@ session_start();
 <!--              <div class="block block-menu-block clearfix" id="block-menu-block-1">
 	      	<div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-2">
 	      	  <ul class="menu nav">
-	      	    <li><a href="http://www.ecad.eu">ECA&amp;D Home</a>
+	      	    <li><a href="https://www.ecad.eu">ECA&amp;D Home</a>
 		    </li>
- 	      	    <li ><a href="http://www.ecad.eu/download/ensembles/ensembles.php">E-OBS</a> </li>
+ 	      	    <li ><a href="https://www.ecad.eu/download/ensembles/ensembles.php">E-OBS</a> </li>
 		    <ul class="menu">
-		      <li><a href="http://www.ecad.eu/utils/mapserver/eobs_maps.php">E-OBS daily maps</a> 
+		      <li><a href="https://www.ecad.eu/utils/mapserver/eobs_maps.php">E-OBS daily maps</a> 
 		      </li>
-		      <li><a href="http://www.ecad.eu/utils/mapserver/eobs_maps_indices.php">E-OBS indices maps</a>
+		      <li><a href="https://www.ecad.eu/utils/mapserver/eobs_maps_indices.php">E-OBS indices maps</a>
 		    </ul>
-		    <li><a href="http://cib.knmi.nl">State of the European climate reports</a>
+		    <li><a href="https://cib.knmi.nl">State of the European climate reports</a>
 		    </li>
 	      	  </ul>
 	      	</div>

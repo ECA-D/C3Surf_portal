@@ -223,8 +223,8 @@
       // Finds first occurrence of a string within another, case insensitive  
       // 
       // version: 1103.1210
-      // discuss at: http://phpjs.org/functions/stristr
-      // +   original by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
+      // discuss at: https://phpjs.org/functions/stristr
+      // +   original by: Kevin van Zonneveld (https://kevin.vanzonneveld.net)
       // +   bugfxied by: Onno Marsman
       // *     example 1: stristr('Kevin van Zonneveld', 'Van');
       // *     returns 1: 'van Zonneveld'

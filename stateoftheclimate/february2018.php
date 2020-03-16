@@ -3,7 +3,7 @@ error_reporting(E_ALL  & ~E_NOTICE);
 session_start();
 ?>
 <!DOCTYPE html>
-<html style="" class="js js canvas no-touch rgba opacity cssanimations csstransforms csstransforms3d csstransitions svg inlinesvg WebfontLoader-processed bootstrap-anchors-processed wf-opensans-n4-active wf-opensans-n7-active wf-active" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#" lang="en">
+<html style="" class="js js canvas no-touch rgba opacity cssanimations csstransforms csstransforms3d csstransitions svg inlinesvg WebfontLoader-processed bootstrap-anchors-processed wf-opensans-n4-active wf-opensans-n7-active wf-active" dir="ltr" prefix="content: https://purl.org/rss/1.0/modules/content/ dc: https://purl.org/dc/terms/ foaf: https://xmlns.com/foaf/0.1/ og: https://ogp.me/ns# rdfs: https://www.w3.org/2000/01/rdf-schema# sioc: https://rdfs.org/sioc/ns# sioct: https://rdfs.org/sioc/types# skos: https://www.w3.org/2004/02/skos/core# xsd: https://www.w3.org/2001/XMLSchema#" lang="en">
 
   <head>
     <meta charset="utf-8">
@@ -11,10 +11,10 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="shortcut icon" href="../theme/favicon_0.png" type="image/png">
-    <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab">
-    <meta name="generator" content="Drupal 7 (http://drupal.org)">
-    <link rel="canonical" href="http://climate.copernicus.eu/events">
-    <link rel="shortlink" href="http://climate.copernicus.eu/events">
+    <link rel="profile" href="https://www.w3.org/1999/xhtml/vocab">
+    <meta name="generator" content="Drupal 7 (https://drupal.org)">
+    <link rel="canonical" href="https://climate.copernicus.eu/events">
+    <link rel="shortlink" href="https://climate.copernicus.eu/events">
     <title>February 2018</title>
     
     <script src="https://www.w3schools.com/lib/w3.js"></script>
@@ -70,7 +70,7 @@ Due to a shift in the polar vortex a strong high pressure system developed over 
 <br><br>
 <em>Figure 1: Weather map of 28 February 2018 (Source: KNMI).</em>
 <br><br>
-This cold spell caused exceptional snow fall in large parts of Europe. For example, Rome was covered in snow for the first time since 2012. This snow <a href="http://www.repubblica.it/cronaca/2018/02/26/news/roma_si_sveglia_sotto_la_neve_scuole_chiuse_convocato_operativo_protezione_civile-189768299/?ref=RHPPLF-BH-I0-C8-P1-S1.8-T1#gallery-slider=189766912" target="_blank">resulted</a> in Rome and other Italian cities in trains no longer running and disruption of flights.
+This cold spell caused exceptional snow fall in large parts of Europe. For example, Rome was covered in snow for the first time since 2012. This snow <a href="https://www.repubblica.it/cronaca/2018/02/26/news/roma_si_sveglia_sotto_la_neve_scuole_chiuse_convocato_operativo_protezione_civile-189768299/?ref=RHPPLF-BH-I0-C8-P1-S1.8-T1#gallery-slider=189766912" target="_blank">resulted</a> in Rome and other Italian cities in trains no longer running and disruption of flights.
 <br><br>
 The amounts of sunshine in (south)western and northern Europe were much higher due to the mostly dry weather caused by this Easterly flow. The amount of sunshine in the Netherlands was double the normal amount. The UK had almost 40% more sunshine.
 <br><br>

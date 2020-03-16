@@ -3,7 +3,7 @@ error_reporting(E_ALL  & ~E_NOTICE);
 session_start();
 ?>
 <!DOCTYPE html>
-<html style="" class="js js canvas no-touch rgba opacity cssanimations csstransforms csstransforms3d csstransitions svg inlinesvg WebfontLoader-processed bootstrap-anchors-processed wf-opensans-n4-active wf-opensans-n7-active wf-active" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#" lang="en">
+<html style="" class="js js canvas no-touch rgba opacity cssanimations csstransforms csstransforms3d csstransitions svg inlinesvg WebfontLoader-processed bootstrap-anchors-processed wf-opensans-n4-active wf-opensans-n7-active wf-active" dir="ltr" prefix="content: https://purl.org/rss/1.0/modules/content/ dc: https://purl.org/dc/terms/ foaf: https://xmlns.com/foaf/0.1/ og: https://ogp.me/ns# rdfs: https://www.w3.org/2000/01/rdf-schema# sioc: https://rdfs.org/sioc/ns# sioct: https://rdfs.org/sioc/types# skos: https://www.w3.org/2004/02/skos/core# xsd: https://www.w3.org/2001/XMLSchema#" lang="en">
 
   <head>
     <meta charset="utf-8">
@@ -11,10 +11,10 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="shortcut icon" href="../theme/favicon_0.png" type="image/png">
-    <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab">
-    <meta name="generator" content="Drupal 7 (http://drupal.org)">
-    <link rel="canonical" href="http://climate.copernicus.eu/events">
-    <link rel="shortlink" href="http://climate.copernicus.eu/events">
+    <link rel="profile" href="https://www.w3.org/1999/xhtml/vocab">
+    <meta name="generator" content="Drupal 7 (https://drupal.org)">
+    <link rel="canonical" href="https://climate.copernicus.eu/events">
+    <link rel="shortlink" href="https://climate.copernicus.eu/events">
     <title>October 2017</title>
     
     <script src="https://www.w3schools.com/lib/w3.js"></script>
@@ -80,7 +80,7 @@ Ophelia started as a tropical storm at about 1500 km southwest of the Azores and
 <br><br>
 On the way to Ireland, Ophelia reduced to a tropical storm and gradually acquired the characteristics of a mid-latitude autumn storm, driven by the usual storm-jet stream dynamics at mid latitudes. The exceptional nature of Ophelia was that during this extra tropical transition the core of the storm still contained warm moist air, providing an additional driving force that is typical for tropical hurricanes.
 <br><br>
-Also a "sting jet" occurred: strong winds in the middle atmosphere (at an altitude of 3 to 4 km) that reached the ground for a short time. This would explain the very high wind speeds that were measured. These winds caused major damage, similar to <a href="http://www.metoffice.gov.uk/learning/learn-about-the-weather/weather-phenomena/case-studies/great-storm" target="_blank">the great Storm of 16 October 1987</a>, exactly thirty years ago.
+Also a "sting jet" occurred: strong winds in the middle atmosphere (at an altitude of 3 to 4 km) that reached the ground for a short time. This would explain the very high wind speeds that were measured. These winds caused major damage, similar to <a href="https://www.metoffice.gov.uk/learning/learn-about-the-weather/weather-phenomena/case-studies/great-storm" target="_blank">the great Storm of 16 October 1987</a>, exactly thirty years ago.
 <br><br>
 <h2>Saharan dust and smoke over Western Europe</h2>
 <br><br>
@@ -89,7 +89,7 @@ Also a "sting jet" occurred: strong winds in the middle atmosphere (at an altitu
 <br><br>
 <em>Figure 2: CAMS GFAS Observed Fire Radiative Power Areal Density on 16 October 2017 (Left); CAMS AerosolOptical Depth @550nm on 16 October 2017 (Right)</em>
 <br><br>
-The exceptionally high surface temperatures and low precipitation amounts in Southwest Europe lead to devastating forest fires in Northern Portugal and Spain (Figure 2, left). Smoke from these fires as well as desert dust and sea salt, were detected by the <a href="http://atmosphere.copernicus.eu" target="_blank">Copernicus Atmospheric Monitoring Service</a> (Figure 2, right), clearly indicating transport of these aerosols from to the North due too the strong southerly winds related to ex-hurricane Ophelia.
+The exceptionally high surface temperatures and low precipitation amounts in Southwest Europe lead to devastating forest fires in Northern Portugal and Spain (Figure 2, left). Smoke from these fires as well as desert dust and sea salt, were detected by the <a href="https://atmosphere.copernicus.eu" target="_blank">Copernicus Atmospheric Monitoring Service</a> (Figure 2, right), clearly indicating transport of these aerosols from to the North due too the strong southerly winds related to ex-hurricane Ophelia.
 <br><br>
 <a href="../images/oct2017/Lidar.png"><img alt="" src="../images/oct2017/Lidar.png" width="300px"></a>
 <a href="../images/oct2017/BSRNv3.png"><img alt="" src="../images/oct2017/BSRNv3.png" width="300px"></a>

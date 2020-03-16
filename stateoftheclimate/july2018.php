@@ -3,7 +3,7 @@ error_reporting(E_ALL  & ~E_NOTICE);
 session_start();
 ?>
 <!DOCTYPE html>
-<html style="" class="js js canvas no-touch rgba opacity cssanimations csstransforms csstransforms3d csstransitions svg inlinesvg WebfontLoader-processed bootstrap-anchors-processed wf-opensans-n4-active wf-opensans-n7-active wf-active" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#" lang="en">
+<html style="" class="js js canvas no-touch rgba opacity cssanimations csstransforms csstransforms3d csstransitions svg inlinesvg WebfontLoader-processed bootstrap-anchors-processed wf-opensans-n4-active wf-opensans-n7-active wf-active" dir="ltr" prefix="content: https://purl.org/rss/1.0/modules/content/ dc: https://purl.org/dc/terms/ foaf: https://xmlns.com/foaf/0.1/ og: https://ogp.me/ns# rdfs: https://www.w3.org/2000/01/rdf-schema# sioc: https://rdfs.org/sioc/ns# sioct: https://rdfs.org/sioc/types# skos: https://www.w3.org/2004/02/skos/core# xsd: https://www.w3.org/2001/XMLSchema#" lang="en">
 
   <head>
     <meta charset="utf-8">
@@ -11,10 +11,10 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="shortcut icon" href="../theme/favicon_0.png" type="image/png">
-    <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab">
-    <meta name="generator" content="Drupal 7 (http://drupal.org)">
-    <link rel="canonical" href="http://climate.copernicus.eu/events">
-    <link rel="shortlink" href="http://climate.copernicus.eu/events">
+    <link rel="profile" href="https://www.w3.org/1999/xhtml/vocab">
+    <meta name="generator" content="Drupal 7 (https://drupal.org)">
+    <link rel="canonical" href="https://climate.copernicus.eu/events">
+    <link rel="shortlink" href="https://climate.copernicus.eu/events">
     <title>July 2018</title>
     
     <script src="https://www.w3schools.com/lib/w3.js"></script>
@@ -62,7 +62,7 @@ Click on the figures for larger ones.
 
 <h2>Event in July 2018</h2>
 <h3>Heat wave and drought in central and northern Europe</h3>
-The blocked weather pattern over Europe that was described in the <a href="http://surfobs.climate.copernicus.eu//stateoftheclimate/june2018.php">report of June 2018</a> continued in July. High pressure systems were mainly located above northwestern Europe with exceptionally high pressure anomalies in Scandinavia and northern Russia (Figure 1).
+The blocked weather pattern over Europe that was described in the <a href="https://surfobs.climate.copernicus.eu//stateoftheclimate/june2018.php">report of June 2018</a> continued in July. High pressure systems were mainly located above northwestern Europe with exceptionally high pressure anomalies in Scandinavia and northern Russia (Figure 1).
 <br><br>
 <a href="../images/jul2018/rcc_eude_eur_ppp_8110_2018_07.png"><img alt="" src="../images/jul2018/rcc_eude_eur_ppp_8110_2018_07.png" width="250px"></a>
 <br><br>

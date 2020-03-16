@@ -3,7 +3,7 @@ error_reporting(E_ALL  & ~E_NOTICE);
 session_start();
 ?>
 <!DOCTYPE html>
-<html style="" class="js js canvas no-touch rgba opacity cssanimations csstransforms csstransforms3d csstransitions svg inlinesvg WebfontLoader-processed bootstrap-anchors-processed wf-opensans-n4-active wf-opensans-n7-active wf-active" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#" lang="en">
+<html style="" class="js js canvas no-touch rgba opacity cssanimations csstransforms csstransforms3d csstransitions svg inlinesvg WebfontLoader-processed bootstrap-anchors-processed wf-opensans-n4-active wf-opensans-n7-active wf-active" dir="ltr" prefix="content: https://purl.org/rss/1.0/modules/content/ dc: https://purl.org/dc/terms/ foaf: https://xmlns.com/foaf/0.1/ og: https://ogp.me/ns# rdfs: https://www.w3.org/2000/01/rdf-schema# sioc: https://rdfs.org/sioc/ns# sioct: https://rdfs.org/sioc/types# skos: https://www.w3.org/2004/02/skos/core# xsd: https://www.w3.org/2001/XMLSchema#" lang="en">
 
   <head>
     <meta charset="utf-8">
@@ -11,10 +11,10 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="shortcut icon" href="../theme/favicon_0.png" type="image/png">
-    <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab">
-    <meta name="generator" content="Drupal 7 (http://drupal.org)">
-    <link rel="canonical" href="http://climate.copernicus.eu/events">
-    <link rel="shortlink" href="http://climate.copernicus.eu/events">
+    <link rel="profile" href="https://www.w3.org/1999/xhtml/vocab">
+    <meta name="generator" content="Drupal 7 (https://drupal.org)">
+    <link rel="canonical" href="https://climate.copernicus.eu/events">
+    <link rel="shortlink" href="https://climate.copernicus.eu/events">
     <title>LAPrec data access</title>
     
     <script src="https://www.w3schools.com/lib/w3.js"></script>
@@ -150,31 +150,31 @@ LAPrec is freely available for non-commercial use.
 
 <h3>Data providers</h3>
 
-<a href="http://www.dwd.de" target="_blank">DWD</a><br>
-<a href="http://www.omsz.hu" target="_blank">OMSZ</a><br>
-<a href="http://www.shmu.sk" target="_blank">SHMU</a><br>
+<a href="https://www.dwd.de" target="_blank">DWD</a><br>
+<a href="https://www.omsz.hu" target="_blank">OMSZ</a><br>
+<a href="https://www.shmu.sk" target="_blank">SHMU</a><br>
 <a href="https://meteo.arso.gov.si" target="_blank">ARSO</a><br>
-<a href="http://portal.chmi.cz/" target="_blank">CHMI</a><br>
-<a href="http://www.meteofrance.fr" target="_blank">M&#233;t&#233;o-France</a><br>
+<a href="https://portal.chmi.cz/" target="_blank">CHMI</a><br>
+<a href="https://www.meteofrance.fr" target="_blank">M&#233;t&#233;o-France</a><br>
 <a href="https://meteo.hr/" target="_blank">DHZ</a><br>
-<a href="http://www.hidmet.gov.rs/" target="_blank">HIDMET</a><br>
-<a href="http://www.fhmzbih.gov.ba/latinica/index.php" target="_blank">FHMZ</a><br>
-<a href="http://www.zamg.ac.at" target="_blank">ZAMG</a><br>
-<a href="http://www.meteoswiss.admin.ch" target="_blank">MeteoSwiss</a></br>
-<a href="http://www.isac.cnr.it" target="_blank">CNR-ISAC</a><br>
-<a href="http://www.unimi.it/" target="_blank">Universit&#224; degli Studi di Milano</a><br>
+<a href="https://www.hidmet.gov.rs/" target="_blank">HIDMET</a><br>
+<a href="https://www.fhmzbih.gov.ba/latinica/index.php" target="_blank">FHMZ</a><br>
+<a href="https://www.zamg.ac.at" target="_blank">ZAMG</a><br>
+<a href="https://www.meteoswiss.admin.ch" target="_blank">MeteoSwiss</a></br>
+<a href="https://www.isac.cnr.it" target="_blank">CNR-ISAC</a><br>
+<a href="https://www.unimi.it/" target="_blank">Universit&#224; degli Studi di Milano</a><br>
 <a href="https://www.arpae.it/" target="_blank">Arpae Emilia Romagna</a><br>
-<a href="http://www.provincia.bz.it" target="_blank">Hydrographisches Amt der S&#252;dtiroler Landesverwaltung
-<a href="http://www.sir.toscana.it" target="_blank">Settore Idrologico Regionale (S.I.R.) della regione Toscana </a><br>
+<a href="https://www.provincia.bz.it" target="_blank">Hydrographisches Amt der S&#252;dtiroler Landesverwaltung
+<a href="https://www.sir.toscana.it" target="_blank">Settore Idrologico Regionale (S.I.R.) della regione Toscana </a><br>
 <a href="https://www.arpal.gov.it/" target="_blank">ARPAL-Cfmi</a><br>
-<a href="http://www.arpalombardia.it/meteo" target="_blank">ARPA Lombardia</a><br>
-<a href="http://www.regione.marche.it/" target="_blank">Regione Marche</a><br>
-<a href="http://www.osmer.fvg.it/home.php" target="_blank">ARPA FVG</a><br>
-<a href="http://www.nimbus.it" target="_blank">NIMBUS</a><br>
-<a href="http://www.unibo.it" target="_blank">Universit&#224; di Bologna, Dipartimento di Fisica e Astronomia, Archivio storico del Dipartimento di Astronomia, Serie Osservazioni meteorologiche</a><br>
-<a href="http://www.arpa.veneto.it" target="_blank">ARPAV</a><br>
-<a href="http://www.arpa.piemonte.it/" target="_blank">ARPA Piemonte</a><br>
-<a href="http://www.arpat.toscana.it/" target="_blank">ARPAT</a><br>
+<a href="https://www.arpalombardia.it/meteo" target="_blank">ARPA Lombardia</a><br>
+<a href="https://www.regione.marche.it/" target="_blank">Regione Marche</a><br>
+<a href="https://www.osmer.fvg.it/home.php" target="_blank">ARPA FVG</a><br>
+<a href="https://www.nimbus.it" target="_blank">NIMBUS</a><br>
+<a href="https://www.unibo.it" target="_blank">Universit&#224; di Bologna, Dipartimento di Fisica e Astronomia, Archivio storico del Dipartimento di Astronomia, Serie Osservazioni meteorologiche</a><br>
+<a href="https://www.arpa.veneto.it" target="_blank">ARPAV</a><br>
+<a href="https://www.arpa.piemonte.it/" target="_blank">ARPA Piemonte</a><br>
+<a href="https://www.arpat.toscana.it/" target="_blank">ARPAT</a><br>
 <a href="https://www.meteotrentino.it/#!/home" target="_blank">ARPA Trentino</a><br>
 
 

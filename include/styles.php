@@ -6,7 +6,7 @@ session_start();
   include('settings.php');
 ?>
 
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans" />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
 <link type="text/css" rel="stylesheet" href="<?php echo $webhost;?>/theme/system.css" media="all">
 <link type="text/css" rel="stylesheet" href="<?php echo $webhost;?>/theme/simplenews.css" media="all">
 <link type="text/css" rel="stylesheet" href="<?php echo $webhost;?>/theme/date.css" media="all">

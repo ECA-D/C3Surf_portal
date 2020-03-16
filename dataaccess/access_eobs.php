@@ -3,7 +3,7 @@ error_reporting(E_ALL  & ~E_NOTICE);
 session_start();
 ?>
 <!DOCTYPE html>
-<html style="" class="js js canvas no-touch rgba opacity cssanimations csstransforms csstransforms3d csstransitions svg inlinesvg WebfontLoader-processed bootstrap-anchors-processed wf-opensans-n4-active wf-opensans-n7-active wf-active" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#" lang="en">
+<html style="" class="js js canvas no-touch rgba opacity cssanimations csstransforms csstransforms3d csstransitions svg inlinesvg WebfontLoader-processed bootstrap-anchors-processed wf-opensans-n4-active wf-opensans-n7-active wf-active" dir="ltr" prefix="content: https://purl.org/rss/1.0/modules/content/ dc: https://purl.org/dc/terms/ foaf: https://xmlns.com/foaf/0.1/ og: https://ogp.me/ns# rdfs: https://www.w3.org/2000/01/rdf-schema# sioc: https://rdfs.org/sioc/ns# sioct: https://rdfs.org/sioc/types# skos: https://www.w3.org/2004/02/skos/core# xsd: https://www.w3.org/2001/XMLSchema#" lang="en">
 
   <head>
     <meta charset="utf-8">
@@ -11,10 +11,10 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="shortcut icon" href="../theme/favicon_0.png" type="image/png">
-    <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab">
-    <meta name="generator" content="Drupal 7 (http://drupal.org)">
-    <link rel="canonical" href="http://climate.copernicus.eu/events">
-    <link rel="shortlink" href="http://climate.copernicus.eu/events">
+    <link rel="profile" href="https://www.w3.org/1999/xhtml/vocab">
+    <meta name="generator" content="Drupal 7 (https://drupal.org)">
+    <link rel="canonical" href="https://climate.copernicus.eu/events">
+    <link rel="shortlink" href="https://climate.copernicus.eu/events">
     <title>E-OBS data access</title>
     
     <script src="https://www.w3schools.com/lib/w3.js"></script>
@@ -97,7 +97,7 @@ Norway, Slovenia, Finland, Ireland, Sweden, Luxembourg, Netherlands,
 Portugal, Spain, Switzerland, France, Denmark, UK and the regional
 meteorological service of Catalonia (Spain). More detailed information
 can be found on
-the <a href="http://cib.knmi.nl/mediawiki/index.php/Compare_E-OBS_v20.0e_and_v19.0e"
+the <a href="https://cib.knmi.nl/mediawiki/index.php/Compare_E-OBS_v20.0e_and_v19.0e"
 target="_blank">page comparing versions 20.0e and 19.0e</a>.
 			</td>   
 		      </tr>
@@ -106,7 +106,7 @@ target="_blank">page comparing versions 20.0e and 19.0e</a>.
 			<td>March 2019</td>
 			<td>1950-01-01 - 2018-12-31</td>
 			<td>E-OBS v19.0e (note the additional 'e') is only available for the ensembe mean and ensemble spread. The 'standard' version is no longer available. The full ensemble can be made available on request.<br>
-New precipitation series have been included for Sardinia (Italy). Monthly, half-yearly and yearly updates are continued for Germany, Czech Republic, Bosnia and Herzegovina, Norway, Slovenia, Finland, Ireland, Sweden, Luxembourg, Netherlands, Portugal, Spain, Switzerland, France, Denmark, UK and the regional meteorological service of Catalonia (Spain). More detailed information can be found on the <a href="http://cib.knmi.nl/mediawiki/index.php/Compare_E-OBS_v19.0e_and_v18.0e" target="_blank">page comparing versions 19.0e and 18.0e</a>.
+New precipitation series have been included for Sardinia (Italy). Monthly, half-yearly and yearly updates are continued for Germany, Czech Republic, Bosnia and Herzegovina, Norway, Slovenia, Finland, Ireland, Sweden, Luxembourg, Netherlands, Portugal, Spain, Switzerland, France, Denmark, UK and the regional meteorological service of Catalonia (Spain). More detailed information can be found on the <a href="https://cib.knmi.nl/mediawiki/index.php/Compare_E-OBS_v19.0e_and_v18.0e" target="_blank">page comparing versions 19.0e and 18.0e</a>.
 			</td>   
 		      </tr>
 		      <tr>
@@ -121,7 +121,7 @@ New temperature series have been included for Lombardia (Italy) and updates have
 			<td>17.0</td>
 			<td>April 2018</td>
 			<td>1950-01-01 - 2017-12-31</td>
-			<td>Series for Estonia have been updated. Monthly, half-yearly and yearly updates are continued for Germany, Czech Republic, Bosnia and Herzegovina, Norway, Slovenia, Finland, Ireland, Sweden, Luxembourg, Netherlands, Portugal, Spain, Switzerland, France, Denmark, UK and the regional meteorological service of Catalonia (Spain). More detailed information can be found on the <a href="http://cib.knmi.nl/mediawiki/index.php/Compare_E-OBS_v17.0_and_v16.0" target="_blank">page comparing versions 17.0 and 16.0</a>. 
+			<td>Series for Estonia have been updated. Monthly, half-yearly and yearly updates are continued for Germany, Czech Republic, Bosnia and Herzegovina, Norway, Slovenia, Finland, Ireland, Sweden, Luxembourg, Netherlands, Portugal, Spain, Switzerland, France, Denmark, UK and the regional meteorological service of Catalonia (Spain). More detailed information can be found on the <a href="https://cib.knmi.nl/mediawiki/index.php/Compare_E-OBS_v17.0_and_v16.0" target="_blank">page comparing versions 17.0 and 16.0</a>. 
 		  Together with the 'standard' E-OBS files, an ensemble of possible E-OBS fields are created. The ensemble mean and ensemble spread are available (v17.0e). The full ensemble can be made available on request.
 			</td>   
 		      </tr>-->
@@ -138,7 +138,7 @@ sum <b>RR</b>, daily averaged sea level pressure <b>PP</b> and daily
 mean global radiation <b>QQ</b>. They cover the area: 25N-71.5N x
 25W-45E. The data files are in NetCDF-4 format. The Global 30
 Arc-Second Elevation Data Set
-(<a href="http://eros.usgs.gov/#/Find_Data/Products_and_Data_Available/GTOPO30"
+(<a href="https://eros.usgs.gov/#/Find_Data/Products_and_Data_Available/GTOPO30"
 target="_blank">GTOPO30</a>), a global raster Digital Elevation Model
 (DEM) with a horizontal grid spacing of 30 arc seconds (approximately
 1 kilometer) developed by USGS is used for the elevation file as
@@ -166,7 +166,7 @@ predictors. On daily time-scales the global radiation is mainly
 dependent on cloud patterns. This makes daily global radiation
 spatially and temporally highly variable. The in-situ observations are
 interpolated using Multiple Adaptive Regression Splines (MARS). The
-dimension reduced satelliate data is used to interpolate between the
+dimension reduced satellite data is used to interpolate between the
 in-situ observations, where the in-situ observations are the 'anchor
 points'.
 
@@ -229,7 +229,7 @@ points'.
 		      Whenever you publish research or applications based on these gridded data products, you should include the following acknowledgement and citations.<br><br>
                      
 		      Ensemble version:<br>
-		      "We acknowledge the E-OBS dataset from the EU-FP6 project UERRA (http://www.uerra.eu) and the Copernicus Climate Change Service, and the data providers in the ECA&D project (https://www.ecad.eu)"<br>
+		      "We acknowledge the E-OBS dataset from the EU-FP6 project UERRA (https://www.uerra.eu) and the Copernicus Climate Change Service, and the data providers in the ECA&D project (https://www.ecad.eu)"<br>
 		      "Cornes, R., G. van der Schrier, E.J.M. van den Besselaar, and P.D. Jones. 2018: An Ensemble Version of the E-OBS Temperature and Precipitation Datasets, J. Geophys. Res. Atmos., <b>123</b>. doi:10.1029/2017JD028200"<img src="../images/html.gif" width="15" height="15" alt="" border="0"><a href="https://doi.org/10.1029/2017JD028200" target="_blank">Website</a>
 
 		<h3>Terms of use</h3>

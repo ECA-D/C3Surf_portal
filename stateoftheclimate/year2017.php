@@ -3,7 +3,7 @@ error_reporting(E_ALL  & ~E_NOTICE);
 session_start();
 ?>
 <!DOCTYPE html>
-<html style="" class="js js canvas no-touch rgba opacity cssanimations csstransforms csstransforms3d csstransitions svg inlinesvg WebfontLoader-processed bootstrap-anchors-processed wf-opensans-n4-active wf-opensans-n7-active wf-active" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#" lang="en">
+<html style="" class="js js canvas no-touch rgba opacity cssanimations csstransforms csstransforms3d csstransitions svg inlinesvg WebfontLoader-processed bootstrap-anchors-processed wf-opensans-n4-active wf-opensans-n7-active wf-active" dir="ltr" prefix="content: https://purl.org/rss/1.0/modules/content/ dc: https://purl.org/dc/terms/ foaf: https://xmlns.com/foaf/0.1/ og: https://ogp.me/ns# rdfs: https://www.w3.org/2000/01/rdf-schema# sioc: https://rdfs.org/sioc/ns# sioct: https://rdfs.org/sioc/types# skos: https://www.w3.org/2004/02/skos/core# xsd: https://www.w3.org/2001/XMLSchema#" lang="en">
 
   <head>
     <meta charset="utf-8">
@@ -11,10 +11,10 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="shortcut icon" href="../theme/favicon_0.png" type="image/png">
-    <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab">
-    <meta name="generator" content="Drupal 7 (http://drupal.org)">
-    <link rel="canonical" href="http://climate.copernicus.eu/events">
-    <link rel="shortlink" href="http://climate.copernicus.eu/events">
+    <link rel="profile" href="https://www.w3.org/1999/xhtml/vocab">
+    <meta name="generator" content="Drupal 7 (https://drupal.org)">
+    <link rel="canonical" href="https://climate.copernicus.eu/events">
+    <link rel="shortlink" href="https://climate.copernicus.eu/events">
     <title>year 2017</title>
     
     <script src="https://www.w3schools.com/lib/w3.js"></script>
@@ -395,14 +395,14 @@ However, the fraction of annual precipitation due to very wet days (relating to 
 Haylock, M.R., N. Hofstra, A.M.G. Klein Tank, E.J. Klok, P.D. Jones and M. New. 2008: A European daily high-resolution gridded dataset of surface temperature and precipitation. J. Geophys. Res., 113, D20119, doi:10.1029/2008JD10201
 <br><br>
 <h3 id="eraint">ERA-Interim</h3>
-<a href="https://software.ecmwf.int/wiki/display/CKB/What+is+ERA-Interim" target="_blank">ERA-Interim</a> is a global atmospheric reanalysis from 1979 onwards with monthly updates, with a delay of 2 months. The resolution is 6-hourly, but for this report the <a href="http://apps.ecmwf.int/datasets/data/interim-full-moda/levtype=sfc/" target="_blank">"monthly means of daily means"</a> are used. The native horizontal grid is ~80km (reduced Gaussian grid N128), which can be downloaded on a 0.75 deg (~83km) regular lat/long grid.
+<a href="https://software.ecmwf.int/wiki/display/CKB/What+is+ERA-Interim" target="_blank">ERA-Interim</a> is a global atmospheric reanalysis from 1979 onwards with monthly updates, with a delay of 2 months. The resolution is 6-hourly, but for this report the <a href="https://apps.ecmwf.int/datasets/data/interim-full-moda/levtype=sfc/" target="_blank">"monthly means of daily means"</a> are used. The native horizontal grid is ~80km (reduced Gaussian grid N128), which can be downloaded on a 0.75 deg (~83km) regular lat/long grid.
 <br><br>
 Dee, D. P., Uppala, S. M., Simmons, A. J., Berrisford, P., Poli, P., Kobayashi, S., Andrae, U., Balmaseda, M. A., Balsamo, G., Bauer, P., Bechtold, P., Beljaars, A. C., van de Berg, L., Bidlot, J., Bormann, N., Delsol, C., Dragani, R., Fuentes, M., Geer, A. J., Haimberger, L., Healy, S. B., Hersbach, H., H&#243;lm, E. V., Isaksen, L., K&#229;llberg, P., K&#246;hler, M., Matricardi, M., McNally, A. P., Monge‐Sanz, B. M., Morcrette, J., Park, B., Peubey, C., de Rosnay, P., Tavolato, C., Th&#233;paut, J. and Vitart, F. (2011), The ERA‐Interim reanalysis: configuration and performance of the data assimilation system. Q.J.R. Meteorol. Soc., 137: 553-597. doi:10.1002/qj.828
 <br>
 <h2 id="about">About the Copernicus State of the European Climate</h2>
 <em>Monthly and yearly </em>State of the European Climate<em> bulletins are prepared for audience of mainly non-meteorologists/climatologists interested in impact of weather and climate. In these bulletins, the main features of the most recent calendar month is shown, with a focus on extremes and significant deviations from climatology. The information is provided within their historical context, and includes references to addional information. The bulletin is based on Copernicus products, but also contains information from other sources as appropriate.</em>
 <br><br>
-<em>This </em>Yearly State of the European Climate<em> bulletin is a summary extracted from the larger State of the European Climate report found <a href="http://climate.copernicus.eu/CopernicusESC" target="_blank">here</a></em>
+<em>This </em>Yearly State of the European Climate<em> bulletin is a summary extracted from the larger State of the European Climate report found <a href="https://climate.copernicus.eu/CopernicusESC" target="_blank">here</a></em>
 
 		</div>	  
 	      </div>

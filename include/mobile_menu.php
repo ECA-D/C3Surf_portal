@@ -139,8 +139,8 @@ session_start();
   </ul>
 
 </nav>
-<!--<script src="http://climate.copernicus.eu/sites/default/files/js/js_pMpn-aGMsGKgMnAtmxLe-SZAZXUOnXxQqYAoiRN9DJI.js"></script>
-<script src="http://climate.copernicus.eu/sites/default/files/js/js_0FLbRiUqtDpV72FfWXeHPnFm-mOEfk_I-e170Ur5Kws.js"></script>
+<!--<script src="https://climate.copernicus.eu/sites/default/files/js/js_pMpn-aGMsGKgMnAtmxLe-SZAZXUOnXxQqYAoiRN9DJI.js"></script>
+<script src="https://climate.copernicus.eu/sites/default/files/js/js_0FLbRiUqtDpV72FfWXeHPnFm-mOEfk_I-e170Ur5Kws.js"></script>
 -->
 
 <div id="mm-blocker" class="mm-slideout"></div>

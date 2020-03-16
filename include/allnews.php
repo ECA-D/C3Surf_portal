@@ -3,7 +3,7 @@ error_reporting(E_ALL  & ~E_NOTICE);
 session_start();
 ?>
 <!DOCTYPE html>
-<html style="" class="js js canvas no-touch rgba opacity cssanimations csstransforms csstransforms3d csstransitions svg inlinesvg WebfontLoader-processed bootstrap-anchors-processed wf-opensans-n4-active wf-opensans-n7-active wf-active" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#" lang="en">
+<html style="" class="js js canvas no-touch rgba opacity cssanimations csstransforms csstransforms3d csstransitions svg inlinesvg WebfontLoader-processed bootstrap-anchors-processed wf-opensans-n4-active wf-opensans-n7-active wf-active" dir="ltr" prefix="content: https://purl.org/rss/1.0/modules/content/ dc: https://purl.org/dc/terms/ foaf: https://xmlns.com/foaf/0.1/ og: https://ogp.me/ns# rdfs: https://www.w3.org/2000/01/rdf-schema# sioc: https://rdfs.org/sioc/ns# sioct: https://rdfs.org/sioc/types# skos: https://www.w3.org/2004/02/skos/core# xsd: https://www.w3.org/2001/XMLSchema#" lang="en">
 
   <head>
     <meta charset="utf-8">
@@ -11,10 +11,10 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="shortcut icon" href="../theme/favicon_0.png" type="image/png">
-    <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab">
-    <meta name="generator" content="Drupal 7 (http://drupal.org)">
-    <link rel="canonical" href="http://climate.copernicus.eu/events">
-    <link rel="shortlink" href="http://climate.copernicus.eu/events">
+    <link rel="profile" href="https://www.w3.org/1999/xhtml/vocab">
+    <meta name="generator" content="Drupal 7 (https://drupal.org)">
+    <link rel="canonical" href="https://climate.copernicus.eu/events">
+    <link rel="shortlink" href="https://climate.copernicus.eu/events">
     <title>All news items</title>
     
     <script src="https://www.w3schools.com/lib/w3.js"></script>
@@ -319,7 +319,7 @@ session_start();
 		    </tr>		  
 		    <tr>
 		      <td>23 April 2018</td>
-	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> and <a href="http://www.ecad.eu/">ECA&amp;D</a> updates released	</td>
+	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> and <a href="https://www.ecad.eu/">ECA&amp;D</a> updates released	</td>
 		    </tr>    
 		    <tr>
 		      <td>3 April 2018</td>
@@ -335,7 +335,7 @@ session_start();
 		    </tr>		  
 		    <tr>
 		      <td>19 March 2018</td>
-	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> and <a href="http://www.ecad.eu/">ECA&amp;D</a> updates released	</td>
+	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> and <a href="https://www.ecad.eu/">ECA&amp;D</a> updates released	</td>
 		    </tr>    
 		    <tr>
 		      <td>26 February 2018</td>
@@ -343,7 +343,7 @@ session_start();
 		    </tr>		  
 		    <tr>
 		      <td>19 February 2018</td>
-	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> and <a href="http://www.ecad.eu/">ECA&amp;D</a> updates released	</td>
+	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> and <a href="https://www.ecad.eu/">ECA&amp;D</a> updates released	</td>
 		    </tr>    
 		    <tr>
 		      <td>23 January 2018</td>
@@ -351,7 +351,7 @@ session_start();
 		    </tr>		  
 		    <tr>
 		      <td>17 January 2018</td>
-	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> and <a href="http://www.ecad.eu/">ECA&amp;D</a> updates released	</td>
+	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> and <a href="https://www.ecad.eu/">ECA&amp;D</a> updates released	</td>
 		    </tr>    
 		    <tr>
 		      <td>21 December 2017</td>
@@ -359,7 +359,7 @@ session_start();
 		    </tr>		  
 		    <tr>
 		      <td>12 December 2017</td>
-	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> and <a href="http://www.ecad.eu/">ECA&amp;D</a> updates released	</td>
+	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> and <a href="https://www.ecad.eu/">ECA&amp;D</a> updates released	</td>
 		    </tr>    
 		    <tr>
 		      <td>23 November 2017</td>
@@ -371,7 +371,7 @@ session_start();
 		    </tr>		  
 		    <tr>
 		      <td>15 November 2017</td>
-	              <td><a href="http://www.ecad.eu/">Monthly ECA&amp;D update released</a></td>
+	              <td><a href="https://www.ecad.eu/">Monthly ECA&amp;D update released</a></td>
 		    </tr>		  
 		    <tr>
 		      <td>31 October 2017</td>
@@ -383,11 +383,11 @@ session_start();
 		    </tr>		  
 		    <tr>
 		      <td>13 October 2017</td>
-	              <td><a href="http://www.ecad.eu/">Monthly ECA&amp;D update released</a></td>
+	              <td><a href="https://www.ecad.eu/">Monthly ECA&amp;D update released</a></td>
 		    </tr>		  
 		    <tr>
 		      <td>13 September 2017</td>
-	              <td><a href="http://www.ecad.eu/">Monthly ECA&amp;D update released</a></td>
+	              <td><a href="https://www.ecad.eu/">Monthly ECA&amp;D update released</a></td>
 		    </tr>		  
 		    <tr>
 		      <td>4-8 September 2017</td>
@@ -395,11 +395,11 @@ session_start();
 		    </tr>		  
 		    <tr>
 		      <td>16 August 2017</td>
-	              <td><a href="http://www.ecad.eu/">Monthly ECA&amp;D update released</a></td>
+	              <td><a href="https://www.ecad.eu/">Monthly ECA&amp;D update released</a></td>
 		    </tr>		  
 		    <tr>
 		      <td>15 July 2017</td>
-	              <td><a href="http://www.ecad.eu/">Monthly ECA&amp;D update released</a></td>
+	              <td><a href="https://www.ecad.eu/">Monthly ECA&amp;D update released</a></td>
 		    </tr>		  
 		  <tbody>
 		</table>
