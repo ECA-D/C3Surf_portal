@@ -2,17 +2,17 @@ var mainWebmapJS ;
 setBaseURL("../adaguc-viewer/webmapjs");
 var defaultProjection = {srs:'EPSG:32661',bbox:'809272.180452, -5510472.180452, 7029272.180452, 1309527.819548 '};
 
-var scaleBarURL       = "http://www.ecad.eu/utils/adagucviewer/webmapjs/php/makeScaleBar.php?";
+var scaleBarURL       = "http://eca.knmi.nl/utils/adagucviewer/webmapjs/php/makeScaleBar.php?";
 
 var c3surfWMS = {
-    service:"http://www.ecad.eu/download/ensembles/cgi-bin/ecad-ensembles-grid.cgi?",
+    service:"http://eca.knmi.nl/download/ensembles/cgi-bin/ecad-ensembles-grid.cgi?",
     name:"tg",
 };
 
 
 
 var baseLayer = new WMJSLayer({
-    service:"http://www.ecad.eu/download/ensembles/cgi-bin/basemaps.cgi?",
+    service:"http://eca.knmi.nl/download/ensembles/cgi-bin/basemaps.cgi?",
     name:"world_eca,country",
     title:"ECA World base layer",
     enabled:true,
@@ -29,7 +29,7 @@ var overlayGeoservices =  new WMJSLayer({
 });
 
 var overlay =  new WMJSLayer({
-    service:"http://www.ecad.eu/download/ensembles/cgi-bin/basemaps.cgi?",
+    service:"http://eca.knmi.nl/download/ensembles/cgi-bin/basemaps.cgi?",
     name:"country_lines",
     format:"image/png",
     title:"World country borders",
