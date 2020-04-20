@@ -60,7 +60,6 @@ session_start();
 
 Click on the figures for larger ones.
 
-<a href="../images/feb2020/header-SOC_large.png" target="_blank"><img alt="" src="../images/feb2020/header-SOC.png" ></a>
 <h2>Storm Ciara</h2>
 <br><br>
 Storm Ciara (called Sabine in Germany and Elsa in Norway) crossed over Europe in the second week of February. Its low pressure center moved from Scotland on 9 February to northern Scandinavia on 11 February. Strong wind gusts occurred in large parts of Europe: United Kingdom (largest recorded value 202 km/h, in Cairngorm Summit), France (219 km/h, Cap Corse), Germany (177 km/h, Feldberg), Switzerland (202 km/h, Andermatt), and Poland (198 km/h, Sniezka).
