@@ -144,6 +144,8 @@
                      <ul>
                       <li><a href="<?php echo $thispage;?>"><span>Monthly reports</span></a>
                        <ul>
+                        <li><a href="<?php echo $webhost;?>/stateoftheclimate/march2020.php"><span>March 2020</span></a>
+			</li>
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/february2020.php"><span>February 2020</span></a>
 			</li>
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/january2020.php"><span>January 2020</span></a>
@@ -154,18 +156,14 @@
 			</li>
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/october2019.php"><span>October 2019</span></a>
 			</li>
-                        <li><a href="<?php echo $webhost;?>/stateoftheclimate/september2019.php"><span>September 2019</span></a>
-			</li>
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/all_monthly_reports.php"><span>All reports</span></a>
                        </ul>
                       </li>
                       <li><a href="<?php echo $thispage;?>"><span>Annual reports</span></a>
                        <ul>
-                        <!-- <li><a href="<?php echo $webhost;?>/stateoftheclimate/year2020.php"><span>2020</span></a> -->
-                        <!-- </li> -->
-                        <!-- <li><a href="<?php echo $webhost;?>/stateoftheclimate/year2019.php"><span>2019</span></a> -->
-                        <!-- </li> -->
-                        <li><a href="https://climate.copernicus.eu/ESOTC"><span>2018</span></a>
+                        <li><a href="https://climate.copernicus.eu/ESOTC2019"><span>2019</span></a>
+                        </li>
+                        <li><a href="https://climate.copernicus.eu/ESOTC2018"><span>2018</span></a>
                         </li>
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/year2017.php"><span>2017</span></a>
                         </li>
