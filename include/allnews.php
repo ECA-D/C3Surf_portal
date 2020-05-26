@@ -64,10 +64,19 @@ session_start();
 		      <td width="40%" style="color:#FFFFFF;"><b>Date</b></td>
 		      <td width="60%" style="color:#FFFFFF;"><b>Item</b></td>
 		    </tr>
+		    <!-- <tr> -->
+		    <!--   <td>26 May 2020</td> -->
+	            <!--   <td><a href="../stateoftheclimate/april2020.php">State-of-the-climate for April 2020</a> released</td> -->
+		    <!-- </tr>		   -->
+		    <tr>
+		      <td>26 May 2020</td>
+	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</td>
+		    </tr> 
 		    <tr>
 		      <td>29 April 2020</td>
 	              <td><a href="../stateoftheclimate/march2020.php">State-of-the-climate for March 2020</a> released</td>
-		    </tr>		  
+		    </tr>
+		    <tr>
 		      <td>22 April 2019</td>
 		      <td><a href="https://climate.copernicus.eu/ESOTC2019">Annual State-of-the-climate for 2019</a> released</td>
 		    </tr>
