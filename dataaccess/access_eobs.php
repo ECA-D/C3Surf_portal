@@ -82,6 +82,23 @@ session_start();
 			<td width="22.5%"><span style="color:#FFFFFF;"><strong>Period covered</strong></span></td>
 			<td width="50%"><span style="color:#FFFFFF;"><strong>Modification</strong></span></td>    
 		      </tr>
+		      <tr bgcolor="#ffffff">
+			<td><a href="access_eobs.php#datafiles">21.0e</a></td>
+			<td>May 2020</td>
+			<td>1950-01-01 - 2019-12-31</td>
+			<td>The full
+ensemble (100 members for temperature, precipitation and sea level
+pressure) can be made available on
+request.<br>  We have found a problem with global radiation which is the reason why global radiation is not (yet) available for version 21.0e.<br>New series and updates have been included for Georgia, Ukraine, Belarus and Poland. Monthly, half-yearly and yearly updates
+are continued for Germany, Czech Republic, Bosnia and Herzegovina,
+Norway, Slovenia, Finland, Ireland, Sweden, Luxembourg, Netherlands,
+Portugal, Spain, Switzerland, France, Denmark, UK and the regional
+meteorological service of Catalonia (Spain). More detailed information
+can be found on
+the <a href="http://cib.knmi.nl/mediawiki/index.php/Compare_E-OBS_v21.0e_and_v20.0e"
+target="_blank">page comparing versions 21.0e and 20.0e</a>.
+			</td>   
+		      </tr>
 		      <tr>
 			<td><a href="access_eobs.php#datafiles">20.0e</a></td>
 			<td>October 2019</td>
@@ -109,14 +126,14 @@ target="_blank">page comparing versions 20.0e and 19.0e</a>.
 New precipitation series have been included for Sardinia (Italy). Monthly, half-yearly and yearly updates are continued for Germany, Czech Republic, Bosnia and Herzegovina, Norway, Slovenia, Finland, Ireland, Sweden, Luxembourg, Netherlands, Portugal, Spain, Switzerland, France, Denmark, UK and the regional meteorological service of Catalonia (Spain). More detailed information can be found on the <a href="https://cib.knmi.nl/mediawiki/index.php/Compare_E-OBS_v19.0e_and_v18.0e" target="_blank">page comparing versions 19.0e and 18.0e</a>.
 			</td>   
 		      </tr>
-		      <tr>
-			<td>18.0e</td>
-			<td>November 2018</td>
-			<td>1950-01-01 - 2018-06-30</td>
-			<td>E-OBS v18.0e (note the additional 'e') is only available for the ensembe mean and ensemble spread. The 'standard' version is no longer available. The full ensemble can be made available on request.<br>
-New temperature series have been included for Lombardia (Italy) and updates have been included for Estonia. Monthly and half-yearly updates are continued for Germany, Czech Republic, Bosnia and Herzegovina, Norway, Slovenia, Finland, Ireland, Sweden, Luxembourg, Netherlands, Portugal, Spain, Switzerland and the regional meteorological service of Catalonia (Spain).
-			</td>   
-		      </tr>
+<!-- 		      <tr> -->
+<!-- 			<td>18.0e</td> -->
+<!-- 			<td>November 2018</td> -->
+<!-- 			<td>1950-01-01 - 2018-06-30</td> -->
+<!-- 			<td>E-OBS v18.0e (note the additional 'e') is only available for the ensembe mean and ensemble spread. The 'standard' version is no longer available. The full ensemble can be made available on request.<br> -->
+<!-- New temperature series have been included for Lombardia (Italy) and updates have been included for Estonia. Monthly and half-yearly updates are continued for Germany, Czech Republic, Bosnia and Herzegovina, Norway, Slovenia, Finland, Ireland, Sweden, Luxembourg, Netherlands, Portugal, Spain, Switzerland and the regional meteorological service of Catalonia (Spain). -->
+<!-- 			</td>    -->
+<!-- 		      </tr> -->
 <!--		      <tr bgcolor="#ffffff">
 			<td>17.0</td>
 			<td>April 2018</td>
@@ -176,6 +193,24 @@ points'.
 		<table  border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
 		  <tbody>
 		    <tr bgcolor="#941333" height="40px">
+		      <td style="color:#FFFFFF;"><b>Version 21.0e</b></td>
+		      <td style="color:#FFFFFF;"><b>Ensemble mean</b></td>
+		      <td style="color:#FFFFFF;"><b>Ensemble spread</b></td>
+		      <td style="color:#FFFFFF;"><b>Elevation</b></td>      
+		    </tr>
+		    <tr>
+		      <td>0.1 deg. regular grid</td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ens_mean_0.1deg_reg_v21.0e.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ens_mean_0.1deg_reg_v21.0e.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ens_mean_0.1deg_reg_v21.0e.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ens_mean_0.1deg_reg_v21.0e.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ens_mean_0.1deg_reg_v21.0e.nc">PP</a> <!-- <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/qq_ens_mean_0.1deg_reg_v21.0e.nc">QQ</a> --></td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ens_spread_0.1deg_reg_v21.0e.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ens_spread_0.1deg_reg_v21.0e.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ens_spread_0.1deg_reg_v21.0e.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ens_spread_0.1deg_reg_v21.0e.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ens_spread_0.1deg_reg_v21.0e.nc">PP</a> <!-- <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/qq_ens_spread_0.1deg_reg_v21.0e.nc">QQ</a> --> </td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/elev_ens_0.1deg_reg_v21.0e.nc">all elements</a></td>      
+		    </tr>
+		    <tr>
+		      <td>0.25 deg. regular grid</td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tg_ens_mean_0.25deg_reg_v21.0e.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tn_ens_mean_0.25deg_reg_v21.0e.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tx_ens_mean_0.25deg_reg_v21.0e.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/rr_ens_mean_0.25deg_reg_v21.0e.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/pp_ens_mean_0.25deg_reg_v21.0e.nc">PP</a> <!-- <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/qq_ens_mean_0.25deg_reg_v21.0e.nc">QQ</a> --> </td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tg_ens_spread_0.25deg_reg_v21.0e.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tn_ens_spread_0.25deg_reg_v21.0e.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tx_ens_spread_0.25deg_reg_v21.0e.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/rr_ens_spread_0.25deg_reg_v21.0e.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/pp_ens_spread_0.25deg_reg_v21.0e.nc">PP</a> <!-- <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/qq_ens_spread_0.25deg_reg_v21.0e.nc">QQ</a> --> </td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/elev_ens_0.25deg_reg_v21.0e.nc">all elements</a></td>      
+		    </tr>
+		    <tr bgcolor="#941333" height="40px">
 		      <td style="color:#FFFFFF;"><b>Version 20.0e</b></td>
 		      <td style="color:#FFFFFF;"><b>Ensemble mean</b></td>
 		      <td style="color:#FFFFFF;"><b>Ensemble spread</b></td>
@@ -207,7 +242,11 @@ points'.
 		<table>
 		  <tbody>
 		    <tr> 
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_tg_v20.0e.txt">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_tn_v20.0e.txt">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_tx_v20.0e.txt">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_rr_v20.0e.txt">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_pp_v20.0e.txt">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_qq_v20.0e.txt">QQ</a> 
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_tg_v21.0e.txt">TG (v21.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_tn_v21.0e.txt">TN (v21.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_tx_v21.0e.txt">TX (v21.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_rr_v21.0e.txt">RR (v21.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_pp_v21.0e.txt">PP (v21.0e)</a>  
+		      </td>
+		    </tr>
+		    <tr> 
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_tg_v20.0e.txt">TG (v20.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_tn_v20.0e.txt">TN (v20.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_tx_v20.0e.txt">TX (v20.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_rr_v20.0e.txt">RR (v20.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_pp_v20.0e.txt">PP (v20.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_qq_v20.0e.txt">QQ (v20.0e)</a> 
 		      </td>
 		    </tr>
 		  </tbody>
@@ -217,11 +256,11 @@ points'.
 		
 		Follow this <a href="access_eobs_months.php">link</a> if you want to download gridded datafiles for 2019 and 2020. They are released on a monthly basis. These files will be replaced with every monthly update and removed after the next full update of the E-OBS dataset.
 	
-		<h3>Visualize daily maps</h3>
+		<!-- <h3>Visualize daily maps</h3> -->
 		
-		Follow
-		this <a href="../maps/eobsdailymaps.php">link</a> if
-		you want to visualize the daily gridded E-OBS fields.
+		<!-- Follow -->
+		<!-- this <a href="../maps/eobsdailymaps.php">link</a> if -->
+		<!-- you want to visualize the daily gridded E-OBS fields. -->
 
 
 		<h3>Citation and acknowledgement</h3>

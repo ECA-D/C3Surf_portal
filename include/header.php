@@ -70,8 +70,8 @@
 			 <ul>
                       	   <li><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php"><span>Data access</span></a>
                       	   </li>
-                      	   <li><a href="<?php echo $webhost;?>/maps/eobsdailymaps.php"><span>Daily maps</span></a>
-                      	   </li>
+                      	   <!-- <li><a href="<?php echo $webhost;?>/maps/eobsdailymaps.php"><span>Daily maps</span></a> -->
+                      	   <!-- </li> -->
                       	 </ul>
                        </li>
                        <li><a href="<?php echo $thispage;?>"><span>NGCD (Daily)</span></a>

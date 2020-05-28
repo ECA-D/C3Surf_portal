@@ -23,8 +23,8 @@ session_start();
 	  <ul class="mmenu-mm-list-level-3">
            <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-702"><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Data access</span></a>
            </li>
-           <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-702"><a href="<?php echo $webhost;?>/maps/eobsdailymaps.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Daily maps</span></a>
-           </li>
+           <!-- <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-702"><a href="<?php echo $webhost;?>/maps/eobsdailymaps.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Daily maps</span></a> -->
+           <!-- </li> -->
           </ul>
          </li>
          <li class="mmenu-mm-list-mlid-2187 mmenu-mm-list-path-node-702"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">NGCD (Daily)</span></a>
