@@ -46,7 +46,7 @@ session_start();
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-120020479-1');
+  gtag('config', 'UA-120020479-1',{ 'anonymize_ip': true });
 </script>
     
 <script src="<?php echo $webhost;?>/theme/gtm.js" async=""></script><script src="<?php echo $webhost;?>/theme/analytics.js" async=""></script><script src="<?php echo $webhost;?>/theme/js_0qlzNmRd5eIzax2ZtoBiFWuErHnH9F8BMadDVEP1yxs.js"></script>
