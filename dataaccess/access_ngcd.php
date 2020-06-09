@@ -64,7 +64,7 @@ session_start();
 		  <h3>Actual version and update policy</h3>
 		  
 		  Met Norway will maintain and update the NGCD gridded dataset. 
-		  <br>
+		  <br><br>
 
 		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
 		    <tbody>
