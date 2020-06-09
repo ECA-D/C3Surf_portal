@@ -33,7 +33,11 @@ session_start();
            </li>
            </ul>
          </li>
-         <li class="mmenu-mm-list-mlid-2218 mmenu-mm-list-path-node-701"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">NGCD_Rec (Monthly, to be produced)</span></a>
+         <li class="mmenu-mm-list-mlid-2218 mmenu-mm-list-path-node-701"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">NGCD_Rec (Monthly)</span></a>
+	  <ul class="mmenu-mm-list-level-3">
+           <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-702"><a href="<?php echo $webhost;?>/dataaccess/access_ngcd_rec.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Data access</span></a>
+           </li>
+           </ul>
          </li>
          <li class="mmenu-mm-list-mlid-2215 mmenu-mm-list-path-node-703"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">LAPrec (Monthly)</span></a>
 	  <ul class="mmenu-mm-list-level-3">

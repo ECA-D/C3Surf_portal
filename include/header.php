@@ -80,7 +80,12 @@
                       	   </li>
                       	 </ul>
                        </li>
-                       <li><a href="<?php echo $thispage;?>"><span>NGCD_Rec (Monthly, to be produced)</span></a>
+                       <li><a href="<?php echo $thispage;?>"><span>NGCD_Rec (Monthly)</span></a>
+			 <ul>
+                      	   <li><a href="<?php echo $webhost;?>/dataaccess/access_ngcd_rec.php"><span>Data access</span></a>
+                      	   </li>
+                      	 </ul>
+
                        </li>
                        <li><a href="<?php echo $thispage;?>"><span>LAPrec (Monthly)</span></a>
 			 <ul>
