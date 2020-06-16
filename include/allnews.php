@@ -65,6 +65,10 @@ session_start();
 		      <td width="60%" style="color:#FFFFFF;"><b>Item</b></td>
 		    </tr>
 		    <tr>
+		      <td>16 June 2020</td>
+	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</td>
+		    </tr> 
+		    <tr>
 		      <td>9 June 2020</td>
 	              <td>A long-term monthly precipitation reconstruction for Fennoscandia is available as <a href="<?php echo $webhost;?>/dataaccess/access_ngcd_rec.php">NGCD_rec</a></td>
 		    </tr>		  
