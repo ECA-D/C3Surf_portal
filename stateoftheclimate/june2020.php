@@ -15,7 +15,7 @@ session_start();
     <meta name="generator" content="Drupal 7 (http://drupal.org)">
     <link rel="canonical" href="http://climate.copernicus.eu/events">
     <link rel="shortlink" href="http://climate.copernicus.eu/events">
-    <title>June 2020</title>
+    <title>July 2020</title>
     
     <script src="https://www.w3schools.com/lib/w3.js"></script>
  
@@ -36,7 +36,7 @@ session_start();
 	    <div class="region region-static-page-title col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
 	      <div class="row-fluid">
 		<div id="block-delta-blocks-page-title" class="block block-delta-blocks col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
-		  <h1 id="page-title" class="title">State-of-the-European-climate: June 2020</h1>
+		  <h1 id="page-title" class="title">State-of-the-European-climate: July 2020</h1>
 		</div> <!-- /.block -->
 	      </div>
 	    </div>
@@ -53,7 +53,7 @@ session_start();
 	      <div class="row-fluid">
 		
 		<!-- Breadcrum -->
-		<h2 class="element-invisible">You are here</h2><div class="breadcrumb"><span class="inline odd first"><a href="../surfobs.php">Home</a></span><span class="delimiter">&raquo;</span> <span class="inline even last"><a href="june2020.php">June 2020</a></span></div>
+		<h2 class="element-invisible">You are here</h2><div class="breadcrumb"><span class="inline odd first"><a href="../surfobs.php">Home</a></span><span class="delimiter">&raquo;</span> <span class="inline even last"><a href="june2020.php">July 2020</a></span></div>
 
 		<!-- Main part -->
 		<div id="block-system-main" class="block block-system col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
@@ -66,7 +66,7 @@ Click on the figures for larger ones.
 Temperatures over Europe deviated quite substantially from the 1981-2010 average in June 2020, with a pattern largely opposite to that in May, associated with a change in the prevailing atmospheric circulation. Temperatures were well above average over Scandinavia and much of eastern Europe, under the influence of anticyclonic conditions. Norway had its second warmest June in records dating back to 1900. Sweden recorded one of its highest June temperatures (34.0&#176;C on 25 June) since records began in 1889, while Helsinki and other locations in Finland recorded their warmest June in records starting in 1961.
 <br><br>
 <h3>Heavy rain and Floods in central and eastern Europe</h3>
-In June 2020, large parts of Europe saw above average precipitation compared to the 1981-2010 average. In the second half of June in several countries extreme rainfall led to flooding, including Romania, the Czech Republic and Poland. In several places more than 100 mm in a short time period (within 24 hours) occurred. Strong thunderstorms could easily develop along the boundary between very warm air in the eastern half and much cooler air in the western part of Europe. This boundary can be nicely seen in both the weathermaps as satellite images. In the monthly totals we can even see sums above 200 mm in some regions ranging from the northern Alps into Poland.
+In June 2020, large parts of Europe saw above average precipitation compared to the 1981-2010 average. In the second half of June in several countries extreme rainfall led to flooding, including Romania, the Czech Republic and Poland. In several places more than 100 mm in a short time period (within 24 hours) occurred. Strong thunderstorms could easily develop along the boundary between very warm air in the eastern half and much cooler air in the western part of Europa. This boundary can be nicely seen in both the weathermaps as satellite images. In the monthly totals we can even see sums above 200 mm in some regions ranging from the northern Alps into Poland.
 <br><br>
 <a href="../images/jun2020/Analyses_15_june_2020_12UTC.jpg"><img alt="" src="../images/jun2020/Analyses_15_june_2020_12UTC.jpg" width="250px"></a>
 <a href="../images/jun2020/Analyses_29_june_2020_12UTC.jpg"><img alt="" src="../images/jun2020/Analyses_29_june_2020_12UTC.jpg" width="250px"></a>
@@ -118,7 +118,7 @@ The distribution of heavy rain within Europe in June 2020 can be highlighted by 
 <h2>The weather in June 2020</h2>
 <h3>Temperature deviations and extremes</h3>
 <br><br>
-Average temperatures in June were exceptionally above normal (1981-2010) in Scandinavia, northern Germany, the Netherlands, and Belgium (Fig. 7, middle panel). In parts of Scandinavia average temperatures were more than 5 &#176;C above normal (Fig. 6, middle), which can be explained by the positive radiation anomaly in this region (Fig. 14, right). Maximum and minimum temperatures in these countries were above average as well. Minimum temperatures were also above average in parts of western Europe, particularly Great Britain and France, and in a band over eastern Europe, from the Baltic States to Greece. Remarkably, in this band the maximum temperatures were much below average.
+Average temperatures in June were exceptionally above normal (1981-2010) in Scandinavia, northern Germany, the Netherlands, and Belgium (Fig. 7, middle panel). In parts of Scandinavia average temperatures were more than 5 &#176;C above normal (Fig. 6, middle), which can be explained by the positive radiation anomaly in this region (Fig. 14, right). Maximum and minimum temperatures in these countries were above average as well. Minimum temperatures were also above average in parts of western Europe, particularly Great Britain and France, and in a band over eastern Europa, from the Baltic States to Greece. Remarkably, in this band the maximum temperatures were much below average.
 <br><br>
 <a href="../images/jun2020/Stateofclimate_Jun2020_tn_0_25deg_anom_monthlymeans_2020_1981-2010_v20_0e_nc_baselayers_world_polygons_tn_baselayers_overlay_2020-06-30T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/jun2020/Stateofclimate_Jun2020_tn_0_25deg_anom_monthlymeans_2020_1981-2010_v20_0e_nc_baselayers_world_polygons_tn_baselayers_overlay_2020-06-30T00-00-00Z.png" ></a>
 <a href="../images/jun2020/Stateofclimate_Jun2020_tg_0_25deg_anom_monthlymeans_2020_1981-2010_v20_0e_nc_baselayers_world_polygons_tg_baselayers_overlay_2020-06-30T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/jun2020/Stateofclimate_Jun2020_tg_0_25deg_anom_monthlymeans_2020_1981-2010_v20_0e_nc_baselayers_world_polygons_tg_baselayers_overlay_2020-06-30T00-00-00Z.png" ></a>
