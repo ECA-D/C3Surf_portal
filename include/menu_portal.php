@@ -38,6 +38,15 @@ session_start();
 
 		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
 		      <div class="views-field views-field-field-date">
+			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">7 September 2020</span>
+			</div>
+		      </div>  
+		      <div class="views-field views-field-title"><span class="field-content">Global radiation for <a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBSv21.0e</a> and for the <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">monthly E-OBS updates</a> has been released</span>
+		      </div>
+		    </div>
+
+		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
+		      <div class="views-field views-field-field-date">
 			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">25 August 2020</span>
 			</div>
 		      </div>  

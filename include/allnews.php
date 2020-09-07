@@ -65,8 +65,12 @@ session_start();
 		      <td width="60%" style="color:#FFFFFF;"><b>Item</b></td>
 		    </tr>
 		    <tr>
+		      <td>7 September 2020</td>
+	              <td>Global radiation for <a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBSv21.0e</a> and for the <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">monthly E-OBS updates</a> has been released</td>
+		    </tr>		  
+		    <tr>
 		      <td>25 August 2020</td>
-	              <td><a href="../stateoftheclimate/july2020.php">State-of-the-climate for July 2020</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/july2020.php">State-of-the-climate for July 2020</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>13 August 2020</td>
@@ -74,7 +78,7 @@ session_start();
 		    </tr> 
 		    <tr>
 		      <td>29 July 2020</td>
-	              <td><a href="../stateoftheclimate/june2020.php">State-of-the-climate for June 2020</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/june2020.php">State-of-the-climate for June 2020</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>28 July 2020</td>
@@ -82,7 +86,7 @@ session_start();
 		    </tr> 
 		    <tr>
 		      <td>29 June 2020</td>
-	              <td><a href="../stateoftheclimate/may2020.php">State-of-the-climate for May 2020</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/may2020.php">State-of-the-climate for May 2020</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>16 June 2020</td>
@@ -98,7 +102,7 @@ session_start();
 		    </tr>		  
 		    <tr>
 		      <td>26 May 2020</td>
-	              <td><a href="../stateoftheclimate/april2020.php">State-of-the-climate for April 2020</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/april2020.php">State-of-the-climate for April 2020</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>26 May 2020</td>
@@ -106,7 +110,7 @@ session_start();
 		    </tr> 
 		    <tr>
 		      <td>29 April 2020</td>
-	              <td><a href="../stateoftheclimate/march2020.php">State-of-the-climate for March 2020</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/march2020.php">State-of-the-climate for March 2020</a> released</td>
 		    </tr>
 		    <tr>
 		      <td>22 April 2019</td>
@@ -118,11 +122,11 @@ session_start();
 		    </tr> 
 		    <tr>
 		      <td>31 March 2020</td>
-	              <td><a href="../dataaccess/access_ngcd.php">NGCD v20.03</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/dataaccess/access_ngcd.php">NGCD v20.03</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>30 March 2020</td>
-	              <td><a href="../stateoftheclimate/february2020.php">State-of-the-climate for February 2020</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/february2020.php">State-of-the-climate for February 2020</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>30 March 2020</td>
@@ -130,7 +134,7 @@ session_start();
 		    </tr> 
 		    <tr>
 		      <td>24 February 2020</td>
-	              <td><a href="../stateoftheclimate/january2020.php">State-of-the-climate for January 2020</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/january2020.php">State-of-the-climate for January 2020</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>24 February 2020</td>
@@ -138,7 +142,7 @@ session_start();
 		    </tr> 
 		    <tr>
 		      <td>23 January 2020</td>
-	              <td><a href="../stateoftheclimate/december2019.php">State-of-the-climate for December 2019</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/december2019.php">State-of-the-climate for December 2019</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>21 January 2020</td>
@@ -146,11 +150,11 @@ session_start();
 		    </tr> 
 		    <tr>
 		      <td>21 January 2020</td>
-	              <td><a href="../dataaccess/access_eobs_indices.php">Indices based on E-OBSv20.0e</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices.php">Indices based on E-OBSv20.0e</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>19 December 2019</td>
-	              <td><a href="../stateoftheclimate/november2019.php">State-of-the-climate for November 2019</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/november2019.php">State-of-the-climate for November 2019</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>12 December 2019</td>
@@ -158,7 +162,7 @@ session_start();
 		    </tr> 
 		    <tr>
 		      <td>25 November 2019</td>
-	              <td><a href="../stateoftheclimate/october2019.php">State-of-the-climate for October 2019</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/october2019.php">State-of-the-climate for October 2019</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>20 November 2019</td>
@@ -166,7 +170,7 @@ session_start();
 		    </tr> 
 		    <tr>
 		      <td>24 October 2019</td>
-	              <td><a href="../stateoftheclimate/september2019.php">State-of-the-climate for September 2019</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/september2019.php">State-of-the-climate for September 2019</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>10 October 2019</td>
@@ -182,11 +186,11 @@ session_start();
 		    </tr>		  
 		    <tr>
 		      <td>30 September 2019</td>
-	              <td><a href="../dataaccess/access_ngcd.php">NGCD v19.09</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/dataaccess/access_ngcd.php">NGCD v19.09</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>23 September 2019</td>
-	              <td><a href="../stateoftheclimate/august2019.php">State-of-the-climate for August 2019</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/august2019.php">State-of-the-climate for August 2019</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>12 September 2019</td>
@@ -194,7 +198,7 @@ session_start();
 		    </tr> 
 		    <tr>
 		      <td>26 August 2019</td>
-	              <td><a href="../stateoftheclimate/july2019.php">State-of-the-climate for July 2019</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/july2019.php">State-of-the-climate for July 2019</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>21 August 2019</td>
@@ -206,7 +210,7 @@ session_start();
 		    </tr> 
 		    <tr>
 		      <td>22 July 2019</td>
-	              <td><a href="../stateoftheclimate/june2019.php">State-of-the-climate for June 2019</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/june2019.php">State-of-the-climate for June 2019</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>15 July 2019</td>
@@ -218,11 +222,11 @@ session_start();
 		    </tr>		  
 		    <tr>
 		      <td>25 June 2019</td>
-	              <td><a href="../stateoftheclimate/may2019.php">State-of-the-climate for May 2019</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/may2019.php">State-of-the-climate for May 2019</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>24 June 2019</td>
-	              <td><a href="../dataaccess/access_ngcd_indices.php">Indices based on NGCD v19.03</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/dataaccess/access_ngcd_indices.php">Indices based on NGCD v19.03</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>13 June 2019</td>
@@ -234,11 +238,11 @@ session_start();
 		    <tr>
 		    <tr>
 		      <td>29 May 2019</td>
-	              <td><a href="../dataaccess/access_eobs_indices.php">Indices based on E-OBSv19.0e</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices.php">Indices based on E-OBSv19.0e</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>29 May 2019</td>
-	              <td><a href="../stateoftheclimate/april2019.php">State-of-the-climate for April 2019</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/april2019.php">State-of-the-climate for April 2019</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>13 May 2019</td>
@@ -246,7 +250,7 @@ session_start();
 		    </tr> 
 		    <tr>
 		      <td>25 April 2019</td>
-	              <td><a href="../stateoftheclimate/march2019.php">State-of-the-climate for March 2019</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/march2019.php">State-of-the-climate for March 2019</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>25 April 2019</td>
@@ -258,11 +262,11 @@ session_start();
 		    </tr>
 		    <tr>
 		      <td>1 April 2019</td>
-	              <td><a href="../dataaccess/access_ngcd.php">NGCD version 19.03</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/dataaccess/access_ngcd.php">NGCD version 19.03</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>25 March 2019</td>
-	              <td><a href="../stateoftheclimate/february2019.php">State-of-the-climate for February 2019</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/february2019.php">State-of-the-climate for February 2019</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>13 March 2019</td>
@@ -274,7 +278,7 @@ session_start();
 		    </tr>    
 		    <tr>
 		      <td>25 February 2019</td>
-	              <td><a href="../stateoftheclimate/january2019.php">State-of-the-climate for January 2019</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/january2019.php">State-of-the-climate for January 2019</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>25 February 2019</td>
@@ -286,15 +290,15 @@ session_start();
 		    </tr>
 		    <tr>
 		      <td>30 January 2019</td>
-	              <td><a href="../dataaccess/access_eobs_indices.php">Indices based on E-OBSv18.0e</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices.php">Indices based on E-OBSv18.0e</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>30 January 2019</td>
-	              <td><a href="../dataaccess/access_ngcd_indices.php">Indices based on NGCD v18.03</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/dataaccess/access_ngcd_indices.php">Indices based on NGCD v18.03</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>23 January 2019</td>
-	              <td><a href="../stateoftheclimate/december2018.php">State-of-the-climate for December 2018</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/december2018.php">State-of-the-climate for December 2018</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>23 January 2019</td>
@@ -302,7 +306,7 @@ session_start();
 		    </tr>    
 		    <tr>
 		      <td>20 December 2018</td>
-	              <td><a href="../stateoftheclimate/november2018.php">State-of-the-climate for November 2018</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/november2018.php">State-of-the-climate for November 2018</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>20 December 2018</td>
@@ -310,7 +314,7 @@ session_start();
 		    </tr>    
 		    <tr>
 		      <td>26 November 2018</td>
-	              <td><a href="../stateoftheclimate/october2018.php">State-of-the-climate for October 2018</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/october2018.php">State-of-the-climate for October 2018</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>13 November 2018</td>
@@ -318,7 +322,7 @@ session_start();
 		    </tr>		  
 		    <tr>
 		      <td>25 October 2018</td>
-	              <td><a href="../stateoftheclimate/september2018.php">State-of-the-climate for September 2018</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/september2018.php">State-of-the-climate for September 2018</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>23 October 2018</td>
@@ -326,15 +330,15 @@ session_start();
 		    </tr>    
 		    <tr>
 		      <td>1 October 2018</td>
-	              <td><a href="../dataaccess/access_ngcd.php">NGCD version 18.09</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/dataaccess/access_ngcd.php">NGCD version 18.09</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>1 October 2018</td>
-	              <td><a href="../dataaccess/access_carpatclim_indices.php">Indices based on CarpatClim</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/dataaccess/access_carpatclim_indices.php">Indices based on CarpatClim</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>25 September 2018</td>
-	              <td><a href="../stateoftheclimate/august2018.php">State-of-the-climate for August 2018</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/august2018.php">State-of-the-climate for August 2018</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>11 September 2018</td>
@@ -342,7 +346,7 @@ session_start();
 		    </tr>    
 		    <tr>
 		      <td>27 August 2018</td>
-	              <td><a href="../stateoftheclimate/july2018.php">State-of-the-climate for July 2018</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/july2018.php">State-of-the-climate for July 2018</a> released</td>
 		    </tr>		  
 		    <tr>
 		    <tr>
@@ -351,7 +355,7 @@ session_start();
 		    </tr>    
 		    <tr>
 		      <td>26 July 2018</td>
-	              <td><a href="../stateoftheclimate/june2018.php">State-of-the-climate for June 2018</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/june2018.php">State-of-the-climate for June 2018</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>25 July 2018</td>
@@ -363,7 +367,7 @@ session_start();
 		    </tr>    
 		    <tr>
 		      <td>25 June 2018</td>
-	              <td><a href="../stateoftheclimate/may2018.php">State-of-the-climate for May 2018</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/may2018.php">State-of-the-climate for May 2018</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>31 May 2018</td>
@@ -371,7 +375,7 @@ session_start();
 		    </tr>		  
 		    <tr>
 		      <td>23 May 2018</td>
-	              <td><a href="../stateoftheclimate/april2018.php">State-of-the-climate for April 2018</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/april2018.php">State-of-the-climate for April 2018</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>23 May 2018</td>
@@ -379,7 +383,7 @@ session_start();
 		    </tr>    
 		    <tr>
 		      <td>24 April 2018</td>
-	              <td><a href="../stateoftheclimate/march2018.php">State-of-the-climate for March 2018</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/march2018.php">State-of-the-climate for March 2018</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>23 April 2018</td>
@@ -387,15 +391,15 @@ session_start();
 		    </tr>    
 		    <tr>
 		      <td>3 April 2018</td>
-	              <td><a href="../stateoftheclimate/year2017.php">Annual State-of-the-climate for 2017</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/year2017.php">Annual State-of-the-climate for 2017</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>26 March 2018</td>
-	              <td>First release of <a href="../dataaccess/access_ngcd.php">NGCD 18.03</a></td>
+	              <td>First release of <a href="<?php echo $webhost;?>/dataaccess/access_ngcd.php">NGCD 18.03</a></td>
 		    </tr>		  
 		    <tr>
 		      <td>26 March 2018</td>
-	              <td><a href="../stateoftheclimate/february2018.php">State-of-the-climate for February 2018</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/february2018.php">State-of-the-climate for February 2018</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>19 March 2018</td>
@@ -403,7 +407,7 @@ session_start();
 		    </tr>    
 		    <tr>
 		      <td>26 February 2018</td>
-	              <td><a href="../stateoftheclimate/january2018.php">State-of-the-climate for January 2018</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/january2018.php">State-of-the-climate for January 2018</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>19 February 2018</td>
@@ -411,7 +415,7 @@ session_start();
 		    </tr>    
 		    <tr>
 		      <td>23 January 2018</td>
-	              <td><a href="../stateoftheclimate/december2017.php">State-of-the-climate for December 2017</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/december2017.php">State-of-the-climate for December 2017</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>17 January 2018</td>
@@ -419,7 +423,7 @@ session_start();
 		    </tr>    
 		    <tr>
 		      <td>21 December 2017</td>
-	              <td><a href="../stateoftheclimate/november2017.php">State-of-the-climate for November 2017</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/november2017.php">State-of-the-climate for November 2017</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>12 December 2017</td>
@@ -427,11 +431,11 @@ session_start();
 		    </tr>    
 		    <tr>
 		      <td>23 November 2017</td>
-	              <td><a href="../stateoftheclimate/october2017.php">State-of-the-climate for October 2017</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/october2017.php">State-of-the-climate for October 2017</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>21 November 2017</td>
-	              <td><a href="../dataaccess/access_eobs_months.php">Monthly E-OBS updates are released</a></td>
+	              <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">Monthly E-OBS updates are released</a></td>
 		    </tr>		  
 		    <tr>
 		      <td>15 November 2017</td>
@@ -439,11 +443,11 @@ session_start();
 		    </tr>		  
 		    <tr>
 		      <td>31 October 2017</td>
-	              <td><a href="../dataaccess/access_eobs_months.php">Monthly E-OBS updates are available</a></td>
+	              <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">Monthly E-OBS updates are available</a></td>
 		    </tr>		  
 		    <tr>
 		      <td>25 October 2017</td>
-	              <td><a href="../stateoftheclimate/september2017.php">State-of-the-climate for September 2017</a> released</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/september2017.php">State-of-the-climate for September 2017</a> released</td>
 		    </tr>		  
 		    <tr>
 		      <td>13 October 2017</td>
