@@ -38,6 +38,15 @@ session_start();
 
 		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
 		      <div class="views-field views-field-field-date">
+			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">24 September 2020</span>
+			</div>
+		      </div>  
+		      <div class="views-field views-field-title"><span class="field-content">A new daily E-OBS dataset for the period 1 Jan 1920 - 31 Dec 1949 has been released as <a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBSpre1950</a> for temperature (minimum, mean, maximum), precipitation amount and sea level pressure. This dataset has a research status.</span>
+		      </div>
+		    </div>
+
+		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
+		      <div class="views-field views-field-field-date">
 			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">7 September 2020</span>
 			</div>
 		      </div>  

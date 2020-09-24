@@ -65,6 +65,10 @@ session_start();
 		      <td width="60%" style="color:#FFFFFF;"><b>Item</b></td>
 		    </tr>
 		    <tr>
+		      <td>24 September 2020</td>
+	              <td>A new daily E-OBS dataset for the period 1 Jan 1920 - 31 Dec 1949 has been released as <a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBSpre1950</a> for temperature (minimum, mean, maximum), precipitation amount and sea level pressure. This dataset has a research status.</td>
+		    </tr>		  
+		    <tr>
 		      <td>7 September 2020</td>
 	              <td>Global radiation for <a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBSv21.0e</a> and for the <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">monthly E-OBS updates</a> has been released</td>
 		    </tr>		  
