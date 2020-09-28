@@ -76,6 +76,13 @@ session_start();
 			<td width="35%"><span style="color:#FFFFFF;"><strong>Modification</strong></span></td>    
 		      </tr>
 		      <tr>
+			<td><a href="access_ngcd.php#datafiles">20.09</a></td>
+			<td>September 2020</td>
+			<td>0.1.0-beta</td>
+			<td>1971-01-01 - 2020-06-30</td>
+			<td></td>
+		      </tr>
+		      <tr>
 			<td><a href="access_ngcd.php#datafiles">20.03</a></td>
 			<td>March 2020</td>
 			<td>0.1.0-beta</td>
@@ -125,7 +132,7 @@ session_start();
 		    </tbody>
 		  </table>
 
-			<h3><a id="datafiles" style="color: #000000">NGCD datafiles 1971-01-01 - 2019-12-31</a></h3>
+			<h3><a id="datafiles" style="color: #000000">NGCD datafiles</a></h3>
 		The datafiles contain gridded data for 2 types of dataset, 4 elements each: air temperature (daily minimum, maximum and average); daily total precipitation. They cover Norway, Finland and Sweden. The data files are in compressed NetCDF format.
 		<br><br>
 

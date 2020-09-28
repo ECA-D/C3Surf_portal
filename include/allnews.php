@@ -66,6 +66,10 @@ session_start();
 		    </tr>
 		    <tr>
 		      <td>28 September 2020</td>
+	              <td><a href="<?php echo $webhost;?>/dataaccess/access_ngcd.php">NGCD v20.09</a> released</td>
+		    </tr>		  
+		    <tr>
+		      <td>28 September 2020</td>
 	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/august2020.php">State-of-the-climate for August 2020</a> released</td>
 		    </tr>		  
 		    <tr>
