@@ -65,6 +65,14 @@ session_start();
 		      <td width="60%" style="color:#FFFFFF;"><b>Item</b></td>
 		    </tr>
 		    <tr>
+		      <td>28 September 2020</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/august2020.php">State-of-the-climate for August 2020</a> released</td>
+		    </tr>		  
+		    <tr>
+		      <td>28 September 2020</td>
+	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</td>
+		    </tr> 
+		    <tr>
 		      <td>24 September 2020</td>
 	              <td>A new daily E-OBS dataset for the period 1 Jan 1920 - 31 Dec 1949 has been released as <a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBSpre1950</a> for temperature (minimum, mean, maximum), precipitation amount and sea level pressure. This dataset has a research status.</td>
 		    </tr>		  
