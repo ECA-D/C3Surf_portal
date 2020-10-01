@@ -60,7 +60,6 @@ session_start();
 
 Click on the figures for larger ones.
 
-<a href="../images/aug2020/header-SOC_large.png" target="_blank"><img alt="" src="../images/aug2020/header-SOC.png" ></a>
 <h2>Prolonged heatwave in Western Europe</h2>
 In the first half of August prolonged very high temperatures occurred over western Europe, leading to high monthly mean temperatures. In the Netherlands and Germany the monthly mean temperature was 2.9 and 2.4 &deg;C, respectively, above the 1981-2010 average. In the Netherlands, August 2020 was with 20.4 &deg;C the second warmest since 1901, after 20.5 &deg;C in August 1997. Also in Germany, August 2020 was with 19.9 &deg;C the second warmest, since 1881, after August 2003 with 20.6 &deg;C together with 2015 and 2018. It was particularly the length of the heatwave that was exceptional. In the Netherlands the heatwave lasted 13 days from 5 to 17 August, and included a record of 8 consecutive days (6-13 August, Figure 1) with maximum temperatures above 30 &deg;C. The former record of 6 consecutive days was in 1941. Also the weekly mean maximum temperature in the Netherlands of 33.2 &deg;C was higher than ever, and 1.2&deg;C above the previous record of 1975. In Germany the highest temperature was on the 9th with 38.6 &deg;C registered in Trier. In Helsingborg, Sweden, a tangent August record of 32.5 &deg;C occurred since measurements started in 1949. Also in France the heatwave lasted with 8 days, from 6 to 13 August, remarkably long. On 7 August, much of southern England exceeded 32 &#176;C with 36.4 &deg;C being recorded at Heathrow Airport. This was followed by four more days with temperatures of at least 34 &deg;C somewhere in the UK. In Belgium a heatwave warning was issued for 8 to 10 August for 10 of 12 regions, with forecasted 3 day-mean maximum temperatures of at least 32 &deg;C.
 <br><br>
@@ -215,7 +214,6 @@ Due to difficulties with part of the data streams for August 2020, the maps show
 <h2><em>About the Copernicus State of the European Climate</em></h2>
 <em>Monthly and yearly </em>State of the European Climate<em> bulletins are prepared for audience of mainly non-meteorologists/climatologists interested in impact of weather and climate. In these bulletins, the main features of the most recent calendar month is shown, with a focus on extremes and significant deviations from climatology. The information is provided within their historical context, and includes references to addional information. The bulletin is based on Copernicus products, but also contains information from other sources as appropriate.</em>
 <br><br>
-<a href="../images/aug2020/footer-SOC_large.png" target="_blank"><img alt="" src="../images/aug2020/footer-SOC.png" ></a>
 
 		</div>	  
 	      </div>
