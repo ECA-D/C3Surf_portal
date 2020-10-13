@@ -39,10 +39,19 @@ session_start();
 
 		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
 		      <div class="views-field views-field-field-date">
+			<div class="field-content"><span content="2018-04-23T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">13 October 2020</span>
+			</div>
+		      </div>  
+		      <div class="views-field views-field-title"><span class="field-content">Daily values for <a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices.php">Potential EvapoTranspiration</a> have been released</span>
+		      </div>
+		    </div>
+
+		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
+		      <div class="views-field views-field-field-date">
 			<div class="field-content"><span content="2018-04-23T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">28 September 2020</span>
 			</div>
 		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content"><a href="../dataaccess/access_ngcd.php">NGCD v20.09</a> released</span>
+		      <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/dataaccess/access_ngcd.php">NGCD v20.09</a> released</span>
 		      </div>
 		    </div>
 
@@ -204,7 +213,7 @@ session_start();
 			<div class="field-content"><span content="2018-04-23T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">31 March 2020</span>
 			</div>
 		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content"><a href="../dataaccess/access_ngcd.php">NGCD v20.03</a> released</span>
+		      <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/dataaccess/access_ngcd.php">NGCD v20.03</a> released</span>
 		      </div>
 		    </div>
 
@@ -268,7 +277,7 @@ session_start();
 			<div class="field-content"><span content="2018-04-23T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">21 January 2020</span>
 			</div>
 		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content"><a href="../dataaccess/access_eobs_indices.php">Indices based on E-OBSv20.0e</a> released</td></span>
+		      <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices.php">Indices based on E-OBSv20.0e</a> released</td></span>
 		      </div>
 		    </div>
 

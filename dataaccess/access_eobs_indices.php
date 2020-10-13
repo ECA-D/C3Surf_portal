@@ -62,18 +62,19 @@ session_start();
 
 		  This is the download page for the indices derived
 		  from the E-OBS dataset.  The datafiles below provide
-		  30 climate indices (ETCCDI indices marked with *)
+		  climate indices (ETCCDI indices marked with *)
 		  for <a href="access_eobs.php">E-OBS v20.0e</a>
 		  derived using daily minimum temperature (TN), daily
-		  maximum temperature (TX) and daily precipitation sum
-		  (RR). They cover the period 1951-01-01 -
-		  2019-07-31. The data files are in compressed
+		  maximum temperature (TX), daily precipitation sum
+		  (RR) and global radiation (QQ). They cover the
+		  period 1951-01-01 - 2019-07-31 (PET since
+		  1980-01-01). The data files are in compressed
 		  NetCDF-4 format, separated in three sets per index:
 		  annual, monthly and seasonal. Seasonal indices are
 		  calculated from the monthly indices, where for
 		  December-January-February (DJF) the December of the
 		  previous year is used:
-		  Dec(1951)-Jan(1952)-Feb(1952).
+		  Dec(1951)-Jan(1952)-Feb(1952). PET has daily values.
   
 		  <h3>Terms of use</h3>
 
@@ -374,6 +375,19 @@ session_start();
 		    </tr>
 		    <tr>
 		      <td width="33%">Seasonal: <a href="../data/indices/eobs/dtr_seas_0.1deg_reg_ens_median_E-OBSv20.0e.nc">median</a> | <a href="../data/indices/eobs/dtr_seas_0.1deg_reg_ens_2p5_97p5_E-OBSv20.0e.nc">uncertainty</a></td>  
+		      <td width="33%"></td>
+		    </tr>
+		    </tbody>
+		  </table>
+		    <!--PET-->
+		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
+		    <tbody>
+		    <tr bgcolor="#941333" height="40px">
+		      <td><span style="color:#FFFFFF;"><strong>Potential EvapoTranspiration (Makkink) (PET)</strong></span></td>
+		      <td><span style="color:#FFFFFF;"><strong></strong></span></td>
+		    </tr>
+		    <tr>       
+		      <td width="33%"> <a href="../data/indices/eobs/pet_daily_0.1deg_reg_E-OBSv21.0e.nc">Daily values</a> </td>
 		      <td width="33%"></td>
 		    </tr>
 		    </tbody>

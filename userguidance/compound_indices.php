@@ -22,3 +22,22 @@ Let \(TG_{ij}\) be the daily mean temperature at day \(i\) and let \(TX_{i}\) be
 where \(K\) is a coefficient for day length. See <a href="https://www.ecad.eu/documents/atbd.pdf" target="_blank">here</a> for details.
 
 <br><br>
+
+
+<h3>PET</h3>
+&#9679; <i>Mean of Reference EvapoTranspiration (Makkink) (mm/day)</i>
+<br><br>
+This formulation of Reference Evapotranspiration is a simplification of the more comprehensive
+Penman-Monteith parameterization and recognizes that evapotranspiration is determined primarily by the radiation and the ambient air temperature.
+A further simplification is that Global Radiation \(Q\) is used rather than the net radiation which is used in more comprehensive formulas.
+Let \(&#955;ET\) be the latent heat energy converted by the evaporation, \(&#916;\) the slope of the vapour pressure-temperature relationship
+and \(&#947;\) the psychometric constant, then the Makkink formulation of reference evapotranspiration is:
+<br><br>
+
+\( &#955;ET = C  {{\Delta \over {\Delta} + &#947;}} Q   \)
+
+<br><br>
+
+Here the coefficient \(C\) has the value 0.65.
+
+<br><br>
