@@ -158,6 +158,13 @@ Type 2 datasets:
 
     "Lussana, C., T. Saloranta, T. Skaugen, J. Magnusson, O.E. Tveito and J. Andersen (2018) seNorge2 daily precipitation, an observational gridded dataset over Norway from 1957 to the present day, Earth Syst. Sci. Data, 10, 235-249, doi:10.5194/essd-10-235-2018" <img src="../images/html.gif" width="15" height="15" alt="" border="0"><a href="https://www.earth-syst-sci-data.net/10/235/2018/essd-10-235-2018.html" target="_blank">Website</a>
 		
+                <h3>Documentation</h3>
+		Here you will find documents regarding the NGCD dataset:<br><br>
+<ul>
+  <li><a href="../documents/C3S_M311a_Lot4.2.3.3_201809_report_stable_release_v1.pdf">Report describing the stable release of the Nordic Gridded Climate Dataset</a></li>
+  <li><a href="../documents/C3S_D311a_Lot4.4.2.2_v1.pdf">Summary report of the coordinated comparison between pan-European and regional datasets</a></li>
+</ul>
+
 		<h3>Terms of use</h3>
  
 		The NGCD dataset is available under the <a href="https://data.norge.no/nlod/en/1.0" target="_blank">Norwegian Licence for Open Government Data (NLOD) 1.0</a>.
