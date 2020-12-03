@@ -82,6 +82,13 @@ session_start();
 			<td width="22.5%"><span style="color:#FFFFFF;"><strong>Period covered</strong></span></td>
 			<td width="50%"><span style="color:#FFFFFF;"><strong>Modification</strong></span></td>    
 		      </tr>
+		      <tr bgcolor="#ffffff">
+			<td><a href="access_eobs.php#datafiles">22.0e</a></td>
+			<td>December 2020</td>
+			<td>1950-01-01 - 2020-06-30</td>
+			<td>The full ensemble (100 members for temperature, precipitation and sea level pressure, 10 for radiation) can be made available on request.<br> New series and updates have been included for Russia, France and Calabria (Italy). Some series in Scandinavian countries that were not provided by their own national meteorogical services have been removed. Precipitation series in Norway have been shifted by one day due to an error in the processing of these data in E-OBSv21.0e. Continued monthly, half-yearly and yearly updates for Germany, Czech Republic, Bosnia and Herzegovina, Norway, Slovenia, Finland, Ireland, Sweden, Luxembourg, Netherlands, Portugal, Spain, Switzerland, France, Denmark, UK and the regional meteorological service of Catalonia (Spain). More detailed information can be found on the <a href="compare_eobs_v22.0e_v21.0e.php" target="_blank">page comparing versions 22.0e and 21.0e</a>.
+			</td>   
+		      </tr>
 		      <tr >
 			<td><a href="access_eobs.php#datafiles">pre1950</a></td>
 			<td>September 2020</td>
@@ -110,18 +117,7 @@ session_start();
 			<td><a href="access_eobs.php#datafiles">21.0e</a></td>
 			<td>May 2020</td>
 			<td>1950-01-01 - 2019-12-31</td>
-			<td>The full
-ensemble (100 members for temperature, precipitation and sea level
-pressure) can be made available on
-request.<br>  Radiation has been released on 7 September 2020.<br>New series and updates have been included for Georgia, Ukraine, Belarus and Poland. Monthly, half-yearly and yearly updates
-are continued for Germany, Czech Republic, Bosnia and Herzegovina,
-Norway, Slovenia, Finland, Ireland, Sweden, Luxembourg, Netherlands,
-Portugal, Spain, Switzerland, France, Denmark, UK and the regional
-meteorological service of Catalonia (Spain). 
-<!--More detailed information
-can be found on
-the <a href="http://cib.knmi.nl/mediawiki/index.php/Compare_E-OBS_v21.0e_and_v20.0e"
-target="_blank">page comparing versions 21.0e and 20.0e</a>.-->
+			<td>The full ensemble (100 members for temperature, precipitation and sea level pressure) can be made available on request.<br>  Radiation has been released on 7 September 2020.<br>New series and updates have been included for Georgia, Ukraine, Belarus and Poland. Monthly, half-yearly and yearly updates are continued for Germany, Czech Republic, Bosnia and Herzegovina, Norway, Slovenia, Finland, Ireland, Sweden, Luxembourg, Netherlands, Portugal, Spain, Switzerland, France, Denmark, UK and the regional meteorological service of Catalonia (Spain). More detailed information can be found on the <a href="compare_eobs_v21.0e_v20.0e.php" target="_blank">page comparing versions 21.0e and 20.0e</a>.
 			</td>   
 		      </tr>
 		      <tr>
@@ -142,15 +138,15 @@ can be found on
 the <a href="https://cib.knmi.nl/mediawiki/index.php/Compare_E-OBS_v20.0e_and_v19.0e"
 target="_blank">page comparing versions 20.0e and 19.0e</a>.-->
 			</td>   
-		      </tr>
-		      <tr bgcolor="#ffffff">
-			<td>19.0e</td>
-			<td>March 2019</td>
-			<td>1950-01-01 - 2018-12-31</td>
-			<td>E-OBS v19.0e (note the additional 'e') is only available for the ensembe mean and ensemble spread. The 'standard' version is no longer available. The full ensemble can be made available on request.<br>
-New precipitation series have been included for Sardinia (Italy). Monthly, half-yearly and yearly updates are continued for Germany, Czech Republic, Bosnia and Herzegovina, Norway, Slovenia, Finland, Ireland, Sweden, Luxembourg, Netherlands, Portugal, Spain, Switzerland, France, Denmark, UK and the regional meteorological service of Catalonia (Spain). <!--More detailed information can be found on the <a href="https://cib.knmi.nl/mediawiki/index.php/Compare_E-OBS_v19.0e_and_v18.0e" target="_blank">page comparing versions 19.0e and 18.0e</a>.-->
-			</td>   
-		      </tr>
+<!-- 		      </tr> -->
+<!-- 		      <tr bgcolor="#ffffff"> -->
+<!-- 			<td>19.0e</td> -->
+<!-- 			<td>March 2019</td> -->
+<!-- 			<td>1950-01-01 - 2018-12-31</td> -->
+<!-- 			<td>E-OBS v19.0e (note the additional 'e') is only available for the ensembe mean and ensemble spread. The 'standard' version is no longer available. The full ensemble can be made available on request.<br> -->
+<!-- New precipitation series have been included for Sardinia (Italy). Monthly, half-yearly and yearly updates are continued for Germany, Czech Republic, Bosnia and Herzegovina, Norway, Slovenia, Finland, Ireland, Sweden, Luxembourg, Netherlands, Portugal, Spain, Switzerland, France, Denmark, UK and the regional meteorological service of Catalonia (Spain). <\!--More detailed information can be found on the <a href="https://cib.knmi.nl/mediawiki/index.php/Compare_E-OBS_v19.0e_and_v18.0e" target="_blank">page comparing versions 19.0e and 18.0e</a>.-\-> -->
+<!-- 			</td>    -->
+<!-- 		      </tr> -->
 <!-- 		      <tr> -->
 <!-- 			<td>18.0e</td> -->
 <!-- 			<td>November 2018</td> -->
@@ -228,6 +224,24 @@ issue more than the temperature dataset.
 
 		<table  border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
 		  <tbody>
+		    <tr bgcolor="#941333" height="40px">
+		      <td style="color:#FFFFFF;"><b>Version 22.0e</b></td>
+		      <td style="color:#FFFFFF;"><b>Ensemble mean</b></td>
+		      <td style="color:#FFFFFF;"><b>Ensemble spread</b></td>
+		      <td style="color:#FFFFFF;"><b>Elevation</b></td>      
+		    </tr>
+		    <tr>
+		      <td>0.1 deg. regular grid</td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ens_mean_0.1deg_reg_v22.0e.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ens_mean_0.1deg_reg_v22.0e.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ens_mean_0.1deg_reg_v22.0e.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ens_mean_0.1deg_reg_v22.0e.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ens_mean_0.1deg_reg_v22.0e.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/qq_ens_mean_0.1deg_reg_v22.0e.nc">QQ</a> </td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ens_spread_0.1deg_reg_v22.0e.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ens_spread_0.1deg_reg_v22.0e.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ens_spread_0.1deg_reg_v22.0e.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ens_spread_0.1deg_reg_v22.0e.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ens_spread_0.1deg_reg_v22.0e.nc">PP</a>  <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/qq_ens_spread_0.1deg_reg_v22.0e.nc">QQ</a> </td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/elev_ens_0.1deg_reg_v22.0e.nc">all elements</a></td>      
+		    </tr>
+		    <tr>
+		      <td>0.25 deg. regular grid</td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tg_ens_mean_0.25deg_reg_v22.0e.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tn_ens_mean_0.25deg_reg_v22.0e.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tx_ens_mean_0.25deg_reg_v22.0e.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/rr_ens_mean_0.25deg_reg_v22.0e.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/pp_ens_mean_0.25deg_reg_v22.0e.nc">PP</a>  <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/qq_ens_mean_0.25deg_reg_v22.0e.nc">QQ</a> </td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tg_ens_spread_0.25deg_reg_v22.0e.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tn_ens_spread_0.25deg_reg_v22.0e.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tx_ens_spread_0.25deg_reg_v22.0e.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/rr_ens_spread_0.25deg_reg_v22.0e.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/pp_ens_spread_0.25deg_reg_v22.0e.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/qq_ens_spread_0.25deg_reg_v22.0e.nc">QQ</a> </td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/elev_ens_0.25deg_reg_v22.0e.nc">all elements</a></td>      
+		    </tr>
 		    <tr bgcolor="#941333" height="40px">
 		      <td style="color:#FFFFFF;"><b>Version pre1950</b></td>
 		      <td style="color:#FFFFFF;"><b>Ensemble mean</b></td>

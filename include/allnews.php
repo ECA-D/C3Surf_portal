@@ -65,6 +65,10 @@ session_start();
 		      <td width="60%" style="color:#FFFFFF;"><b>Item</b></td>
 		    </tr>
 		    <tr>
+		      <td>3 December 2020</td>
+	              <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBS v22.0e</a> released</td>
+		    </tr>		  
+		    <tr>
 		      <td>26 November 2020</td>
 	              <td>State-of-the-climate for <a href="<?php echo $webhost;?>/stateoftheclimate/september2020.php">September 2020</a> and <a href="<?php echo $webhost;?>/stateoftheclimate/october2020.php">October 2020 released</a></td>
 		    </tr>		  
