@@ -66,6 +66,10 @@ session_start();
 		      <td width="25%" style="color:#FFFFFF;"><b>Month</b></td>
 		    </tr>
 		    <tr>
+		      <td><a href="november2020.php">November 2020</a>
+		      </td>
+		    </tr>
+		    <tr>
 		      <td><a href="october2020.php">October 2020</a>
 		      </td>
 		    </tr>
