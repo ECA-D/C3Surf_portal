@@ -13,7 +13,7 @@ session_start();
       <span class="mmenu-block-expanded mmenu-block"><i class="mmenu-block-icon mmenu-block-icon-system-main-menu"></i><span class="mmenu-block-title">Main menu</span></span>
     </li>
     <ul class="mmenu-mm-list-level-1">
-      <li class="mmenu-mm-list-mlid-2138 mmenu-mm-list-path-front"><a href="<?php echo $webhost;?>/landingpage.htm" class="mmenu-mm-list "><i class="icon-home"></i><span class="mmenu-block-title">C3S</span></a>
+      <li class="mmenu-mm-list-mlid-2138 mmenu-mm-list-path-front"><a href="<?php echo $webhost;?>/surfobs.php" class="mmenu-mm-list "><i class="icon-home"></i><span class="mmenu-block-title">C3S</span></a>
       </li>
       <li class="mmenu-mm-list-mlid-2151 mmenu-mm-list-path-node-571"><a href="<?php echo $webhost;?>/surfobs.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Home</span></a>
       </li>

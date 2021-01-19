@@ -387,7 +387,7 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong></strong></span></td>
 		    </tr>
 		    <tr>       
-		      <td width="33%"> <a href="../data/indices/eobs/pet_daily_0.1deg_reg_E-OBSv21.0e.nc">Daily values</a> </td>
+		      <td width="33%"> <a href="../data/indices/eobs/multi/petmk_daily_0.1deg_reg_E-OBSv22.0e.nc">Daily values</a> </td>
 		      <td width="33%"></td>
 		    </tr>
 		    </tbody>

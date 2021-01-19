@@ -61,7 +61,7 @@
               <div id="block-tb-menu-tb-menu-primary" class="block block-tb-menu col-xs-12 col-sm-12 col-md-12 col-lg-12 hidden-xs hidden-sm clearfix">
 		<nav id="tb-menu-main-menu" class="nav-menu">
 		  <ul class="tb-menu main-menu" id="tb-menu-tb_menu_primary">
-		    <li class="menu-2138 menu-path-front first odd "><a href="<?php echo $webhost;?>/landingpage.htm" ><i class="fa fa-home" aria-hidden="true"></i><span><strong>C3S</strong></span></a></li>
+		    <li class="menu-2138 menu-path-front first odd "><a href="<?php echo $webhost;?>/surfobs.php" ><i class="fa fa-home" aria-hidden="true"></i><span><strong>C3S</strong></span></a></li>
 		    <li class="menu-2184 menuparent  menu-path-node-698  odd "><a href="<?php echo $webhost;?>/surfobs.php"><span><strong>Home</strong></span></a>
 		    </li>
 		    <li class="menu-2184 menuparent  menu-path-node-698  odd "><a href="<?php echo $thispage;?>"><span><strong>Data</strong></span></a>
