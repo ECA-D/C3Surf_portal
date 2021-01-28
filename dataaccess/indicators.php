@@ -53,40 +53,32 @@ session_start();
 	      <div class="row-fluid">
 		
 		<!-- Breadcrum -->
-		<h2 class="element-invisible">You are here</h2><div class="breadcrumb"><span class="inline odd first"><a href="../surfobs.php">Home</a></span><span class="delimiter">&raquo;</span> <span class="inline even last"><a href="index.php">Data access</a></span></div>
+		<h2 class="element-invisible">You are here</h2><div class="breadcrumb"><span class="inline odd first"><a href="../surfobs.php">Home</a></span><span class="delimiter">&raquo;</span> <span class="inline even last"><a href="indicators.php">Indicator access</a></span></div>
 
 		<!-- Main part -->
 		<div id="block-system-main" class="block block-system col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
-		  Data access for each dataset is provided below.
+		  Data access for each indicator dataset is provided below.
 		  <br><br>
 		  
 		<table  border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="50%">
 		  <tbody>
 		    <tr bgcolor="#941333" height="40px">
-		      <td width="25%" style="color:#FFFFFF;"><b>Dataset</b></td>
+		      <td width="25%" style="color:#FFFFFF;"><b>Indicator dataset</b></td>
 		    </tr>
 		    <tr>
-		      <td><a href="access_eobs.php">E-OBS</a>
+		      <td><a href="access_eobs_indices.php">E-OBS indices</a>
 		      </td>
 		    </tr>		  
 		    <tr>
-		      <td><a href="access_ngcd.php">NGCD</a>
+		      <td><a href="access_ngcd_indices.php">NGCD indices</a>
 		      </td>
 		    </tr>		  
 		    <tr>
-		      <td><a href="access_ngcd_rec.php">NGCD_Rec</a>
+		      <td><a href="access_apgd_indices.php">APGD indices</a>
 		      </td>
 		    </tr>		  
 		    <tr>
-		      <td><a href="access_apgd.php">APGD</a>
-		      </td>
-		    </tr>		  
-		    <tr>
-		      <td><a href="access_laprec.php">LAPrec</a>
-		      </td>
-		    </tr>		  
-		    <tr>
-		      <td><a href="access_carpatclim.php">CarpatClim</a>
+		      <td><a href="access_carpatclim_indices.php">CarpatClim indices</a>
 		      </td>
 		    </tr>		  
 		  <tbody>

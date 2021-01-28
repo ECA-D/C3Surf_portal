@@ -71,7 +71,7 @@ This service provides climate monitoring products for Europe, based on surface i
 			</td>
 			<td style="width: 2%; "> </td>
 			<td class="product-startpage" style="width: 17%; background-color: #006699;">
-			  <h2 style="text-align: center;"><a style="color: #ffffff;" href="maps/index.php">Maps</a></h2>
+			  <h2 style="text-align: center;"><a style="color: #ffffff;" href="dataaccess/indicators.php">Indicators</a></h2>
 			</td>
 			<td style="width: 2%; "> </td>
 			<td class="product-startpage" style="width: 17%; background-color: #04B404;">
