@@ -65,6 +65,10 @@ session_start();
 		      <td width="60%" style="color:#FFFFFF;"><b>Item</b></td>
 		    </tr>
 		    <tr>
+		      <td>1 February 2021</td>
+	              <td>Two-yearly update of <a href="<?php echo $webhost;?>/dataaccess/access_laprec.php">LAPrec</a>has been released</td>
+		    </tr> 
+		    <tr>
 		      <td>26 January 2021</td>
 	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/december2020.php">State-of-the-climate for December 2020</a> released</td>
 		    </tr>		  
