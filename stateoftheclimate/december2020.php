@@ -15,7 +15,7 @@ session_start();
     <meta name="generator" content="Drupal 7 (http://drupal.org)">
     <link rel="canonical" href="http://climate.copernicus.eu/events">
     <link rel="shortlink" href="http://climate.copernicus.eu/events">
-    <title>December 2020</title>
+    <title>January 2021</title>
     
     <script src="https://www.w3schools.com/lib/w3.js"></script>
  
@@ -36,7 +36,7 @@ session_start();
 	    <div class="region region-static-page-title col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
 	      <div class="row-fluid">
 		<div id="block-delta-blocks-page-title" class="block block-delta-blocks col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
-		  <h1 id="page-title" class="title">State-of-the-European-climate: December 2020</h1>
+		  <h1 id="page-title" class="title">State-of-the-European-climate: January 2021</h1>
 		</div> <!-- /.block -->
 	      </div>
 	    </div>
@@ -53,7 +53,7 @@ session_start();
 	      <div class="row-fluid">
 		
 		<!-- Breadcrum -->
-		<h2 class="element-invisible">You are here</h2><div class="breadcrumb"><span class="inline odd first"><a href="../surfobs.php">Home</a></span><span class="delimiter">&raquo;</span> <span class="inline even last"><a href="december2020.php">December 2020</a></span></div>
+		<h2 class="element-invisible">You are here</h2><div class="breadcrumb"><span class="inline odd first"><a href="../surfobs.php">Home</a></span><span class="delimiter">&raquo;</span> <span class="inline even last"><a href="december2020.php">January 2021</a></span></div>
 
 		<!-- Main part -->
 		<div id="block-system-main" class="block block-system col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
@@ -122,11 +122,12 @@ December 2020 was warmer than the 1981-2010 average for December over much of Eu
 <br><br>
 <strong>Evolution of the European land-surface temperature</strong>
 <br><br>
-Figure 8 shows the European-averaged temperature from 1950 onward, where blue bars show temperatures which are below the 1981-2010 average and red bars above this mean value. The green bar is the provisional 2020 estimate, based on data until the end of December and climatological means for the remaining months. The grey bars in the panel indicate the estimated uncertainties which take into account the errors introduced by spatial interpolation over areas without observation stations, inhomogeneities in the temperature data that result from station relocations / changes in measurement instruments etc., and biases due to urbanisation, as documented in Van der Schrier et al. (2013) and Chrysanthou et al. (2014). The uncertainties tell us that although we are not 100% certain about the ranking of individual years, the overall positive trend since the 1980s is very pronounced.
+Figure 8 shows the European-averaged temperature from 1950 onward, where blue bars show temperatures which are below the 1981-2010 average and red bars above this mean value. The grey bars in the panel indicate the estimated uncertainties which take into account the errors introduced by spatial interpolation over areas without observation stations, inhomogeneities in the temperature data that result from station relocations / changes in measurement instruments etc., and biases due to urbanisation, as documented in Van der Schrier et al. (2013) and Chrysanthou et al. (2014). The uncertainties tell us that although we are not 100% certain about the ranking of individual years, the overall positive trend since the 1980s is very pronounced.
 <br><br>
 <a href="../images/dec2020/EuropeanAverage_annual_wrt81-10_202012_v22.0e.png"><img alt="" src="../images/dec2020/EuropeanAverage_annual_wrt81-10_202012_v22.0e.png" width="250px"></a>
+<a href="../images/dec2020/dailyanomalies_0.25deg_202012_v22.0e.png"><img alt="" src="../images/dec2020/dailyanomalies_0.25deg_202012_v22.0e.png" width="250px"></a>
 <br><br>
-<em>Figure 8: European land surface temperature: annual anomalies with the current year in green. The grey bands show the uncertainty in the averaged temperature. (Based on E-OBS)</em>
+<em>Figure 8: European land surface temperature: annual anomalies. The grey bands show the uncertainty in the averaged (left). Daily anomalies with respect to the seasonal cycle until the end of November 2020 (right). (Based on E-OBS)</em>
 <br><br>
 <h3>Precipitation</h3>
 Due to the persisting anticyclonic (centre over NW-Russia) S to SE circulation pattern of precipitation was higher than average mostly in the west of the continent except the southern and eastern Iberian Peninsula, with the largest anomalies in southeast Norway, east of Iceland, UK, the latter most notably affected by storm Bella, northern Spain, Italy, and in the coastal Balkans.
@@ -166,6 +167,24 @@ Global radiation and incoming shortwave radiation in December were around the lo
 <a href="../images/dec2020/Stateofclimate_Dec2020_qq_0_25deg_anom_monthlymeans_2020_1981-2010_v22_0e_nc__2020-12-31T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/dec2020/Stateofclimate_Dec2020_qq_0_25deg_anom_monthlymeans_2020_1981-2010_v22_0e_nc__2020-12-31T00-00-00Z.png" ></a>
 <br><br>
 <em>Figure 12: Monthly map of global radiation (left) and its anomaly (right, with respect to 1981-2010) (Based on E-OBS)</em>
+<br><br>
+<br><br>
+<a href="../images/dec2020/Stateofclimate_Dec2020_SISmm202012_nc_baselayers_world_polygons_SIS_baselayers_overlay_baselayers_dwdlogo_2020-12-01T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/dec2020/Stateofclimate_Dec2020_SISmm202012_nc_baselayers_world_polygons_SIS_baselayers_overlay_baselayers_dwdlogo_2020-12-01T00-00-00Z.png" ></a>
+<a href="../images/dec2020/Stateofclimate_Dec2020_SISmm202012_nc__2020-12-01T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/dec2020/Stateofclimate_Dec2020_SISmm202012_nc__2020-12-01T00-00-00Z.png" ></a>
+<a href="../images/dec2020/Stateofclimate_Dec2020_SISmm202012_anoa_nc_baselayers_world_polygons_SIS_baselayers_overlay_baselayers_dwdlogo_2020-12-01T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/dec2020/Stateofclimate_Dec2020_SISmm202012_anoa_nc_baselayers_world_polygons_SIS_baselayers_overlay_baselayers_dwdlogo_2020-12-01T00-00-00Z.png" ></a>
+<a href="../images/dec2020/Stateofclimate_Dec2020_SISmm202012_anoa_nc__2020-12-01T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/dec2020/Stateofclimate_Dec2020_SISmm202012_anoa_nc__2020-12-01T00-00-00Z.png" ></a>
+<br><br>
+<em>Figure 13: Monthly map of surface incoming shortwave radiation (left) and its anomaly (right, with respect to 1983-2005) (METEOSAT Seviri/Mviri product, source CM SAF)</em>
+<br><br>
+<br><br>
+<a href="../images/dec2020/Stateofclimate_Dec2020_CFCmm202012_nc_baselayers_world_polygons_CFC_FC_F_baselayers_overlay_baselayers_dwdlogo_2020-12-01T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/dec2020/Stateofclimate_Dec2020_CFCmm202012_nc_baselayers_world_polygons_CFC_FC_F_baselayers_overlay_baselayers_dwdlogo_2020-12-01T00-00-00Z.png" ></a>
+<a href="../images/dec2020/Stateofclimate_Dec2020_CFCmm202012_nc__2020-12-01T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/dec2020/Stateofclimate_Dec2020_CFCmm202012_nc__2020-12-01T00-00-00Z.png" ></a>
+<a href="../images/dec2020/Stateofclimate_Dec2020_CFCmm202012_anoa_nc_baselayers_world_polygons_CFC_FC_F_baselayers_overlay_baselayers_dwdlogo_2020-12-01T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/dec2020/Stateofclimate_Dec2020_CFCmm202012_anoa_nc_baselayers_world_polygons_CFC_FC_F_baselayers_overlay_baselayers_dwdlogo_2020-12-01T00-00-00Z.png" ></a>
+<a href="../images/dec2020/Stateofclimate_Dec2020_CFCmm202012_anoa_nc__2020-12-01T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/dec2020/Stateofclimate_Dec2020_CFCmm202012_anoa_nc__2020-12-01T00-00-00Z.png" ></a>
+<br><br>
+<em>Figure 14: Monthly maps of cloud cover (left) and its absolute anomaly (right, with respect to 1982-2009) (AVHRR, source CM SAF)</em>
+<br><br>
+<br><br>
 <br><br>
 <h2><em>About the Copernicus State of the European Climate</em></h2>
 <em>Monthly and yearly </em>State of the European Climate<em> bulletins are prepared for audience of mainly non-meteorologists/climatologists interested in impact of weather and climate. In these bulletins, the main features of the most recent calendar month is shown, with a focus on extremes and significant deviations from climatology. The information is provided within their historical context, and includes references to addional information. The bulletin is based on Copernicus products, but also contains information from other sources as appropriate.</em>
