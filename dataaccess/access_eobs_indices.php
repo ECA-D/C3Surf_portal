@@ -67,7 +67,7 @@ session_start();
 		  derived using daily minimum temperature (TN), daily
 		  maximum temperature (TX), daily precipitation sum
 		  (RR) and global radiation (QQ). They cover the
-		  period 1951-01-01 - 2020-06-30 (PET since
+		  period 1950-01-01 - 2020-06-30 (PET since
 		  1980-01-01). The data files are in compressed
 		  NetCDF-4 format, separated in three sets per index:
 		  annual, monthly and seasonal. Seasonal indices are
