@@ -59,7 +59,7 @@ session_start();
 		<!-- Main part --> <div id="block-system-main"
 		class="block block-system col-xs-12 col-sm-12
 		col-md-12 col-lg-12 clearfix"> Below we give the
-		gridded data files for 2019 and 2020 which are released on a
+		gridded data files for 2020 and 2021 which are released on a
 		monthly basis. These files will be replaced with every
 		monthly update and removed after the next full update
 		of the E-OBS dataset. Small changes might occur
@@ -72,6 +72,22 @@ session_start();
 
 		<table  border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
 		  <tbody>
+		    <tr bgcolor="#941333" height="40px">
+		      <td width="25%" style="color:#FFFFFF;"><b>2021</b></td>
+		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
+		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
+		    </tr>
+		    <tr>
+		      <td>0.1 deg. regular grid</td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.1deg_day_2021_grid_ensmean.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.1deg_day_2021_grid_ensmean.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.1deg_day_2021_grid_ensmean.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.1deg_day_2021_grid_ensmean.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.1deg_day_2021_grid_ensmean.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.1deg_day_2021_grid_ensmean.nc">QQ</a></td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.1deg_day_2021_grid_se.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.1deg_day_2021_grid_se.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.1deg_day_2021_grid_se.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.1deg_day_2021_grid_se.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.1deg_day_2021_grid_se.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.1deg_day_2021_grid_se.nc">QQ</a></td>
+		    </tr>
+		    <tr>
+		      <td>0.25 deg. regular grid</td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.25deg_day_2021_grid_ensmean.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.25deg_day_2021_grid_ensmean.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.25deg_day_2021_grid_ensmean.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.25deg_day_2021_grid_ensmean.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.25deg_day_2021_grid_ensmean.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.25deg_day_2021_grid_ensmean.nc">QQ</a></td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.25deg_day_2021_grid_se.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.25deg_day_2021_grid_se.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.25deg_day_2021_grid_se.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.25deg_day_2021_grid_se.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.25deg_day_2021_grid_se.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.25deg_day_2021_grid_se.nc">QQ</a></td>
+		    </tr>
+
 		    <tr bgcolor="#941333" height="40px">
 		      <td width="25%" style="color:#FFFFFF;"><b>2020</b></td>
 		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
@@ -95,6 +111,22 @@ session_start();
   		    <table  border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
 		  <tbody>
   		    <table  border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
+
+		    <tr bgcolor="#941333" height="40px">
+		      <td width="25%" style="color:#FFFFFF;"><b>January 2021</b></td>
+		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
+		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
+		    </tr>
+		    <tr>
+		      <td>0.1 degree regular grid</td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.1deg_day_2021_01_grid_ensmean.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.1deg_day_2021_01_grid_ensmean.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.1deg_day_2021_01_grid_ensmean.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.1deg_day_2021_01_grid_ensmean.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.1deg_day_2021_01_grid_ensmean.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.1deg_day_2021_01_grid_ensmean.nc">QQ</a></td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.1deg_day_2021_01_grid_se.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.1deg_day_2021_01_grid_se.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.1deg_day_2021_01_grid_se.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.1deg_day_2021_01_grid_se.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.1deg_day_2021_01_grid_se.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.1deg_day_2021_01_grid_se.nc">QQ</a></td>
+		    </tr>
+		    <tr>
+		      <td>0.25 degree regular grid</td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.25deg_day_2021_01_grid_ensmean.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.25deg_day_2021_01_grid_ensmean.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.25deg_day_2021_01_grid_ensmean.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.25deg_day_2021_01_grid_ensmean.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.25deg_day_2021_01_grid_ensmean.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.25deg_day_2021_01_grid_ensmean.nc">QQ</a></td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.25deg_day_2021_01_grid_se.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.25deg_day_2021_01_grid_se.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.25deg_day_2021_01_grid_se.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.25deg_day_2021_01_grid_se.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.25deg_day_2021_01_grid_se.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.25deg_day_2021_01_grid_se.nc">QQ</a></td>
+		    </tr>
 
 		    <tr bgcolor="#941333" height="40px">
 		      <td width="25%" style="color:#FFFFFF;"><b>December 2020</b></td>
@@ -192,101 +224,6 @@ session_start();
 		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.25deg_day_2020_07_grid_se.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.25deg_day_2020_07_grid_se.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.25deg_day_2020_07_grid_se.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.25deg_day_2020_07_grid_se.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.25deg_day_2020_07_grid_se.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.25deg_day_2020_07_grid_se.nc">QQ</a></td>
 		    </tr>
 
-		    <tr bgcolor="#941333" height="40px">
-		      <td width="25%" style="color:#FFFFFF;"><b>June 2020</b></td>
-		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
-		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
-		    </tr>
-		    <tr>
-		      <td>0.1 degree regular grid</td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.1deg_day_2020_06_grid_ensmean.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.1deg_day_2020_06_grid_ensmean.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.1deg_day_2020_06_grid_ensmean.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.1deg_day_2020_06_grid_ensmean.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.1deg_day_2020_06_grid_ensmean.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.1deg_day_2020_06_grid_ensmean.nc">QQ</a></td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.1deg_day_2020_06_grid_se.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.1deg_day_2020_06_grid_se.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.1deg_day_2020_06_grid_se.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.1deg_day_2020_06_grid_se.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.1deg_day_2020_06_grid_se.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.1deg_day_2020_06_grid_se.nc">QQ</a></td>
-		    </tr>
-		    <tr>
-		      <td>0.25 degree regular grid</td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.25deg_day_2020_06_grid_ensmean.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.25deg_day_2020_06_grid_ensmean.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.25deg_day_2020_06_grid_ensmean.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.25deg_day_2020_06_grid_ensmean.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.25deg_day_2020_06_grid_ensmean.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.25deg_day_2020_06_grid_ensmean.nc">QQ</a></td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.25deg_day_2020_06_grid_se.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.25deg_day_2020_06_grid_se.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.25deg_day_2020_06_grid_se.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.25deg_day_2020_06_grid_se.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.25deg_day_2020_06_grid_se.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.25deg_day_2020_06_grid_se.nc">QQ</a></td>
-		    </tr>
-
-		    <tr bgcolor="#941333" height="40px">
-		      <td width="25%" style="color:#FFFFFF;"><b>May 2020</b></td>
-		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
-		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
-		    </tr>
-		    <tr>
-		      <td>0.1 degree regular grid</td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.1deg_day_2020_05_grid_ensmean.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.1deg_day_2020_05_grid_ensmean.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.1deg_day_2020_05_grid_ensmean.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.1deg_day_2020_05_grid_ensmean.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.1deg_day_2020_05_grid_ensmean.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.1deg_day_2020_05_grid_ensmean.nc">QQ</a></td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.1deg_day_2020_05_grid_se.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.1deg_day_2020_05_grid_se.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.1deg_day_2020_05_grid_se.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.1deg_day_2020_05_grid_se.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.1deg_day_2020_05_grid_se.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.1deg_day_2020_05_grid_se.nc">QQ</a></td>
-		    </tr>
-		    <tr>
-		      <td>0.25 degree regular grid</td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.25deg_day_2020_05_grid_ensmean.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.25deg_day_2020_05_grid_ensmean.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.25deg_day_2020_05_grid_ensmean.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.25deg_day_2020_05_grid_ensmean.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.25deg_day_2020_05_grid_ensmean.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.25deg_day_2020_05_grid_ensmean.nc">QQ</a></td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.25deg_day_2020_05_grid_se.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.25deg_day_2020_05_grid_se.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.25deg_day_2020_05_grid_se.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.25deg_day_2020_05_grid_se.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.25deg_day_2020_05_grid_se.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.25deg_day_2020_05_grid_se.nc">QQ</a></td>
-		    </tr>
-
-		    <tr bgcolor="#941333" height="40px">
-		      <td width="25%" style="color:#FFFFFF;"><b>April 2020</b></td>
-		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
-		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
-		    </tr>
-		    <tr>
-		      <td>0.1 degree regular grid</td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.1deg_day_2020_04_grid_ensmean.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.1deg_day_2020_04_grid_ensmean.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.1deg_day_2020_04_grid_ensmean.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.1deg_day_2020_04_grid_ensmean.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.1deg_day_2020_04_grid_ensmean.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.1deg_day_2020_04_grid_ensmean.nc">QQ</a></td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.1deg_day_2020_04_grid_se.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.1deg_day_2020_04_grid_se.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.1deg_day_2020_04_grid_se.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.1deg_day_2020_04_grid_se.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.1deg_day_2020_04_grid_se.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.1deg_day_2020_04_grid_se.nc">QQ</a></td>
-		    </tr>
-		    <tr>
-		      <td>0.25 degree regular grid</td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.25deg_day_2020_04_grid_ensmean.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.25deg_day_2020_04_grid_ensmean.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.25deg_day_2020_04_grid_ensmean.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.25deg_day_2020_04_grid_ensmean.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.25deg_day_2020_04_grid_ensmean.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.25deg_day_2020_04_grid_ensmean.nc">QQ</a></td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.25deg_day_2020_04_grid_se.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.25deg_day_2020_04_grid_se.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.25deg_day_2020_04_grid_se.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.25deg_day_2020_04_grid_se.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.25deg_day_2020_04_grid_se.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.25deg_day_2020_04_grid_se.nc">QQ</a></td>
-		    </tr>
-
-		    <tr bgcolor="#941333" height="40px">
-		      <td width="25%" style="color:#FFFFFF;"><b>March 2020</b></td>
-		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
-		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
-		    </tr>
-		    <tr>
-		      <td>0.1 degree regular grid</td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.1deg_day_2020_03_grid_ensmean.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.1deg_day_2020_03_grid_ensmean.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.1deg_day_2020_03_grid_ensmean.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.1deg_day_2020_03_grid_ensmean.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.1deg_day_2020_03_grid_ensmean.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.1deg_day_2020_03_grid_ensmean.nc">QQ</a></td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.1deg_day_2020_03_grid_se.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.1deg_day_2020_03_grid_se.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.1deg_day_2020_03_grid_se.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.1deg_day_2020_03_grid_se.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.1deg_day_2020_03_grid_se.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.1deg_day_2020_03_grid_se.nc">QQ</a></td>
-		    </tr>
-		    <tr>
-		      <td>0.25 degree regular grid</td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.25deg_day_2020_03_grid_ensmean.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.25deg_day_2020_03_grid_ensmean.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.25deg_day_2020_03_grid_ensmean.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.25deg_day_2020_03_grid_ensmean.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.25deg_day_2020_03_grid_ensmean.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.25deg_day_2020_03_grid_ensmean.nc">QQ</a></td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.25deg_day_2020_03_grid_se.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.25deg_day_2020_03_grid_se.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.25deg_day_2020_03_grid_se.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.25deg_day_2020_03_grid_se.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.25deg_day_2020_03_grid_se.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.25deg_day_2020_03_grid_se.nc">QQ</a></td>
-		    </tr>
-
-		    <tr bgcolor="#941333" height="40px">
-		      <td width="25%" style="color:#FFFFFF;"><b>February 2020</b></td>
-		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
-		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
-		    </tr>
-		    <tr>
-		      <td>0.1 degree regular grid</td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.1deg_day_2020_02_grid_ensmean.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.1deg_day_2020_02_grid_ensmean.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.1deg_day_2020_02_grid_ensmean.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.1deg_day_2020_02_grid_ensmean.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.1deg_day_2020_02_grid_ensmean.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.1deg_day_2020_02_grid_ensmean.nc">QQ</a></td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.1deg_day_2020_02_grid_se.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.1deg_day_2020_02_grid_se.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.1deg_day_2020_02_grid_se.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.1deg_day_2020_02_grid_se.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.1deg_day_2020_02_grid_se.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.1deg_day_2020_02_grid_se.nc">QQ</a></td>
-		    </tr>
-		    <tr>
-		      <td>0.25 degree regular grid</td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.25deg_day_2020_02_grid_ensmean.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.25deg_day_2020_02_grid_ensmean.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.25deg_day_2020_02_grid_ensmean.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.25deg_day_2020_02_grid_ensmean.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.25deg_day_2020_02_grid_ensmean.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.25deg_day_2020_02_grid_ensmean.nc">QQ</a></td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.25deg_day_2020_02_grid_se.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.25deg_day_2020_02_grid_se.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.25deg_day_2020_02_grid_se.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.25deg_day_2020_02_grid_se.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.25deg_day_2020_02_grid_se.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.25deg_day_2020_02_grid_se.nc">QQ</a></td>
-		    </tr>
-
-		    <tr bgcolor="#941333" height="40px">
-		      <td width="25%" style="color:#FFFFFF;"><b>January 2020</b></td>
-		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
-		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
-		    </tr>
-		    <tr>
-		      <td>0.1 degree regular grid</td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.1deg_day_2020_01_grid_ensmean.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.1deg_day_2020_01_grid_ensmean.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.1deg_day_2020_01_grid_ensmean.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.1deg_day_2020_01_grid_ensmean.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.1deg_day_2020_01_grid_ensmean.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.1deg_day_2020_01_grid_ensmean.nc">QQ</a></td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.1deg_day_2020_01_grid_se.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.1deg_day_2020_01_grid_se.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.1deg_day_2020_01_grid_se.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.1deg_day_2020_01_grid_se.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.1deg_day_2020_01_grid_se.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.1deg_day_2020_01_grid_se.nc">QQ</a></td>
-		    </tr>
-		    <tr>
-		      <td>0.25 degree regular grid</td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.25deg_day_2020_01_grid_ensmean.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.25deg_day_2020_01_grid_ensmean.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.25deg_day_2020_01_grid_ensmean.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.25deg_day_2020_01_grid_ensmean.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.25deg_day_2020_01_grid_ensmean.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.25deg_day_2020_01_grid_ensmean.nc">QQ</a></td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tg_0.25deg_day_2020_01_grid_se.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tn_0.25deg_day_2020_01_grid_se.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/tx_0.25deg_day_2020_01_grid_se.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/rr_0.25deg_day_2020_01_grid_se.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/pp_0.25deg_day_2020_01_grid_se.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/months/ens/qq_0.25deg_day_2020_01_grid_se.nc">QQ</a></td>
-		    </tr>
 
 
 		  <tbody>

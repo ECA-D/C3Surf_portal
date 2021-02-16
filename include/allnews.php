@@ -65,6 +65,10 @@ session_start();
 		      <td width="60%" style="color:#FFFFFF;"><b>Item</b></td>
 		    </tr>
 		    <tr>
+		      <td>16 February 2021</td>
+	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</td>
+		    </tr> 
+		    <tr>
 		      <td>1 February 2021</td>
 	              <td>Two-yearly update of <a href="<?php echo $webhost;?>/dataaccess/access_laprec.php">LAPrec</a>has been released</td>
 		    </tr> 
