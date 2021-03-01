@@ -36,7 +36,7 @@ session_start();
 	    <div class="region region-static-page-title col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
 	      <div class="row-fluid">
 		<div id="block-delta-blocks-page-title" class="block block-delta-blocks col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
-		  <h1 id="page-title" class="title">State-of-the-European-climate: January 2021</h1>
+		  <h1 id="page-title" class="title">State-of-the-European-climate: December 2020</h1>
 		</div> <!-- /.block -->
 	      </div>
 	    </div>
@@ -53,7 +53,7 @@ session_start();
 	      <div class="row-fluid">
 		
 		<!-- Breadcrum -->
-		<h2 class="element-invisible">You are here</h2><div class="breadcrumb"><span class="inline odd first"><a href="../surfobs.php">Home</a></span><span class="delimiter">&raquo;</span> <span class="inline even last"><a href="december2020.php">January 2021</a></span></div>
+		<h2 class="element-invisible">You are here</h2><div class="breadcrumb"><span class="inline odd first"><a href="../surfobs.php">Home</a></span><span class="delimiter">&raquo;</span> <span class="inline even last"><a href="december2020.php">December 2020</a></span></div>
 
 		<!-- Main part -->
 		<div id="block-system-main" class="block block-system col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
