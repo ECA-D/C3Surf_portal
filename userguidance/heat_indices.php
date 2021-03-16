@@ -71,7 +71,7 @@ period \(j\) and let \(TN_{in}90\) be the calendar day 90th percentile calculate
 <br><br> 
 
 Let \(TX_{ij}\) be the daily maximum temperature at day \(i\) of
-period \(j\) and let \(TX_{in}10\) be the calendar day 10th percentile calculated for a 5 day window centred on each calendar day in the 1961-1990 period. Then counted is the percentage of days where:
+period \(j\) and let \(TX_{in}90\) be the calendar day 90th percentile calculated for a 5 day window centred on each calendar day in the 1961-1990 period. Then counted is the percentage of days where:
 <br><br>
 \(TX_{ij} > TX_{in}90\)
 
