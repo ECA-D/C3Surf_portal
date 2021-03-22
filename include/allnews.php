@@ -64,6 +64,19 @@ session_start();
 		      <td width="40%" style="color:#FFFFFF;"><b>Date</b></td>
 		      <td width="60%" style="color:#FFFFFF;"><b>Item</b></td>
 		    </tr>
+
+		    <tr>
+		      <td>22 March 2021</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/february2021.php">State-of-the-climate for February 2021</a> released</td>
+		    </tr>		  
+		    <tr>
+		      <td>22 March 2021</td>
+	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> files for relative humidity released</td>
+		    </tr> 
+		    <tr>
+		      <td>22 March 2021</td>
+		      <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBS v23.0e</a> has been released. Daily mean relative humidity has been added from 1980 onwards. Global radiation now runs from 1950 onwards.</td>
+		    <tr>
 		    <tr>
 		      <td>18 March 2021</td>
 	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</td>

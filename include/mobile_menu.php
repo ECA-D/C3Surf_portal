@@ -100,6 +100,8 @@ session_start();
       <ul class="mmenu-mm-list-level-2">
          <li class="mmenu-mm-list-mlid-2068 mmenu-mm-list-path-news"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Monthly reports</span></a>
 	  <ul class="mmenu-mm-list-level-3">
+            <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/february2021.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">February 2021</span></a>
+	    </li>
             <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/january2021.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">January 2021</span></a>
 	    </li>
             <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/december2020.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">December 2020</span></a>
@@ -110,9 +112,7 @@ session_start();
 	    </li>
             <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/september2020.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">September 2020</span></a>
 	    </li>
-            <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/august2020.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">August 2020</span></a>
-	    </li>
-            <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/july2020.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">July 2020</span></a>
+            <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/all_monthly_reports.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">All reports</span></a>
 	    </li>
          </ul>
          </li>
