@@ -76,6 +76,13 @@ session_start();
 			<td width="35%"><span style="color:#FFFFFF;"><strong>Modification</strong></span></td>    
 		      </tr>
 		      <tr>
+			<td><a href="access_ngcd.php#datafiles">21.03</a></td>
+			<td>March 2021</td>
+			<td>0.1.0-beta</td>
+			<td>1971-01-01 - 2020-12-31</td>
+			<td></td>
+		      </tr>
+		      <tr bgcolor="#ffffff">
 			<td><a href="access_ngcd.php#datafiles">20.09</a></td>
 			<td>September 2020</td>
 			<td>0.1.0-beta</td>
@@ -90,14 +97,14 @@ session_start();
 			<td></td>
 		      </tr>
 		      <tr bgcolor="#ffffff">
-			<td><a href="access_ngcd.php#datafiles">19.09</a></td>
+			<td>19.09</td>
 			<td>September 2019</td>
 			<td>0.1.0-beta</td>
 			<td>1971-01-01 - 2019-06-30</td>
 			<td></td>
 		      </tr>
 		      <tr>
-			<td><a href="access_ngcd.php#datafiles">19.03</a></td>
+			<td>19.03</td>
 			<td>March 2019</td>
 			<td>0.1.0-beta</td>
 			<td>1971-01-01 - 2018-12-31</td>
@@ -108,7 +115,7 @@ session_start();
 			years.</td>
 		      </tr>
 		      <tr bgcolor="#ffffff">
-			<td><a href="access_ngcd.php#datafiles">18.09</a></td>
+			<td>18.09</td>
 			<td>September 2018</td>
 			<td>0.1.0-beta</td>
 			<td>1971-01-01 - 2018-06-30</td>
@@ -123,7 +130,7 @@ session_start();
 			Fennoscandia.</td>
 		      </tr>
 		      <tr>
-			<td><a href="access_ngcd.php#datafiles">18.03</a></td>
+			<td>18.03</td>
 			<td>March 2018</td>
 			<td>0.1.0-beta</td>
 			<td>1971-01-01 - 2017-12-31</td>

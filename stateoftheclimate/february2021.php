@@ -62,7 +62,7 @@ Click on the figures for larger ones.
 
 <h2>Event in February 2021</h2>
 <br><br>
-Most striking event in this winter month was the remarkable eruption (linked to the SSW in the stratosphere) of very cold weather early February followed by extreme mild spring conditions in the second half of the month.
+Most striking event in this winter month was the remarkable eruption (linked to the sudden stratospheric warming) of very cold weather early February followed by extreme mild spring conditions in the second half of the month.
 <br><br>
 In Germany, in the week beginning 8 February, the temperature fell below -20&deg;C at many observing stations, breaking monthly records, whilst even low-lying areas received heavy snow, according to the Deutsche Wetterdienst. Canals in the Netherlands froze over with scating Dutchmen everywhere in the country an increasingly rare event. This was followed by unusually mild weather in central Europe. Göttingen in Germany saw a massive (and record) temperature difference of 41.9&deg;C in the space of less than a week in February, swinging from -23.8&deg;C on 14.02.21 to 18.1 &deg;C on 21.02.21, according to DWD.
 <br><br>
