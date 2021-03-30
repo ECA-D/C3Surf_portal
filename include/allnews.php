@@ -66,6 +66,10 @@ session_start();
 		    </tr>
 
 		    <tr>
+		      <td>30 March 2021</td>
+	              <td>E-OBS v23.0e has been replaced by <a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBS v23.1e</a>. Only de temperature files for Jun-Dec 2020 have been affected by this in Northern France.</td>
+		    </tr>
+		    <tr>
 		      <td>29 March 2021</td>
 	              <td><a href="<?php echo $webhost;?>/dataaccess/access_ngcd.php">NGCD v21.03</a> released</td>
 		    </tr>		  
