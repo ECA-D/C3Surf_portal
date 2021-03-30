@@ -187,6 +187,8 @@
                       </li>
 		      <li><a href="<?php echo $webhost;?>/userguidance/uncertainty_indices.php"><span>Uncertainty on the indices</span></a>
 		      </li>
+		      <li><a href="<?php echo $webhost;?>/userguidance/manuals.php"><span>User manuals</span></a>
+		      </li>
                      </ul>
                     </li>
 		  </ul>
