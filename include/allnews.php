@@ -66,6 +66,14 @@ session_start();
 		    </tr>
 
 		    <tr>
+		      <td>26 April 2021</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/march2021.php">State-of-the-climate for March 2021</a> released</td>
+		    </tr>		  
+		    <tr>
+		      <td>26 April 2021</td>
+	              <td><a href="https://climate.copernicus.eu/ESOTC/2020">Annual State-of-the-climate 2020</a> released</td>
+		    </tr>		  
+		    <tr>
 		      <td>30 March 2021</td>
 	              <td>E-OBS v23.0e has been replaced by <a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBS v23.1e</a>. Only de temperature files for Jun-Dec 2020 have been affected by this in Northern France.</td>
 		    </tr>

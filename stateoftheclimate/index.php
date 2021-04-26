@@ -66,6 +66,10 @@ session_start();
 		      <td width="25%" style="color:#FFFFFF;"><b>Month</b></td>
 		    </tr>
 		    <tr>
+		      <td><a href="march2021.php">March 2021</a>
+		      </td>
+		    </tr>
+		    <tr>
 		      <td><a href="february2021.php">February 2021</a>
 		      </td>
 		    </tr>
@@ -242,11 +246,15 @@ session_start();
 		      <td width="25%" style="color:#FFFFFF;"><b>Year</b></td>
 		    </tr>
 		    <tr>
-		      <td><a href="https://climate.copernicus.eu/ESOTC2019">2019</a>
+		      <td><a href="https://climate.copernicus.eu/ESOTC/2020">2020</a>
 		      </td>
 		    </tr>
 		    <tr>
-		      <td><a href="https://climate.copernicus.eu/ESOTC2018">2018</a>
+		      <td><a href="https://climate.copernicus.eu/ESOTC/2019">2019</a>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td><a href="https://climate.copernicus.eu/ESOTC/2018">2018</a>
 		      </td>
 		    </tr>
 		    <tr>

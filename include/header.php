@@ -149,7 +149,9 @@
                      <ul>
                       <li><a href="<?php echo $thispage;?>"><span>Monthly reports</span></a>
                        <ul>
-                        <li><a href="<?php echo $webhost;?>/stateoftheclimate/february2021.php"><span>February 2021</span></a>
+                        <li><a href="<?php echo $webhost;?>/stateoftheclimate/march2021.php"><span>March 2021</span></a>
+			</li>
+                           <li><a href="<?php echo $webhost;?>/stateoftheclimate/february2021.php"><span>February 2021</span></a>
 			</li>
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/january2021.php"><span>January 2021</span></a>
 			</li>
@@ -159,17 +161,17 @@
 			</li>
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/october2020.php"><span>October 2020</span></a>
 			</li>
-                        <li><a href="<?php echo $webhost;?>/stateoftheclimate/september2020.php"><span>September 2020</span></a>
-			</li>
                        <li><a href="<?php echo $webhost;?>/stateoftheclimate/all_monthly_reports.php"><span>All reports</span></a>
 		       </li>
                        </ul>
                       </li>
                       <li><a href="<?php echo $thispage;?>"><span>Annual reports</span></a>
                        <ul>
-                        <li><a href="https://climate.copernicus.eu/ESOTC2019"><span>2019</span></a>
+                        <li><a href="https://climate.copernicus.eu/ESOTC/2020"><span>2020</span></a>
                         </li>
-                        <li><a href="https://climate.copernicus.eu/ESOTC2018"><span>2018</span></a>
+                         <li><a href="https://climate.copernicus.eu/ESOTC/2019"><span>2019</span></a>
+                        </li>
+                        <li><a href="https://climate.copernicus.eu/ESOTC/2018"><span>2018</span></a>
                         </li>
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/year2017.php"><span>2017</span></a>
                         </li>
