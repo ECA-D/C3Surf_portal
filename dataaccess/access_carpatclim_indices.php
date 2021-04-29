@@ -67,16 +67,19 @@ session_start();
 		  climate indices (ETCCDI indices marked with *)
 		  derived using daily minimum temperature (TN), daily
 		  maximum temperature (TX) and daily precipitation sum
-		  (RR). They cover the Carpathian region with 0.1 deg
+		  (RR). The indices under Multi-element indices also
+		  use sunshine duration, relative humidity and/or wind
+		  speed. <br><br>
+		  All indices cover the Carpathian region with 0.1 deg
 		  regular grid and the period 1961-2010. The data
 		  files are in NetCDF format, separated in four sets
 		  per index: annual, half-yearly, monthly and
 		  seasonal. Seasonal indices are calculated from the
 		  monthly indices, where for December-January-February
 		  (DJF) the December of the previous year is used:
-		  Dec(1961)-Jan(1962)-Feb(1962).  <br><br> Guidance
-		  and more details on the calculation of the indices
-		  can be
+		  Dec(1961)-Jan(1962)-Feb(1962). PET and UTCI have
+		  daily values.  <br><br> Guidance and more details on
+		  the calculation of the indices can be
 		  found <a href="../userguidance/indicesdictionary.php">here</a>.
 		  
 		  <h3>Indices files</h3>
@@ -377,6 +380,35 @@ session_start();
 		    </tr>
 		    </tbody>
 		  </table>
+                    <!--PET-->
+                  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
+                    <tbody>
+                    <tr bgcolor="#941333" height="40px">
+                      <td><span style="color:#FFFFFF;"><strong>Potential EvapoTranspiration (Makkink) (PET-MK)</strong></span></td>
+                      <td><span style="color:#FFFFFF;"><strong>Potential EvapoTranspiration (Penman-Monteith) (PET-PM)</strong></span></td>
+                    </tr>
+                    <tr>
+                      <td width="33%"> <a href="../data/indices/carpatclim/Daily_PET_Makkink_CARPATCLIM.nc">Daily values</a> </td>
+                      <td width="33%"> <a href="../data/indices/carpatclim/Daily_PET_Penman-Monteith_CARPATCLIM.nc">Daily values</a> </td>
+                    </tr>
+                    </tbody>
+                  </table>
+
+                    <!--PET-->
+                  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
+                    <tbody>
+                    <tr bgcolor="#941333" height="40px">
+                      <td><span style="color:#FFFFFF;"><strong>self-calibrating Palmer Drought Severity Index (scPDSI)</strong></span></td>
+                      <td><span style="color:#FFFFFF;"><strong>Universal Thermal Climate Index (UTCI)</strong></span></td>
+                    </tr>
+                    <tr>
+                      <td width="33%"> <a href="../data/indices/carpatclim/Daily_UTCI_CARPATCLIM.nc">Daily values</a> </td>
+                      <td width="33%"> <a href="../data/indices/carpatclim/Monthly_scPDSI_CARPATCLIM.nc">Monthly values</a> </td>
+                    </tr>
+                    </tbody>
+                  </table>
+
+ 
 		  </div>
 
 

@@ -66,6 +66,10 @@ session_start();
 		    </tr>
 
 		    <tr>
+		      <td>29 April 2021</td>
+	              <td><a href="<?php echo $webhost;?>/dataaccess/access_carpatclim_indices.php">PET, scPDSI and UTCI indices</a> based on CarpatClim released</td>
+		    </tr>		  
+		    <tr>
 		      <td>26 April 2021</td>
 	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/march2021.php">State-of-the-climate for March 2021</a> released</td>
 		    </tr>		  

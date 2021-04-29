@@ -38,6 +38,15 @@ session_start();
 
 		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
 		      <div class="views-field views-field-field-date">
+			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">29 April 2021</span>
+			</div>
+		      </div>  
+		      <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/dataaccess/access_carpatclim_indices.php">PET, scPDSI and UTCI indices</a> based on CarpatClim released </span>
+		      </div>
+		    </div>
+
+		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
+		      <div class="views-field views-field-field-date">
 			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">26 April 2021</span>
 			</div>
 		      </div>  
@@ -217,60 +226,6 @@ session_start();
 		      </div>
 		    </div>
 
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-04-23T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">20 October 2020</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content">Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</span>
-		      </div>
-		    </div>
-
-
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-04-23T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">13 October 2020</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content">Daily values for <a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices.php">Potential EvapoTranspiration</a> have been released</span>
-		      </div>
-		    </div>
-
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-04-23T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">28 September 2020</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/dataaccess/access_ngcd.php">NGCD v20.09</a> released</span>
-		      </div>
-		    </div>
-
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">28 September 2020</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/stateoftheclimate/august2020.php">State-of-the-climate for August 2020</a> released</span>
-		      </div>
-		    </div>
-
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-04-23T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">28 September 2020</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content">Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</span>
-		      </div>
-		    </div>
-
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">24 September 2020</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content">A new daily E-OBS dataset for the period 1 Jan 1920 - 31 Dec 1949 has been released as <a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBSpre1950</a> for temperature (minimum, mean, maximum), precipitation amount and sea level pressure. This dataset has a research status.</span>
-		      </div>
-		    </div>
 
 
 
