@@ -402,8 +402,8 @@ session_start();
                       <td><span style="color:#FFFFFF;"><strong>Universal Thermal Climate Index (UTCI)</strong></span></td>
                     </tr>
                     <tr>
-                      <td width="33%"> <a href="../data/indices/carpatclim/Daily_UTCI_CARPATCLIM.nc">Daily values</a> </td>
                       <td width="33%"> <a href="../data/indices/carpatclim/Monthly_scPDSI_CARPATCLIM.nc">Monthly values</a> </td>
+                      <td width="33%"> <a href="../data/indices/carpatclim/Daily_UTCI_CARPATCLIM.nc">Daily values</a> </td>
                     </tr>
                     </tbody>
                   </table>
