@@ -66,6 +66,10 @@ session_start();
 		    </tr>
 
 		    <tr>
+		      <td>20 May 2021</td>
+	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</td>
+		    </tr> 
+		    <tr>
 		      <td>29 April 2021</td>
 	              <td><a href="<?php echo $webhost;?>/dataaccess/access_carpatclim_indices.php">PET, scPDSI and UTCI indices</a> based on CarpatClim released</td>
 		    </tr>		  
