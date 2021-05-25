@@ -66,6 +66,10 @@ session_start();
 		    </tr>
 
 		    <tr>
+		      <td>25 May 2021</td>
+	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/april2021.php">State-of-the-climate for April 2021</a> released</td>
+		    </tr>		  
+		    <tr>
 		      <td>20 May 2021</td>
 	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</td>
 		    </tr> 
