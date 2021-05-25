@@ -67,6 +67,10 @@ session_start();
 
 		    <tr>
 		      <td>25 May 2021</td>
+	              <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices.php">PET-MK, PET-PM, scPDSI and UTCI indices</a> based on E-OBSv23.1e released</td>
+		    </tr>		  
+		    <tr>
+		      <td>25 May 2021</td>
 	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/april2021.php">State-of-the-climate for April 2021</a> released</td>
 		    </tr>		  
 		    <tr>
@@ -75,7 +79,7 @@ session_start();
 		    </tr> 
 		    <tr>
 		      <td>29 April 2021</td>
-	              <td><a href="<?php echo $webhost;?>/dataaccess/access_carpatclim_indices.php">PET, scPDSI and UTCI indices</a> based on CarpatClim released</td>
+	              <td><a href="<?php echo $webhost;?>/dataaccess/access_carpatclim_indices.php">PET-MK, PET-PM, scPDSI and UTCI indices</a> based on CarpatClim released</td>
 		    </tr>		  
 		    <tr>
 		      <td>26 April 2021</td>

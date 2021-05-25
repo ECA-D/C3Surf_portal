@@ -41,6 +41,15 @@ session_start();
 			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">25 May 2021</span>
 			</div>
 		      </div>  
+		      <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices.php">PET-MK, PET-PM, scPDSI and UTCI indices</a> based on E-OBSv23.1e released </span>
+		      </div>
+		    </div>
+
+		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
+		      <div class="views-field views-field-field-date">
+			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">25 May 2021</span>
+			</div>
+		      </div>  
 		      <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/stateoftheclimate/april2021.php">State-of-the-climate for April 2021</a> released</span>
 		      </div>
 		    </div>
@@ -59,7 +68,7 @@ session_start();
 			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">29 April 2021</span>
 			</div>
 		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/dataaccess/access_carpatclim_indices.php">PET, scPDSI and UTCI indices</a> based on CarpatClim released </span>
+		      <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/dataaccess/access_carpatclim_indices.php">PET-MK, PET-PM, scPDSI and UTCI indices</a> based on CarpatClim released </span>
 		      </div>
 		    </div>
 

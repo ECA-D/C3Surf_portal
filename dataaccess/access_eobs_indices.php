@@ -60,21 +60,30 @@ session_start();
 		<div id="block-system-main" class="block block-system col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
 
 
-		  This is the download page for the indices derived
-		  from the E-OBS dataset.  The datafiles below provide
-		  climate indices (ETCCDI indices marked with *)
+		  This is the download page for the climate indices
+		  derived from the E-OBS dataset.  The datafiles below
+		  provide climate indices
 		  for <a href="access_eobs.php">E-OBS v22.0e</a>
 		  derived using daily minimum temperature (TN), daily
 		  maximum temperature (TX), daily precipitation sum
-		  (RR) and global radiation (QQ). They cover the
-		  period 1950-01-01 - 2020-06-30 (PET since
-		  1980-01-01). The data files are in compressed
-		  NetCDF-4 format, separated in three sets per index:
-		  annual, monthly and seasonal. Seasonal indices are
-		  calculated from the monthly indices, where for
+		  (RR), global radiation (QQ) and relative humidity
+		  (HU). These files cover the period 1950-01-01 -
+		  2020-06-30 (PET-PM and UTCI since 1981-01-01). The
+		  datafiles are in compressed NetCDF-4 format,
+		  separated in three sets per index: annual, monthly
+		  and seasonal. Seasonal indices are calculated from
+		  the monthly indices, where for
 		  December-January-February (DJF) the December of the
 		  previous year is used:
-		  Dec(1951)-Jan(1952)-Feb(1952). PET has daily values.
+		  Dec(1951)-Jan(1952)-Feb(1952). Note that the ETCCDI
+		  indices are marked with *.
+<br><br> The multi-element indices scPDSI, UTCI, PET-MK and PET-PM are
+		  based on E-OBS v23.1e and run until
+		  2020-12-31. scPDSI has monthly values, while UTCI,
+		  PET-MK and PET-PM have daily values. scPDSI uses
+		  PET-MK as one of the input elements, while UTCI and
+		  PET-PM make use of ERA5 wind speed fields as input,
+		  next to the E-OBS elements.
   
 		  <h3>Terms of use</h3>
 
@@ -209,7 +218,7 @@ session_start();
 		    </tr>
 		    <tr>
 		      <td width="33%">Half-yearly: <a href="../data/indices/eobs/cold/tnn_hf_0.1deg_reg_ens_median_E-OBSv22.0e.nc">median</a> | <a href="../data/indices/eobs/cold/tnn_hf_0.1deg_reg_ens_2p5_97p5_E-OBSv22.0e.nc">uncertainty</a></td>
-		      <td width="33%">Half-yearly<a href="../data/indices/eobs/cold/txn_hf_0.1deg_reg_ens_median_E-OBSv22.0e.nc">median</a> | <a href="../data/indices/eobs/cold/txn_hf_0.1deg_reg_ens_2p5_97p5_E-OBSv22.0e.nc">uncertainty</a></td>
+		      <td width="33%">Half-yearly: <a href="../data/indices/eobs/cold/txn_hf_0.1deg_reg_ens_median_E-OBSv22.0e.nc">median</a> | <a href="../data/indices/eobs/cold/txn_hf_0.1deg_reg_ens_2p5_97p5_E-OBSv22.0e.nc">uncertainty</a></td>
 		    </tr>
 		    <tr>
 		      <td width="33%">Monthly: <a href="../data/indices/eobs/cold/tnn_mon_0.1deg_reg_ens_median_E-OBSv22.0e.nc">median</a> | <a href="../data/indices/eobs/cold/tnn_mon_0.1deg_reg_ens_2p5_97p5_E-OBSv22.0e.nc">uncertainty</a></td>
@@ -383,12 +392,25 @@ session_start();
 		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
 		    <tbody>
 		    <tr bgcolor="#941333" height="40px">
-		      <td><span style="color:#FFFFFF;"><strong>Potential EvapoTranspiration (Makkink) (PET)</strong></span></td>
-		      <td><span style="color:#FFFFFF;"><strong></strong></span></td>
+		      <td><span style="color:#FFFFFF;"><strong>Potential EvapoTranspiration (Makkink) (PET-MK)</strong></span></td>
+		      <td><span style="color:#FFFFFF;"><strong>Potential EvapoTranspiration (Penman-Monteith) (PET-PM)</strong></span></td>
 		    </tr>
 		    <tr>       
-		      <td width="33%"> <a href="../data/indices/eobs/multi/petmk_daily_0.1deg_reg_E-OBSv22.0e.nc">Daily values</a> </td>
-		      <td width="33%"></td>
+		      <td width="33%"> <a href="../data/indices/eobs/multi/petmk_daily_0.1deg_reg_E-OBSv23.1e.nc">Daily values</a> </td>
+		      <td width="33%"> <a href="../data/indices/eobs/multi/petpm_daily_0.1deg_reg_E-OBSv23.1e.nc">Daily values</a></td>
+		    </tr>
+		    </tbody>
+		  </table>
+		    <!--UTCI scPDSI-->
+		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
+		    <tbody>
+		    <tr bgcolor="#941333" height="40px">
+		      <td><span style="color:#FFFFFF;"><strong>self-calibrating Palmer Drought Severity Index (scPDSI)</strong></span></td>
+		      <td><span style="color:#FFFFFF;"><strong>Universal Thermal Climate Index (UTCI)</strong></span></td>
+		    </tr>
+		    <tr>       
+		      <td width="33%"> <a href="../data/indices/eobs/multi/scpdsi_monthly_0.1deg_reg_E-OBSv23.1e.nc">Monthly values</a> </td>
+		      <td width="33%"> <a href="../data/indices/eobs/multi/utci_daily_0.1deg_reg_E-OBSv23.1e.nc">Daily values</a></td>
 		    </tr>
 		    </tbody>
 		  </table>

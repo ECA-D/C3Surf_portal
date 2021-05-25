@@ -140,12 +140,13 @@ In the major part of Europe temperatures were exceptionally below the 30-year av
 <br><br>
 Figure 9 (left panel) shows the European-averaged temperature from 1950 onward, where blue bars show temperatures which are below the 1981-2010 average and red bars above this mean value. The green bar is the provisional 2021 estimate, based on data until the end of April and climatological means for the remaining months. The grey bars in the panel indicate the estimated uncertainties which take into account the errors introduced by spatial interpolation over areas without observation stations, inhomogeneities in the temperature data that result from station relocations / changes in measurement instruments etc., and biases due to urbanisation, as documented in Van der Schrier et al. (2013) and Chrysanthou et al. (2014). The uncertainties tell us that although we are not 100% certain about the ranking of individual years, the overall positive trend since the 1980s is very pronounced.
 <br><br>
-<!--The right panel of Figure 9 shows the daily temperature, averaged over Europe, for the past 12 months.-->
+The right panel of Figure 9 shows the daily temperature, averaged over Europe, for the past 12 months.
 <br><br>
 <a href="../images/apr2021/EuropeanAverage_annual_wrt81-10_202104_v22.0e.png"><img alt="" src="../images/apr2021/EuropeanAverage_annual_wrt81-10_202104_v22.0e.png" width="250px"></a>
-<!--[[File:dailyanomalies_0.25deg_202104_v22.0e.png|width|250px]]-->
+<a href="../images/apr2021/dailyanomalies_temperature_last12months_apr2021.png"><img alt="" src="../images/apr2021/dailyanomalies_temperature_last12months_apr2021.png" width="250px"></a>
+
 <br><br>
-<em>Figure 9: European land surface temperature: annual anomalies with the current year in green. The grey bands show the uncertainty in the averaged temperature (left). <!--Daily anomalies with respect to the seasonal cycle until the end of April 2021 (right).--> (Based on E-OBS)</em>
+<em>Figure 9: European land surface temperature: annual anomalies with the current year in green. The grey bands show the uncertainty in the averaged temperature (left). Daily anomalies with respect to the seasonal cycle until the end of April 2021 (right). (Based on E-OBS)</em>
 <br><br>
 <h3>Precipitation</h3>
 Due to the blocked weather pattern with high pressure over western and central Europe, and to the major track of depressions over the Mediterranen, there is a clear split in anomalies. It was much drier than average across large parts of continental Europe, but wetter than average over Spain, Italy, and the Balkan countries. A heavy rain event occurred in Tuscany region in northwestern Italy on 12 April 2021 within an intense low-pressure area. A strong hailstorm hit the region around Lucca. Up to 183 mm of rain (Stazzema station) fell, floods occurred in the historic centre of Lucca and landslides blocked several provincial roads. This event can be recognized in the 1-day and 5-day precipitation sums which are shown in Figure 10, middle and right panel.
