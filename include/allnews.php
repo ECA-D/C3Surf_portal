@@ -66,6 +66,10 @@ session_start();
 		    </tr>
 
 		    <tr>
+		      <td>1 June 2021</td>
+	              <td>The file for the <a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices.php">scPDSI index</a> has been replaced. The calibration period which is used to calculate this index now applies to the complete interval over which data is available.</td>
+		    </tr>		  
+		    <tr>
 		      <td>25 May 2021</td>
 	              <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices.php">PET-MK, PET-PM, scPDSI and UTCI indices</a> based on E-OBSv23.1e released</td>
 		    </tr>		  

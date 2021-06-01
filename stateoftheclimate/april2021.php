@@ -60,7 +60,6 @@ session_start();
 
 Click on the figures for larger ones.
 
-<a href="../images/apr2021/header-SOC_large.png" target="_blank"><img alt="" src="../images/apr2021/header-SOC.png" ></a>
 <h2>Event in April 2021</h2>
 <br><br>
 <br><br>
@@ -91,6 +90,7 @@ It is important to mention that these are the numbers of air frost, while the nu
 However, there were also areas in Europe, which were less frosty than usual. Over European Russia, warm subtropical air reached even its northernmost parts.
 <br><br>
 <a href="../images/apr2021/Stateofclimate_IndicesTest_fd_2021_month_nc_baselayers_world_polygons_fdETCCDI_baselayers_overlay_2021-04-15T12-00-00Z_large.png" target="_blank"><img alt="" src="../images/apr2021/Stateofclimate_IndicesTest_fd_2021_month_nc_baselayers_world_polygons_fdETCCDI_baselayers_overlay_2021-04-15T12-00-00Z.png" ></a>
+<a href="../images/apr2021/Stateofclimate_IndicesTest_fd_anom_2021_1981-2010_month_nc_baselayers_world_polygons_fdETCCDI_baselayers_overlay_2021-04-15T12-00-00Z_large.png" target="_blank"><img alt="" src="../images/apr2021/Stateofclimate_IndicesTest_fd_anom_2021_1981-2010_month_nc_baselayers_world_polygons_fdETCCDI_baselayers_overlay_2021-04-15T12-00-00Z.png" ></a>
 <br><br>
 <em>Figure 3: FD: Number of frost days in April 2021 (left) and anomaly w.r.t. 1981-2010 (right) (E-OBS)</em>
 <br><br>
@@ -143,13 +143,12 @@ Figure 9 (left panel) shows the European-averaged temperature from 1950 onward, 
 The right panel of Figure 9 shows the daily temperature, averaged over Europe, for the past 12 months.
 <br><br>
 <a href="../images/apr2021/EuropeanAverage_annual_wrt81-10_202104_v22.0e.png"><img alt="" src="../images/apr2021/EuropeanAverage_annual_wrt81-10_202104_v22.0e.png" width="250px"></a>
-<a href="../images/apr2021/dailyanomalies_temperature_last12months_apr2021.png"><img alt="" src="../images/apr2021/dailyanomalies_temperature_last12months_apr2021.png" width="250px"></a>
-
+<a href="../images/apr2021/dailyanomalies_temperature_last12months_202104.png"><img alt="" src="../images/apr2021/dailyanomalies_temperature_last12months_202104.png" width="250px"></a>
 <br><br>
 <em>Figure 9: European land surface temperature: annual anomalies with the current year in green. The grey bands show the uncertainty in the averaged temperature (left). Daily anomalies with respect to the seasonal cycle until the end of April 2021 (right). (Based on E-OBS)</em>
 <br><br>
 <h3>Precipitation</h3>
-Due to the blocked weather pattern with high pressure over western and central Europe, and to the major track of depressions over the Mediterranen, there is a clear split in anomalies. It was much drier than average across large parts of continental Europe, but wetter than average over Spain, Italy, and the Balkan countries. A heavy rain event occurred in Tuscany region in northwestern Italy on 12 April 2021 within an intense low-pressure area. A strong hailstorm hit the region around Lucca. Up to 183 mm of rain (Stazzema station) fell, floods occurred in the historic centre of Lucca and landslides blocked several provincial roads. This event can be recognized in the 1-day and 5-day precipitation sums which are shown in Figure 10, middle and right panel.
+Due to the blocked weather pattern with high pressure over western and central Europe, and to the major track of depressions over the Mediterranean, there is a clear split in anomalies. It was much drier than average across large parts of continental Europe, but wetter than average over Spain, Italy, and the Balkan countries. A heavy rain event occurred in Tuscany region in northwestern Italy on 12 April 2021 within an intense low-pressure area. A strong hailstorm hit the region around Lucca. Up to 183 mm of rain (Stazzema station) fell, floods occurred in the historic centre of Lucca and landslides blocked several provincial roads. This event can be recognized in the 1-day and 5-day precipitation sums which are shown in Figure 10, middle and right panel.
 <br><br>
 <a href="../images/apr2021/Stateofclimate_Apr2021_rr_0_25deg_2021_month_nc_baselayers_world_polygons_rr_baselayers_overlay_2021-04-30T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/apr2021/Stateofclimate_Apr2021_rr_0_25deg_2021_month_nc_baselayers_world_polygons_rr_baselayers_overlay_2021-04-30T00-00-00Z.png" ></a>
 <a href="../images/apr2021/Stateofclimate_Apr2021_rx1day_0_25deg_2021_month_nc_baselayers_world_polygons_RX1day_baselayers_overlay_2021-04-16T00-00-00Z_large.png" target="_blank"><img alt="" src="../images/apr2021/Stateofclimate_Apr2021_rx1day_0_25deg_2021_month_nc_baselayers_world_polygons_RX1day_baselayers_overlay_2021-04-16T00-00-00Z.png" ></a>
@@ -203,8 +202,6 @@ Due to the above-mentioned block pressure pattern over Europe (Figure 1) a rathe
 <br><br>
 <h2><em>About the Copernicus State of the European Climate</em></h2>
 <em>Monthly and yearly </em>State of the European Climate<em> bulletins are prepared for audience of mainly non-meteorologists/climatologists interested in impact of weather and climate. In these bulletins, the main features of the most recent calendar month is shown, with a focus on extremes and significant deviations from climatology. The information is provided within their historical context, and includes references to addional information. The bulletin is based on Copernicus products, but also contains information from other sources as appropriate.</em>
-<br><br>
-<a href="../images/apr2021/footer-SOC_large.png" target="_blank"><img alt="" src="../images/apr2021/footer-SOC.png" ></a>
 
 		</div>	  
 	      </div>

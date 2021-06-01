@@ -38,6 +38,15 @@ session_start();
 
 		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
 		      <div class="views-field views-field-field-date">
+			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">1 June 2021</span>
+			</div>
+		      </div>  
+		      <div class="views-field views-field-title"><span class="field-content">The file for the <a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices.php">scPDSI index</a> has been replaced. The calibration period which is used to calculate this index now applies to the complete interval over which data is available.</span>
+		      </div>
+		    </div>
+
+		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
+		      <div class="views-field views-field-field-date">
 			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">25 May 2021</span>
 			</div>
 		      </div>  
