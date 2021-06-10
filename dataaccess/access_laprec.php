@@ -166,7 +166,7 @@ Isotta, Francesco A.; Begert, Michael; Frei, Christoph, 2019: Long-term consiste
 
 <h3>Terms of use</h3>
 
-LAPrec is freely available for non-commercial use.
+The Copernicus Data Licence applies to LAPrec.
 
 <h3>Data providers</h3>
 
