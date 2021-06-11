@@ -166,7 +166,7 @@ Isotta, Francesco A.; Begert, Michael; Frei, Christoph, 2019: Long-term consiste
 
 <h3>Terms of use</h3>
 
-The Copernicus Data Licence applies to LAPrec.
+The <a href="https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf">Copernicus Data Licence</a> applies to LAPrec.
 
 <h3>Data providers</h3>
 
