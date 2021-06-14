@@ -66,6 +66,10 @@ session_start();
 		    </tr>
 
 		    <tr>
+		      <td>14 June 2021</td>
+	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</td>
+		    </tr> 
+		    <tr>
 		      <td>1 June 2021</td>
 	              <td>The file for the <a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices.php">scPDSI index</a> has been replaced. The calibration period which is used to calculate this index now applies to the complete interval over which data is available.</td>
 		    </tr>		  
