@@ -149,7 +149,9 @@
                      <ul>
                       <li><a href="<?php echo $thispage;?>"><span>Monthly reports</span></a>
                        <ul>
-                        <li><a href="<?php echo $webhost;?>/stateoftheclimate/april2021.php"><span>April 2021</span></a>
+                        <li><a href="<?php echo $webhost;?>/stateoftheclimate/may2021.php"><span>May 2021</span></a>
+			</li>
+                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/april2021.php"><span>April 2021</span></a>
 			</li>
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/march2021.php"><span>March 2021</span></a>
 			</li>
@@ -158,8 +160,6 @@
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/january2021.php"><span>January 2021</span></a>
 			</li>
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/december2020.php"><span>December 2020</span></a>
-			</li>
-                        <li><a href="<?php echo $webhost;?>/stateoftheclimate/november2020.php"><span>November 2020</span></a>
 			</li>
                       <li><a href="<?php echo $webhost;?>/stateoftheclimate/all_monthly_reports.php"><span>All reports</span></a>
 		       </li>

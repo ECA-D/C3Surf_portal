@@ -100,7 +100,9 @@ session_start();
       <ul class="mmenu-mm-list-level-2">
          <li class="mmenu-mm-list-mlid-2068 mmenu-mm-list-path-news"><a href="<?php echo $thispage;?>" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Monthly reports</span></a>
 	  <ul class="mmenu-mm-list-level-3">
-            <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/april2021.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">April 2021</span></a>
+            <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/may2021.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">May 2021</span></a>
+	    </li>
+             <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/april2021.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">April 2021</span></a>
 	    </li>
             <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/march2021.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">March 2021</span></a>
 	    </li>
@@ -110,9 +112,7 @@ session_start();
 	    </li>
             <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/december2020.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">December 2020</span></a>
 	    </li>
-            <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/november2020.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">November 2020</span></a>
-	    </li>
-            <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/all_monthly_reports.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">All reports</span></a>
+          <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-713"><a href="<?php echo $webhost;?>/stateoftheclimate/all_monthly_reports.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">All reports</span></a>
 	    </li>
          </ul>
          </li>
