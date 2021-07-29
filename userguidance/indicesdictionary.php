@@ -18,9 +18,12 @@ session_start();
     <title>Indices dictionary</title>
     
     <script src="https://www.w3schools.com/lib/w3.js"></script>
-  <script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML" async>
-</script>
+<!--   <script type="text/javascript" async -->
+<!--   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML" async> -->
+<!-- </script> -->
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 <?php include('../include/collapsible.php'); ?>
   <?php include('../include/styles.php'); ?>

@@ -56,7 +56,20 @@ session_start();
 
                  <!-- Main part -->
                 <div id="block-system-main" class="block block-system col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
-                  E-OBS is an observational dataset. This means that
+                  The E-OBS observation dataset has a few issues which
+		  users should be aware of. The issues are detailed
+		  and illustrated below. Some of these issues relate
+		  to problems with the underlying meteorological
+		  station dataset. It might be that quality issues are
+		  missed by the quality control procedure. A
+                  <a href="mailto:&#101;&#099;&#097;&#064;&#107;&#110;&#109;&#105;&#046;&#110;&#108;?subject=Observed issue in E-OBS">message</a> 
+                  from users informing us
+                  about these possible issues would be appreciated so
+                  we can improve the E-OBS dataset.<br><br>  Click on
+                  a title below for more information about the
+                  issues.<br><br>
+ 
+      <!--        E-OBS is an observational dataset. This means that
                   it is derived from only station observations. If
                   something turns out to be wrong with the station
                   observations, e.g. a suspected value was not
@@ -65,22 +78,33 @@ session_start();
                   gridding of E-OBS. Due to shear size of the
                   ECA&amp;D and E-OBS datasets, we probably miss some
                   issues and would
-                  appreciate <a href="mailto:&#101;&#099;&#097;&#064;&#107;&#110;&#109;&#105;&#046;&#110;&#108;?subject=Observed issue in E-OBS">messages</a> from users about
+                  appreciate <a href="mailto:&#101;&#099;&#097;&#064;&#107;&#110;&#109;&#105;&#046;&#110;&#108;?subject=Observed
+                  issue in E-OBS">messages</a> from users about
                   possible issues so we can improve the E-OBS
                   dataset.<br><br>Below some specific issues that are
                   already known, and will be fixed as soon as
-                  possible.<br><br>
+                  possible. Click on a title for more information
+                  about the issues.<br><br>      -->
 
                   <button class="accordion">Data at edges of the domain</button>
                   <div class="panel">
                     <p>
                       The <strong>station density</strong> at the edges of the domain
-                      are usually sparse. For example, in regions in
-                      Eastern Europe (e.g. Turkey, Greece) and
+                      is sparse. For example, regions in
+                      South Eastern Europe (e.g. Turkey, Greece) and
                       Northern Africa the station density for all
                       elements is low which result in a lower quality
-                      of the E-OBS dataset over those regions. This is
-                      also reflected in a higher uncertainty.</p>
+                      of the E-OBS dataset over those regions. The low station density in these areas is
+                      also reflected in a higher uncertainty.
+		      <br><br>
+<a href="../images/knownissues/values_present_rr_example.png"><img alt="" src="../images/knownissues/values_present_rr_example.png" width="250px"></a>
+<br><br>
+<em>
+Example showing the average fraction of days per year for which precipitation data is available. The area in grey has a data availability of 99&#037; or higher. Figure based on E-OBSv23.1e.
+</em>
+
+
+</p>
 		  </div> 
 
 		  <button class="accordion">Trend analyses</button>
@@ -95,7 +119,32 @@ therefore be treated with caution.
 
 		  <button class="accordion">Temperature</button>
 		  <div class="panel">
-		    <p>On a few days and areas, it might be possible
+ 		  <p>In a few areas and on a few days, it might be
+		    possible that the <strong>maximum temperature is
+		    lower than the minimum temperature</strong>. This
+		    is especially the case in the early part of the
+		    dataset. While the station data that are used to
+		    construct the E-OBS dataset do not suffer from
+		    this problem, the gridded dataset might have this
+		    problem due to the combination of the
+		    interpolation method and the sparse station
+		    network (especially in earlier years). <br><br>
+
+                    The interpolation is done by Generalized Additive
+                    Models
+                    (see <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2017JD028200">Cornes
+                    et al. 2018</a>) in combination with a monthly
+                    background field. In areas with large distances
+                    between stations, this might give interpolated
+                    values between stations that violate the rule that
+                    maximum temperature should be higher than minimum
+                    temperature, since for the gridding of maximum
+                    temperature no information on minimum temperature
+                    is added to this algorithm (and vice-versa). In
+                    data rich areas, the interpolation is constrained
+                    enough by the station data not to let this happen.
+
+ 		<!--  <p>On a few days and areas, it might be possible
 		    that the maximum temperature is lower than the
 		    minimum temperature. These elements are
 		    interpolated independently from each
@@ -104,31 +153,38 @@ therefore be treated with caution.
 		    might result in having <strong>maximum temperature lower
 		    than minimum temperature</strong> in very specific
 		    cases. At the moment, no check is done when and
-		    where this is the case.
+		    where this is the case.      -->
+<br><br>
+<a href="../images/knownissues/negativevalues_tx-tn_example.png"><img alt="" src="../images/knownissues/negativevalues_tx-tn_example.png" width="250px"></a>
+<br><br>
+<em>
+Example showing the average number of days per year where the daily maximum temperature is lower than the daily minimum value. The grey areas report this issue less than 1&#037; of the time. Figure based on E-OBSv23.1e.
+</em>
 		    </p>
 		  </div>
 
                   <button class="accordion">Sea level pressure</button>
                   <div class="panel">
                     <p>
-                      Although effort is provided to include only sea
-                      level pressure series, it is possible that a
-                      station with station level pressure still
-                      exists. If the elevation of the station is not
-                      that high, this will not be picked up by the
-                      existing quality control procedures and
-                      continues into the gridding procedures. In the
-                      final fields, this may result in a kind of
-                      "bulls-eye" in the vicinity of the station with
-                      station level pressure. When such "bulls-eye" is
-                      observed, the data provider should normally be
-                      contacted to determine what the source of the
-                      problem is and if the time series is indeed
-                      provided as station level pressure instead of
-                      sea level pressure. Only in very obvious cases,
-                      ECA&amp;D staff can correct this without
-                      contacting the original data provider. <br><br>
-                      <strong>Status May 2021</strong>: A "bulls-eye" is known in the
+                      Although much effort is made to provide only
+		      sea level pressure series in the underlying
+		      station dataset, it is possible that
+		      station level pressure measurements still exist
+		      in the database. If the elevation of the station
+		      is not that high, this will not be picked up by
+		      the existing quality control procedures and
+		      continues into the gridding procedures. In the
+		      final fields, this may result in a kind of
+		      "bull's-eye" in the vicinity of the station with
+		      station level pressure. When such "bull's-eyes"
+		      are observed, the data provider should normally
+		      be contacted to determine what the source of the
+		      problem is and if the time series is indeed
+		      provided as station level pressure instead of
+		      sea level pressure. Only in very obvious cases,
+		      ECA&amp;D staff can correct this without
+		      contacting the original data provider. <br><br>
+                      <strong>Status May 2021</strong>: A "bull's-eye" is known in the
                       monthly update files and E-OBSv23.1e in the
                       region of Northeastern France.
                      </p>
@@ -136,21 +192,30 @@ therefore be treated with caution.
 
 		  <button class="accordion">Global radiation</button>
 		  <div class="panel">
-		    <p><strong>Status May 2021</strong>: It has been observed that
-		    often the global radiation fields have very low
-		    values in Southeastern France and sometimes in
-		    other areas like the Balkan area. This is known
-		    for the monthly update files and E-OBSv23.1e.</p>
+		    <p><strong>Status May 2021</strong>: It has been
+		    observed that often the global radiation fields
+		    have very low values in Southeastern France and
+		    sometimes in other areas like the Balkan
+		    area. This is known for the monthly update files
+		    and E-OBSv23.1e.</p>
 		  </div>
 
 		  <button class="accordion">Relative humidity</button>
 		  <div class="panel">
-		    <p><strong>Status May 2021</strong>: After 2009, areas with a
-		    sudden increase in variability and sometimes even
-		    negative values for relative humidity are
-		    observed. This might be related to the use of the
-		    GTS data in later years, but this needs to be
-		    investigated further.</p>
+		    <p><strong>Status May 2021</strong>: After 2009,
+		    areas with a sudden increase in variability and
+		    sometimes even negative values for relative
+		    humidity are observed. This might be related to
+		    the use of the GTS data in later years, but this
+		    needs to be investigated further.
+<br><br>
+<a href="../images/knownissues/negativevalues_hu_example.png"><img alt="" src="../images/knownissues/negativevalues_hu_example.png" width="250px"></a>
+<br><br>
+<em>
+Example showing the average number of days per year where the daily mean relative humidity value is negative. Figure based on E-OBSv23.1e.
+</em>
+
+</p>
 		  </div>
 
                 </div>

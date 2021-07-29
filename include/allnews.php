@@ -66,6 +66,10 @@ session_start();
 		    </tr>
 
 		    <tr>
+		      <td>29 July 2021</td>
+	              <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices.php">Indices based on E-OBSv23.1e</a> released</td>
+		    </tr>		  
+		    <tr>
 		      <td>18 June 2021</td>
 	              <td><a href="<?php echo $webhost;?>/stateoftheclimate/may2021.php">State-of-the-climate for May 2021</a> released</td>
 		    </tr>		  
