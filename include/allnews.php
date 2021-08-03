@@ -66,6 +66,22 @@ session_start();
 		    </tr>
 
 		    <tr>
+		      <td>3 August 2021</td>
+	              <td>Several <a href="<?php echo $webhost;?>/userguidance/known_issues_eobs.php">known issues</a> in the E-OBS dataset have been described</td>
+		    </tr>		  
+		    <tr>
+		      <td>3 August 2021</td>
+	              <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">Daily mean wind speed</a> has been added to the E-OBS dataset from 1980 onwards</td>
+		    </tr>		  
+		    <tr>
+		      <td>3 August 2021</td>
+	              <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">Relative humidity</a> has been back-extended for the period 1950-1979</td>
+		    </tr>		  
+		    <tr>
+		      <td>3 August 2021</td>
+	              <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices.php">PET-PM and UTCI</a> have been back-extended for the period 1950-1979</td>
+		    </tr>		  
+		    <tr>
 		      <td>29 July 2021</td>
 	              <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices.php">Indices based on E-OBSv23.1e</a> released</td>
 		    </tr>		  

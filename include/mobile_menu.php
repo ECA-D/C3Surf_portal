@@ -144,6 +144,8 @@ session_start();
         </li>
         <li class="mmenu-mm-list-mlid-2183 mmenu-mm-list-path-node-643"><a href="<?php echo $webhost;?>/userguidance/manuals.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">User manuals</span></a>
         </li>
+        <li class="mmenu-mm-list-mlid-2183 mmenu-mm-list-path-node-643"><a href="<?php echo $webhost;?>/userguidance/known_issues_eobs.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Known issues in E-OBS</span></a>
+        </li>
        </ul>
       </li>
     </ul>

@@ -191,6 +191,7 @@
 		      </li>
 		      <li><a href="<?php echo $webhost;?>/userguidance/manuals.php"><span>User manuals</span></a>
 		      </li>
+		      <li><a href="<?php echo $webhost;?>/userguidance/known_issues_eobs.php"><span>Known issues in E-OBS</span></a>
                      </ul>
                     </li>
 		  </ul>

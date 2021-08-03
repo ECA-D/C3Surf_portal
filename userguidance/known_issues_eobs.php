@@ -69,23 +69,7 @@ session_start();
                   a title below for more information about the
                   issues.<br><br>
  
-      <!--        E-OBS is an observational dataset. This means that
-                  it is derived from only station observations. If
-                  something turns out to be wrong with the station
-                  observations, e.g. a suspected value was not
-                  indicated as such during the quality control
-                  procedure, these values are still used in the
-                  gridding of E-OBS. Due to shear size of the
-                  ECA&amp;D and E-OBS datasets, we probably miss some
-                  issues and would
-                  appreciate <a href="mailto:&#101;&#099;&#097;&#064;&#107;&#110;&#109;&#105;&#046;&#110;&#108;?subject=Observed
-                  issue in E-OBS">messages</a> from users about
-                  possible issues so we can improve the E-OBS
-                  dataset.<br><br>Below some specific issues that are
-                  already known, and will be fixed as soon as
-                  possible. Click on a title for more information
-                  about the issues.<br><br>      -->
-
+ 
                   <button class="accordion">Data at edges of the domain</button>
                   <div class="panel">
                     <p>
@@ -144,16 +128,6 @@ therefore be treated with caution.
                     data rich areas, the interpolation is constrained
                     enough by the station data not to let this happen.
 
- 		<!--  <p>On a few days and areas, it might be possible
-		    that the maximum temperature is lower than the
-		    minimum temperature. These elements are
-		    interpolated independently from each
-		    other. Although the input station time series are
-		    quality checked for this, the interpolation method
-		    might result in having <strong>maximum temperature lower
-		    than minimum temperature</strong> in very specific
-		    cases. At the moment, no check is done when and
-		    where this is the case.      -->
 <br><br>
 <a href="../images/knownissues/negativevalues_tx-tn_example.png"><img alt="" src="../images/knownissues/negativevalues_tx-tn_example.png" width="250px"></a>
 <br><br>
@@ -162,6 +136,24 @@ Example showing the average number of days per year where the daily maximum temp
 </em>
 		    </p>
 		  </div>
+
+		  <button class="accordion">Precipitation</button>
+		  <div class="panel">
+<p>
+The data sources for the precipitation are rain gauge data which do
+not have a uniform way of defining the 24-hour period over which
+precipitation measurements are made. Therefore, there is no uniform
+time period (for instance, 06 UTC previous day to 06 UTC today) which
+could be attached to the daily precipitation. The exact 24-hour period
+can be different per region. The reason for this is that some data
+providers measure between midnight to midnight while others might
+measure from morning to morning. Since E-OBS is an observational
+dataset, no attempts have been made to adjust time series for this
+24-hour offset. It is made sure, where known, that the largest part of
+the measured 24-hour period corresponds to the day attached to the
+time step in E-OBS.
+</p>
+</div>
 
                   <button class="accordion">Sea level pressure</button>
                   <div class="panel">
@@ -192,13 +184,66 @@ Example showing the average number of days per year where the daily maximum temp
 
 		  <button class="accordion">Global radiation</button>
 		  <div class="panel">
-		    <p><strong>Status May 2021</strong>: It has been
-		    observed that often the global radiation fields
-		    have very low values in Southeastern France and
-		    sometimes in other areas like the Balkan
-		    area. This is known for the monthly update files
-		    and E-OBSv23.1e.</p>
+A comparison between the E-OBS dataset for global radiation (v23.1e)
+and an estimate of the daily solar irradiance reaching the Earth
+surface from the SEVIRI instrument on board the geostationary
+satellite Meteosat is made for the year 2020. The satellite and the
+in-situ products are the integration of the 24h day, where the
+satellite product is remapped from its 0.05&#176; regular grid to the
+0.1&#176; regular E-OBS grid. Several areas are observed where the
+difference between the products is large. Shown is the difference
+(satellite - E-OBS) averaged over June 2020 and December 2020. The
+maps show and overestimation for E-OBS for e.g. France while the June
+value in southeastern France is considerably lower than that of the
+satellite. This is likely to be related to station issues with the
+E-OBS. One of these issues is that the interpretation of the synoptic
+data for global radiation (used for the most recent period when data
+from the meteorogical services is not yet available) is not correct
+for some countries and the quality control of the global radiation
+values is too permissive.
+
+In other areas, like Italy and the Balkan area, the scarcity of
+observations severely limits the usefulness of E-OBS in this
+version.
+<br><br>
+<a href="../images/knownissues/bias_MSG-EOBS_month6.png"><img alt="" src="../images/knownissues/bias_MSG-EOBS_month6.png" width="250px"></a>
+<br><br>
+<em>
+Difference between SEVIRI and E-OBS for June 2020. Figure based on E-OBSv23.1e.
+</em>
+<br><br>
+<a href="../images/knownissues/bias_MSG-EOBS_month12.png"><img alt="" src="../images/knownissues/bias_MSG-EOBS_month12.png" width="250px"></a>
+<br><br>
+<em>
+Difference between SEVIRI and E-OBS for December 2020. Figure based on E-OBSv23.1e.
+</em>
+
+</p>
+</div>
+
+
+		  <button class="accordion">Wind speed</button>
+		  <div class="panel">
+		    <p>
+		      For the daily-average wind speed, in some areas
+		      the station density is very low. In combination
+		      with the search range of 50 km, this results in
+		      'islands' with a hat-like ensemble mean
+		      windspeed around geographically isolated stations
+		      (as can be seen, for example, in Spain in the
+		      figure below).
+<br><br>
+<a href="../images/knownissues/eobs_fg_grid_emean_2007_01_17.png"><img alt="" src="../images/knownissues/eobs_fg_grid_emean_2007_01_17.png" width="250px"></a>
+<br><br>
+<em>
+Example showing the island-like structure for wind speed on 17 January
+2007. Figure based on E-OBSv23.1e.
+</em>
+
+</p>
 		  </div>
+
+
 
 		  <button class="accordion">Relative humidity</button>
 		  <div class="panel">

@@ -68,7 +68,7 @@ session_start();
 		  maximum temperature (TX), daily precipitation sum
 		  (RR), global radiation (QQ) and relative humidity
 		  (HU). These files cover the period 1950-01-01 -
-		  2020-12-31 (PET-PM and UTCI since 1981-01-01). The
+		  2020-12-31. The
 		  datafiles are in compressed NetCDF-4 format,
 		  separated in three sets per index: annual, monthly
 		  and seasonal. Seasonal indices are calculated from
