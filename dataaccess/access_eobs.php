@@ -200,9 +200,9 @@ correlation function. The mean across the members is calculated and is
 provided as the "best-guess" fields. The spread is calculated as the
 difference between the 5th and 95th percentiles over the ensemble to
 provide a measure indicate of the 90% uncertainty range. The global
-radiation dataset has a 10-member ensemble, while the other elements
-have a 100-member ensemble. For more details see Cornes et al. (2018)
-and <a href="<?php echo
+radiation dataset has a 10-member ensemble, wind speed has a 20-member
+ensemble, while the other elements have a 100-member ensemble. For
+more details see Cornes et al. (2018) and <a href="<?php echo
 $webhost;?>/userguidance/use_ensembles.php">the guidance on how to use
 ensemble datasets</a>.
 <br><br>
