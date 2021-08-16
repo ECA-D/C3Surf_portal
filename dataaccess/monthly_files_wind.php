@@ -65,7 +65,7 @@ session_start();
 
                     <tr bgcolor="#941333" height="40px">
                       <td width="25%" style="color:#FFFFFF;"><b>December 2020</b></td>
-                      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
+                      <td width="25%" style="color:#FFFFFF;"><b>Ensemble mean</b></td>
                       <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
                     </tr>
                     <tr>
@@ -82,7 +82,7 @@ session_start();
 
                     <tr bgcolor="#941333" height="40px">
                       <td width="25%" style="color:#FFFFFF;"><b>November 2020</b></td>
-                      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
+                      <td width="25%" style="color:#FFFFFF;"><b>Ensemble mean</b></td>
                       <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
                     </tr>
                     <tr>
@@ -99,7 +99,7 @@ session_start();
 
                     <tr bgcolor="#941333" height="40px">
                       <td width="25%" style="color:#FFFFFF;"><b>October 2020</b></td>
-                      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
+                      <td width="25%" style="color:#FFFFFF;"><b>Ensemble mean</b></td>
                       <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
                     </tr>
                     <tr>
@@ -116,7 +116,7 @@ session_start();
 
                     <tr bgcolor="#941333" height="40px">
                       <td width="25%" style="color:#FFFFFF;"><b>September 2020</b></td>
-                      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
+                      <td width="25%" style="color:#FFFFFF;"><b>Ensemble mean</b></td>
                       <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
                     </tr>
                     <tr>
@@ -133,7 +133,7 @@ session_start();
 
                     <tr bgcolor="#941333" height="40px">
                       <td width="25%" style="color:#FFFFFF;"><b>August 2020</b></td>
-                      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
+                      <td width="25%" style="color:#FFFFFF;"><b>Ensemble mean</b></td>
                       <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
                     </tr>
                     <tr>
@@ -150,7 +150,7 @@ session_start();
 
                     <tr bgcolor="#941333" height="40px">
                       <td width="25%" style="color:#FFFFFF;"><b>July 2020</b></td>
-                      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
+                      <td width="25%" style="color:#FFFFFF;"><b>Ensemble mean</b></td>
                       <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
                     </tr>
                     <tr>
@@ -167,7 +167,7 @@ session_start();
 
                     <tr bgcolor="#941333" height="40px">
                       <td width="25%" style="color:#FFFFFF;"><b>June 2020</b></td>
-                      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
+                      <td width="25%" style="color:#FFFFFF;"><b>Ensemble mean</b></td>
                       <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
                     </tr>
                     <tr>
@@ -184,7 +184,7 @@ session_start();
 
                     <tr bgcolor="#941333" height="40px">
                       <td width="25%" style="color:#FFFFFF;"><b>May 2020</b></td>
-                      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
+                      <td width="25%" style="color:#FFFFFF;"><b>Ensemble mean</b></td>
                       <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
                     </tr>
                     <tr>
@@ -200,7 +200,7 @@ session_start();
                     </tr>
                     <tr bgcolor="#941333" height="40px">
                       <td width="25%" style="color:#FFFFFF;"><b>April 2020</b></td>
-                      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
+                      <td width="25%" style="color:#FFFFFF;"><b>Ensemble mean</b></td>
                       <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
                     </tr>
                     <tr>
@@ -217,7 +217,7 @@ session_start();
 
                     <tr bgcolor="#941333" height="40px">
                       <td width="25%" style="color:#FFFFFF;"><b>March 2020</b></td>
-                      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
+                      <td width="25%" style="color:#FFFFFF;"><b>Ensemble mean</b></td>
                       <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
                     </tr>
                     <tr>

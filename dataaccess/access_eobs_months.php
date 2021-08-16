@@ -65,7 +65,7 @@ session_start();
 		of the E-OBS dataset. Small changes might occur
 		between these releases, after new data and/or stations
 		are added. The files are available on 0.1 and 0.25
-		degree resolutions. The ensemble median and ensemble
+		degree resolutions. The ensemble mean and ensemble
 		spread are created from a 100 member ensemble dataset
 		(temperature, precipitation, sea level pressure and
 		relative humidity), a 20 member ensemble dataset (wind
@@ -81,7 +81,7 @@ several <i>known issues</i> in the E-OBS dataset has been provided.
 		  <tbody>
 		    <tr bgcolor="#941333" height="40px">
 		      <td width="25%" style="color:#FFFFFF;"><b>2021</b></td>
-		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
+		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble mean</b></td>
 		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
 		    </tr>
 		    <tr>
@@ -105,7 +105,7 @@ several <i>known issues</i> in the E-OBS dataset has been provided.
 
 		    <tr bgcolor="#941333" height="40px">
 		      <td width="25%" style="color:#FFFFFF;"><b>May 2021</b></td>
-		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
+		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble mean</b></td>
 		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
 		    </tr>
 		    <tr>
@@ -121,7 +121,7 @@ several <i>known issues</i> in the E-OBS dataset has been provided.
 
 		    <tr bgcolor="#941333" height="40px">
 		      <td width="25%" style="color:#FFFFFF;"><b>April 2021</b></td>
-		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
+		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble mean</b></td>
 		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
 		    </tr>
 		    <tr>
@@ -137,7 +137,7 @@ several <i>known issues</i> in the E-OBS dataset has been provided.
 
 		    <tr bgcolor="#941333" height="40px">
 		      <td width="25%" style="color:#FFFFFF;"><b>March 2021</b></td>
-		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
+		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble mean</b></td>
 		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
 		    </tr>
 		    <tr>
@@ -153,7 +153,7 @@ several <i>known issues</i> in the E-OBS dataset has been provided.
 
 		    <tr bgcolor="#941333" height="40px">
 		      <td width="25%" style="color:#FFFFFF;"><b>February 2021</b></td>
-		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
+		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble mean</b></td>
 		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
 		    </tr>
 		    <tr>
@@ -169,7 +169,7 @@ several <i>known issues</i> in the E-OBS dataset has been provided.
 
 		    <tr bgcolor="#941333" height="40px">
 		      <td width="25%" style="color:#FFFFFF;"><b>January 2021</b></td>
-		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
+		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble mean</b></td>
 		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
 		    </tr>
 		    <tr>
