@@ -247,12 +247,13 @@ Example showing the island-like structure for wind speed on 17 January
 
 		  <button class="accordion">Relative humidity</button>
 		  <div class="panel">
-		    <p><strong>Status May 2021</strong>: After 2009,
-		    areas with a sudden increase in variability and
-		    sometimes even negative values for relative
-		    humidity are observed. This might be related to
-		    the use of the GTS data in later years, but this
-		    needs to be investigated further.
+		    <p><strong>Status May 2021</strong>: Negative
+		    values for relative humidity have been observed,
+		    see the example below. Furthermore, areas with
+		    a sudden increase in variability after 2009 are
+		    seen. This might be related to the use of the GTS
+		    data in later years, but this needs to be
+		    investigated further.
 <br><br>
 <a href="../images/knownissues/negativevalues_hu_example.png"><img alt="" src="../images/knownissues/negativevalues_hu_example.png" width="250px"></a>
 <br><br>
