@@ -62,7 +62,7 @@ session_start();
 		15 years of the most recent version of the E-OBS
 		dataset can be downloaded below. The files are
 		available on 0.1 and 0.25 degree resolutions. The
-		ensemble median and ensemble spread are created from a
+		ensemble mean and ensemble spread are created from a
 		100 member ensemble dataset (temperature,
 		precipitation, sea level pressure and relative
 		humidity), a 20 member ensemble dataset (wind speed)
@@ -74,7 +74,7 @@ session_start();
 		  <tbody>
 		    <tr bgcolor="#941333" height="40px">
 		      <td width="25%" style="color:#FFFFFF;"><b>Version 23.1e</b></td>
-		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
+		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble mean</b></td>
 		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
 		    </tr>
 		    <tr>
@@ -111,7 +111,7 @@ session_start();
 		  <tbody>
 		    <tr bgcolor="#941333" height="40px">
 		      <td width="25%" style="color:#FFFFFF;"><b>Version 23.1e</b></td>
-		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble median</b></td>
+		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble mean</b></td>
 		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
 		    </tr>
 		    <tr>
