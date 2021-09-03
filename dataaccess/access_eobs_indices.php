@@ -124,7 +124,7 @@ session_start();
 		      <td width="33%">Half-yearly: <a href="../data/indices/eobs/cold/cfd_hf_0.1deg_reg_ens_median_E-OBSv23.1e.nc">median</a> | <a href="../data/indices/eobs/cold/cfd_hf_0.1deg_reg_ens_2p5_97p5_E-OBSv23.1e.nc">uncertainty</a></td>
 		    </tr>
 		    <tr>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/cold/fd_mon_0.1deg_reg_ens_median_E-OBSv23.1e.nc">median</a> | <a href="../data/indices/eobs/cold/d_mon_0.1deg_reg_ens_2p5_97p5_E-OBSv23.1e.nc">uncertainty</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/cold/fd_mon_0.1deg_reg_ens_median_E-OBSv23.1e.nc">median</a> | <a href="../data/indices/eobs/cold/fd_mon_0.1deg_reg_ens_2p5_97p5_E-OBSv23.1e.nc">uncertainty</a></td>
 		      <td width="33%">Monthly: <a href="../data/indices/eobs/cold/cfd_mon_0.1deg_reg_ens_median_E-OBSv23.1e.nc">median</a> | <a href="../data/indices/eobs/cold/cfd_mon_0.1deg_reg_ens_2p5_97p5_E-OBSv23.1e.nc">uncertainty</a></td>
 		    </tr>
 		    <tr>
@@ -144,7 +144,7 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Heating degree days (HD17*)</strong></span></td>
 		    </tr>
 		    <tr>       
-		      <td width="33%">Annual: <a href="../data/indices/eobs/cold/id_yr_0.1deg_reg_ens_median_E-OBSv23.1e.nc">median</a> | <a href="../data/indices/eobs/cold/id_yr_0.1deg_reg_ens_p2p5_97p5_E-OBSv23.1e.nc">uncertainty</a></td>
+		      <td width="33%">Annual: <a href="../data/indices/eobs/cold/id_yr_0.1deg_reg_ens_median_E-OBSv23.1e.nc">median</a> | <a href="../data/indices/eobs/cold/id_yr_0.1deg_reg_ens_2p5_97p5_E-OBSv23.1e.nc">uncertainty</a></td>
 		      <td width="33%">Annual: <a href="../data/indices/eobs/cold/hd17_yr_0.1deg_reg_ens_median_E-OBSv23.1e.nc">median</a> | <a href="../data/indices/eobs/cold/hd17_yr_0.1deg_reg_ens_2p5_97p5_E-OBSv23.1e.nc">uncertainty</a> </td>
 		    </tr>
 		    <tr>
