@@ -247,9 +247,11 @@ Example showing the island-like structure for wind speed on 17 January
 
 		  <button class="accordion">Relative humidity</button>
 		  <div class="panel">
-		    <p><strong>Status May 2021</strong>: Negative
-		    values for relative humidity have been observed,
-		    see the example below. Furthermore, areas with
+		    <p>Negative
+		    values for relative humidity have been observed as a consequence of scarce station density in combination with the gridding method,
+		    see the example below. Values below 5% have currently been set to missing for E-OBSv23.1e, but this is work in progress.<br>
+
+Furthermore, areas with
 		    a sudden increase in variability after 2009 are
 		    seen. This might be related to the use of the GTS
 		    data in later years, but this needs to be
