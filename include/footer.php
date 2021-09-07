@@ -15,7 +15,7 @@ session_start();
 		<div id="block-menu-menu-menu-footer" class="block block-menu col-xs-12 col-sm-12 col-md-12 col-lg-12 menu-pull-right menu-float-right hidden-xs hidden-sm clearfix">
 		  <ul class="menu nav">
 		  <li class="first leaf"><a href="https://climate.copernicus.eu/cookies" target="_blank">Cookies</a></li>
-		    <li class="leaf"><a href="https://climate.copernicus.eu/disclaimer-privacy" target="_blank">Disclaimer / Privacy</a></li> 		    
+		    <li class="leaf"><a href="https://climate.copernicus.eu/index.php/data-protection-and-privacy-statement" target="_blank">Privacy</a></li> 		    
 		    <li class="leaf"><a href="mailto:&#101;&#099;&#097;&#064;&#107;&#110;&#109;&#105;&#046;&#110;&#108;?subject=Questions SurfObs">Contact us</a></li>
 		    <li class="last leaf active-trail active"><a class="active-trail active" href="https://climate.copernicus.eu/about-c3s" target="_blank">About C3S</a></li>
 		  </ul>
