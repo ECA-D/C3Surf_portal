@@ -174,7 +174,9 @@ Type 2 datasets:
 
 		<h3>Terms of use</h3>
  
-		The NGCD dataset is available under the <a href="https://data.norge.no/nlod/en/1.0" target="_blank">Norwegian Licence for Open Government Data (NLOD) 1.0</a>.
+The NGCD dataset is available under the 
+<a href="https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf" target="_blank">Licence to use Copernicus Products</a>.
+
 		
 		</div>	  
 	      </div>
