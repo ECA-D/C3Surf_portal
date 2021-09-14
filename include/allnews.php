@@ -66,6 +66,10 @@ session_start();
 		    </tr>
 
 		    <tr>
+		      <td>14 September 2021</td>
+	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released up to August 2021</td>
+		    </tr> 
+		    <tr>
 		      <td>6 September 2021</td>
 	              <td>Values below 5% have been set to missing in the ensemble mean files for <a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">relative humidity</a> in E-OBSv23.1e</td>
 		    </tr>		  
