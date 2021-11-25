@@ -217,6 +217,13 @@ Difference between SEVIRI and E-OBS for June 2020. Figure based on E-OBSv23.1e.
 <em>
 Difference between SEVIRI and E-OBS for December 2020. Figure based on E-OBSv23.1e.
 </em>
+<br><br>
+Following quality issues noted for relative humidity which relate to the combination of a sparse network and the gridding
+procedure, an additional quality check has been applied to each of the ensemble members of the global radiation grid, starting with E-OBSv24.0e. The
+quality control is the same as the one applied to the station data, where a lower limit of the global radiation value is related
+to 3% of the Top Of Atmosphere radiation and an upper limit is related to the expected global radiation which is received at the
+Earth surface under clear sky radiation conditions. The thresholds applied in the quality control have a latitudinal and a seasonal 
+variation. For the latter check, a variation of the elevation of the grid square has been taken into account as well.
 
 </p>
 </div>
@@ -247,22 +254,24 @@ Example showing the island-like structure for wind speed on 17 January
 
 		  <button class="accordion">Relative humidity</button>
 		  <div class="panel">
-		    <p>Negative
-		    values for relative humidity have been observed as a consequence of scarce station density in combination with the gridding method,
-		    see the example below. Values below 5% have currently been set to missing for E-OBSv23.1e, but this is work in progress.<br>
+		    <p>
+                    An additional quality control has been performed
+		    on the relative humidity fields where unphysically low 
+		    values for relative humidity have been observed as
+		    a consequence of scarce station density in
+		    combination with the gridding method. As of
+		    E-OBSv24.0e, the grid boxes with values below 5%
+		    are set to missing in each of the 20 ensemble
+		    members. This additional check mirrors the quality check applied to the input stations. The ensemble mean and ensemble spread are
+		    derived from these adjusted ensemble members,
+		    making sure that all humidity values are above
+		    5%. Note that the approach to grid transformed values of humidity (rather than humidity directly) already makes sure 
+                    that no humidity values higher than 100% are possible.<br>
 
-Furthermore, areas with
-		    a sudden increase in variability after 2009 are
-		    seen. This might be related to the use of the GTS
-		    data in later years, but this needs to be
+                    Furthermore, areas with a sudden increase in variability after 2009
+		    are seen. This might be related to the use of the
+		    GTS data in later years, but this needs to be
 		    investigated further.
-<br><br>
-<a href="../images/knownissues/negativevalues_hu_example.png"><img alt="" src="../images/knownissues/negativevalues_hu_example.png" width="250px"></a>
-<br><br>
-<em>
-Example showing the average number of days per year where the daily mean relative humidity value is negative. Figure based on E-OBSv23.1e.
-</em>
-
 </p>
 		  </div>
 

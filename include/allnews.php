@@ -66,6 +66,14 @@ session_start();
 		    </tr>
 
 		    <tr>
+		      <td>25 November 2021</td>
+	              <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBSv24.0e</a> has been released</td>
+		    </tr>
+		    <tr>
+		      <td>18 November 2021</td>
+	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</td>
+		    </tr> 
+		    <tr>
 		      <td>15 October 2021</td>
 	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</td>
 		    </tr> 
