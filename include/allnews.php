@@ -66,6 +66,10 @@ session_start();
 		    </tr>
 
 		    <tr>
+		      <td>18 November 2021</td>
+	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released. <a href="<?php echo $webhost;?>/documents/changes_eobs_windgrid_dec2021.pdf">Note</a> that more stations are included for daily mean wind speed and a technical improvement has been realised, which makes it possible to use a larger search radius for wind speed than before.</td>
+		    </tr> 
+		    <tr>
 		      <td>25 November 2021</td>
 	              <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBSv24.0e</a> has been released</td>
 		    </tr>
