@@ -120,6 +120,8 @@ session_start();
  	  <ul class="mmenu-mm-list-level-3">
            <!-- <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-717"><a href="<?php echo $webhost;?>/stateoftheclimate/year2020.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">2020</span></a> -->
            <!-- </li> -->
+              <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-719"><a href="https://climate.copernicus.eu/ESOTC/2021" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">2021</span></a>
+              </li>
               <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-719"><a href="https://climate.copernicus.eu/ESOTC/2020" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">2020</span></a>
               </li>
               <li class="mmenu-mm-list-mlid-2219 mmenu-mm-list-path-node-719"><a href="https://climate.copernicus.eu/ESOTC/2019" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">2019</span></a>

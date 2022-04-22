@@ -66,6 +66,10 @@ session_start();
 		    </tr>
 
 		    <tr>
+		      <td>22 April 2022</td>
+	              <td><a href="https://climate.copernicus.eu/ESOTC/2021">Annual State-of-the-climate 2021</a> released</td>
+		    </tr>		  
+		    <tr>
 		      <td>21 April 2022</td>
 	              <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBSv25.0e</a> has been released</td>
 		    </tr>
