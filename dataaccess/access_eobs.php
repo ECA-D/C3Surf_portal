@@ -62,7 +62,7 @@ session_start();
 		<!-- Main part -->
 		<div id="block-system-main" class="block block-system col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
 
-		  This is the download page for the daily gridded observational dataset for precipitation, temperature, sea level pressure and global radiation in Europe called E-OBS. For questions regarding E-OBS, please contact us at <a href="mailto:&#101;&#099;&#097;&#064;&#107;&#110;&#109;&#105;&#046;&#110;&#108;?subject=Questions E-OBS">&#101;&#099;&#097;&#064;&#107;&#110;&#109;&#105;&#046;&#110;&#108;</a>.
+		  This is the download page for the daily gridded observational dataset for precipitation, temperature, sea level pressure, global radiation and wind speed in Europe called E-OBS. For questions regarding E-OBS, please contact us at <a href="mailto:&#101;&#099;&#097;&#064;&#107;&#110;&#109;&#105;&#046;&#110;&#108;?subject=Questions E-OBS">&#101;&#099;&#097;&#064;&#107;&#110;&#109;&#105;&#046;&#110;&#108;</a>.
 		  
 		  
 		  <h3>Actual version and update policy</h3>
@@ -88,7 +88,7 @@ session_start();
 		      </tr>
 		      <tr >
 			<td><a href="access_eobs.php#datafiles">25.0e</a></td>
-			<td>April 2021</td>
+			<td>April 2022</td>
 			<td>1950-01-01 - 2021-12-31</td>
 			<td>Precipitation series for the UK sourced
 			from CEDA are added to the dataset. Daily mean
