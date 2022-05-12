@@ -66,6 +66,10 @@ session_start();
 		    </tr>
 
 		    <tr>
+		      <td>12 May 2022</td>
+	              <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs_daily.php">Preliminary daily E-OBS updates</a> (up to yesterday) for temperature and precipitation released</td>
+		    </tr>		  
+		    <tr>
 		      <td>22 April 2022</td>
 	              <td><a href="https://climate.copernicus.eu/ESOTC/2021">Annual State-of-the-climate 2021</a> released</td>
 		    </tr>		  

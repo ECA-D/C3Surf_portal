@@ -482,7 +482,7 @@ several <i>known issues</i> in the E-OBS dataset has been provided.
 
 		<h3>Datafiles for running year</h3>
 		
-		Follow this <a href="access_eobs_months.php">link</a> if you want to download gridded datafiles for the running year. They are released on a monthly basis. These files will be replaced with every monthly update and removed after the next full update of the E-OBS dataset.
+		Follow this <a href="access_eobs_months.php">link</a> if you want to download gridded datafiles for full months of the running year. They are released on a monthly basis. These files will be replaced with every monthly update and removed after the next full update of the E-OBS dataset. Preliminary <a href="access_eobs_daily.php">daily updates</a> are available for temperature and precipitation for the last 60 days (up to yesterday).
 	
 		<!-- <h3>Visualize daily maps</h3> -->
 		
