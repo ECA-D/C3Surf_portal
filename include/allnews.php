@@ -66,6 +66,10 @@ session_start();
 		    </tr>
 
 		    <tr>
+		      <td>16 May 2022</td>
+                        <td>Monthly <a href="<?php echo \$webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</td>
+		    </tr>		  
+		    <tr>
 		      <td>12 May 2022</td>
 	              <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs_daily.php">Preliminary daily E-OBS updates</a> (up to yesterday) for temperature and precipitation released</td>
 		    </tr>		  
