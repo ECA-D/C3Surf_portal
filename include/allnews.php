@@ -66,6 +66,10 @@ session_start();
 		    </tr>
 
 		    <tr>
+		      <td>17 June 2022</td>
+                        <td>Monthly <a href="<?php echo \$webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</td>
+		    </tr>		  
+		    <tr>
 		      <td>16 May 2022</td>
                         <td>Monthly <a href="<?php echo \$webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</td>
 		    </tr>		  
