@@ -14,7 +14,7 @@ session_start();
     <meta name="generator" content="Drupal 7 (https://drupal.org)">
     <link rel="canonical" href="https://climate.copernicus.eu/events">
     <link rel="shortlink" href="https://climate.copernicus.eu/events">
- <title>Monitoring European climate using surface observations | Copernicus Climate Change Service</title>
+ <title>Climate Stripes 2022</title>
     
     <script src="https://www.w3schools.com/lib/w3.js"></script>
     
@@ -33,8 +33,7 @@ session_start();
 	    <div class="region region-static-page-title col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
 	      <div class="row-fluid">
 		<div id="block-delta-blocks-page-title" class="block block-delta-blocks col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
-<!--		  <h1 id="page-title" class="title">Climate monitoring products for Europe based on Surface <i>in-situ</i> Observations</h1>-->
-		  <h1 id="page-title" class="title">Monitoring European climate using surface observations</h1>
+		  <h1 id="page-title" class="title">Climate Stripes 2022</h1>
 		</div> <!-- /.block -->
 	      </div>
 	    </div>
@@ -51,23 +50,14 @@ session_start();
 	      <div class="row-fluid">
 		
 		<!-- Breadcrum -->
-		<h2 class="element-invisible">You are here</h2><div class="breadcrumb"><span class="inline odd first"><a href="https://climate.copernicus.eu/">Home</a></span></div>
+		<h2 class="element-invisible">You are here</h2><div class="breadcrumb"><span class="inline odd first"><a href="https://surfobs.climate.copernicus.eu/">Home</a></span></div>
 
 		<!-- Main part -->
 		<div id="block-system-main" class="block block-system col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
 
-		  <!-- <img alt="" src="images/rr_20010312_eobsv15.0.png" style="width: 100%;" /> -->
 		  <table>
-<!-- 		    <tr> -->
-<!-- 		  <td><img alt="" src="images/climate_stripes_1950-2021_v24.0e_anom91-20.png" style="width: 100%;" /></td> -->
-<!-- </tr> -->
-<!-- 		    <tr> -->
 		  <td><img alt="" src="images/stripes_eobs_1950-2021-1.png" style="width: 100%;" /></td>
 </tr>
-<!-- <tr><td> -->
-<!-- 		  <img alt="" src="images/stripes_eobs_1971-2021-1.png" style="width: 70.8%;" height="280px" align="right" /> -->
-<!-- </td> -->
-<!-- </tr> -->
 <tr><td>
 		  <img alt="" src="images/NGCD_v22.03_type1_tg_climate_stripes.png" style="width: 70.8%;" height="280px" align="right" />
 </td>
@@ -79,25 +69,6 @@ session_start();
 		  The bottom figure shows climate stripes from 1971 - 2021 based on the area averaged temperature from NGCD.
 
 <br><br>
-This service provides climate monitoring products for Europe, based on surface in-situ observations. Data are collected by ground-based observation networks, owned and operated by the National Meteorological Services and others. Many thousands of historical observations are processed to prepare datasets, maps and graphs of basic variables like temperature and precipitation, as well as a large number of derived impact-oriented climate indicators. In monthly and annual State-of-the-European-climate reports, recent developments are presented and put in historical perspective.
-<br><br>
-			  <table cellspacing="10" cellpadding="10">
-		    <tbody>
-		      <tr>
-			<td class="product-startpage" style="width: 17%; background-color: #FF9C32;">
-			  <h2 style="text-align: center;"><a style="color: #ffffff;" href="<?php echo $webhost;?>/dataaccess/index.php">Data access</a></h2>
-			</td>
-			<td style="width: 2%; "> </td>
-			<td class="product-startpage" style="width: 17%; background-color: #006699;">
-			  <h2 style="text-align: center;"><a style="color: #ffffff;" href="dataaccess/indicators.php">Indicators</a></h2>
-			</td>
-			<td style="width: 2%; "> </td>
-			<td class="product-startpage" style="width: 17%; background-color: #04B404;">
-			  <h2 style="text-align: center;"><a style="color: #ffffff;" href="stateoftheclimate/index.php">State of the European climate</a></h2>
-			</td>
-		      </tr>
-		    </tbody>
-		  </table>
 
 </div>	  
  	       </div> <!-- /.block -->

@@ -70,6 +70,10 @@ session_start();
                         <td>Monthly <a href="<?php echo \$webhost;?>/dataaccess/access_eobs_indices_months.php">E-OBS indices</a> updates released</td>
 		    </tr>		  
 		    <tr>
+		      <td>21 June 2022</td>
+                        <td><a href="<?php echo \$webhost;?>/climate_stripes_2022.php">Climate Stripes Diagrams</a> from E-OBS and NGCD have been created as part of the #ShowYourStripes day</td>
+		    </tr>		  
+		    <tr>
 		      <td>17 June 2022</td>
                         <td>Monthly <a href="<?php echo \$webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates released</td>
 		    </tr>		  
