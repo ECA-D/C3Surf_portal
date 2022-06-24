@@ -65,11 +65,13 @@ session_start();
 		  E-OBS dataset. The datafiles below provide climate
 		  indices derived using daily minimum temperature
 		  (TN), daily maximum temperature (TX) and daily
-		  precipitation sum (RR). The datafiles are in
-		  compressed NetCDF-4 format. Note that the ETCCDI
-		  indices are marked with *.<br><br>scPDSI has monthly values, 
-                  while UTCI, PET-MK and PET-PM have daily values. scPDSI uses
-                  PET-MK as one of the input elements.
+		  precipitation sum (RR), global radiation (QQ),
+		  relative humidity (HU) and wind speed (FG). The
+		  datafiles are in compressed NetCDF-4 format. Note
+		  that the ETCCDI indices are marked with
+		  *.<br><br>All indices have monthly values, except
+		  UTCI, PET-MK and PET-PM which have daily values. scPDSI uses
+		  PET-MK as one of the input elements.
   
 		  <h3>Terms of use</h3>
 
@@ -262,8 +264,8 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Potential EvapoTranspiration (Penman-Monteith) (PET-PM)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"> <a href="../data/indices/eobs/mon/multi/petmk_0.25deg_2021_daily.nc">2021</a> | <a href="../data/indices/eobs/mon/multi/petmk_0.25deg_2022_daily.nc">2022</a>  </td>
-		      <td width="33%"> <a href="../data/indices/eobs/mon/multi/petpm_0.25deg_2021_daily.nc">2021</a> | <a href="../data/indices/eobs/mon/multi/petpm_0.25deg_2022_daily.nc">2022</a>  </td>
+		      <td width="33%">Daily: <a href="../data/indices/eobs/mon/multi/petmk_0.25deg_2021_daily.nc">2021</a> | <a href="../data/indices/eobs/mon/multi/petmk_0.25deg_2022_daily.nc">2022</a>  </td>
+		      <td width="33%">Daily: <a href="../data/indices/eobs/mon/multi/petpm_0.25deg_2021_daily.nc">2021</a> | <a href="../data/indices/eobs/mon/multi/petpm_0.25deg_2022_daily.nc">2022</a>  </td>
 		    </tr>
 		    </tbody>
 		  </table>
@@ -275,8 +277,8 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Universal Thermal Climate Index (UTCI)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%"> <a href="../data/indices/eobs/mon/multi/scpdsi_0.25deg_2021_monthly.nc">2021</a> | <a href="../data/indices/eobs/mon/multi/scpdsi_0.25deg_2022_monthly.nc">2022</a>  </td>
-		      <td width="33%"> <a href="../data/indices/eobs/mon/multi/utci_0.25deg_2021_daily.nc">2021</a> | <a href="../data/indices/eobs/mon/multi/utci_0.25deg_2022_daily.nc">2022</a>  </td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/multi/scpdsi_0.25deg_2022_monthly.nc">2022</a>  </td>
+		      <td width="33%">Daily: <a href="../data/indices/eobs/mon/multi/utci_0.25deg_2021_daily.nc">2021</a> | <a href="../data/indices/eobs/mon/multi/utci_0.25deg_2022_daily.nc">2022</a>  </td>
 		    </tr>
 		    </tbody>
 		  </table>

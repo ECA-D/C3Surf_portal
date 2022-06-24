@@ -66,12 +66,16 @@ session_start();
 		    </tr>
 
 		    <tr>
+		      <td>24 June 2022</td>
+                        <td>Monthly <a href="<?php echo \$webhost;?>/dataaccess/access_eobs_indices_months.php">E-OBS indices</a> updates released</td>
+		    </tr>		  
+		    <tr>
 		      <td>17 June 2022</td>
-                        <td>Monthly <a href="<?php echo \$webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</td>
+                        <td>Monthly <a href="<?php echo \$webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates released</td>
 		    </tr>		  
 		    <tr>
 		      <td>16 May 2022</td>
-                        <td>Monthly <a href="<?php echo \$webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</td>
+                        <td>Monthly <a href="<?php echo \$webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates released</td>
 		    </tr>		  
 		    <tr>
 		      <td>12 May 2022</td>
@@ -87,19 +91,19 @@ session_start();
 		    </tr>
 		    <tr>
 		      <td>21 April 2022</td>
-	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</td>
+	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates released</td>
 		    </tr> 
 		    <tr>
 		      <td>10 March 2022</td>
-	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</td>
+	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates released</td>
 		    </tr> 
 		    <tr>
 		      <td>14 February 2022</td>
-	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</td>
+	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates released</td>
 		    </tr> 
 		    <tr>
 		      <td>25 January 2022</td>
-	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> update released</td>
+	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates released</td>
 		    </tr> 
 		    <tr>
 		      <td>18 November 2021</td>

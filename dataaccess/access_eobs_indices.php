@@ -647,6 +647,9 @@ session_start();
 		  </table>
 		  </div>
 
+		  <h3>Monthly indices updates</h3>
+		  Preliminary monthly updates of the indices based on E-OBS are available as well. These are <a href="access_eobs_indices_months.php">available</a> from January 2021 onwards with a monthly resolution, except for PET-MK, PET-PM and UTCI which have a daily resolution.
+
 		</div>	  
 	      </div>
 	      
