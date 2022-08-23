@@ -56,29 +56,12 @@ session_start();
 		<!-- Main part -->
 		<div id="block-system-main" class="block block-system col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
 
-		  <!-- <img alt="" src="images/rr_20010312_eobsv15.0.png" style="width: 100%;" /> -->
+		  <img alt="" src="images/rr_20010312_eobsv15.0.png" style="width: 100%;" />
 		  <table>
-<!-- 		    <tr> -->
-<!-- 		  <td><img alt="" src="images/climate_stripes_1950-2021_v24.0e_anom91-20.png" style="width: 100%;" /></td> -->
-<!-- </tr> -->
-<!-- 		    <tr> -->
-		  <td><img alt="" src="images/stripes_eobs_1950-2021-1.png" style="width: 100%;" /></td>
-</tr>
-<!-- <tr><td> -->
-<!-- 		  <img alt="" src="images/stripes_eobs_1971-2021-1.png" style="width: 70.8%;" height="280px" align="right" /> -->
-<!-- </td> -->
-<!-- </tr> -->
-<tr><td>
-		  <img alt="" src="images/NGCD_v22.03_type1_tg_climate_stripes.png" style="width: 70.8%;" height="280px" align="right" />
-</td>
 </tr>
 </table>
 <br><br>
 
-		  The top figure shows the <a href="https://public.wmo.int/en/media/news/show-your-stripes-0" target="_blank">climate stripes</a> from 1950 - 2021 based on the European temperature as derived from E-OBS.
-		  The bottom figure shows climate stripes from 1971 - 2021 based on the area averaged temperature from NGCD.
-
-<br><br>
 This service provides climate monitoring products for Europe, based on surface in-situ observations. Data are collected by ground-based observation networks, owned and operated by the National Meteorological Services and others. Many thousands of historical observations are processed to prepare datasets, maps and graphs of basic variables like temperature and precipitation, as well as a large number of derived impact-oriented climate indicators. In monthly and annual State-of-the-European-climate reports, recent developments are presented and put in historical perspective.
 <br><br>
 			  <table cellspacing="10" cellpadding="10">
