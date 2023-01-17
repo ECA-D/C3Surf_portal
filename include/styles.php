@@ -40,13 +40,15 @@ session_start();
 <link type="text/css" rel="stylesheet" href="<?php echo $webhost;?>/include/jquery-ui.css" media="all">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120020479-1"></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120020479-1"></script> -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-261104MHWM"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-120020479-1',{ 'anonymize_ip': true });
+  <!-- gtag('config', 'UA-120020479-1',{ 'anonymize_ip': true }); -->
+  gtag('config', 'G-261104MHWM',{ 'anonymize_ip': true });
 </script>
     
 <script src="<?php echo $webhost;?>/theme/gtm.js" async=""></script><script src="<?php echo $webhost;?>/theme/analytics.js" async=""></script><script src="<?php echo $webhost;?>/theme/js_0qlzNmRd5eIzax2ZtoBiFWuErHnH9F8BMadDVEP1yxs.js"></script>
