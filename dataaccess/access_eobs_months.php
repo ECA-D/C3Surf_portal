@@ -59,7 +59,7 @@ session_start();
 		<!-- Main part --> <div id="block-system-main"
 		class="block block-system col-xs-12 col-sm-12
 		col-md-12 col-lg-12 clearfix"> 
-<b>We are organizing two E-OBS splinter meetings at the EGU 2023 in Vienna on Wednesday 26 April at 16:15-18:00h and Thursday 27 April at 14:00-15:45h. Feel free to join us! The aim of these splinter meetings is to have a conversation with users and learn about issues and wishes of the user community.</b>
+<b>We are organizing two E-OBS splinter meetings at the EGU 2023 in Vienna on Wednesday 26 April at 16:15-18:00h and Thursday 27 April at 14:00-15:45h. Feel free to join us! <br>The aim of these splinter meetings is to have a conversation with users and learn about issues and wishes of the user community.</b>
 <br><br>
 
 
