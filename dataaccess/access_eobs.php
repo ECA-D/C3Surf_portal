@@ -62,6 +62,9 @@ session_start();
 		<!-- Main part -->
 		<div id="block-system-main" class="block block-system col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
 
+<b>We are organizing two E-OBS splinter meetings at the EGU 2023 in Vienna on Wednesday 26 April at 16:15-18:00h and Thursday 27 April at 14:00-15:45h. Feel free to join us!</b>
+<br><br>
+
 		  This is the download page for the daily gridded observational dataset for precipitation, temperature, sea level pressure, global radiation and wind speed in Europe called E-OBS. For questions regarding E-OBS, please contact us at <a href="mailto:&#101;&#099;&#097;&#064;&#107;&#110;&#109;&#105;&#046;&#110;&#108;?subject=Questions E-OBS">&#101;&#099;&#097;&#064;&#107;&#110;&#109;&#105;&#046;&#110;&#108;</a>.
 		  
 		  
