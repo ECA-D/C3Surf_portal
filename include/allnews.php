@@ -66,6 +66,10 @@ session_start();
 		    </tr>
 
 		    <tr>
+		      <td>16 March 2023</td>
+	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates and monthly <a href="<?php echo \$webhost;?>/dataaccess/access_eobs_indices_months.php">E-OBS indices</a> updates released</td>
+		    </tr> 
+		    <tr>
 		      <td>14 March 2023</td>
 	              <td>We are organizing two E-OBS splinter meetings at the EGU 2023 in Vienna on Wednesday 26 April at 16:15-18:00h and Thursday 27 April at 14:00-15:45h. Feel free to join us!</td>
 		    </tr> 
