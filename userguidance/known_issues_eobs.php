@@ -275,6 +275,46 @@ Example showing the island-like structure for wind speed on 17 January
 </p>
 		  </div>
 
+
+		  <button class="accordion">Temperature issue in v26.0e</button>
+		  <div class="panel">
+		    <p>
+                     A large amount of new data has become available
+                     from the Polish Institute of Meteorology and
+                     Water Management IMGW. These data have been used
+                     in the calculation of E-OBSv26.0e but a metadata
+                     issue was detected which resulted in too low
+                     daily maximum temperatures over Poland. Daily
+                     minimum temperature was affected as well, but
+                     much less strongly. These low daily maximum
+                     temperatures were absent in the preceding version
+                     (v25.0e) and are absent in the following version
+                     (v27.0e).
+
+		     <table>
+		       <tr>
+			 <td>
+			   <a href="../images/knownissues/tn_0.25deg_1991-2020_v26.0e_timemean.png"><img alt="" src="../images/knownissues/tn_0.25deg_1991-2020_v26.0e_timemean.png" width="250px"></a>
+			 </td>
+			 <td>
+			   <a href="../images/knownissues/tx_0.25deg_1991-2020_v26.0e_timemean.png"><img alt="" src="../images/knownissues/tx_0.25deg_1991-2020_v26.0e_timemean.png" width="250px"></a>
+			 </td>
+		       </tr>
+		       <tr>
+			 <td>
+			   <a href="../images/knownissues/tn_0.25deg_1991-2020_v27.0e_timemean.png"><img alt="" src="../images/knownissues/tn_0.25deg_1991-2020_v27.0e_timemean.png" width="250px"></a>
+			 </td>
+			 <td>
+			   <a href="../images/knownissues/tx_0.25deg_1991-2020_v27.0e_timemean.png"><img alt="" src="../images/knownissues/tx_0.25deg_1991-2020_v27.0e_timemean.png" width="250px"></a>
+			 </td>
+		       </tr>
+		     </table>
+		     <em> Plots of the annuam mean daily minimum (left) and daily maximum (right) temperature
+		     over the period 1991-2020 for E-OBSv26.0e (top row)
+		     and E-OBSv27.0e (bottom row).</em>
+		    </p>
+		  </div>
+
                 </div>
               </div>
 

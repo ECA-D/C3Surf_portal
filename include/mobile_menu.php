@@ -142,6 +142,8 @@ session_start();
         </li>
         <li class="mmenu-mm-list-mlid-2183 mmenu-mm-list-path-node-643"><a href="<?php echo $webhost;?>/userguidance/indicesdictionary.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Indices dictionary</span></a>
         </li>
+        <li class="mmenu-mm-list-mlid-2183 mmenu-mm-list-path-node-643"><a href="<?php echo $webhost;?>/userguidance/daily_vs_full_eobs.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Differences daily, monthly and full E-OBS updates</span></a>
+        </li>
         <li class="mmenu-mm-list-mlid-2183 mmenu-mm-list-path-node-643"><a href="<?php echo $webhost;?>/userguidance/uncertainty_indices.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Uncertainty on the indices</span></a>
         </li>
         <li class="mmenu-mm-list-mlid-2183 mmenu-mm-list-path-node-643"><a href="<?php echo $webhost;?>/userguidance/manuals.php" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">User manuals</span></a>

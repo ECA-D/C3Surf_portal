@@ -187,6 +187,8 @@
                      <ul>
 		      <li><a href="<?php echo $webhost;?>/userguidance/use_ensembles.php"><span>How to use ensemble datasets</span></a>
 		      </li>
+		      <li><a href="<?php echo $webhost;?>/userguidance/daily_vs_full_eobs.php"><span>Differences daily, monthly and full E-OBS updates</span></a>
+		      </li>
                       <li><a href="<?php echo $webhost;?>/userguidance/indicesdictionary.php"><span>Indices dictionary</span></a>
                       </li>
 		      <li><a href="<?php echo $webhost;?>/userguidance/uncertainty_indices.php"><span>Uncertainty on the indices</span></a>

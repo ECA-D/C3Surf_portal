@@ -90,6 +90,22 @@ session_start();
 			<td width="50%"><span style="color:#FFFFFF;"><strong>Modification</strong></span></td>    
 		      </tr>
 		      <tr  bgcolor="#ffffff" >
+			<td><a href="access_eobs.php#datafiles">27.0e</a></td>
+			<td>April 2023</td>
+			<td>1950-01-01 - 2022-12-31</td>
+			<td>
+Included a large number of new stations and series for Denmark and a few for Finland. Fixed a <a href="../userguidance/known_issues_eobs.php">temperature problem</a> for Polish temperature series.
+Continued monthly, half-yearly and yearly updates for Germany, Czech
+			Republic, Bosnia and Herzegovina, Norway,
+			Slovenia, Finland, Ireland, Estonia, Sweden,
+			Luxembourg, Netherlands, Portugal, Spain,
+			Switzerland, Italy (Emilia-Romagna),
+			Montenegro, Belgium, France, Denmark, UK and
+			the regional meteorological service of
+			Catalonia (Spain). The full ensemble can be
+			made available on request. </td>
+		      </tr>
+		      <tr  bgcolor="#ffffff" >
 			<td><a href="access_eobs.php#datafiles">26.0e</a></td>
 			<td>October 2022</td>
 			<td>1950-01-01 - 2022-06-30</td>
@@ -330,6 +346,24 @@ several <i>known issues</i> in the E-OBS dataset has been provided.
 
 		<table  border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
 		  <tbody>
+		    <tr bgcolor="#941333" height="40px">
+		      <td style="color:#FFFFFF;"><b>Version 27.0e</b></td>
+		      <td style="color:#FFFFFF;"><b>Ensemble mean</b></td>
+		      <td style="color:#FFFFFF;"><b>Ensemble spread</b></td>
+		      <td style="color:#FFFFFF;"><b>Elevation</b></td>      
+		    </tr>
+		    <tr>
+		      <td>0.1 deg. regular grid</td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ens_mean_0.1deg_reg_v27.0e.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ens_mean_0.1deg_reg_v27.0e.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ens_mean_0.1deg_reg_v27.0e.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ens_mean_0.1deg_reg_v27.0e.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ens_mean_0.1deg_reg_v27.0e.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/hu_ens_mean_0.1deg_reg_v27.0e.nc">HU</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/fg_ens_mean_0.1deg_reg_v27.0e.nc">FG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/qq_ens_mean_0.1deg_reg_v27.0e.nc">QQ</a> </td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ens_spread_0.1deg_reg_v27.0e.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ens_spread_0.1deg_reg_v27.0e.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ens_spread_0.1deg_reg_v27.0e.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ens_spread_0.1deg_reg_v27.0e.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ens_spread_0.1deg_reg_v27.0e.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/hu_ens_spread_0.1deg_reg_v27.0e.nc">HU</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/fg_ens_spread_0.1deg_reg_v27.0e.nc">FG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/qq_ens_spread_0.1deg_reg_v27.0e.nc">QQ</a> </td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/elev_ens_0.1deg_reg_v27.0e.nc">all elements</a></td>      
+		    </tr>
+		    <tr>
+		      <td>0.25 deg. regular grid</td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tg_ens_mean_0.25deg_reg_v27.0e.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tn_ens_mean_0.25deg_reg_v27.0e.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tx_ens_mean_0.25deg_reg_v27.0e.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/rr_ens_mean_0.25deg_reg_v27.0e.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/pp_ens_mean_0.25deg_reg_v27.0e.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/hu_ens_mean_0.25deg_reg_v27.0e.nc">HU</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/fg_ens_mean_0.25deg_reg_v27.0e.nc">FG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/qq_ens_mean_0.25deg_reg_v27.0e.nc">QQ</a> </td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tg_ens_spread_0.25deg_reg_v27.0e.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tn_ens_spread_0.25deg_reg_v27.0e.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tx_ens_spread_0.25deg_reg_v27.0e.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/rr_ens_spread_0.25deg_reg_v27.0e.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/pp_ens_spread_0.25deg_reg_v27.0e.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/hu_ens_spread_0.25deg_reg_v27.0e.nc">HU</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/fg_ens_spread_0.25deg_reg_v27.0e.nc">FG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/qq_ens_spread_0.25deg_reg_v27.0e.nc">QQ</a> </td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/elev_ens_0.25deg_reg_v27.0e.nc">all elements</a></td>      
+		    </tr>
 		    <tr bgcolor="#941333" height="40px">
 		      <td style="color:#FFFFFF;"><b>Version 26.0e</b></td>
 		      <td style="color:#FFFFFF;"><b>Ensemble mean</b></td>
