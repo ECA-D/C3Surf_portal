@@ -63,6 +63,38 @@ session_start();
 		<table  border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="50%">
 		  <tbody>
 		    <tr bgcolor="#941333" height="40px">
+		      <td width="25%" style="color:#FFFFFF;"><b>Year</b></td>
+		    </tr>
+		    <tr>
+		      <td><a href="https://climate.copernicus.eu/ESOTC/2022">2022</a>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td><a href="https://climate.copernicus.eu/ESOTC/2021">2021</a>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td><a href="https://climate.copernicus.eu/ESOTC/2020">2020</a>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td><a href="https://climate.copernicus.eu/ESOTC/2019">2019</a>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td><a href="https://climate.copernicus.eu/ESOTC/2018">2018</a>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td><a href="year2017.php">2017</a>
+		      </td>
+		    </tr>
+		  <tbody>
+		</table>
+
+		<table  border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="50%">
+		  <tbody>
+		    <tr bgcolor="#941333" height="40px">
 		      <td width="25%" style="color:#FFFFFF;"><b>Month</b></td>
 		    </tr>
 		    <tr>
@@ -248,37 +280,6 @@ session_start();
 		  <tbody>
 		</table>
 		
-		<table  border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="50%">
-		  <tbody>
-		    <tr bgcolor="#941333" height="40px">
-		      <td width="25%" style="color:#FFFFFF;"><b>Year</b></td>
-		    </tr>
-		    <tr>
-		      <td><a href="https://climate.copernicus.eu/ESOTC/2022">2022</a>
-		      </td>
-		    </tr>
-		    <tr>
-		      <td><a href="https://climate.copernicus.eu/ESOTC/2021">2021</a>
-		      </td>
-		    </tr>
-		    <tr>
-		      <td><a href="https://climate.copernicus.eu/ESOTC/2020">2020</a>
-		      </td>
-		    </tr>
-		    <tr>
-		      <td><a href="https://climate.copernicus.eu/ESOTC/2019">2019</a>
-		      </td>
-		    </tr>
-		    <tr>
-		      <td><a href="https://climate.copernicus.eu/ESOTC/2018">2018</a>
-		      </td>
-		    </tr>
-		    <tr>
-		      <td><a href="year2017.php">2017</a>
-		      </td>
-		    </tr>
-		  <tbody>
-		</table>
 
 		</div>	  
 	      </div>
