@@ -167,6 +167,8 @@
                       </li>
                       <li><a href="<?php echo $thispage;?>"><span>Annual reports</span></a>
                        <ul>
+                        <li><a href="https://climate.copernicus.eu/ESOTC/2022"><span>2022</span></a>
+                        </li>
                         <li><a href="https://climate.copernicus.eu/ESOTC/2021"><span>2021</span></a>
                         </li>
                         <li><a href="https://climate.copernicus.eu/ESOTC/2020"><span>2020</span></a>
@@ -177,6 +179,8 @@
                         </li>
                         <li><a href="<?php echo $webhost;?>/stateoftheclimate/year2017.php"><span>2017</span></a>
                         </li>
+                      <li><a href="<?php echo $webhost;?>/stateoftheclimate/all_annual_reports.php"><span>All reports</span></a>
+		       </li>
                        </ul>
                       </li>
                       <li><a href="<?php echo $webhost;?>/stateoftheclimate/observed_extremes.php"><span>Observed temperature extremes</span></a>
