@@ -38,6 +38,15 @@ session_start();
 
                     <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
                       <div class="views-field views-field-field-date">
+                        <div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">8 May 2023</span>
+                        </div>
+                      </div>
+                    <div class="views-field views-field-title"><span class="field-content">Mean temperature for the period 1960-1969 has been replaced in <a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBSv27.0e</a> as only the northern part of Europe was included. Other periods and elements remained unchanged.</span>
+</div>
+                   </div>
+
+                    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
+                      <div class="views-field views-field-field-date">
                         <div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">20 April 2023</span>
                         </div>
                       </div>
@@ -126,132 +135,6 @@ session_start();
 		      </div>
 		    </div>
 
-                    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-                      <div class="views-field views-field-field-date">
-                        <div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">20 September 2022</span>
-                        </div>
-                      </div>
-                    <div class="views-field views-field-title"><span class="field-content"> Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates and monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices_months.php">E-OBS indices</a> updates released</span>
-</div>
-                   </div>
-
-                    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-                      <div class="views-field views-field-field-date">
-                        <div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">12 August 2022</span>
-                        </div>
-                      </div>
-                    <div class="views-field views-field-title"><span class="field-content"> Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates and monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices_months.php">E-OBS indices</a> updates released</span>
-</div>
-                   </div>
-
-                    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-                      <div class="views-field views-field-field-date">
-                        <div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">15 July 2022</span>
-                        </div>
-                      </div>
-                    <div class="views-field views-field-title"><span class="field-content"> Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates released</span>
-</div>
-                   </div>
-
-                     <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-                      <div class="views-field views-field-field-date">
-                        <div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">24 June 2022</span>
-                        </div>
-                      </div>
-                    <div class="views-field views-field-title"><span class="field-content"> Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices_months.php">E-OBS indices</a> updates released</span>
-</div>
-                   </div>
-
-                    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-                      <div class="views-field views-field-field-date">
-                        <div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">21 June 2022</span>
-                        </div>
-                      </div>
-                    <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/climate_stripes_2022.php">Climate Stripes Diagrams</a> from E-OBS and NGCD have been created as part of the #ShowYourStripes day.</span>
-</div>
-                   </div>
-
-                    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-                      <div class="views-field views-field-field-date">
-                        <div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">17 June 2022</span>
-                        </div>
-                      </div>
-                    <div class="views-field views-field-title"><span class="field-content"> Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates released</span>
-</div>
-                   </div>
-
-                    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-                      <div class="views-field views-field-field-date">
-                        <div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">16 May 2022</span>
-                        </div>
-                      </div>
-                    <div class="views-field views-field-title"><span class="field-content"> Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates released</span>
-</div>
-                   </div>
-
-
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-		    	<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">12 May 2022</span>
-		    	</div>
-		      </div>
-		      <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/dataaccess/access_eobs_daily.php">Preliminary daily E-OBS updates</a> (up to yesterday) for temperature and precipitation released</span>
-		      </div>
-		    </div>
-
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-		    	<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">22 April 2022</span>
-		    	</div>
-		      </div>
-		      <div class="views-field views-field-title"><span class="field-content"><a href="https://climate.copernicus.eu/ESOTC/2021">Annual State-of-the-climate 2021</a> released</span>
-		      </div>
-		    </div>
-
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-		    	<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">21 April 2022</span>
-		    	</div>
-		      </div>
-		      <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBSv25.0e</a> has been released</span>
-		      </div>
-		    </div>
-
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">21 April 2022</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content">Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates released</span>
-		      </div>
-		    </div>
-
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">10 March 2022</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content">Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates released</span>
-		      </div>
-		    </div>
-
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">14 February 2022</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content">Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates released</span>
-		      </div>
-		    </div>
-
-		    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
-		      <div class="views-field views-field-field-date">
-			<div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">25 January 2022</span>
-			</div>
-		      </div>  
-		      <div class="views-field views-field-title"><span class="field-content">Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates released</span>
-		      </div>
-		    </div>
 
 
 
