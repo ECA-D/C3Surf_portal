@@ -520,6 +520,10 @@ several <i>known issues</i> in the E-OBS dataset has been provided.
 		<table>
 		  <tbody>
 		    <tr> 
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_tg_v27.0e.txt">TG (v27.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_tn_v27.0e.txt">TN (v27.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_tx_v27.0e.txt">TX (v27.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_rr_v27.0e.txt">RR (v27.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_pp_v27.0e.txt">PP (v27.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_hu_v27.0e.txt">HU (v27.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_fg_v27.0e.txt">FG (v27.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_qq_v27.0e.txt">QQ (v27.0e)</a> 
+		      </td>
+		    </tr>
+		    <tr> 
 		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_tg_v26.0e.txt">TG (v26.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_tn_v26.0e.txt">TN (v26.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_tx_v26.0e.txt">TX (v26.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_rr_v26.0e.txt">RR (v26.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_pp_v26.0e.txt">PP (v26.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_hu_v26.0e.txt">HU (v26.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_fg_v26.0e.txt">FG (v26.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_qq_v26.0e.txt">QQ (v26.0e)</a> 
 		      </td>
 		    </tr>
