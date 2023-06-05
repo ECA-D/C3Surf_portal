@@ -113,7 +113,7 @@ function test_input($data) {
 
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
   Year:
-  <input type="radio" name="year" <?php if (isset($year) && $year=="2022") echo "checked";?> value="2022">2022
+<!--  <input type="radio" name="year" <?php if (isset($year) && $year=="2022") echo "checked";?> value="2022">2022-->
   <input type="radio" name="year" <?php if (isset($year) && $year=="2023") echo "checked";?> value="2023">2023
 <span class="error">* <?php echo $yearErr;?></span>
   <br><br>
