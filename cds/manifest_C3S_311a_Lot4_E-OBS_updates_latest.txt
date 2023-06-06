@@ -222,7 +222,6 @@ https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ens
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ensemble_0.1deg_reg_2019_v25.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ensemble_0.1deg_reg_2020_v25.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ensemble_0.1deg_reg_2021_v25.0e.nc
-https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ensemble_0.1deg_reg_2022_v25.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ensemble_0.1deg_reg_1950_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ensemble_0.1deg_reg_1951_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ensemble_0.1deg_reg_1952_v26.0e.nc
@@ -295,7 +294,6 @@ https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ens
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ensemble_0.1deg_reg_2019_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ensemble_0.1deg_reg_2020_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ensemble_0.1deg_reg_2021_v26.0e.nc
-https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ensemble_0.1deg_reg_2022_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ensemble_0.1deg_reg_1950_v27.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ensemble_0.1deg_reg_1951_v27.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ensemble_0.1deg_reg_1952_v27.0e.nc
@@ -561,7 +559,6 @@ https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ens
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ensemble_0.1deg_reg_2019_v25.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ensemble_0.1deg_reg_2020_v25.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ensemble_0.1deg_reg_2021_v25.0e.nc
-https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ensemble_0.1deg_reg_2022_v25.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ensemble_0.1deg_reg_1950_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ensemble_0.1deg_reg_1951_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ensemble_0.1deg_reg_1952_v26.0e.nc
@@ -634,7 +631,6 @@ https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ens
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ensemble_0.1deg_reg_2019_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ensemble_0.1deg_reg_2020_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ensemble_0.1deg_reg_2021_v26.0e.nc
-https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ensemble_0.1deg_reg_2022_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ensemble_0.1deg_reg_1950_v27.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ensemble_0.1deg_reg_1951_v27.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ensemble_0.1deg_reg_1952_v27.0e.nc
@@ -900,7 +896,6 @@ https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ens
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ensemble_0.1deg_reg_2019_v25.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ensemble_0.1deg_reg_2020_v25.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ensemble_0.1deg_reg_2021_v25.0e.nc
-https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ensemble_0.1deg_reg_2022_v25.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ensemble_0.1deg_reg_1950_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ensemble_0.1deg_reg_1951_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ensemble_0.1deg_reg_1952_v26.0e.nc
@@ -973,7 +968,6 @@ https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ens
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ensemble_0.1deg_reg_2019_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ensemble_0.1deg_reg_2020_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ensemble_0.1deg_reg_2021_v26.0e.nc
-https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ensemble_0.1deg_reg_2022_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ensemble_0.1deg_reg_1950_v27.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ensemble_0.1deg_reg_1951_v27.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ensemble_0.1deg_reg_1952_v27.0e.nc
@@ -1239,7 +1233,6 @@ https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ens
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ensemble_0.1deg_reg_2019_v25.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ensemble_0.1deg_reg_2020_v25.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ensemble_0.1deg_reg_2021_v25.0e.nc
-https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ensemble_0.1deg_reg_2022_v25.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ensemble_0.1deg_reg_1950_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ensemble_0.1deg_reg_1951_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ensemble_0.1deg_reg_1952_v26.0e.nc
@@ -1312,7 +1305,6 @@ https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ens
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ensemble_0.1deg_reg_2019_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ensemble_0.1deg_reg_2020_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ensemble_0.1deg_reg_2021_v26.0e.nc
-https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ensemble_0.1deg_reg_2022_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ensemble_0.1deg_reg_1950_v27.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ensemble_0.1deg_reg_1951_v27.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ensemble_0.1deg_reg_1952_v27.0e.nc
@@ -1578,7 +1570,6 @@ https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ens
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ensemble_0.1deg_reg_2019_v25.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ensemble_0.1deg_reg_2020_v25.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ensemble_0.1deg_reg_2021_v25.0e.nc
-https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ensemble_0.1deg_reg_2022_v25.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ensemble_0.1deg_reg_1950_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ensemble_0.1deg_reg_1951_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ensemble_0.1deg_reg_1952_v26.0e.nc
@@ -1651,7 +1642,6 @@ https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ens
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ensemble_0.1deg_reg_2019_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ensemble_0.1deg_reg_2020_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ensemble_0.1deg_reg_2021_v26.0e.nc
-https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ensemble_0.1deg_reg_2022_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ensemble_0.1deg_reg_1950_v27.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ensemble_0.1deg_reg_1951_v27.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ensemble_0.1deg_reg_1952_v27.0e.nc
@@ -1917,7 +1907,6 @@ https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ens
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/qq_ensemble_0.1deg_reg_2019_v25.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/qq_ensemble_0.1deg_reg_2020_v25.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/qq_ensemble_0.1deg_reg_2021_v25.0e.nc
-https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/qq_ensemble_0.1deg_reg_2022_v25.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/qq_ensemble_0.1deg_reg_1950_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/qq_ensemble_0.1deg_reg_1951_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/qq_ensemble_0.1deg_reg_1952_v26.0e.nc
@@ -1990,7 +1979,6 @@ https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ens
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/qq_ensemble_0.1deg_reg_2019_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/qq_ensemble_0.1deg_reg_2020_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/qq_ensemble_0.1deg_reg_2021_v26.0e.nc
-https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/qq_ensemble_0.1deg_reg_2022_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/qq_ensemble_0.1deg_reg_1950_v27.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/qq_ensemble_0.1deg_reg_1951_v27.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/qq_ensemble_0.1deg_reg_1952_v27.0e.nc
@@ -2256,7 +2244,6 @@ https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ens
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/hu_ensemble_0.1deg_reg_2019_v25.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/hu_ensemble_0.1deg_reg_2020_v25.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/hu_ensemble_0.1deg_reg_2021_v25.0e.nc
-https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/hu_ensemble_0.1deg_reg_2022_v25.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/hu_ensemble_0.1deg_reg_1950_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/hu_ensemble_0.1deg_reg_1951_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/hu_ensemble_0.1deg_reg_1952_v26.0e.nc
@@ -2329,7 +2316,6 @@ https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ens
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/hu_ensemble_0.1deg_reg_2019_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/hu_ensemble_0.1deg_reg_2020_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/hu_ensemble_0.1deg_reg_2021_v26.0e.nc
-https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/hu_ensemble_0.1deg_reg_2022_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/hu_ensemble_0.1deg_reg_1950_v27.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/hu_ensemble_0.1deg_reg_1951_v27.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/hu_ensemble_0.1deg_reg_1952_v27.0e.nc
@@ -2525,7 +2511,6 @@ https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ens
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/fg_ensemble_0.1deg_reg_2019_v25.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/fg_ensemble_0.1deg_reg_2020_v25.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/fg_ensemble_0.1deg_reg_2021_v25.0e.nc
-https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/fg_ensemble_0.1deg_reg_2022_v25.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/fg_ensemble_0.1deg_reg_1980_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/fg_ensemble_0.1deg_reg_1981_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/fg_ensemble_0.1deg_reg_1982_v26.0e.nc
@@ -2568,7 +2553,6 @@ https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ens
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/fg_ensemble_0.1deg_reg_2019_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/fg_ensemble_0.1deg_reg_2020_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/fg_ensemble_0.1deg_reg_2021_v26.0e.nc
-https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/fg_ensemble_0.1deg_reg_2022_v26.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/fg_ensemble_0.1deg_reg_1980_v27.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/fg_ensemble_0.1deg_reg_1981_v27.0e.nc
 https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/fg_ensemble_0.1deg_reg_1982_v27.0e.nc
