@@ -99,7 +99,9 @@ Continued monthly, half-yearly and yearly updates for Germany, Czech
 			Switzerland, Italy (Emilia-Romagna),
 			Montenegro, Belgium, France, Denmark, UK and
 			the regional meteorological service of
-			Catalonia (Spain). The full ensemble can be
+			Catalonia (Spain). Wind speed is available
+			from 1980 onwards, all other elements from
+			1950 onwards. The full ensemble can be
 			made available on request. <br>
 			<b>8 May 2023 Update:</b> Mean temperature for the period 1960-1969 has been replaced as the earlier version only included the northern part of Europe. Other periods and elements remained unchanged.</td>
 		      </tr>
@@ -115,7 +117,9 @@ Continued monthly, half-yearly and yearly updates for Germany, Czech
 			Italy (Emilia-Romagna), Montenegro, Belgium,
 			France, Denmark, UK and the regional
 			meteorological service of Catalonia
-			(Spain). The full ensemble can be made
+			(Spain). Wind speed is available
+			from 1980 onwards, all other elements from
+			1950 onwards. The full ensemble can be made
 			available on request. </td>
 		      </tr>
 		      <tr >
@@ -138,7 +142,9 @@ Continued monthly, half-yearly and yearly updates for Germany, Czech
 			Italy (Emilia-Romagna), Montenegro, Belgium,
 			France, Denmark, UK and the regional
 			meteorological service of Catalonia
-			(Spain). The full ensemble can be made
+			(Spain). Wind speed is available
+			from 1980 onwards, all other elements from
+			1950 onwards. The full ensemble can be made
 			available on request. </td>
 		      </tr>
 		      <tr bgcolor="#ffffff" >
