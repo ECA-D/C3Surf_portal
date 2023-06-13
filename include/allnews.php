@@ -66,13 +66,20 @@ session_start();
 		    </tr>
 
 		    <tr>
+		      <td>13 June 2023</td>
+	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates and monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices_months.php">E-OBS indices</a> updates released</td>
+		    </tr> 
+
+		    <tr>
 		      <td>20 May 2023</td>
 	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates and monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices_months.php">E-OBS indices</a> updates released</td>
 		    </tr> 
+
 		    <tr>
 		      <td>8 May 2023</td>
 	              <td>Mean temperature for the period 1969-1969 has been replaced in <a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBSv27.0e</a> as only the northern part of Europe was included. Other periods and elements remained unchanged.</td>
 		    </tr>		  
+
 		    <tr>
 		      <td>20 April 2023</td>
 	              <td><a href="https://climate.copernicus.eu/ESOTC/2022">Annual State-of-the-climate 2022</a> released</td>
