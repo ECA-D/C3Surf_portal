@@ -315,6 +315,15 @@ Example showing the island-like structure for wind speed on 17 January
 		    </p>
 		  </div>
 
+		  <button class="accordion">Mean temperature in E-OBSv27.0e</button>
+		  <div class="panel">
+		    <p>
+		      At the release of E-OBSv27.0e on 11 April 2023, the E-OBSv27.0e mean temperature files (TG) for the period 1960-1969 included only the northern part of Europe. The mean temperature files were replaced on 8 May 2023. Please download mean temperature again if you downloaded this element in these few weeks. Other periods and elements remained unchanged.
+		    </p>
+		  </div>
+
+
+
                 </div>
               </div>
 
