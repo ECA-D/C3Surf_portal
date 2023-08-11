@@ -3,3 +3,5 @@
 *.nc
 *.nc.gz
 ./images/indices/*
+images/indices/*
+
