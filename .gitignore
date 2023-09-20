@@ -2,6 +2,7 @@
 ./include/settings.php
 *.nc
 *.nc.gz
-./images/indices/*
-images/indices/*
-
+./images/indices/*.png
+images/indices/*.png
+~/C3Surf_portal/images/indices/*.png
+*_old.php

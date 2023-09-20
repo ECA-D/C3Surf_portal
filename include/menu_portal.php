@@ -36,7 +36,17 @@ session_start();
 	  	  <div class="view-content">
 		  <!-- Start news items -->
 
-                    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
+
+                       <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
+                      <div class="views-field views-field-field-date">
+                        <div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">20 September 2023</span>
+                        </div>
+                      </div>
+                    <div class="views-field views-field-title"><span class="field-content"> Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates and monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices_months.php">E-OBS indices</a> updates released</span>
+		    </div>
+                </div>
+
+                      <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
                       <div class="views-field views-field-field-date">
                         <div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">11 August 2023</span>
                         </div>
@@ -45,11 +55,12 @@ session_start();
 		    </div>
                 </div>
 
-                       <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
+                      <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
                       <div class="views-field views-field-field-date">
                         <div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">12 July 2023</span>
                         </div>
                       </div>
+
                     <div class="views-field views-field-title"><span class="field-content"> Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates and monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices_months.php">E-OBS indices</a> updates released</span>
 		    </div>
                 </div>
