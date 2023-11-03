@@ -66,84 +66,84 @@ session_start();
 		  Met Norway will maintain and update the NGCD gridded dataset. 
 		  <br><br>
 
-		  <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
-		    <tbody>
-		      <tr bgcolor="#941333" height="40px">
-			<td width="8%"><span style="color:#FFFFFF;"><strong>Release code</strong></span></td>
-			<td width="15%"><span style="color:#FFFFFF;"><strong>Release date</strong></span></td>
-			<td width="15%"><span style="color:#FFFFFF;"><strong>Software Version</strong></span></td>
-			<td width="25%"><span style="color:#FFFFFF;"><strong>Period covered</strong></span></td>
-			<td width="35%"><span style="color:#FFFFFF;"><strong>Modification</strong></span></td>    
-		      </tr>
-		      <tr>
-			<td><a href="access_ngcd.php#datafiles">21.03</a></td>
-			<td>March 2021</td>
-			<td>0.1.0-beta</td>
-			<td>1971-01-01 - 2020-12-31</td>
-			<td></td>
-		      </tr>
-		      <tr bgcolor="#ffffff">
-			<td><a href="access_ngcd.php#datafiles">20.09</a></td>
-			<td>September 2020</td>
-			<td>0.1.0-beta</td>
-			<td>1971-01-01 - 2020-06-30</td>
-			<td></td>
-		      </tr>
-		      <tr>
-			<td><a href="access_ngcd.php#datafiles">20.03</a></td>
-			<td>March 2020</td>
-			<td>0.1.0-beta</td>
-			<td>1971-01-01 - 2019-12-31</td>
-			<td></td>
-		      </tr>
-		      <tr bgcolor="#ffffff">
-			<td>19.09</td>
-			<td>September 2019</td>
-			<td>0.1.0-beta</td>
-			<td>1971-01-01 - 2019-06-30</td>
-			<td></td>
-		      </tr>
-		      <tr>
-			<td>19.03</td>
-			<td>March 2019</td>
-			<td>0.1.0-beta</td>
-			<td>1971-01-01 - 2018-12-31</td>
-			<td>Minor differences in number of
-			precipitation series. Some differences in the
-			temperature input. This is mostly caused by a
-			removal of observation series shorter than two
-			years.</td>
-		      </tr>
-		      <tr bgcolor="#ffffff">
-			<td>18.09</td>
-			<td>September 2018</td>
-			<td>0.1.0-beta</td>
-			<td>1971-01-01 - 2018-06-30</td>
-			<td>Small differences in the temperature
-			input. Large increase in number of
-			precipitation series within the NGCD domain
-			throughout the period. The main
-			reason for the increase is the addition of a
-			large number of stations in northern Germany
-			that falls within the analysis window, but has
-			a minor effect of the gridded fields over
-			Fennoscandia.</td>
-		      </tr>
-		      <tr>
-			<td>18.03</td>
-			<td>March 2018</td>
-			<td>0.1.0-beta</td>
-			<td>1971-01-01 - 2017-12-31</td>
-			<td>First release</td>
-		      </tr>
-		    </tbody>
-		  </table>
+		  <!-- <table border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%"> -->
+		  <!--   <tbody> -->
+		  <!--     <tr bgcolor="#941333" height="40px"> -->
+		  <!-- 	<td width="8%"><span style="color:#FFFFFF;"><strong>Release code</strong></span></td> -->
+		  <!-- 	<td width="15%"><span style="color:#FFFFFF;"><strong>Release date</strong></span></td> -->
+		  <!-- 	<td width="15%"><span style="color:#FFFFFF;"><strong>Software Version</strong></span></td> -->
+		  <!-- 	<td width="25%"><span style="color:#FFFFFF;"><strong>Period covered</strong></span></td> -->
+		  <!-- 	<td width="35%"><span style="color:#FFFFFF;"><strong>Modification</strong></span></td>     -->
+		  <!--     </tr> -->
+		  <!--     <tr> -->
+		  <!-- 	<td><a href="access_ngcd.php#datafiles">21.03</a></td> -->
+		  <!-- 	<td>March 2021</td> -->
+		  <!-- 	<td>0.1.0-beta</td> -->
+		  <!-- 	<td>1971-01-01 - 2020-12-31</td> -->
+		  <!-- 	<td></td> -->
+		  <!--     </tr> -->
+		  <!--     <tr bgcolor="#ffffff"> -->
+		  <!-- 	<td><a href="access_ngcd.php#datafiles">20.09</a></td> -->
+		  <!-- 	<td>September 2020</td> -->
+		  <!-- 	<td>0.1.0-beta</td> -->
+		  <!-- 	<td>1971-01-01 - 2020-06-30</td> -->
+		  <!-- 	<td></td> -->
+		  <!--     </tr> -->
+		  <!--     <tr> -->
+		  <!-- 	<td><a href="access_ngcd.php#datafiles">20.03</a></td> -->
+		  <!-- 	<td>March 2020</td> -->
+		  <!-- 	<td>0.1.0-beta</td> -->
+		  <!-- 	<td>1971-01-01 - 2019-12-31</td> -->
+		  <!-- 	<td></td> -->
+		  <!--     </tr> -->
+		  <!--     <tr bgcolor="#ffffff"> -->
+		  <!-- 	<td>19.09</td> -->
+		  <!-- 	<td>September 2019</td> -->
+		  <!-- 	<td>0.1.0-beta</td> -->
+		  <!-- 	<td>1971-01-01 - 2019-06-30</td> -->
+		  <!-- 	<td></td> -->
+		  <!--     </tr> -->
+		  <!--     <tr> -->
+		  <!-- 	<td>19.03</td> -->
+		  <!-- 	<td>March 2019</td> -->
+		  <!-- 	<td>0.1.0-beta</td> -->
+		  <!-- 	<td>1971-01-01 - 2018-12-31</td> -->
+		  <!-- 	<td>Minor differences in number of -->
+		  <!-- 	precipitation series. Some differences in the -->
+		  <!-- 	temperature input. This is mostly caused by a -->
+		  <!-- 	removal of observation series shorter than two -->
+		  <!-- 	years.</td> -->
+		  <!--     </tr> -->
+		  <!--     <tr bgcolor="#ffffff"> -->
+		  <!-- 	<td>18.09</td> -->
+		  <!-- 	<td>September 2018</td> -->
+		  <!-- 	<td>0.1.0-beta</td> -->
+		  <!-- 	<td>1971-01-01 - 2018-06-30</td> -->
+		  <!-- 	<td>Small differences in the temperature -->
+		  <!-- 	input. Large increase in number of -->
+		  <!-- 	precipitation series within the NGCD domain -->
+		  <!-- 	throughout the period. The main -->
+		  <!-- 	reason for the increase is the addition of a -->
+		  <!-- 	large number of stations in northern Germany -->
+		  <!-- 	that falls within the analysis window, but has -->
+		  <!-- 	a minor effect of the gridded fields over -->
+		  <!-- 	Fennoscandia.</td> -->
+		  <!--     </tr> -->
+		  <!--     <tr> -->
+		  <!-- 	<td>18.03</td> -->
+		  <!-- 	<td>March 2018</td> -->
+		  <!-- 	<td>0.1.0-beta</td> -->
+		  <!-- 	<td>1971-01-01 - 2017-12-31</td> -->
+		  <!-- 	<td>First release</td> -->
+		  <!--     </tr> -->
+		  <!--   </tbody> -->
+		  <!-- </table> -->
 
 			<h3><a id="datafiles" style="color: #000000">NGCD datafiles</a></h3>
 		The datafiles contain gridded data for 2 types of dataset, 4 elements each: air temperature (daily minimum, maximum and average); daily total precipitation. They cover Norway, Finland and Sweden. The data files are in compressed NetCDF format.
 		<br><br>
 
-		The dataset is available through the <a href="https://thredds.met.no/thredds/catalog/ngcd/catalog.html" target="_blank">MET Norway Thredds Service</a>.
+		The dataset is available through the <a href="https://cds.climate.copernicus.eu/cdsapp#!/dataset/insitu-gridded-observations-nordic?tab=overview" target="_blank">Climate Data Store</a> and the <a href="https://thredds.met.no/thredds/catalog/ngcd/catalog.html" target="_blank">MET Norway Thredds Service</a>.
 
 <br><br>
 

@@ -66,6 +66,12 @@ session_start();
 		    </tr>
 
 		    <tr>
+		      <td>3 November 2023</td>
+		      <td> <a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices.php">E-OBS indices</a> based on E-OBSv25.0e and E-OBSv27.0e released
+		      </td>
+		    </tr>
+
+		    <tr>
 		      <td>15 October 2023</td>
 	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates and monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices_months.php">E-OBS indices</a> updates released</td>
 		    </tr>
