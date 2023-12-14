@@ -41,7 +41,7 @@ session_start();
                         <div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">14 December 2023</span>
                         </div>
                       </div>
-                    <div class="views-field views-field-title"><span class="field-content"> Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates (except wind speed and global radation) and monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices_months.php">E-OBS indices</a> updates released</span>
+                    <div class="views-field views-field-title"><span class="field-content"> Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates (except wind speed) and monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices_months.php">E-OBS indices</a> updates released</span>
 		    </div>
                 </div>
 
