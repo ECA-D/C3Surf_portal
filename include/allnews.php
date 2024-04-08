@@ -65,6 +65,11 @@ session_start();
 		      <td width="60%" style="color:#FFFFFF;"><b>Item</b></td>
 		    </tr>
 
+		    <tr>
+		      <td>8 April 2024</td>
+		      <td> <a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices.php">E-OBS indices</a> based on E-OBSv29.0e released
+		      </td>
+		    </tr>
 
 		    <tr>
 		      <td>12 March 2024</td>
