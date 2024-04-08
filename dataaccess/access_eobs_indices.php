@@ -115,6 +115,11 @@ session_start();
 
 		  <br><br>
 		  
+		  <button class="accordion">Based on E-OBSv29.0e (up to 31 Dec 2023)</button>
+		  <div class="panel">
+		    <?php include('eobsindicesv29.0.php'); ?>
+		  </div>
+		  
 		  <button class="accordion">Based on E-OBSv27.0e (up to 31 Dec 2022)</button>
 		  <div class="panel">
 		    <?php include('eobsindicesv27.0.php'); ?>
