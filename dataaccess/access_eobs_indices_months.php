@@ -92,8 +92,8 @@ session_start();
 		      <td colspan="2"><span style="color:#FFFFFF;"><strong>Maximum no of consecutive frost days (CFD)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/cold/fd_0.25deg_2023_month.nc">2023</a></td>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/cold/cfd_0.25deg_2023_month.nc">2023</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/cold/fd_0.25deg_2024_month.nc">2024</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/cold/cfd_0.25deg_2024_month.nc">2024</a></td>
 		    </tr>
 		    </tbody>
 		  </table>
@@ -106,8 +106,8 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Heating degree days (HD17*)</strong></span></td>
 		    </tr>
 		    <tr>       
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/cold/id_0.25deg_2023_month.nc">2023</a></td>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/cold/hd17_0.25deg_2023_month.nc">2023</a> </td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/cold/id_0.25deg_2024_month.nc">2024</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/cold/hd17_0.25deg_2024_month.nc">2024</a> </td>
 		    </tr>
 		    </tbody>
 		  </table>
@@ -135,8 +135,8 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>No. of cold day-times (TX10p)*</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/cold/tn10p_0.25deg_2023_month.nc">2023</a></td>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/cold/tx10p_0.25deg_2023_month.nc">2023</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/cold/tn10p_0.25deg_2024_month.nc">2024</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/cold/tx10p_0.25deg_2024_month.nc">2024</a></td>
 		    </tr>
 		    </tbody>
 		  </table>
@@ -149,8 +149,8 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Minimum of daily maximum temperature (TXn)*</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/cold/tnn_0.25deg_2023_month.nc">2023</a></td>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/cold/txn_0.25deg_2023_month.nc">2023</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/cold/tnn_0.25deg_2024_month.nc">2024</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/cold/txn_0.25deg_2024_month.nc">2024</a></td>
 		    </tr>
 		    </tbody>
 		  </table>
@@ -179,8 +179,8 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>No. of tropical nights (TR)*</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/heat/su_0.25deg_2023_month.nc">2023</a></td>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/heat/tr_0.25deg_2023_month.nc">2023</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/heat/su_0.25deg_2024_month.nc">2024</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/heat/tr_0.25deg_2024_month.nc">2024</a></td>
 		    </tr>
 		    </tbody>
 		  </table>
@@ -193,8 +193,8 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Maximum of daily minimum temperature (TNx)*</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/heat/txx_0.25deg_2023_month.nc">2023</a></td>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/heat/tnx_0.25deg_2023_month.nc">2023</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/heat/txx_0.25deg_2024_month.nc">2024</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/heat/tnx_0.25deg_2024_month.nc">2024</a></td>
 		    </tr>
 		    </tbody>
 		  </table>
@@ -207,8 +207,8 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>No. of warm day-times (TX90p)*</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/heat/tn90p_0.25deg_2023_month.nc">2023</a></td>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/heat/tx90p_0.25deg_2023_month.nc">2023</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/heat/tn90p_0.25deg_2024_month.nc">2024</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/heat/tx90p_0.25deg_2024_month.nc">2024</a></td>
 		    </tr>
 		    </tbody>
 		  </table>
@@ -234,7 +234,7 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Consecutive summer days (CSU)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/heat/csu_0.25deg_2023_month.nc">2023</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/heat/csu_0.25deg_2024_month.nc">2024</a></td>
 		    </tr>
 		  </table>
 		  </div>
@@ -250,7 +250,7 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong></strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/multi/dtr_0.25deg_2023_month.nc">2023</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/multi/dtr_0.25deg_2024_month.nc">2024</a></td>
 		      <td width="33%"></td>
 		    </tr>
 		    </tbody>
@@ -264,8 +264,8 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Potential EvapoTranspiration (Penman-Monteith) (PET-PM)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%">Daily: <a href="../data/indices/eobs/mon/multi/petmk_0.25deg_2023_daily.nc">2023</a>  </td>
-		      <td width="33%">Daily: <a href="../data/indices/eobs/mon/multi/petpm_0.25deg_2023_daily.nc">2023</a>  </td>
+		      <td width="33%">Daily: <a href="../data/indices/eobs/mon/multi/petmk_0.25deg_2024_daily.nc">2024</a>  </td>
+		      <td width="33%">Daily: <a href="../data/indices/eobs/mon/multi/petpm_0.25deg_2024_daily.nc">2024</a>  </td>
 		    </tr>
 		    </tbody>
 		  </table>
@@ -277,8 +277,8 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Universal Thermal Climate Index (UTCI)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%">Monthly:  <a href="../data/indices/eobs/mon/multi/scpdsi_0.25deg_2023_monthly.nc">2023</a>  </td>
-		      <td width="33%">Daily: <a href="../data/indices/eobs/mon/multi/utci_0.25deg_2023_daily.nc">2023</a>  </td>
+		      <td width="33%">Monthly:  <a href="../data/indices/eobs/mon/multi/scpdsi_0.25deg_2024_monthly.nc">2024</a>  </td>
+		      <td width="33%">Daily: <a href="../data/indices/eobs/mon/multi/utci_0.25deg_2024_daily.nc">2024</a>  </td>
 		    </tr>
 		    </tbody>
 		  </table>
@@ -309,8 +309,8 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>6-month Standardized Precipitation Index (SPI6)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/drought/spi3_0.25deg_2023_month.nc">2023</a></td>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/drought/spi6_0.25deg_2023_month.nc">2023</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/drought/spi3_0.25deg_2024_month.nc">2024</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/drought/spi6_0.25deg_2024_month.nc">2024</a></td>
 		    </tr>
 		    </tbody>
 		  </table>
@@ -328,8 +328,8 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Highest 5-day precipitation amount (RX5day)*</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/rain/rx1day_0.25deg_2023_month.nc">2023</a></td>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/rain/rx5day_0.25deg_2023_month.nc">2023</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/rain/rx1day_0.25deg_2024_month.nc">2024</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/rain/rx5day_0.25deg_2024_month.nc">2024</a></td>
 		    </tr>
 		    </tbody>
 		  </table>
@@ -342,8 +342,8 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>No. of wet days (R1mm)*</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/rain/sdii_0.25deg_2023_month.nc">2023</a></td>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/rain/r1mm_0.25deg_2023_month.nc">2023</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/rain/sdii_0.25deg_2024_month.nc">2024</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/rain/r1mm_0.25deg_2024_month.nc">2024</a></td>
 		    </tr>
 		    </tbody>
 		  </table>
@@ -356,8 +356,8 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Very heavy precipitation days (R20mm)*</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/rain/r10mm_0.25deg_2023_month.nc">2023</a></td>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/rain/r20mm_0.25deg_2023_month.nc">2023</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/rain/r10mm_0.25deg_2024_month.nc">2024</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/rain/r20mm_0.25deg_2024_month.nc">2024</a></td>
 		    </tr>
 		    </tbody>
 		  </table>
@@ -385,8 +385,8 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Fraction of precipitation due to moderate wet days (R75pFRAC)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/rain/r75ptot_0.25deg_2023_month.nc">2023</a></td>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/rain/r75pfrac_0.25deg_2023_month.nc">2023</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/rain/r75ptot_0.25deg_2024_month.nc">2024</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/rain/r75pfrac_0.25deg_2024_month.nc">2024</a></td>
 		    </tr>
 		    </tbody>
 		  </table>
@@ -399,8 +399,8 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Fraction of precipitation due to very wet days (R95pFRAC)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/rain/r95ptot_0.25deg_2023_month.nc">2023</a></td>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/rain/r95pfrac_0.25deg_2023_month.nc">2023</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/rain/r95ptot_0.25deg_2024_month.nc">2024</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/rain/r95pfrac_0.25deg_2024_month.nc">2024</a></td>
 		    </tr>
 		    </tbody>
 		  </table>
@@ -413,8 +413,8 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Fraction of precipitation due to extremely wet days (R99pFRAC)</strong></span></td>
 		    </tr>
 		    <tr>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/rain/r99ptot_0.25deg_2023_month.nc">2023</a></td>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/rain/r99pfrac_0.25deg_2023_month.nc">2023</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/rain/r99ptot_0.25deg_2024_month.nc">2024</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/rain/r99pfrac_0.25deg_2024_month.nc">2024</a></td>
 		    </tr>
 		    </tbody>
 		  </table>
@@ -426,7 +426,7 @@ session_start();
 		      <td><span style="color:#FFFFFF;"><strong>Precipitation due to wet days (PRCPTOT)*</strong></span></td>    
 		    </tr>
 		    <tr>
-		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/rain/prcptot_0.25deg_2023_month.nc">2023</a></td>
+		      <td width="33%">Monthly: <a href="../data/indices/eobs/mon/rain/prcptot_0.25deg_2024_month.nc">2024</a></td>
 		    </tr>
 		    </tbody>
 		  </table>
