@@ -167,6 +167,8 @@
                       </li>
                       <li><a href="<?php echo $thispage;?>"><span>Annual reports</span></a>
                        <ul>
+                         <li><a href="https://climate.copernicus.eu/ESOTC/2023"><span>2023</span></a>
+			 </li>
                         <li><a href="https://climate.copernicus.eu/ESOTC/2022"><span>2022</span></a>
                         </li>
                         <li><a href="https://climate.copernicus.eu/ESOTC/2021"><span>2021</span></a>

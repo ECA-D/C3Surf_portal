@@ -66,6 +66,10 @@ session_start();
 		      <td width="25%" style="color:#FFFFFF;"><b>Year</b></td>
 		    </tr>
 		    <tr>
+		      <td><a href="https://climate.copernicus.eu/ESOTC/2023">2023</a>
+		      </td>
+		    </tr>
+		    <tr>
 		      <td><a href="https://climate.copernicus.eu/ESOTC/2022">2022</a>
 		      </td>
 		    </tr>
