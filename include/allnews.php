@@ -66,6 +66,18 @@ session_start();
 		    </tr>
 
 		    <tr>
+		      <td>21 November 2024</td>
+		      <td>Global radiation has been added to <a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices.php">E-OBS indices</a>E-OBSv30.0e
+		      </td>
+		    </tr>
+
+		    <tr>
+		      <td>30 September 2024</td>
+		      <td> <a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices.php">E-OBS indices</a> based on E-OBSv30.0e released
+		      </td>
+		    </tr>
+
+		    <tr>
 		      <td>18 September 2024</td>
 	              <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates and monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices_months.php">E-OBS indices</a> updates released</td>
 		    </tr>

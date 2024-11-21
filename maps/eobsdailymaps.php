@@ -67,7 +67,7 @@ session_start();
 
 		<!-- Main part -->
 
-		  Shown are the daily maps for E-OBS v28.0e.<br><br>  
+		  Shown are the daily maps for E-OBS v30.0e.<br><br>  
 		  
 		  <div style="overflow:auto;height:110vh;background:white;">
 		    <div style="height:800px;width:75vw; margin: 0px;padding:0;">
