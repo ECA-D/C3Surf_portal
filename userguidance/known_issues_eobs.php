@@ -322,6 +322,20 @@ Example showing the island-like structure for wind speed on 17 January
 		    </p>
 		  </div>
 
+		  <button class="accordion">Precipitation central Pyrenees in E-OBSv30.0e</button>
+		  <div class="panel">
+		    <p>
+		      Precipitation values in the cetral Pyrenees for the period 1 January 2024 to 30 June 2024 might contain unrealistic high values, see e.g. the figure below for an example of 1 February 2024. The reason for this is an issue with the inclusion of the last Catalan update in the underlying ECA&amp;D dataset. Work is ongoing to fix this.		      
+		    <br><br>
+		    <a href="../images/knownissues/rr_ens_mean_0.1deg_v30.0e_20240201.png"><img alt="" src="../images/knownissues/rr_ens_mean_0.1deg_v30.0e_20240201.png" width="250px"></a>
+		    <br><br>
+		    <em>
+		      Example showing the precipitation issue in the central Pyrenees on 1 February 2024. 
+		    </em>
+		    </p>
+
+		  </div>
+
 
 
                 </div>
