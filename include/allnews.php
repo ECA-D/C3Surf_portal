@@ -66,6 +66,12 @@ session_start();
 		    </tr>
 
 		    <tr>
+		      <td>24 January 2025</td>
+		      <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates released (only 0.1deg)</td>
+		      </td>
+		    </tr>
+
+		    <tr>
 		      <td>26 November 2024</td>
 		      <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates and monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices_months.php">E-OBS indices</a> updates (except radiation) released</td>
 		      </td>
