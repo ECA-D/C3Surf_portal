@@ -67,7 +67,7 @@ session_start();
 
 		    <tr>
 		      <td>26 March 2025</td>
-		      <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBSv31.0e</a> has been released</td>
+		      <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBSv31.0e</a> has been released (except global radiation and sea level pressure)</td>
 		      </td>
 		    </tr>
 

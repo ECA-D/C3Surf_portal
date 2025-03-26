@@ -41,7 +41,7 @@ session_start();
                         <div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">26 March 2025</span>
                         </div>
                       </div>
-                    <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBSv31.0e</a> has been released</span>
+                    <div class="views-field views-field-title"><span class="field-content"><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBSv31.0e</a> has been released (except global radiation and sea level pressure)</span>
 		    </div>
                 </div>
 
@@ -50,7 +50,7 @@ session_start();
                         <div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">24 March 2025</span>
                         </div>
                       </div>
-                    <div class="views-field views-field-title"><span class="field-content"> Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates</span>
+                    <div class="views-field views-field-title"><span class="field-content"> Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates released</span>
 		    </div>
                 </div>
 
