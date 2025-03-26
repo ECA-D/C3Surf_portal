@@ -66,6 +66,18 @@ session_start();
 		    </tr>
 
 		    <tr>
+		      <td>26 March 2025</td>
+		      <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBSv31.0e</a> has been released</td>
+		      </td>
+		    </tr>
+
+		    <tr>
+		      <td>24 March 2025</td>
+		      <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates released</td>
+		      </td>
+		    </tr>
+
+		    <tr>
 		      <td>14 February 2025</td>
 		      <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> and monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices_months.php">E-OBS indices</a> updates released</td>
 		      </td>
@@ -91,7 +103,7 @@ session_start();
 
 		    <tr>
 		      <td>30 September 2024</td>
-		      <td> <a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices.php">E-OBS indices</a> based on E-OBSv30.0e released
+		      <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBSv30.0e</a> has been released
 		      </td>
 		    </tr>
 
