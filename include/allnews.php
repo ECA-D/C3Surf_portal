@@ -73,7 +73,7 @@ session_start();
 
 		    <tr>
 		      <td>29 April 2025</td>
-		      <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates released (except global radiation)</td>
+		      <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates (except global radiation) and monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices_months.php">E-OBS indices</a> released</td>
 		      </td>
 		    </tr>
 
