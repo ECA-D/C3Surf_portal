@@ -36,7 +36,16 @@ session_start();
 	  	  <div class="view-content">
 		  <!-- Start news items -->
 
-                    <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
+                      <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
+                      <div class="views-field views-field-field-date">
+                        <div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">11 June 2025</span>
+                        </div>
+                      </div>
+                    <div class="views-field views-field-title"><span class="field-content"> <a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices.php">E-OBS indices</a> based on E-OBSv31.0e released</span>
+		    </div>
+                </div>
+
+                      <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
                       <div class="views-field views-field-field-date">
                         <div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">10 June 2025</span>
                         </div>

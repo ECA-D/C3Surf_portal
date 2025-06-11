@@ -115,11 +115,16 @@ session_start();
 
 		  <br><br>
 		  
+		  <button class="accordion">Based on E-OBSv31.0e (up to 31 Dec 2024)</button>
+		  <div class="panel">
+		    <?php include('eobsindicesv31.0.php'); ?>
+		  </div>
+
 		  <button class="accordion">Based on E-OBSv29.0e (up to 31 Dec 2023)</button>
 		  <div class="panel">
 		    <?php include('eobsindicesv29.0.php'); ?>
 		  </div>
-		  
+
 		  <button class="accordion">Based on E-OBSv27.0e (up to 31 Dec 2022)</button>
 		  <div class="panel">
 		    <?php include('eobsindicesv27.0.php'); ?>
@@ -128,11 +133,6 @@ session_start();
 		  <button class="accordion">Based on E-OBSv25.0e (up to 31 Dec 2021)</button>
 		  <div class="panel">
 		    <?php include('eobsindicesv25.0.php'); ?>
-		  </div>
-
-		  <button class="accordion">Based on E-OBSv23.1e (up to 31 Dec 2020)</button>
-		  <div class="panel">
-		    <?php include('eobsindicesv23.1.php'); ?>
 		  </div>
 
 		  <h3>Monthly indices updates</h3>
