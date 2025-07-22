@@ -103,6 +103,30 @@ unless the period before 1901 is needed.
 			<td width="25%"><span style="color:#FFFFFF;"><strong>Comments/modifications</strong></span></td>
 		      </tr>
 		      <tr>
+			<td><a href="http://www.zamg.ac.at/histalp/copernicus/LAPrec1871.v1.3.nc">LAPrec1871.v1.3</a></td>
+			<td>May 2025</td>
+			<td>1871-01-01 - 2023-12-31</td>
+			<td> </td>
+		      </tr>
+		      <tr bgcolor="#ffffff">
+			<td><a href="http://www.zamg.ac.at/histalp/copernicus/LAPrec1901.v1.3.nc">LAPrec1901.v1.3</a></td>
+			<td>May 2025</td>
+			<td>1901-01-01 - 2023-12-31</td>
+			<td> </td>
+		      </tr>
+		      <tr>
+			<td><a href="http://www.zamg.ac.at/histalp/copernicus/LAPrec1871.v1.2.nc">LAPrec1871.v1.2</a></td>
+			<td>April 2023</td>
+			<td>1871-01-01 - 2021-12-31</td>
+			<td> </td>
+		      </tr>
+		      <tr bgcolor="#ffffff">
+			<td><a href="http://www.zamg.ac.at/histalp/copernicus/LAPrec1901.v1.2.nc">LAPrec1901.v1.2</a></td>
+			<td>April 2023</td>
+			<td>1901-01-01 - 2021-12-31</td>
+			<td> </td>
+		      </tr>
+		      <tr>
 			<td><a href="http://www.zamg.ac.at/histalp/copernicus/LAPrec1871.v1.1.nc">LAPrec1871.v1.1</a></td>
 			<td>1 February 2021</td>
 			<td>1871-01-01 - 2019-12-31</td>
