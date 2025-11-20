@@ -66,6 +66,12 @@ session_start();
 		    </tr>
 		    
 		    <tr>
+		      <td>20 November 2025</td>
+		      <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates (except global radiation) and monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices_months.php">E-OBS indices</a> released</td>
+		      </td>
+                    </tr>
+
+                    <tr>
 		      <td>18 Novmeber 2025</td>
 		      <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBSv32.0e</a> has been released (except global radiation)</td>
 		      </td>
