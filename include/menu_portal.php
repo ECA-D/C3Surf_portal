@@ -38,6 +38,15 @@ session_start();
 
                     <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
                       <div class="views-field views-field-field-date">
+                        <div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">8 December 2025</span>
+                        </div>
+                      </div>
+                    <div class="views-field views-field-title"><span class="field-content">June 2025 was missing for mean temperature for <a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBSv32.0e</a>. This month has now been added.</span>
+		    </div>
+                  </div>
+
+                   <div class="views-row views-row-1 views-row-odd views-row-first line-separator">
+                      <div class="views-field views-field-field-date">
                         <div class="field-content"><span content="2018-04-24T00:00:00+02:00" datatype="xsd:dateTime" property="dc:date" class="date-display-single">20 November 2025</span>
                         </div>
                       </div>

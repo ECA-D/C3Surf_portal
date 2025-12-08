@@ -99,7 +99,7 @@ Denmark, UK, Latvia, Hungary, Austria, Poland, Spain and the regional
 meteorological service of Catalonia (Spain).  Wind speed is available
 from 1980 onwards, all other elements are available from 1950
 onwards. The full ensemble can be made available on
-request. 
+request. <strong>Status 8 December 2025</strong>: June 2025 was missing for the files for mean temperature. This month has been added.
 		      </tr>
 		      <tr>
 			<td><a href="access_eobs.php#datafiles">31.0e</a></td>
