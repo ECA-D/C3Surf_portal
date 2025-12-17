@@ -66,6 +66,12 @@ session_start();
 		    </tr>
 		    
 		    <tr>
+		      <td>17 December 2025</td>
+		      <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates (except global radiation) and monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_indices_months.php">E-OBS indices</a> released</td>
+		      </td>
+                    </tr>
+
+                    <tr>
 		      <td>8 December 2025</td>
 		      <td>June 2025 was missing for mean temperature for <a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBSv32.0e</a>. This month has now been added.</td>
 		      </td>
