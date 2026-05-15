@@ -1,4 +1,0 @@
-cd C3Surf_portal/
-git status
-git remote -v
-git pull
