@@ -86,6 +86,13 @@ session_start();
 			<td width="22.5%"><span style="color:#FFFFFF;"><strong>Period covered</strong></span></td>
 			<td width="50%"><span style="color:#FFFFFF;"><strong>Modification</strong></span></td>    
 		      </tr>
+		      <tr >
+			<td><a href="access_eobs.php#datafiles">33.0e</a></td>
+			<td>May 2025</td>
+			<td>1950-01-01 - 2025-12-31</td>
+			<td>
+			  New data for Iceland has been included. Station level pressure has been changed to sea level pressure for Austria in 2021 and for the regions Sicily and Trentino in Italy. Updated the quality control for sea level pressure on the underlying station series to flag values lower than 900 hPa as suspect (used to be 600 which turned out to be a typo in the script). Continued monthly, half-yearly and yearly updates for Germany, Czech Republic, Bosnia and Herzegovina, Norway, Finland, Ireland, Estonia, Sweden, Luxembourg, Netherlands, Portugal, Spain, Switzerland, Italy (several regions), Montenegro, Belgium, France, Denmark, UK, Latvia, Hungary, Austria, Poland, Spain and the regional meteorological service of Catalonia (Spain).  Wind speed is available from 1980 onwards, all other elements are available from 1950 onwards. The full ensemble can be made available on request. 
+		      </tr>
 		      <tr bgcolor="#ffffff">
 			<td><a href="access_eobs.php#datafiles">32.0e</a></td>
 			<td>November 2025</td>
@@ -187,88 +194,88 @@ Continued monthly, half-yearly and yearly updates for Germany, Czech
 			made available on request. <br>
 			<b>8 May 2023 Update:</b> Mean temperature for the period 1960-1969 has been replaced as the earlier version only included the northern part of Europe. Other periods and elements remained unchanged.</td>
 		      </tr>
-		      <tr  bgcolor="#ffffff" >
-			<td><a href="access_eobs.php#datafiles">26.0e</a></td>
-			<td>October 2022</td>
-			<td>1950-01-01 - 2022-06-30</td>
-			<td>Several duplicate stations and series were corrected. Global radiation units for Luxembourg have been corrected. Missing data for France are now included correctly instead of as zeros. New stations and series included for Poland. Continued monthly, half-yearly and
-			yearly updates for Germany, Czech Republic,
-			Bosnia and Herzegovina, Norway, Slovenia,
-			Finland, Ireland, Estonia, Sweden, Luxembourg,
-			Netherlands, Portugal, Spain, Switzerland,
-			Italy (Emilia-Romagna), Montenegro, Belgium,
-			France, Denmark, UK and the regional
-			meteorological service of Catalonia
-			(Spain). Wind speed is available
-			from 1980 onwards, all other elements from
-			1950 onwards. The full ensemble can be made
-			available on request. </td>
-		      </tr>
-		      <tr >
-			<td><a href="access_eobs.php#datafiles">25.0e</a></td>
-			<td>April 2022</td>
-			<td>1950-01-01 - 2021-12-31</td>
-			<td>Precipitation series for the UK sourced
-			from CEDA are added to the dataset. Daily mean
-			wind speed series from the Global Summary of
-			the Day are included for the countries that do
-			not provide wind speed data. ZAMG has made
-			the complete network of meteorological
-			stations in Austria available. New data for
-			Wallonia (Belgium) added for
-			2016-2018. Continued monthly, half-yearly and
-			yearly updates for Germany, Czech Republic,
-			Bosnia and Herzegovina, Norway, Slovenia,
-			Finland, Ireland, Estonia, Sweden, Luxembourg,
-			Netherlands, Portugal, Spain, Switzerland,
-			Italy (Emilia-Romagna), Montenegro, Belgium,
-			France, Denmark, UK and the regional
-			meteorological service of Catalonia
-			(Spain). Wind speed is available
-			from 1980 onwards, all other elements from
-			1950 onwards. The full ensemble can be made
-			available on request. </td>
-		      </tr>
-		      <tr bgcolor="#ffffff" >
-			<td>24.0e</td>
-			<td>November 2021</td>
-			<td>1950-01-01 - 2021-06-30</td>
-			<td>An additional quality control check has
-			been performed on each of the ensemble members
-			of the relative humidity grid. In areas with a low station density, unphysically low values of humidity might appear and all gridded
-			values below 5% were set to missing before the
-			ensemble mean and ensemble spread were
-			derived. This mirrors the quality check performed on the station data.
-                        <br>Similarly, the gridded values of each of the global radiation ensemble members have been
-                        put through the same quality control procedure which is applied to the station data.
-                        <br>New stations and series have been
-			included for Latvia. Continued monthly,
-			half-yearly and yearly updates for Germany,
-			Czech Republic, Bosnia and Herzegovina,
-			Norway, Slovenia, Finland, Ireland, Estonia,
-			Sweden, Luxembourg, Netherlands, Portugal,
-			Spain, Switzerland, Italy (Emilia-Romagna),
-			Montenegro, Belgium, France, Denmark, UK and
-			the regional meteorological service of
-			Catalonia (Spain). Wind speed is available
-			from 1980 onwards, all other elements from
-			1950 onwards. <br>The full ensemble (changed
-			to 20 members for all elements) can be made
-			available on request.</td>
-		      </tr>
-		      <tr >
-			<td>23.1e</td>
-			<td>March 2021</td>
-			<td>1950-01-01 - 2020-12-31</td>
-			<td>E-OBS v23.1e has been extended with relative humidity fields (abbreviation HU). Global radiation is now available from 1950-01-01 onwards. The full ensemble (100 members for temperature, precipitation, sea level pressure and relative humidity, 10 for radiation) can be made available on request.<br> New series have been included for Ukraine. Precipitation series for Serbia have been shifted by 1 day since 2009. Continued monthly, half-yearly and yearly updates for Germany, Czech Republic, Bosnia and Herzegovina, Norway, Slovenia, Finland, Ireland, Sweden, Luxembourg, Netherlands, Portugal, Spain, Switzerland, France, Denmark, UK and the regional meteorological service of Catalonia (Spain). More detailed information can be found on the <a href="compare_eobs_v23.0e_v22.0e.php" target="_blank">page comparing versions 23.0e and 22.0e</a>. <br><br>Note that on 30 March 2021 all v23.0e files have been replaced with v23.1e. This replacement affects only the temperature datasets for the period Jun-Dec 2020 over an area in Northern France. <br><br>Note that on 3 August 2021 wind speed (abbreviation FG, starting 1980-01-01, 20 ensemble members) has been added and relative humidity has been back-extended for the period 1950-1979.</td>   
-		      </tr>
-		      <tr bgcolor="#ffffff">
-			<td>22.0e</td>
-			<td>December 2020</td>
-			<td>1950-01-01 - 2020-06-30</td>
-			<td>The full ensemble (100 members for temperature, precipitation and sea level pressure, 10 for radiation) can be made available on request.<br> New series and updates have been included for Russia, France and Calabria (Italy). Some series in Scandinavian countries that were not provided by their own national meteorogical services have been removed. Precipitation series in Norway have been shifted by one day due to an error in the processing of these data in E-OBSv21.0e. Continued monthly, half-yearly and yearly updates for Germany, Czech Republic, Bosnia and Herzegovina, Norway, Slovenia, Finland, Ireland, Sweden, Luxembourg, Netherlands, Portugal, Spain, Switzerland, France, Denmark, UK and the regional meteorological service of Catalonia (Spain). More detailed information can be found on the <a href="compare_eobs_v22.0e_v21.0e.php" target="_blank">page comparing versions 22.0e and 21.0e</a>. <br><br>Note that on 22 April 2021 relative humidity has been added from 1980 onwards. These files are the same as for v23.1e, except that the period Jul-Dec 2020 is missing. <br><br>Note that on 3 August 2021 wind speed has been added. These files are the same as for v23.1e, except that the period Jul-Dec 2020 is missing.
-			</td>   
-		      </tr>
+		      <!-- <tr  bgcolor="#ffffff" > -->
+		      <!-- 	<td><a href="access_eobs.php#datafiles">26.0e</a></td> -->
+		      <!-- 	<td>October 2022</td> -->
+		      <!-- 	<td>1950-01-01 - 2022-06-30</td> -->
+		      <!-- 	<td>Several duplicate stations and series were corrected. Global radiation units for Luxembourg have been corrected. Missing data for France are now included correctly instead of as zeros. New stations and series included for Poland. Continued monthly, half-yearly and -->
+		      <!-- 	yearly updates for Germany, Czech Republic, -->
+		      <!-- 	Bosnia and Herzegovina, Norway, Slovenia, -->
+		      <!-- 	Finland, Ireland, Estonia, Sweden, Luxembourg, -->
+		      <!-- 	Netherlands, Portugal, Spain, Switzerland, -->
+		      <!-- 	Italy (Emilia-Romagna), Montenegro, Belgium, -->
+		      <!-- 	France, Denmark, UK and the regional -->
+		      <!-- 	meteorological service of Catalonia -->
+		      <!-- 	(Spain). Wind speed is available -->
+		      <!-- 	from 1980 onwards, all other elements from -->
+		      <!-- 	1950 onwards. The full ensemble can be made -->
+		      <!-- 	available on request. </td> -->
+		      <!-- </tr> -->
+		      <!-- <tr > -->
+		      <!-- 	<td><a href="access_eobs.php#datafiles">25.0e</a></td> -->
+		      <!-- 	<td>April 2022</td> -->
+		      <!-- 	<td>1950-01-01 - 2021-12-31</td> -->
+		      <!-- 	<td>Precipitation series for the UK sourced -->
+		      <!-- 	from CEDA are added to the dataset. Daily mean -->
+		      <!-- 	wind speed series from the Global Summary of -->
+		      <!-- 	the Day are included for the countries that do -->
+		      <!-- 	not provide wind speed data. ZAMG has made -->
+		      <!-- 	the complete network of meteorological -->
+		      <!-- 	stations in Austria available. New data for -->
+		      <!-- 	Wallonia (Belgium) added for -->
+		      <!-- 	2016-2018. Continued monthly, half-yearly and -->
+		      <!-- 	yearly updates for Germany, Czech Republic, -->
+		      <!-- 	Bosnia and Herzegovina, Norway, Slovenia, -->
+		      <!-- 	Finland, Ireland, Estonia, Sweden, Luxembourg, -->
+		      <!-- 	Netherlands, Portugal, Spain, Switzerland, -->
+		      <!-- 	Italy (Emilia-Romagna), Montenegro, Belgium, -->
+		      <!-- 	France, Denmark, UK and the regional -->
+		      <!-- 	meteorological service of Catalonia -->
+		      <!-- 	(Spain). Wind speed is available -->
+		      <!-- 	from 1980 onwards, all other elements from -->
+		      <!-- 	1950 onwards. The full ensemble can be made -->
+		      <!-- 	available on request. </td> -->
+		      <!-- </tr> -->
+		      <!-- <tr bgcolor="#ffffff" > -->
+		      <!-- 	<td>24.0e</td> -->
+		      <!-- 	<td>November 2021</td> -->
+		      <!-- 	<td>1950-01-01 - 2021-06-30</td> -->
+		      <!-- 	<td>An additional quality control check has -->
+		      <!-- 	been performed on each of the ensemble members -->
+		      <!-- 	of the relative humidity grid. In areas with a low station density, unphysically low values of humidity might appear and all gridded -->
+		      <!-- 	values below 5% were set to missing before the -->
+		      <!-- 	ensemble mean and ensemble spread were -->
+		      <!-- 	derived. This mirrors the quality check performed on the station data. -->
+                      <!--   <br>Similarly, the gridded values of each of the global radiation ensemble members have been -->
+                      <!--   put through the same quality control procedure which is applied to the station data. -->
+                      <!--   <br>New stations and series have been -->
+		      <!-- 	included for Latvia. Continued monthly, -->
+		      <!-- 	half-yearly and yearly updates for Germany, -->
+		      <!-- 	Czech Republic, Bosnia and Herzegovina, -->
+		      <!-- 	Norway, Slovenia, Finland, Ireland, Estonia, -->
+		      <!-- 	Sweden, Luxembourg, Netherlands, Portugal, -->
+		      <!-- 	Spain, Switzerland, Italy (Emilia-Romagna), -->
+		      <!-- 	Montenegro, Belgium, France, Denmark, UK and -->
+		      <!-- 	the regional meteorological service of -->
+		      <!-- 	Catalonia (Spain). Wind speed is available -->
+		      <!-- 	from 1980 onwards, all other elements from -->
+		      <!-- 	1950 onwards. <br>The full ensemble (changed -->
+		      <!-- 	to 20 members for all elements) can be made -->
+		      <!-- 	available on request.</td> -->
+		      <!-- </tr> -->
+		      <!-- <tr > -->
+		      <!-- 	<td>23.1e</td> -->
+		      <!-- 	<td>March 2021</td> -->
+		      <!-- 	<td>1950-01-01 - 2020-12-31</td> -->
+		      <!-- 	<td>E-OBS v23.1e has been extended with relative humidity fields (abbreviation HU). Global radiation is now available from 1950-01-01 onwards. The full ensemble (100 members for temperature, precipitation, sea level pressure and relative humidity, 10 for radiation) can be made available on request.<br> New series have been included for Ukraine. Precipitation series for Serbia have been shifted by 1 day since 2009. Continued monthly, half-yearly and yearly updates for Germany, Czech Republic, Bosnia and Herzegovina, Norway, Slovenia, Finland, Ireland, Sweden, Luxembourg, Netherlands, Portugal, Spain, Switzerland, France, Denmark, UK and the regional meteorological service of Catalonia (Spain). More detailed information can be found on the <a href="compare_eobs_v23.0e_v22.0e.php" target="_blank">page comparing versions 23.0e and 22.0e</a>. <br><br>Note that on 30 March 2021 all v23.0e files have been replaced with v23.1e. This replacement affects only the temperature datasets for the period Jun-Dec 2020 over an area in Northern France. <br><br>Note that on 3 August 2021 wind speed (abbreviation FG, starting 1980-01-01, 20 ensemble members) has been added and relative humidity has been back-extended for the period 1950-1979.</td>    -->
+		      <!-- </tr> -->
+		      <!-- <tr bgcolor="#ffffff"> -->
+		      <!-- 	<td>22.0e</td> -->
+		      <!-- 	<td>December 2020</td> -->
+		      <!-- 	<td>1950-01-01 - 2020-06-30</td> -->
+		      <!-- 	<td>The full ensemble (100 members for temperature, precipitation and sea level pressure, 10 for radiation) can be made available on request.<br> New series and updates have been included for Russia, France and Calabria (Italy). Some series in Scandinavian countries that were not provided by their own national meteorogical services have been removed. Precipitation series in Norway have been shifted by one day due to an error in the processing of these data in E-OBSv21.0e. Continued monthly, half-yearly and yearly updates for Germany, Czech Republic, Bosnia and Herzegovina, Norway, Slovenia, Finland, Ireland, Sweden, Luxembourg, Netherlands, Portugal, Spain, Switzerland, France, Denmark, UK and the regional meteorological service of Catalonia (Spain). More detailed information can be found on the <a href="compare_eobs_v22.0e_v21.0e.php" target="_blank">page comparing versions 22.0e and 21.0e</a>. <br><br>Note that on 22 April 2021 relative humidity has been added from 1980 onwards. These files are the same as for v23.1e, except that the period Jul-Dec 2020 is missing. <br><br>Note that on 3 August 2021 wind speed has been added. These files are the same as for v23.1e, except that the period Jul-Dec 2020 is missing. -->
+		      <!-- 	</td>    -->
+		      <!-- </tr> -->
 		      <tr >
 			<td><a href="access_eobs.php#datafiles">pre1950</a></td>
 			<td>September 2020</td>
@@ -433,6 +440,24 @@ several <i>known issues</i> in the E-OBS dataset has been provided.
 		<table  border="0" style="padding: 8px; background: #f4f4f4; border-bottom: 1px solid #999; box-shadow: 0px 5px 5px #666; margin-bottom: 20px;" width="100%">
 		  <tbody>
 		    <tr  bgcolor="#941333" height="40px">
+		      <td style="color:#FFFFFF;"><b>Version 33.0e</b></td>
+		      <td style="color:#FFFFFF;"><b>Ensemble mean</b></td>
+		      <td style="color:#FFFFFF;"><b>Ensemble spread</b></td>
+		      <td style="color:#FFFFFF;"><b>Elevation</b></td>      
+		    </tr>
+		    <tr>
+		      <td>0.1 deg. regular grid</td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ens_mean_0.1deg_reg_v33.0e.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ens_mean_0.1deg_reg_v33.0e.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ens_mean_0.1deg_reg_v33.0e.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ens_mean_0.1deg_reg_v33.0e.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ens_mean_0.1deg_reg_v33.0e.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/hu_ens_mean_0.1deg_reg_v33.0e.nc">HU</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/fg_ens_mean_0.1deg_reg_v33.0e.nc">FG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/qq_ens_mean_0.1deg_reg_v33.0e.nc">QQ</a></td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ens_spread_0.1deg_reg_v33.0e.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ens_spread_0.1deg_reg_v33.0e.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ens_spread_0.1deg_reg_v33.0e.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ens_spread_0.1deg_reg_v33.0e.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ens_spread_0.1deg_reg_v33.0e.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/hu_ens_spread_0.1deg_reg_v33.0e.nc">HU</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/fg_ens_spread_0.1deg_reg_v33.0e.nc">FG</a><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/qq_ens_spread_0.1deg_reg_v33.0e.nc">QQ</a></td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/elev_ens_0.1deg_reg_v33.0e.nc">all elements</a></td>      
+		    </tr>
+		    <tr>
+		      <td>0.25 deg. regular grid</td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tg_ens_mean_0.25deg_reg_v33.0e.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tn_ens_mean_0.25deg_reg_v33.0e.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tx_ens_mean_0.25deg_reg_v33.0e.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/rr_ens_mean_0.25deg_reg_v33.0e.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/pp_ens_mean_0.25deg_reg_v33.0e.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/hu_ens_mean_0.25deg_reg_v33.0e.nc">HU</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/fg_ens_mean_0.25deg_reg_v33.0e.nc">FG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/qq_ens_mean_0.25deg_reg_v33.0e.nc">QQ</a></td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tg_ens_spread_0.25deg_reg_v33.0e.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tn_ens_spread_0.25deg_reg_v33.0e.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tx_ens_spread_0.25deg_reg_v33.0e.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/rr_ens_spread_0.25deg_reg_v33.0e.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/pp_ens_spread_0.25deg_reg_v33.0e.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/hu_ens_spread_0.25deg_reg_v33.0e.nc">HU</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/fg_ens_spread_0.25deg_reg_v33.0e.nc">FG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/qq_ens_spread_0.25deg_reg_v33.0e.nc">QQ</a></td>
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/elev_ens_0.25deg_reg_v33.0e.nc">all elements</a></td>      
+		    </tr>
+		    <tr  bgcolor="#941333" height="40px">
 		      <td style="color:#FFFFFF;"><b>Version 32.0e</b></td>
 		      <td style="color:#FFFFFF;"><b>Ensemble mean</b></td>
 		      <td style="color:#FFFFFF;"><b>Ensemble spread</b></td>
@@ -541,42 +566,6 @@ several <i>known issues</i> in the E-OBS dataset has been provided.
 		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/elev_ens_0.25deg_reg_v27.0e.nc">all elements</a></td>      
 		    </tr>
 		    <tr bgcolor="#941333" height="40px">
-		      <td style="color:#FFFFFF;"><b>Version 26.0e</b></td>
-		      <td style="color:#FFFFFF;"><b>Ensemble mean</b></td>
-		      <td style="color:#FFFFFF;"><b>Ensemble spread</b></td>
-		      <td style="color:#FFFFFF;"><b>Elevation</b></td>      
-		    </tr>
-		    <tr>
-		      <td>0.1 deg. regular grid</td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ens_mean_0.1deg_reg_v26.0e.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ens_mean_0.1deg_reg_v26.0e.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ens_mean_0.1deg_reg_v26.0e.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ens_mean_0.1deg_reg_v26.0e.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ens_mean_0.1deg_reg_v26.0e.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/hu_ens_mean_0.1deg_reg_v26.0e.nc">HU</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/fg_ens_mean_0.1deg_reg_v26.0e.nc">FG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/qq_ens_mean_0.1deg_reg_v26.0e.nc">QQ</a> </td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ens_spread_0.1deg_reg_v26.0e.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ens_spread_0.1deg_reg_v26.0e.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ens_spread_0.1deg_reg_v26.0e.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ens_spread_0.1deg_reg_v26.0e.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ens_spread_0.1deg_reg_v26.0e.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/hu_ens_spread_0.1deg_reg_v26.0e.nc">HU</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/fg_ens_spread_0.1deg_reg_v26.0e.nc">FG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/qq_ens_spread_0.1deg_reg_v26.0e.nc">QQ</a> </td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/elev_ens_0.1deg_reg_v26.0e.nc">all elements</a></td>      
-		    </tr>
-		    <tr>
-		      <td>0.25 deg. regular grid</td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tg_ens_mean_0.25deg_reg_v26.0e.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tn_ens_mean_0.25deg_reg_v26.0e.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tx_ens_mean_0.25deg_reg_v26.0e.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/rr_ens_mean_0.25deg_reg_v26.0e.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/pp_ens_mean_0.25deg_reg_v26.0e.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/hu_ens_mean_0.25deg_reg_v26.0e.nc">HU</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/fg_ens_mean_0.25deg_reg_v26.0e.nc">FG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/qq_ens_mean_0.25deg_reg_v26.0e.nc">QQ</a> </td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tg_ens_spread_0.25deg_reg_v26.0e.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tn_ens_spread_0.25deg_reg_v26.0e.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tx_ens_spread_0.25deg_reg_v26.0e.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/rr_ens_spread_0.25deg_reg_v26.0e.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/pp_ens_spread_0.25deg_reg_v26.0e.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/hu_ens_spread_0.25deg_reg_v26.0e.nc">HU</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/fg_ens_spread_0.25deg_reg_v26.0e.nc">FG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/qq_ens_spread_0.25deg_reg_v26.0e.nc">QQ</a> </td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/elev_ens_0.25deg_reg_v26.0e.nc">all elements</a></td>      
-		    </tr>
-		    <tr bgcolor="#941333" height="40px">
-		      <td style="color:#FFFFFF;"><b>Version 25.0e</b></td>
-		      <td style="color:#FFFFFF;"><b>Ensemble mean</b></td>
-		      <td style="color:#FFFFFF;"><b>Ensemble spread</b></td>
-		      <td style="color:#FFFFFF;"><b>Elevation</b></td>      
-		    </tr>
-		    <tr>
-		      <td>0.1 deg. regular grid</td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ens_mean_0.1deg_reg_v25.0e.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ens_mean_0.1deg_reg_v25.0e.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ens_mean_0.1deg_reg_v25.0e.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ens_mean_0.1deg_reg_v25.0e.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ens_mean_0.1deg_reg_v25.0e.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/hu_ens_mean_0.1deg_reg_v25.0e.nc">HU</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/fg_ens_mean_0.1deg_reg_v25.0e.nc">FG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/qq_ens_mean_0.1deg_reg_v25.0e.nc">QQ</a> </td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tg_ens_spread_0.1deg_reg_v25.0e.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tn_ens_spread_0.1deg_reg_v25.0e.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/tx_ens_spread_0.1deg_reg_v25.0e.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/rr_ens_spread_0.1deg_reg_v25.0e.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/pp_ens_spread_0.1deg_reg_v25.0e.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/hu_ens_spread_0.1deg_reg_v25.0e.nc">HU</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/fg_ens_spread_0.1deg_reg_v25.0e.nc">FG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/qq_ens_spread_0.1deg_reg_v25.0e.nc">QQ</a> </td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.1deg_reg_ensemble/elev_ens_0.1deg_reg_v25.0e.nc">all elements</a></td>      
-		    </tr>
-		    <tr>
-		      <td>0.25 deg. regular grid</td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tg_ens_mean_0.25deg_reg_v25.0e.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tn_ens_mean_0.25deg_reg_v25.0e.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tx_ens_mean_0.25deg_reg_v25.0e.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/rr_ens_mean_0.25deg_reg_v25.0e.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/pp_ens_mean_0.25deg_reg_v25.0e.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/hu_ens_mean_0.25deg_reg_v25.0e.nc">HU</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/fg_ens_mean_0.25deg_reg_v25.0e.nc">FG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/qq_ens_mean_0.25deg_reg_v25.0e.nc">QQ</a> </td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tg_ens_spread_0.25deg_reg_v25.0e.nc">TG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tn_ens_spread_0.25deg_reg_v25.0e.nc">TN</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tx_ens_spread_0.25deg_reg_v25.0e.nc">TX</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/rr_ens_spread_0.25deg_reg_v25.0e.nc">RR</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/pp_ens_spread_0.25deg_reg_v25.0e.nc">PP</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/hu_ens_spread_0.25deg_reg_v25.0e.nc">HU</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/fg_ens_spread_0.25deg_reg_v25.0e.nc">FG</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/qq_ens_spread_0.25deg_reg_v25.0e.nc">QQ</a> </td>
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/elev_ens_0.25deg_reg_v25.0e.nc">all elements</a></td>      
-		    </tr>
-		    <tr bgcolor="#941333" height="40px">
 		      <td style="color:#FFFFFF;"><b>Version pre1950</b></td>
 		      <td style="color:#FFFFFF;"><b>Ensemble mean</b></td>
 		      <td style="color:#FFFFFF;"><b>Ensemble spread</b></td>
@@ -608,6 +597,10 @@ several <i>known issues</i> in the E-OBS dataset has been provided.
 		<table>
 		  <tbody>
 		    <tr> 
+		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_tg_v33.0e.txt">TG (v33.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_tn_v33.0e.txt">TN (v33.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_tx_v33.0e.txt">TX (v33.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_rr_v33.0e.txt">RR (v33.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_pp_v33.0e.txt">PP (v33.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_hu_v33.0e.txt">HU (v33.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_fg_v33.0e.txt">FG (v33.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_qq_v33.0e.txt">QQ (v33.0e)</a>
+		      </td>
+		    </tr>
+		    <tr> 
 		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_tg_v32.0e.txt">TG (v32.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_tn_v32.0e.txt">TN (v32.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_tx_v32.0e.txt">TX (v32.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_rr_v32.0e.txt">RR (v32.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_pp_v32.0e.txt">PP (v32.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_hu_v32.0e.txt">HU (v32.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_fg_v32.0e.txt">FG (v32.0e)</a> <!--<a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_qq_v32.0e.txt">QQ (v32.0e)</a>--> 
 		      </td>
 		    </tr>
@@ -629,14 +622,6 @@ several <i>known issues</i> in the E-OBS dataset has been provided.
 		    </tr>
 		    <tr> 
 		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_tg_v27.0e.txt">TG (v27.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_tn_v27.0e.txt">TN (v27.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_tx_v27.0e.txt">TX (v27.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_rr_v27.0e.txt">RR (v27.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_pp_v27.0e.txt">PP (v27.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_hu_v27.0e.txt">HU (v27.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_fg_v27.0e.txt">FG (v27.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_qq_v27.0e.txt">QQ (v27.0e)</a> 
-		      </td>
-		    </tr>
-		    <tr> 
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_tg_v26.0e.txt">TG (v26.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_tn_v26.0e.txt">TN (v26.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_tx_v26.0e.txt">TX (v26.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_rr_v26.0e.txt">RR (v26.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_pp_v26.0e.txt">PP (v26.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_hu_v26.0e.txt">HU (v26.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_fg_v26.0e.txt">FG (v26.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_qq_v26.0e.txt">QQ (v26.0e)</a> 
-		      </td>
-		    </tr>
-		    <tr> 
-		      <td><a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_tg_v25.0e.txt">TG (v25.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_tn_v25.0e.txt">TN (v25.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_tx_v25.0e.txt">TX (v25.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_rr_v25.0e.txt">RR (v25.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_pp_v25.0e.txt">PP (v25.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_hu_v25.0e.txt">HU (v25.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_fg_v25.0e.txt">FG (v25.0e)</a> <a href="https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/stations_info_qq_v25.0e.txt">QQ (v25.0e)</a> 
 		      </td>
 		    </tr>
 		  </tbody>
