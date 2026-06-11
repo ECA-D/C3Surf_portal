@@ -1,6 +1,6 @@
 <?php
   include('settings.php');
-  $thispage=$_SERVER['PHP_SELF'];
+  $thispage=htmlspecialchars($_SERVER['PHP_SELF']);
   ?>
 
 <!-- Proof of concept ribbon -->
