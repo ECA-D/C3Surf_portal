@@ -4,7 +4,7 @@ session_start();
 ?>
 <?php
   include('settings.php');
-  $thispage=$_SERVER['PHP_SELF'];
+  $thispage=htmlspecialchars($_SERVER['PHP_SELF']);
 ?>
 
 <nav id="mmenu_left" class="mmenu-nav clearfix">
