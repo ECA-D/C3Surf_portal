@@ -65,9 +65,15 @@ session_start();
 		      <td width="60%" style="color:#FFFFFF;"><b>Item</b></td>
 		    </tr>
 
-                   <tr>
+                    <tr>
+		      <td>12 June 2026</td>
+		      <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates released</td>
+		      </td>
+                    </tr>
+
+                    <tr>
 		      <td>29 May 2026</td>
-		      <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBSv33.0e</a> has been released (except global radiation)</td>
+		      <td><a href="<?php echo $webhost;?>/dataaccess/access_eobs.php">E-OBSv33.0e</a> has been released</td>
 		      </td>
                    </tr>
 
