@@ -88,7 +88,7 @@ session_start();
 		      </tr>
 		      <tr >
 			<td><a href="access_eobs.php#datafiles">33.0e</a></td>
-			<td>May 2025</td>
+			<td>May 2026</td>
 			<td>1950-01-01 - 2025-12-31</td>
 			<td>
 			  New data for Iceland has been included. Station level pressure has been changed to sea level pressure for Austria in 2021 and for the regions Sicily and Trentino in Italy. Updated the quality control for sea level pressure on the underlying station series to flag values lower than 900 hPa as suspect (used to be 600 which turned out to be a typo in the script). Continued monthly, half-yearly and yearly updates for Germany, Czech Republic, Bosnia and Herzegovina, Norway, Finland, Ireland, Estonia, Sweden, Luxembourg, Netherlands, Portugal, Spain, Switzerland, Italy (several regions), Montenegro, Belgium, France, Denmark, UK, Latvia, Hungary, Austria, Poland, Spain and the regional meteorological service of Catalonia (Spain).  Wind speed is available from 1980 onwards, all other elements are available from 1950 onwards. The full ensemble can be made available on request. 
