@@ -64,6 +64,12 @@ session_start();
 		      <td width="40%" style="color:#FFFFFF;"><b>Date</b></td>
 		      <td width="60%" style="color:#FFFFFF;"><b>Item</b></td>
 		    </tr>
+		    
+                    <tr>
+		      <td>15 July 2026</td>
+		      <td>Monthly <a href="<?php echo $webhost;?>/dataaccess/access_eobs_months.php">E-OBS</a> updates released</td>
+		      </td>
+                    </tr>
 
                     <tr>
 		      <td>12 June 2026</td>
