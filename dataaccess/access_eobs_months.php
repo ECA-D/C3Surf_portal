@@ -109,7 +109,7 @@ several <i>known issues</i> in the E-OBS dataset has been provided.
 		  <tbody>
 
 		    <tr bgcolor="#941333" height="40px">
-		      <td width="25%" style="color:#FFFFFF;"><b>May 2026</b></td>
+		      <td width="25%" style="color:#FFFFFF;"><b>June 2026</b></td>
 		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble mean</b></td>
 		      <td width="25%" style="color:#FFFFFF;"><b>Ensemble spread</b></td>
 		    </tr>
